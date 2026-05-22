@@ -1,0 +1,141 @@
+{
+  "feeds": [
+    {
+      "name": "CoinDesk",
+      "tier": 1,
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "topics": ["general", "policy"]
+    },
+    {
+      "name": "The Block",
+      "tier": 1,
+      "url": "https://www.theblock.co/rss.xml",
+      "topics": ["institutional", "policy", "research"]
+    },
+    {
+      "name": "Decrypt",
+      "tier": 1,
+      "url": "https://decrypt.co/feed",
+      "topics": ["general"]
+    },
+    {
+      "name": "CoinTelegraph",
+      "tier": 1,
+      "url": "https://cointelegraph.com/rss",
+      "topics": ["breaking", "global"]
+    },
+    {
+      "name": "The Defiant",
+      "tier": 1,
+      "url": "https://thedefiant.io/api/feed",
+      "topics": ["defi", "smart-contracts"]
+    },
+    {
+      "name": "Blockworks",
+      "tier": 1,
+      "url": "https://blockworks.co/feed",
+      "topics": ["institutional", "macro"]
+    },
+    {
+      "name": "Ledger Insights",
+      "tier": 1,
+      "url": "https://www.ledgerinsights.com/feed/",
+      "topics": ["enterprise", "institutional"]
+    },
+    {
+      "name": "Protos",
+      "tier": 1,
+      "url": "https://protos.com/feed/",
+      "topics": ["investigative", "business"]
+    },
+    {
+      "name": "Fireblocks Blog",
+      "tier": 2,
+      "url": "https://www.fireblocks.com/blog/rss.xml",
+      "topics": ["custody", "competitor"]
+    },
+    {
+      "name": "Anchorage Digital",
+      "tier": 2,
+      "url": "https://www.anchorage.com/feed",
+      "topics": ["custody", "competitor"]
+    },
+    {
+      "name": "Circle Blog",
+      "tier": 3,
+      "url": "https://www.circle.com/blog/rss.xml",
+      "topics": ["stablecoins", "usdc"]
+    },
+    {
+      "name": "Coin Center",
+      "tier": 5,
+      "url": "https://www.coincenter.org/feed/",
+      "topics": ["regulation", "policy"]
+    },
+    {
+      "name": "Bankless",
+      "tier": 6,
+      "url": "https://www.bankless.com/rss",
+      "topics": ["smart-contracts", "defi"]
+    },
+    {
+      "name": "OpenZeppelin Blog",
+      "tier": 6,
+      "url": "https://blog.openzeppelin.com/rss.xml",
+      "topics": ["smart-contracts", "security"]
+    },
+    {
+      "name": "Rekt News",
+      "tier": 6,
+      "url": "https://rekt.news/rss/feed.xml",
+      "topics": ["security", "exploits"]
+    }
+  ],
+  "lookback_days": 8,
+  "max_items_per_feed": 25,
+  "filter_keywords_negative": [
+    "price prediction",
+    "moon",
+    "shitcoin",
+    "memecoin",
+    "airdrop guide",
+    "how to buy"
+  ],
+  "filter_keywords_priority": [
+    "fireblocks",
+    "bitgo",
+    "anchorage",
+    "copper",
+    "fordefi",
+    "coinbase custody",
+    "usdc",
+    "usdt",
+    "pyusd",
+    "rlusd",
+    "stablecoin",
+    "genius act",
+    "mica",
+    "buidl",
+    "benji",
+    "ousg",
+    "usdy",
+    "tokenized",
+    "rwa",
+    "treasury",
+    "custody",
+    "qualified custodian",
+    "sec",
+    "occ",
+    "fincen",
+    "travel rule",
+    "mpc",
+    "hsm",
+    "account abstraction",
+    "erc-4337",
+    "exploit",
+    "hack",
+    "bridge",
+    "l2",
+    "rollup"
+  ]
+}
