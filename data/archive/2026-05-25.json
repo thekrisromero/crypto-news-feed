@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-25T17:48:54.140487+00:00",
+  "generated_at": "2026-05-25T21:15:49.137776+00:00",
   "lookback_days": 8,
-  "total_items": 130,
+  "total_items": 131,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -71,7 +71,7 @@
     {
       "name": "OpenZeppelin Blog",
       "url": "https://blog.openzeppelin.com/rss.xml",
-      "kept": 2
+      "kept": 3
     },
     {
       "name": "Rekt News",
@@ -81,17 +81,30 @@
   ],
   "items": [
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "UAE-linked ADI Chain gains Ledger support amid stablecoin growth",
+      "summary": "The integration gives ADI token holders access to Ledger’s self-custody platform as ADI Chain expands its stablecoin and tokenized asset network.",
+      "link": "https://cointelegraph.com/news/ledger-integrates-uae-backed-adi-token-as-gulf-blockchain-infrastructure-expands?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-25T18:29:58+00:00",
+      "relevance_score": 3
+    },
+    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
         "defi",
         "smart-contracts"
       ],
-      "title": "$11.58M Drained in Ongoing Exploit on Verus-Ethereum Bridge",
-      "summary": "An active exploit on the Verus-Ethereum Bridge has resulted in $11.58 million in losses, according to security firm Blockaid.",
-      "link": "https://thedefiant.io/news/hacks/verus-ethereum-bridge-exploit-11-5-million-ri18bt",
-      "published": "2026-05-18T12:03:08+00:00",
-      "relevance_score": 3
+      "title": "Tokenized Stocks Emerge as Fastest-Growing Asset Class on Ethereum",
+      "summary": "Token Terminal reports that tokenized stocks have become the leading category of tokenized assets on Ethereum, with xStocks and Ondo Finance leading the sector.",
+      "link": "https://thedefiant.io/converge/defi/tokenized-stocks-fastest-growing-ethereum-assets-tim56f",
+      "published": "2026-05-25T19:02:30+00:00",
+      "relevance_score": 2
     },
     {
       "source": "CoinTelegraph",
@@ -237,6 +250,30 @@
       "relevance_score": 2
     },
     {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Famed iPhone, Sony Hacker Says AI Coding Agents Are a Disaster Waiting to Happen",
+      "summary": "George Hotz spent six months testing agents on real projects and came away convinced they're creating an avalanche of undetectable slop—and that large organizations won't realize it until it's too late.",
+      "link": "https://decrypt.co/368964/george-hotz-vibe-coding-ai-slop-warning",
+      "published": "2026-05-25T19:06:04+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "With Central Bank’s Blessing, Georgia Taps Tether for 'Official' Stablecoin",
+      "summary": "Tether plans to issue a stablecoin in Georgia with support from the country’s government, marking a new frontier for the crypto giant.",
+      "link": "https://decrypt.co/368961/central-bank-georgia-tether-stablecoin",
+      "published": "2026-05-25T18:06:03+00:00",
+      "relevance_score": 1
+    },
+    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -331,19 +368,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Soaring bond prices signal 'structural' shift and Bitcoin 'supercycle': Analyst",
-      "summary": "Fixed-income investors are in a \"panic\" as government securities, once seen as low-risk, begin to crack, according to BitMEX researcher Shang Wu.",
-      "link": "https://cointelegraph.com/news/soaring-bond-prices-structural-shift-bitcoin-supercycle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-24T22:12:55+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -419,18 +443,6 @@
       "summary": "A House subcommittee hearing exposed a divide over how far to scale back the 1970-era anti-money laundering law as Trump expands its reach.",
       "link": "https://decrypt.co/368763/crypto-banks-policy-experts-press-congress-to-modernize-bank-secrecy-act",
       "published": "2026-05-22T17:22:33+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Polymarket Hit By ‘Internal Top-Up’ Wallet Exploit, $700K Drained",
-      "summary": "User funds remain safe after the incident, the prediction market platform said, with contracts and core infrastructure unaffected.",
-      "link": "https://decrypt.co/368740/polymarket-hit-by-internal-top-up-wallet-exploit-700k-drained",
-      "published": "2026-05-22T12:23:22+00:00",
       "relevance_score": 1
     },
     {
@@ -551,6 +563,70 @@
       "relevance_score": 1
     },
     {
+      "source": "OpenZeppelin Blog",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "security"
+      ],
+      "title": "PrivacyBoost AuthRegistry - Smart Wallet Signature Support Audit",
+      "summary": "Summary Type: DeFi Timeline: 2026-05-13 → 2026-05-14 Languages: Solidity Findings Total issues: 4 (4 resolved) Critical: 0 (0 resolved) · High: 0 (0 resolved) · Medium: 0 (0 resolved) · Low: 3 (3 resolved) Notes &amp; Additional Information 1 notes raised (1 resolved) Client Reported Issues 0 reported issues (0 resolved) Scope OpenZeppelin performed a focused diff audit of the AuthRegistry signature-verification changes in the sunnyside-io/privacy-boost-backend repository, covering commits 2afbe9a (opaque bytes signatures and EIP-1271 verification) and c57c1fc (ERC-7739 appendix-aware fallback",
+      "link": "https://www.openzeppelin.com/news/privacyboost-authregistry-smart-wallet-signature-support-audit",
+      "published": "2026-05-25T21:12:05+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "XRP price trades in ‘value zone’ near $1.40 as whales pull $170M from exchanges",
+      "summary": "Whales withdrew $170 million in XRP from Binance as the price holds a key $1.35-$1.40 accumulation and support zone.",
+      "link": "https://cointelegraph.com/markets/xrp-price-in-value-zone-near-140-as-whales-pull-170m-from-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-25T20:30:46+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Tom Lee Outlines Liquidity Catalyst for Ethereum Firm BitMine Following Russell Index Update",
+      "summary": "The Ethereum-buying firm owns 3.8% of the digital asset’s supply.",
+      "link": "https://decrypt.co/368971/tom-lee-iquidity-ethereum-bitmine-russell-index",
+      "published": "2026-05-25T20:06:04+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Crypto PAC money pours into Texas primary runoffs, as prediction markets favor challengers",
+      "summary": "The crypto-aligned Protect Progress PAC reported spending another $750,000 on media for a Democratic candidate over Representative Al Green, whom it described as “actively hostile” to digital assets.",
+      "link": "https://cointelegraph.com/news/texas-primary-runoffs-crypto-pac-prediction-markets-newcomers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-25T17:57:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Ethereum's ETH Gains in Line with Market Following Vitalik Buterin's EF Vision Post",
+      "summary": "Ethereum co-founder Vitalik Buterin outlined a leaner, more focused future for the Ethereum Foundation (EF).",
+      "link": "https://thedefiant.io/news/blockchains/ethereum-s-eth-gains-in-line-with-market-following-vitalik-buterin-s-ef-vision-post",
+      "published": "2026-05-25T17:42:59+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -611,19 +687,6 @@
       "summary": "Buterin revealed that 90% of his net worth is tied up in Ethereum.",
       "link": "https://decrypt.co/368934/vitalik-buterin-smaller-ship-ethereum-foundation-departures",
       "published": "2026-05-25T16:01:05+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "XRP price in ‘value zone’ near $1.40 as whales pull $170M from exchanges",
-      "summary": "Whales withdrew $170 million in XRP from Binance as the price holds a key $1.35-$1.40 accumulation and support zone.",
-      "link": "https://cointelegraph.com/markets/xrp-price-in-value-zone-near-140-as-whales-pull-170m-from-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T15:55:16+00:00",
       "relevance_score": 0
     },
     {
@@ -978,19 +1041,6 @@
       "summary": "\"We’re not going to be outspent or out-organized by entrenched interests protecting their monopolies,\" said John Bivona, head of government relations at Kalshi.",
       "link": "https://cointelegraph.com/news/kalshi-launches-advocacy-group-to-counter-anti-prediction-market-lobbying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-05-25T05:07:32+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Buterin fires back at Ethereum Foundation critics, recommits to neutrality",
-      "summary": "The Ethereum Foundation holds less than 1% of all ETH in circulation while other protocol foundations typically hold 10-50% of their native token's supply, the founder said.",
-      "link": "https://cointelegraph.com/news/buterin-fires-back-ef-critics-neutrality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-24T20:43:42+00:00",
       "relevance_score": 0
     },
     {
@@ -1508,18 +1558,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Morning Minute: Mark Cuban Sells His Bitcoin",
-      "summary": "The billionaire cited underperformance vs gold and broader disappointment with crypto's breakout apps (or lack thereof) as drivers.",
-      "link": "https://decrypt.co/368742/morning-minute-mark-cuban-sells-his-bitcoin",
-      "published": "2026-05-22T13:05:45+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1543,18 +1581,6 @@
       "summary": "Solana hyped Alpenglow’s testnet upgrade while quietly fixing bugs that weren't mentioned in mainstream coverage. The post Solana kept quiet about Alpenglow upgrade breakages appeared first on Protos .",
       "link": "https://protos.com/solana-kept-quiet-about-alpenglow-upgrade-breakages/",
       "published": "2026-05-22T12:03:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "NEAR Protocol Jumps 28% on Privacy, AI, and Scaling Upgrades",
-      "summary": "NEAR rallied by 45% this week on a series of upgrades positioning it as a potential settlement layer for AI agents and confidential finance.",
-      "link": "https://decrypt.co/368737/near-protocol-jumps-28-on-privacy-ai-and-scaling-upgrades",
-      "published": "2026-05-22T11:30:22+00:00",
       "relevance_score": 0
     },
     {
@@ -1750,19 +1776,6 @@
       "summary": "Iran has unveiled Hormuz Safe, a Bitcoin-backed insurance service enabling shipping companies to obtain coverage for transiting the Strait of Hormuz.",
       "link": "https://thedefiant.io/news/markets/iran-hormuz-safe-bitcoin-insurance-platform-3p0r5p",
       "published": "2026-05-18T13:18:41+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Bitcoin Extends Decline Below $78,500 as Bearish Pressure Intensifies",
-      "summary": "Bitcoin has fallen below $78,500 and is consolidating near the $76,500 support level, with a bearish trend line forming resistance at $77,700 on the hourly chart.",
-      "link": "https://thedefiant.io/news/markets/bitcoin-extends-decline-78500-xm9c9c",
-      "published": "2026-05-18T11:23:14+00:00",
       "relevance_score": 0
     }
   ]
