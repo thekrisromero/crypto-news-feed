@@ -1,0 +1,85 @@
+name: Generate podcast audio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'podcasts/**.txt'
+  workflow_dispatch:
+    inputs:
+      script_path:
+        description: 'Path to podcast script .txt to convert (e.g., podcasts/2026-05-25.txt)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-audio
+  cancel-in-progress: false
+
+jobs:
+  tts:
+    # macOS runners give us the built-in `say` command with high-quality voices (Ava, Samantha).
+    # Costs ~10x Linux runner minutes but workflow runs ~1 min/week — well inside the free tier.
+    runs-on: macos-latest
+    timeout-minutes: 6
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Identify podcast script
+        id: pick
+        run: |
+          if [[ -n "${{ inputs.script_path }}" ]]; then
+            FILE="${{ inputs.script_path }}"
+          else
+            FILE=$(git diff --name-only HEAD~1 HEAD -- 'podcasts/*.txt' | sort | tail -1)
+            if [[ -z "$FILE" ]]; then
+              FILE=$(ls podcasts/*.txt 2>/dev/null | sort | tail -1)
+            fi
+          fi
+          if [[ -z "$FILE" ]] || [[ ! -f "$FILE" ]]; then
+            echo "::error::No podcast script found"
+            exit 1
+          fi
+          BASENAME=$(basename "$FILE" .txt)
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+          echo "basename=$BASENAME" >> "$GITHUB_OUTPUT"
+          echo "Selected: $FILE"
+
+      - name: Generate audio with macOS `say`
+        run: |
+          # Prefer the highest-quality voice available; fall back if not installed.
+          if say -v "?" | grep -q "Ava (Premium)"; then
+            VOICE="Ava (Premium)"
+          elif say -v "?" | grep -q "Ava"; then
+            VOICE="Ava"
+          else
+            VOICE="Samantha"
+          fi
+          echo "Voice: $VOICE"
+
+          # `say` writes AIFF; convert to AAC/M4A for portability.
+          TMP_AIFF="/tmp/briefing.aiff"
+          OUT_M4A="podcasts/${{ steps.pick.outputs.basename }}.m4a"
+          say -v "$VOICE" -r 180 -o "$TMP_AIFF" -f "${{ steps.pick.outputs.file }}"
+          afconvert -f m4af -d aac@48000 -b 96000 "$TMP_AIFF" "$OUT_M4A"
+          rm "$TMP_AIFF"
+
+          ls -la "$OUT_M4A"
+
+      - name: Commit audio file
+        run: |
+          git config user.name "Crypto Audio Bot"
+          git config user.email "audio-bot@users.noreply.github.com"
+          git add podcasts/
+          if git diff --cached --quiet; then
+            echo "No audio changes to commit."
+          else
+            git commit -m "Add audio for ${{ steps.pick.outputs.basename }}"
+            git push
+          fi

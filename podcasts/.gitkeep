@@ -1,0 +1,3 @@
+# Podcast scripts are committed here by the Claude scheduled task each Monday.
+# A GitHub Action (generate-audio.yml) watches this folder and produces an M4A
+# alongside each .txt script using macOS's built-in `say` command.
