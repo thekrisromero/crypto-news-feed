@@ -1,0 +1,70 @@
+name: Email briefing via Resend
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'briefings/**.html'
+  workflow_dispatch:
+    inputs:
+      briefing_path:
+        description: 'Path to briefing HTML to send (e.g., briefings/2026-05-25.html)'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: send-email
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Identify briefing file
+        id: pick
+        run: |
+          if [[ -n "${{ inputs.briefing_path }}" ]]; then
+            FILE="${{ inputs.briefing_path }}"
+          else
+            # Pick the newest HTML in briefings/ that changed in this push
+            FILE=$(git diff --name-only HEAD~1 HEAD -- 'briefings/*.html' | sort | tail -1)
+            if [[ -z "$FILE" ]]; then
+              # Fallback: newest HTML in briefings/
+              FILE=$(ls -t briefings/*.html 2>/dev/null | head -1)
+            fi
+          fi
+          if [[ -z "$FILE" ]] || [[ ! -f "$FILE" ]]; then
+            echo "::error::No briefing HTML found to send"
+            exit 1
+          fi
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+          # Derive a subject line from the filename, e.g. briefings/2026-05-25.html
+          BASENAME=$(basename "$FILE" .html)
+          echo "subject=Crypto Custody & Treasury Briefing — Week of $BASENAME" >> "$GITHUB_OUTPUT"
+          echo "Selected: $FILE"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Send email via Resend
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ vars.EMAIL_FROM }}
+          EMAIL_TO: ${{ vars.EMAIL_TO }}
+          BRIEFING_FILE: ${{ steps.pick.outputs.file }}
+          EMAIL_SUBJECT: ${{ steps.pick.outputs.subject }}
+        run: python scripts/send_email.py
