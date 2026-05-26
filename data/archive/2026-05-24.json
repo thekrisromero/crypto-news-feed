@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-26T04:07:53.442833+00:00",
+  "generated_at": "2026-05-24T21:03:10.818068+00:00",
   "lookback_days": 8,
-  "total_items": 129,
+  "total_items": 128,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 19
+      "kept": 18
     },
     {
       "name": "Decrypt",
@@ -21,7 +21,7 @@
     {
       "name": "CoinTelegraph",
       "url": "https://cointelegraph.com/rss",
-      "kept": 23
+      "kept": 24
     },
     {
       "name": "The Defiant",
@@ -71,7 +71,7 @@
     {
       "name": "OpenZeppelin Blog",
       "url": "https://blog.openzeppelin.com/rss.xml",
-      "kept": 3
+      "kept": 2
     },
     {
       "name": "Rekt News",
@@ -81,56 +81,17 @@
   ],
   "items": [
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "UAE-linked ADI Chain gains Ledger support amid stablecoin growth",
-      "summary": "The integration gives ADI token holders access to Ledger’s self-custody platform as ADI Chain expands its stablecoin and tokenized asset network.",
-      "link": "https://cointelegraph.com/news/ledger-integrates-uae-backed-adi-token-as-gulf-blockchain-infrastructure-expands?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T18:29:58+00:00",
-      "relevance_score": 3
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
         "defi",
         "smart-contracts"
       ],
-      "title": "Tokenized Stocks Emerge as Fastest-Growing Asset Class on Ethereum",
-      "summary": "Token Terminal reports that tokenized stocks have become the leading category of tokenized assets on Ethereum, with xStocks and Ondo Finance leading the sector.",
-      "link": "https://thedefiant.io/converge/defi/tokenized-stocks-fastest-growing-ethereum-assets-tim56f",
-      "published": "2026-05-25T19:02:30+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "ARIQO makes its Bangkok debut at SEABW, drawing industry attention",
-      "summary": "Canton Foundation, Toss, BitGo Among Co-Hosts at Private Event; Token Launch Slated for Second Half of 2026",
-      "link": "https://cointelegraph.com/press-releases/ariqo-makes-its-bangkok-debut-at-seabw-drawing-industry-attention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T14:35:34+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Prometheum bets Wall Street distribution is the missing link for tokenized securities",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/05/25/prometheum-bets-wall-street-distribution-is-the-missing-link-for-tokenized-securities",
-      "published": "2026-05-25T12:00:00+00:00",
-      "relevance_score": 2
+      "title": "$11.58M Drained in Ongoing Exploit on Verus-Ethereum Bridge",
+      "summary": "An active exploit on the Verus-Ethereum Bridge has resulted in $11.58 million in losses, according to security firm Blockaid.",
+      "link": "https://thedefiant.io/news/hacks/verus-ethereum-bridge-exploit-11-5-million-ri18bt",
+      "published": "2026-05-18T12:03:08+00:00",
+      "relevance_score": 3
     },
     {
       "source": "The Defiant",
@@ -143,6 +104,19 @@
       "summary": "Estimates of losses range from $2.8 million to $10 million.",
       "link": "https://thedefiant.io/news/hacks/stablr-stablecoins-exploited-eurr-and-usdr-depeg-after-minting-key-compromise",
       "published": "2026-05-24T13:13:08+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "StablR Euro and USD stablecoins depeg amid ongoing $2.8M exploit",
+      "summary": "Blockaid said the suspected cause is a private key compromise of one owner in the minting multisig account.",
+      "link": "https://cointelegraph.com/news/euro-and-usd-stablecoins-depeg-amid-ongoing-28m-stablr-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-24T05:45:00+00:00",
       "relevance_score": 2
     },
     {
@@ -198,6 +172,20 @@
       "relevance_score": 2
     },
     {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Verus bridge exploiter returns 4,052 ETH, retains $2.8 million bounty: onchain analyst",
+      "summary": "An attacker transferred 4,052.4 ETH worth $8.5 million back to Verus on Friday after the team proposed a bounty framework.",
+      "link": "https://www.theblock.co/post/402319/verus-bridge-exploiter-returns-4052-eth?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-22T08:29:12+00:00",
+      "relevance_score": 2
+    },
+    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -237,111 +225,6 @@
       "relevance_score": 2
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Famed iPhone, Sony Hacker Says AI Coding Agents Are a Disaster Waiting to Happen",
-      "summary": "George Hotz spent six months testing agents on real projects and came away convinced they're creating an avalanche of undetectable slop—and that large organizations won't realize it until it's too late.",
-      "link": "https://decrypt.co/368964/george-hotz-vibe-coding-ai-slop-warning",
-      "published": "2026-05-25T19:06:04+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "With Central Bank’s Blessing, Georgia Taps Tether for 'Official' Stablecoin",
-      "summary": "Tether plans to issue a stablecoin in Georgia with support from the country’s government, marking a new frontier for the crypto giant.",
-      "link": "https://decrypt.co/368961/central-bank-georgia-tether-stablecoin",
-      "published": "2026-05-25T18:06:03+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Squid and Safe Labs say third-party module behind $3.2M exploit",
-      "summary": "A third-party module drained about $3 million from Safe wallets, with Squid attributing the incident to an external Safe module, saying its core systems were unaffected.",
-      "link": "https://cointelegraph.com/news/squid-safe-labs-third-party-module-3-2-million-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T15:26:20+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Coinbase CEO’s finance wishlist mirrors company’s product roadmap",
-      "summary": "Brian Armstrong's wishlist for upgrading global finance aligns with the exchange's push into stocks, prediction markets and stablecoin payments, though some priorities remain aspirational.",
-      "link": "https://cointelegraph.com/news/coinbase-ceo-finance-wishlist-mirrors-companys-product-roadmap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T14:28:12+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "‘We don’t know who deployed this’: Squid distances itself from $3.2 million third-party module exploit",
-      "summary": "Squid said its core protocol was unaffected after a third-party module named SquidRouterModule was exploited for roughly $3.2 million.",
-      "link": "https://www.theblock.co/post/402487/we-dont-know-who-deployed-this-squid-distances-itself-from-3-2-million-third-party-module-exploit?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T13:45:36+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "‘Institutional bid hasn’t disappeared’: Analysts say bitcoin cooldown, spot ETF outflows signal rotation, not exit",
-      "summary": "Bitcoin held below $78,000 as spot ETFs shed over $1 billion for a second straight week and U.S.-Iran deal speculation rattled markets.",
-      "link": "https://www.theblock.co/post/402473/institutional-bid-hasnt-disappeared-analysts-say-bitcoin-cooldown-spot-etf-outflows-signal-rotation-not-exit?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T12:09:15+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Tether, Georgia plan lari-backed stablecoin GELT under new rules",
-      "summary": "Georgia’s central bank released stablecoin rules in March covering reserve backing, issuer documents and external auditor verification.",
-      "link": "https://cointelegraph.com/news/tether-georgia-government-plan-lari-backed-stablecoin-gelt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T11:30:37+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Tether plans GELT stablecoin launch with support from Georgian government",
-      "summary": "GELT is designed to support cross-border commerce under a Georgian framework aligned with emerging U.S. stablecoin regulations.",
-      "link": "https://www.theblock.co/post/402453/tether-gelt-stablecoin-georgian-lari?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T09:14:08+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -369,6 +252,19 @@
       "relevance_score": 1
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "70% of all crypto wrench attacks happen in France: Report",
+      "summary": "Centralized data collection is a honeypot for hackers and organized criminals looking to target crypto holders and their families, according to Bitcoiners.",
+      "link": "https://cointelegraph.com/news/70-crypto-wrench-attacks-happen-france?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T23:07:19+00:00",
+      "relevance_score": 1
+    },
+    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -380,6 +276,45 @@
       "summary": "ECB President Christine Lagarde warned the changes would destabilize bank funding and weaken interest-rate transmission.",
       "link": "https://www.theblock.co/post/402427/ecb-warns-eu-finance-ministers-that-easing-euro-stablecoin-rules-would-weaken-banks-reuters?utm_source=rss&utm_medium=rss",
       "published": "2026-05-23T20:21:18+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "ECB pushes back on euro stablecoin proposals, citing financial stability risks",
+      "summary": "The ECB warned EU finance ministers that expanding euro stablecoin issuance could weaken bank lending and complicate monetary policy.",
+      "link": "https://cointelegraph.com/news/ecb-pushes-back-on-euro-stablecoin-proposals-citing-financial-stability-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T10:56:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "SEC approves Nasdaq to list Bitcoin index options on the exchange",
+      "summary": "The cash-settled, European-style contracts will trade under the ticker QBTC on Phlx, but still require CFTC approval before trading can begin.",
+      "link": "https://cointelegraph.com/news/sec-approves-nasdaq-to-list-bitcoin-index-options-on-the-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T09:05:53+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Ethereum is still a good long-term buy, according data: Analyst",
+      "summary": "Ethereum’s dominance in DeFi, stablecoins and staking is strengthening the long-term ETH accumulation thesis, despite it’s 28% price decline in 2026.",
+      "link": "https://cointelegraph.com/markets/ether-analyst-claims-eth-is-still-a-good-long-term-buy-heres-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T00:29:18+00:00",
       "relevance_score": 1
     },
     {
@@ -417,6 +352,44 @@
       "summary": "A House subcommittee hearing exposed a divide over how far to scale back the 1970-era anti-money laundering law as Trump expands its reach.",
       "link": "https://decrypt.co/368763/crypto-banks-policy-experts-press-congress-to-modernize-bank-secrecy-act",
       "published": "2026-05-22T17:22:33+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Polymarket Hit By ‘Internal Top-Up’ Wallet Exploit, $700K Drained",
+      "summary": "User funds remain safe after the incident, the prediction market platform said, with contracts and core infrastructure unaffected.",
+      "link": "https://decrypt.co/368740/polymarket-hit-by-internal-top-up-wallet-exploit-700k-drained",
+      "published": "2026-05-22T12:23:22+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Polymarket Taps Jupiter Exec to Lead Japan Push: Report",
+      "summary": "The prediction market has reportedly appointed a representative in Japan as it aims to secure authorization to operate there by 2030.",
+      "link": "https://decrypt.co/368734/polymarket-taps-jupiter-exec-to-lead-japan-push-report",
+      "published": "2026-05-22T10:29:48+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Polymarket eyes Japan market entry, appoints regional representative: Bloomberg",
+      "summary": "The prediction markets platform aims to secure regulatory authorization to operate in Japan by 2030, according to Bloomberg.",
+      "link": "https://www.theblock.co/post/402309/polymarket-japan-market-entry?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-22T06:35:24+00:00",
       "relevance_score": 1
     },
     {
@@ -543,527 +516,6 @@
         "general",
         "policy"
       ],
-      "title": "Bitcoin stalls near $76,500 as muted trading points to macro wait-and-see",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/26/bitcoin-stalls-near-usd76-500-as-muted-trading-points-to-macro-wait-and-see",
-      "published": "2026-05-26T04:06:43+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Nathan Allman, founder and CEO of Ondo Finance, dies unexpectedly",
-      "summary": "Ian De Bode, president of Ondo Finance, will assume the role of CEO, the company said in a statement on Monday.",
-      "link": "https://www.theblock.co/post/402500/nathan-allman-ondo-finance?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-26T01:55:58+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin holds $77K as stocks rally, global tensions cool: Are BTC bulls back?",
-      "summary": "Data suggests that Bitcoin may be gearing up for a rally to $82,000. Will bulls seize the opportunity?",
-      "link": "https://cointelegraph.com/markets/bitcoin-holds-77k-as-stocks-rally-global-tensions-cool-are-btc-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-26T01:31:39+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin chases range highs despite rising BTC exchange inflows: Is $80K next?",
-      "summary": "Bitcoin reclaimed $77,000 despite rising exchange supply and spot BTC ETF outflows. Will bulls push BTC to $80,000 this week?",
-      "link": "https://cointelegraph.com/markets/bitcoin-retests-77k-despite-mounting-btc-supply-is-80k-possible-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-26T00:10:24+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Ethereum Foundation's Kohaku Initiative Launches SDK for Wallet-Level Privacy Integration",
-      "summary": "The Ethereum Foundation's Kohaku Initiative released an SDK enabling seamless integration of shielded pool protocols like Railgun, Tornado Cash, and Privacy Pools directly into wallet interfaces, with 4337 relaying now operational.",
-      "link": "https://thedefiant.io/news/blockchains/ethereum-foundation-kohaku-sdk-privacy-wallet-integration-bb4t52",
-      "published": "2026-05-25T22:24:55+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "OpenZeppelin Blog",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "security"
-      ],
-      "title": "PrivacyBoost AuthRegistry - Smart Wallet Signature Support Audit",
-      "summary": "Summary Type: DeFi Timeline: 2026-05-13 → 2026-05-14 Languages: Solidity Findings Total issues: 4 (4 resolved) Critical: 0 (0 resolved) · High: 0 (0 resolved) · Medium: 0 (0 resolved) · Low: 3 (3 resolved) Notes &amp; Additional Information 1 notes raised (1 resolved) Client Reported Issues 0 reported issues (0 resolved) Scope OpenZeppelin performed a focused diff audit of the AuthRegistry signature-verification changes in the sunnyside-io/privacy-boost-backend repository, covering commits 2afbe9a (opaque bytes signatures and EIP-1271 verification) and c57c1fc (ERC-7739 appendix-aware fallback",
-      "link": "https://www.openzeppelin.com/news/privacyboost-authregistry-smart-wallet-signature-support-audit",
-      "published": "2026-05-25T21:12:05+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "XRP price trades in ‘value zone’ near $1.40 as whales pull $170M from exchanges",
-      "summary": "Whales withdrew $170 million in XRP from Binance as the price holds a key $1.35-$1.40 accumulation and support zone.",
-      "link": "https://cointelegraph.com/markets/xrp-price-in-value-zone-near-140-as-whales-pull-170m-from-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T20:30:46+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Tom Lee Outlines Liquidity Catalyst for Ethereum Firm BitMine Following Russell Index Update",
-      "summary": "The Ethereum-buying firm owns 3.8% of the digital asset’s supply.",
-      "link": "https://decrypt.co/368971/tom-lee-iquidity-ethereum-bitmine-russell-index",
-      "published": "2026-05-25T20:06:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Crypto PAC money pours into Texas primary runoffs, as prediction markets favor challengers",
-      "summary": "The crypto-aligned Protect Progress PAC reported spending another $750,000 on media for a Democratic candidate over Representative Al Green, whom it described as “actively hostile” to digital assets.",
-      "link": "https://cointelegraph.com/news/texas-primary-runoffs-crypto-pac-prediction-markets-newcomers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T17:57:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Ethereum's ETH Gains in Line with Market Following Vitalik Buterin's EF Vision Post",
-      "summary": "Ethereum co-founder Vitalik Buterin outlined a leaner, more focused future for the Ethereum Foundation (EF).",
-      "link": "https://thedefiant.io/news/blockchains/ethereum-s-eth-gains-in-line-with-market-following-vitalik-buterin-s-ef-vision-post",
-      "published": "2026-05-25T17:42:59+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "NEAR price rally gains momentum as cross-chain product activity fuels further 15% jump",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/25/near-price-rally-gains-momentum-as-cross-chain-product-activity-fuels-further-15-jump",
-      "published": "2026-05-25T17:38:39+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Perplexity Built a Tool That Checks Your Computer for Infected Software—Without Setting Off the Infection",
-      "summary": "Bumblebee scans developer machines for compromised packages and AI tool configs. Its core trick: It never actually runs the code it's looking for.",
-      "link": "https://decrypt.co/368944/perplexity-open-source-bumblebee-ai-scanner-mcp-infection-malware",
-      "published": "2026-05-25T17:08:55+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Indonesia blocks Polymarket, calling prediction market online gambling in disguise",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/05/25/indonesia-blocks-polymarket-calling-prediction-market-online-gambling-in-disguise",
-      "published": "2026-05-25T17:04:49+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin, crypto prices tick up as US-Iran peace deal odds climb",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/25/bitcoin-crypto-prices-tick-up-as-us-iran-peace-deal-odds-climb",
-      "published": "2026-05-25T16:46:45+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Vitalik Buterin Signals Shift to 'Smaller Ship' at Ethereum Foundation Amid Departures",
-      "summary": "Buterin revealed that 90% of his net worth is tied up in Ethereum.",
-      "link": "https://decrypt.co/368934/vitalik-buterin-smaller-ship-ethereum-foundation-departures",
-      "published": "2026-05-25T16:01:05+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Buterin says Ethereum Foundation will shrink, sell less ETH, and focus on 'CROPS'",
-      "summary": "",
-      "link": "https://www.coindesk.com/web3/2026/05/25/buterin-says-ethereum-foundation-will-shrink-sell-less-eth-and-focus-on-crops",
-      "published": "2026-05-25T15:51:37+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "CoinQuant introduces trading infrastructure for the agent economy",
-      "summary": "CoinQuant, the AI-powered no-code trading platform that has attracted over 15,000 users since launch, today announces its expansion into a unified trading intelligence architecture built for both human traders and autonomous AI agents.",
-      "link": "https://cointelegraph.com/press-releases/coinquant-introduces-trading-infrastructure-for-the-agent-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T15:39:11+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Pope Leo Releases First AI Encyclical, Calls Data a Common Good and Rejects Moral Neutrality of Tech",
-      "summary": "The 245-paragraph document was presented alongside Anthropic co-founder Christopher Olah, whose company is actively suing the Trump administration over military AI use.",
-      "link": "https://decrypt.co/368933/pope-leo-xiv-ai-encyclical-2026",
-      "published": "2026-05-25T15:02:22+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T15:02:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Ethereum whale opens $100M short as Vitalik Buterin vows to 'sell less ETH'",
-      "summary": "ETH’s rebound toward the whale’s liquidation zone near $2,150 puts its short at risk of over $1 million in potential losses.",
-      "link": "https://cointelegraph.com/markets/ethereum-whale-opens-100m-short-as-vitalik-buterin-vows-to-sell-less-eth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T14:13:17+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Paper losses and scrapped ETFs. What Trump Media’s 2,650 BTC transfer really means",
-      "summary": "Digital asset treasuries (DATs) and the broader practice of building corporate Bitcoin reserves became hugely popular in 2024 and 2025, thanks in large part to the success of Strategy, whose \"flywheel\" many tried to replicate.",
-      "link": "https://cointelegraph.com/features/paper-losses-and-scrapped-etfs-what-trump-medias-2650-btc-transfer-really-means?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T13:24:54+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Cyannova Capital announces global launch at its first strategic reception in Hong Kong",
-      "summary": "Cyannova Capital (“Cyannova” or the “Company”), a New York-based investment firm, announces its inaugural investment fund, Cyannova Capital, LP, at its private industry reception held in Hong Kong.",
-      "link": "https://cointelegraph.com/press-releases/cyannova-capital-announces-global-launch-at-its-first-strategic-reception-in-hong-kong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T13:18:12+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Satoshi-era Bitcoin miner transfers $203M in BTC to OTC desks",
-      "summary": "A Satoshi-era Bitcoin miner moved 2,650 BTC worth about $203 million to FalconX and Cumberland, while retaining 6,000 BTC.",
-      "link": "https://cointelegraph.com/news/satoshi-era-bitcoin-miner-moves-203m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T13:15:59+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Indonesia blocks Polymarket amid crackdown on online betting",
-      "summary": "Indonesia blocked Polymarket over online gambling concerns as regulators widen global scrutiny of prediction market platforms.",
-      "link": "https://www.theblock.co/post/402481/indonesia-blocks-polymarket?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T13:09:28+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "PCE, jobless claims and housing data test Fed cut hopes: Crypto Week Ahead",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/25/pce-jobless-claims-and-housing-data-test-fed-cut-hopes-crypto-week-ahead",
-      "published": "2026-05-25T12:53:49+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin risks drop to $72K as demand metric hits 2026 lows",
-      "summary": "Bitcoin’s weakening demand failed to absorb increased selling pressure, raising risks of a further BTC price drop toward $72,000.",
-      "link": "https://cointelegraph.com/markets/bitcoin-risks-drop-to-72k-as-demand-metric-hits-2026-lows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T12:45:26+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Indonesia blocks Polymarket after bets on president’s exit",
-      "summary": "Indonesia blocked Polymarket after users bet on President Prabowo Subianto leaving office early, citing gambling concerns and expanding global scrutiny of prediction markets.",
-      "link": "https://cointelegraph.com/news/indonesia-blocks-polymarket-bets-presidents-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T12:26:40+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Crypto lobby spending on Republicans far outpaces Democratic support",
-      "summary": "The crypto lobby has spent tens of millions of dollars more on Republican candidates and elections than on Democratic lawmakers.",
-      "link": "https://cointelegraph.com/features/crypto-lobby-spending-on-republicans-far-outpaces-democratic-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T12:18:01+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "BTC price to attack $80K shorts on Iran peace deal: Five things to know in Bitcoin this week",
-      "summary": "Bitcoin traders predicted a short squeeze to $80,000, but a lack of overall demand and the return of leverage sparked warnings of more liquidation events to come.",
-      "link": "https://cointelegraph.com/markets/btc-price-tipped-to-attack-80k-shorts-on-iran-peace-deal-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T12:00:02+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Influence360 launches as the first AI & data-driven Web3 KOL platform with global KOL coverage and real attribution",
-      "summary": "Influence360 today announced the launch of its platform, introducing a new infrastructure layer for Web3 influencer marketing built around trust, data, and global execution.",
-      "link": "https://cointelegraph.com/press-releases/influence360-launches-as-the-first-ai-data-driven-web3-kol-platform-with-global-kol-coverage-and-real-attribution?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T12:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "New York lawsuit tests lost property claim over dormant Bitcoin",
-      "summary": "A New York lawsuit seeks ownership of 39,069 dormant Bitcoin wallets, raising questions over lost crypto, private keys and property law.",
-      "link": "https://cointelegraph.com/news/new-york-lawsuit-lost-property-dormant-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T11:45:59+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Facet co-founder pitches EIP-8182 private transfers for inclusion in Ethereum’s Hegota upgrade",
-      "summary": "Facet's Tom Lehman pitched EIP-8182 for inclusion in Ethereum's Hegota upgrade, aiming to bring native private transfers to the network.",
-      "link": "https://www.theblock.co/post/402464/facet-co-founder-pitches-eip-8182-private-transfers-for-inclusion-in-ethereums-hegota-upgrade?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T10:38:08+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "HYPE funds attract millions as investors dump bitcoin and ether ETFs",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/25/hype-funds-attract-millions-as-investors-dump-bitcoin-and-ether-etfs",
-      "published": "2026-05-25T10:28:47+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Researchers flag TrapDoor malware campaign targeting crypto developer environments including Aptos, Sui and Solana",
-      "summary": "The TrapDoor malware campaign used malicious packages across npm, PyPI, and Crates.io to target crypto developer environments.",
-      "link": "https://www.theblock.co/post/402458/researchers-flag-trapdoor-malware-campaign-targeting-crypto-developer-environments-including-aptos-sui-and-solana?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T09:52:16+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Satoshi-era bitcoin whale moves over $200 million in BTC to FalconX, Cumberland: Onchain Lens",
-      "summary": "A bitcoin OG transferred about 2,650 BTC to the crypto trading firms through multiple transactions on Sunday, according to Onchain Lens.",
-      "link": "https://www.theblock.co/post/402447/bitcoin-og-moves-2650-btc?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T08:35:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Hyperliquid is emerging as a challenger to traditional exchanges and prediction markets, says FalconX",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/25/hyperliquid-is-emerging-as-a-challenger-to-traditional-exchanges-and-prediction-markets-says-falconx",
-      "published": "2026-05-25T08:09:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Crypto entrepreneur Chun Wang joins SpaceX mission to Mars",
-      "summary": "Chun Wang, who bankrolled and led a SpaceX flight over Earth’s poles, says he will head to Mars on SpaceX’s first manned mission to the red planet.",
-      "link": "https://cointelegraph.com/news/chun-wang-spacex-mars-mission-crypto-entrepreneur?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T07:15:39+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin trades above $77,000 as oil's 5% slide pushes Asian equities higher",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/25/bitcoin-trades-above-usd77-000-as-oil-s-5-slide-pushes-asian-equities-higher",
-      "published": "2026-05-25T07:11:57+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin ETFs' 6 day loss streak pushes market closer to net outflows for 2026",
-      "summary": "Dek: US Bitcoin ETF net inflows have shrunk to $536 million so far in 2026, after recording a six-day run of net outflows totalling $1.55 billion.",
-      "link": "https://cointelegraph.com/news/bitcoin-etf-outflow-streak-pushes-market-closer-to-net-negative-flows-for-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T06:58:35+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin options are coming to Nasdaq. Here's what it means for you",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/25/bitcoin-options-are-coming-to-nadaq-here-s-what-it-means-for-you",
-      "published": "2026-05-25T05:56:43+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
       "title": "Coinbase does not fear competition from Wall Street, says exchange executive",
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/05/24/coinbase-does-not-fear-competition-from-wall-street-says-exchange-executive",
@@ -1096,6 +548,19 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "FTX law firm Fenwick & West to pay $54M to victims in settlement",
+      "summary": "The law firm agreed to a settlement in February 2026 and is facing a separate $525 million lawsuit over its role in the collapse of the FTX crypto exchange.",
+      "link": "https://cointelegraph.com/news/law-firm-fenwick-west-54m-ftx-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-24T18:05:52+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1122,6 +587,19 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Tom Lee’s Ethereum portfolio down $7.35B as ETH price outlook worsens",
+      "summary": "ETH’s bearish chart setup points to a 25% drop toward $1,600, risking over $10 billion in paper losses for BitMine in the coming weeks.",
+      "link": "https://cointelegraph.com/markets/tom-lees-ethereum-portfolio-sitting-on-73b-in-unrealized-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-24T15:08:08+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1132,6 +610,19 @@
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/05/22/ledn",
       "published": "2026-05-24T15:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-24T14:02:22+00:00",
       "relevance_score": 0
     },
     {
@@ -1148,6 +639,58 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "CFTC officials who questioned prediction markets were suspended: NYT",
+      "summary": "A New York Times investigation found that senior CFTC officials who raised concerns about Polymarket, Crypto.com and Gemini were suspended and pushed out.",
+      "link": "https://cointelegraph.com/news/cftc-officials-who-questioned-prediction-markets-were-suspended-nyt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-24T11:45:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Blockchain researcher defends Ethereum Foundation, says it’s doing ‘exactly’ its job",
+      "summary": "William Mougayar says critics are measuring the Ethereum Foundation by the wrong standard, claiming it was never meant to pump ETH or court institutions.",
+      "link": "https://cointelegraph.com/news/blockchain-researcher-defends-ethereum-foundation-says-its-exactly-doing-its-job?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-24T09:35:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Why is Bitcoin falling despite pro-crypto Kevin Warsh becoming Fed chair?",
+      "summary": "Rising short-term bond yields and Warsh's hawkish comments in the past are reviving fears of a December rate hike, which could slam the brakes on Bitcoin's recovery.",
+      "link": "https://cointelegraph.com/markets/why-is-bitcoin-falling-despite-pro-crypto-kevin-warsh-becoming-fed-chair?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-24T09:02:25+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin bounces as Trump prepares to announce ‘negotiated’ Iran deal",
+      "summary": "President Donald Trump promised “Final aspects and details of the deal are currently being discussed\" in a post on Truth Social.",
+      "link": "https://cointelegraph.com/news/bitcoin-bounces-as-trump-prepares-to-announce-negotiated-iran-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-24T03:20:00+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1161,6 +704,19 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Analysts forecast a Bitcoin crash to the $60K level, revisiting 2026 low",
+      "summary": "The price of Bitcoin is about $75,800 at the time of publication, a nearly 40% decrease from the all-time high of about $126,000 reached in October 2025.",
+      "link": "https://cointelegraph.com/news/analysts-forecast-bitcoin-crash-60k-february-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T20:49:12+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1171,6 +727,19 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/05/23/bitcoin-is-ready-to-beat-stocks-and-bonds-again-after-underperformance-against-wall-street",
       "published": "2026-05-23T19:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Warsh will cut rates, despite consensus view of rate hikes: Analyst",
+      "summary": "The current Federal Funds target rate is between 350 and 375 basis points, which traders project to rise by at least 25 basis points in December 2026.",
+      "link": "https://cointelegraph.com/news/warsh-cut-rate-despite-consensus-rate-hikes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T18:59:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1251,6 +820,19 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Binance denies new WSJ report alleging $850M in Iran-linked transactions",
+      "summary": "Binance CEO Richard Teng denied a new WSJ report alleging $850 million in Iran-linked transactions flowed through the exchange to the IRGC.",
+      "link": "https://cointelegraph.com/news/binance-denies-new-wsj-report-alleging-850m-in-iran-linked-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T14:03:36+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1286,6 +868,58 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/05/23/bitcoin-tanks-to-usd74-300-as-spot-etfs-bleed-usd2-26-billion-in-two-weeks",
       "published": "2026-05-23T10:19:40+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "$1.26B Bitcoin ETF outflows spark ‘contrarian’ buy signal: Santiment",
+      "summary": "Ongoing Bitcoin ETF outflows have historically “correlated with conditions favorable for patient accumulation rather than panic,\" according to Santiment.",
+      "link": "https://cointelegraph.com/news/bitcoin-etf-outflows-are-a-contrarian-buy-signal-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T06:55:08+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "‘Not unlikely’ Strategy will sell Bitcoin in 2026: Michael Saylor",
+      "summary": "Strategy chairman Michael Saylor said the goal is to maximize Strategy’s Bitcoin per share by 2033.",
+      "link": "https://cointelegraph.com/news/michael-saylor-strategy-mstr-bitcoin-sell-speculation-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-23T04:24:09+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin 'Pizza Day' was 16 years ago, here's how much that BTC is worth today",
+      "summary": "Laszlo Hanyecz's 2010 post, offering 10,000 BTC in exchange for two pizzas delivered to his home, marked the first recorded commercial BTC payment.",
+      "link": "https://cointelegraph.com/news/bitcoin-pizza-day-those-10k-btc-worth-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-22T23:16:38+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Kevin Warsh sworn in as Fed chair, as traders forecast rate hikes in 2026",
+      "summary": "US President Donald Trump has repeatedly said he wants the Federal Reserve to lower interest rates, but investors forecast no chance of a rate cut in 2026.",
+      "link": "https://cointelegraph.com/news/kevin-warsh-sworn-fed-chair-traders-rate-hikes-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-22T22:12:01+00:00",
       "relevance_score": 0
     },
     {
@@ -1456,6 +1090,19 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "US House lawmakers launch probe into Kalshi, Polymarket insider trading",
+      "summary": "Representative James Comer asked CEOs of two major prediction market companies for information on their responses to insider trading after “suspiciously timed trades” related to US military actions against Iran.",
+      "link": "https://cointelegraph.com/news/us-house-probe-kalshi-polymarket-insider-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-22T17:20:49+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1480,6 +1127,19 @@
       "summary": "Spot ETFs tracking Hyperliquid ($THYP and $BHYP) attracted over $16 million in flows yesterday, bringing cumulative net inflows to $69 million.",
       "link": "https://thedefiant.io/news/markets/hyperliquid-etfs-surpass-69-million-net-inflows-yrbea4",
       "published": "2026-05-22T17:03:59+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "NEAR protocol leads AI token rally with a 50% pump: Is $5 NEAR price next?",
+      "summary": "NEAR price surges 50% in a week as AI token momentum, Nvidia optimism and network upgrades fuel bullish sentiment.",
+      "link": "https://cointelegraph.com/markets/near-protocol-leads-ai-token-rally-with-a-50-pump-is-5-near-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-22T17:01:28+00:00",
       "relevance_score": 0
     },
     {
@@ -1509,6 +1169,46 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Tom Emmer brushes off law enforcement concerns over Clarity Act",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/05/22/tom-emmer-brushes-off-law-enforcement-concerns-over-clarity-act",
+      "published": "2026-05-22T16:30:55+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Kalshi-backed prediction market advocacy group debuts with support from former Trump aide",
+      "summary": "An advocacy group focused on prediction markets has emerged with support from former White House Deputy Chief of Staff Taylor Budowich.",
+      "link": "https://www.theblock.co/post/402374/kalshi-prediction-market-advocacy-group-debuts-support-former-trump-aide?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-22T16:22:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Crypto Biz: Institutions tighten their grip on Bitcoin, AI and prediction markets",
+      "summary": "Institutional crypto adoption accelerates as Tether expands Bitcoin holdings, miners pivot to AI and Polymarket joins Nasdaq amid $1 billion fund outflows.",
+      "link": "https://cointelegraph.com/news/institutional-crypto-adoption-tether-bitcoin-ai-polymarket-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-22T16:02:30+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1518,6 +1218,32 @@
       "summary": "It's unknown whether Trump Media &#038; Technology Group is selling its Bitcoin, though it has amassed sizable losses on its holdings.",
       "link": "https://decrypt.co/368752/trump-media-moves-over-200-million-bitcoin-losses-arkham",
       "published": "2026-05-22T15:56:52+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin price falls under $77K as Dow Jones hits new all-time highs",
+      "summary": "Bitcoin headed lower as Wall Street trading began with new record highs for the Dow Jones, while traders warned of weak US demand.",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-falls-under-77k-as-dow-jones-hits-new-all-time-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-22T15:40:15+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Congress hits Polymarket and Kalshi with a massive insider trading probe",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/05/22/congress-probes-polymarket-and-kalshi-over-fears-government-employees-are-trading-on-secret-info",
+      "published": "2026-05-22T15:27:40+00:00",
       "relevance_score": 0
     },
     {
@@ -1533,6 +1259,32 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "The agentic CFO in your pocket",
+      "summary": "",
+      "link": "https://www.coindesk.com/opinion/2026/05/22/the-agentic-cfo-in-your-pocket",
+      "published": "2026-05-22T14:57:29+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "NYSE owner ICE to launch oil-linked futures with OKX",
+      "summary": "ICE and OKX plan to launch oil-linked perpetual futures based on Brent and WTI benchmarks, bringing crypto derivatives further into traditional energy markets under licensing restrictions.",
+      "link": "https://cointelegraph.com/news/nyse-owner-ice-oil-perpetual-futures-okx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-22T14:42:45+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1542,6 +1294,124 @@
       "summary": "The chair of the powerful House Oversight Committee has requested documents from Polymarket and Kalshi regarding insider trading and war-related markets.",
       "link": "https://decrypt.co/368748/house-republicans-open-investigation-kalshi-polymarket-insider-trades",
       "published": "2026-05-22T14:37:58+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Live markets: Bitcoin heads lower late Friday as Warsh takes over at Fed",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/05/22/live-markets-bitcoin-continues-holding-pattern-near-usd77-000-ahead-of-holiday-weekend",
+      "published": "2026-05-22T14:24:04+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Binance disputes latest WSJ report on alleged Iran-linked transactions",
+      "summary": "WSJ reported Iranian financier Babak Zanjani allegedly moved $850 million through Binance, which CEO Richard Teng said was mischaracterized.",
+      "link": "https://www.theblock.co/post/402353/binance-disputes-latest-wsj-report-on-alleged-iran-linked-transactions?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-22T14:02:44+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "IREN co-founder says AI’s biggest bottleneck is infrastructure, not chips",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/22/iren-co-founder-says-ai-s-biggest-bottleneck-is-infrastructure-not-chips",
+      "published": "2026-05-22T13:20:22+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "CoinDesk 20 performance update: NEAR surges 19.4% as index trades flat",
+      "summary": "",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/05/22/coindesk-20-performance-update-near-surges-19-4-as-index-trades-flat",
+      "published": "2026-05-22T13:14:46+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Trump Media moved but 'did not sell' $205 million in bitcoin amid rising losses on crypto bets",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/22/trump-media-moves-another-usd205m-in-bitcoin-as-losses-on-crypto-bet-swell-to-usd455m",
+      "published": "2026-05-22T13:08:41+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Morning Minute: Mark Cuban Sells His Bitcoin",
+      "summary": "The billionaire cited underperformance vs gold and broader disappointment with crypto's breakout apps (or lack thereof) as drivers.",
+      "link": "https://decrypt.co/368742/morning-minute-mark-cuban-sells-his-bitcoin",
+      "published": "2026-05-22T13:05:45+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "House Oversight chair launches probe into insider trading on Kalshi and Polymarket",
+      "summary": "House Oversight Chairman Comer probes insider trading on Kalshi and Polymarket, sending letters to both CEOs with a June 5 document deadline.",
+      "link": "https://www.theblock.co/post/402348/house-oversight-chair-launches-probe-into-insider-trading-on-kalshi-and-polymarket?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-22T13:03:35+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Tom Lee says trillions in tech IPO supply won't crash the S&P 500",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/22/tom-lee-says-trillions-in-tech-ipo-supply-won-t-crash-the-s-and-p-500",
+      "published": "2026-05-22T12:57:37+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "OKX and ICE are bringing 'never-expiring' oil futures to 120 million crypto users",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/22/okx-and-ice-are-bringing-never-expiring-oil-futures-to-120-million-crypto-users",
+      "published": "2026-05-22T12:48:04+00:00",
       "relevance_score": 0
     },
     {
@@ -1568,6 +1438,96 @@
       "summary": "Solana hyped Alpenglow’s testnet upgrade while quietly fixing bugs that weren't mentioned in mainstream coverage. The post Solana kept quiet about Alpenglow upgrade breakages appeared first on Protos .",
       "link": "https://protos.com/solana-kept-quiet-about-alpenglow-upgrade-breakages/",
       "published": "2026-05-22T12:03:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin left behind in the geopolitical melee",
+      "summary": "",
+      "link": "https://www.coindesk.com/daybook-us/2026/05/22/bitcoin-left-behind-in-the-geopolitical-melee",
+      "published": "2026-05-22T11:31:30+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "NEAR Protocol Jumps 28% on Privacy, AI, and Scaling Upgrades",
+      "summary": "NEAR rallied by 45% this week on a series of upgrades positioning it as a potential settlement layer for AI agents and confidential finance.",
+      "link": "https://decrypt.co/368737/near-protocol-jumps-28-on-privacy-ai-and-scaling-upgrades",
+      "published": "2026-05-22T11:30:22+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Ark Invest buys $12.5 million of Bullish stock in four days",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/05/22/ark-invest-buys-usd12-5-million-of-bullish-stock-in-four-days",
+      "published": "2026-05-22T10:45:29+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Polymarket probes suspected private key compromise of internal top-up wallet on Polygon",
+      "summary": "Polymarket said findings point to a possible private key compromise tied to an internal top-up wallet on Polygon.",
+      "link": "https://www.theblock.co/post/402327/zachxbt-flags-suspected-exploit-involving-polymarkets-uma-adapter-contract-on-polygon?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-22T09:02:16+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "South Korea to review scrapping crypto tax plan after national petition hits 50,000 signatures",
+      "summary": "The petitioner said taxing cryptocurrency gains while abolishing taxes on traditional investments is unfair.",
+      "link": "https://www.theblock.co/post/402311/south-korea-petition-crypto-tax-plan?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-22T06:06:21+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Nearly $500B in Bitcoin Is Exposed to Future Quantum Computing Attacks: Glassnode",
+      "summary": "Blockchain data firm Glassnode mapped the vulnerabilities embedded in Bitcoin’s existing supply, pointing to exchanges as a weak point.",
+      "link": "https://decrypt.co/368721/nearly-500b-bitcoin-exposed-future-quantum-computing-attacks-glassnode",
+      "published": "2026-05-21T23:00:04+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Prominent Ethereum Dev Proposes $1 Billion ETH Organization With Leader Who 'Wants to Fight'",
+      "summary": "Former Ethereum Foundation researcher Dankrad Feist appeared to take pointed shots Thursday at ETH co-founder Vitalik Buterin.",
+      "link": "https://decrypt.co/368694/prominent-ethereum-dev-proposes-1-billion-eth-organization",
+      "published": "2026-05-21T22:08:36+00:00",
       "relevance_score": 0
     },
     {
@@ -1750,6 +1710,32 @@
       "summary": "Aave governance initiates temp-check on a new charitable mechanism that would allow users to generate yield on deposits while maintaining capital control for humanitarian organizations.",
       "link": "https://thedefiant.io/news/defi/aave-proposes-principal-preserving-charitable-giving-layer-3bloge",
       "published": "2026-05-18T13:47:48+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Iran Launches Bitcoin-Settled Insurance Platform for Hormuz Strait Shipping",
+      "summary": "Iran has unveiled Hormuz Safe, a Bitcoin-backed insurance service enabling shipping companies to obtain coverage for transiting the Strait of Hormuz.",
+      "link": "https://thedefiant.io/news/markets/iran-hormuz-safe-bitcoin-insurance-platform-3p0r5p",
+      "published": "2026-05-18T13:18:41+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Bitcoin Extends Decline Below $78,500 as Bearish Pressure Intensifies",
+      "summary": "Bitcoin has fallen below $78,500 and is consolidating near the $76,500 support level, with a bearish trend line forming resistance at $77,700 on the hourly chart.",
+      "link": "https://thedefiant.io/news/markets/bitcoin-extends-decline-78500-xm9c9c",
+      "published": "2026-05-18T11:23:14+00:00",
       "relevance_score": 0
     }
   ]
