@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-26T15:54:58.860255+00:00",
+  "generated_at": "2026-05-26T18:32:28.281823+00:00",
   "lookback_days": 8,
-  "total_items": 129,
+  "total_items": 132,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -21,7 +21,7 @@
     {
       "name": "CoinTelegraph",
       "url": "https://cointelegraph.com/rss",
-      "kept": 23
+      "kept": 25
     },
     {
       "name": "The Defiant",
@@ -41,7 +41,7 @@
     {
       "name": "Protos",
       "url": "https://protos.com/feed/",
-      "kept": 9
+      "kept": 10
     },
     {
       "name": "Fireblocks Blog",
@@ -80,19 +80,6 @@
     }
   ],
   "items": [
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "UAE-linked ADI Chain gains Ledger support amid stablecoin growth",
-      "summary": "The integration gives ADI token holders access to Ledger’s self-custody platform as ADI Chain expands its stablecoin and tokenized asset network.",
-      "link": "https://cointelegraph.com/news/ledger-integrates-uae-backed-adi-token-as-gulf-blockchain-infrastructure-expands?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T18:29:58+00:00",
-      "relevance_score": 3
-    },
     {
       "source": "CoinTelegraph",
       "tier": 1,
@@ -187,18 +174,6 @@
       "relevance_score": 2
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "SEC Delays Tokenized Stocks Innovation Exemption Amid Concerns: Bloomberg",
-      "summary": "The SEC’s expected regulatory framework would have provided clarity for companies looking to tokenize traditional assets like stocks.",
-      "link": "https://decrypt.co/368855/sec-delays-tokenized-stocks-innovation-exemption-amid-concerns-bloomberg",
-      "published": "2026-05-22T20:46:37+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -249,6 +224,33 @@
       "link": "https://www.ledgerinsights.com/franklin-templeton-taps-digift-to-distribute-benji-tokenized-mmf-in-asia/",
       "published": "2026-05-21T17:33:29+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Crypto industry defends OCC charters for Ripple, Coinbase and others after Sen. Warren calls them unlawful",
+      "summary": "The Digital Chamber rejected accusations from Sen. Warren that crypto firms were \"improperly\" granted national trust charters.",
+      "link": "https://www.theblock.co/post/402639/crypto-industry-defends-occ-charters-for-ripple-coinbase-after-warren-calls-unlawful?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-26T18:12:47+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "UK sanctions Huobi and ruble stablecoin issuer in crackdown on Russia crypto networks",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/26/uk-sanctions-huobi-and-ruble-stablecoin-issuer-in-crackdown-on-russia-crypto-networks",
+      "published": "2026-05-26T17:33:35+00:00",
+      "relevance_score": 1
     },
     {
       "source": "Decrypt",
@@ -418,34 +420,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "‘We don’t know who deployed this’: Squid distances itself from $3.2 million third-party module exploit",
-      "summary": "Squid said its core protocol was unaffected after a third-party module named SquidRouterModule was exploited for roughly $3.2 million.",
-      "link": "https://www.theblock.co/post/402487/we-dont-know-who-deployed-this-squid-distances-itself-from-3-2-million-third-party-module-exploit?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T13:45:36+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "‘Institutional bid hasn’t disappeared’: Analysts say bitcoin cooldown, spot ETF outflows signal rotation, not exit",
-      "summary": "Bitcoin held below $78,000 as spot ETFs shed over $1 billion for a second straight week and U.S.-Iran deal speculation rattled markets.",
-      "link": "https://www.theblock.co/post/402473/institutional-bid-hasnt-disappeared-analysts-say-bitcoin-cooldown-spot-etf-outflows-signal-rotation-not-exit?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T12:09:15+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -469,19 +443,6 @@
       "summary": "Harvard Management Company slashed its BlackRock Bitcoin ETF position by roughly 43% in Q1 2026 and fully exited its Ethereum ETF stake, according to SEC filings.",
       "link": "https://thedefiant.io/news/markets/harvard-endowment-cuts-bitcoin-ethereum-etf-holdings-djwmny",
       "published": "2026-05-21T17:45:37+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Brian Armstrong’s security costs 28 times more than Michael Saylor’s",
-      "summary": "Crypto investors and executives are vulnerable to physical attacks, leading to firms paying big for their personal security. The post Brian Armstrong’s security costs 28 times more than Michael Saylor’s appeared first on Protos .",
-      "link": "https://protos.com/brian-armstrongs-security-costs-28-times-more-than-michael-saylors/",
-      "published": "2026-05-21T17:36:19+00:00",
       "relevance_score": 1
     },
     {
@@ -537,17 +498,211 @@
       "relevance_score": 1
     },
     {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "TeraWulf Stock Pops as Bitcoin Miner Acquires Kentucky Site to Meet AI Power Demands",
+      "summary": "Bitcoin miner TeraWulf’s latest deal adds more than a gigawatt of potential data center capacity in a region eager for economic investment.",
+      "link": "https://decrypt.co/369053/terawulf-bitcoin-miner-kentucky-site-ai-power-demands",
+      "published": "2026-05-26T18:23:18+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
         "defi",
         "smart-contracts"
       ],
-      "title": "Polymarket Launches Prediction Markets on Private Company Valuations With Nasdaq Data",
-      "summary": "Polymarket partnered with Nasdaq Private Market to enable trading on private company valuations, IPO timing, and secondary share prices, with early markets on OpenAI, Anthropic, Stripe, and other unicorns.",
-      "link": "https://thedefiant.io/news/markets/polymarket-nasdaq-private-company-prediction-markets-xvwn0x",
-      "published": "2026-05-19T16:47:22+00:00",
-      "relevance_score": 1
+      "title": "Base Launches MCP Agent Gateway for Onchain Portfolio Management",
+      "summary": "Base introduces Model Context Protocol integration enabling AI agents to execute swaps, trades, and portfolio management across leading DeFi protocols.",
+      "link": "https://thedefiant.io/news/defi/base-mcp-agent-gateway-launch-2p8bh1",
+      "published": "2026-05-26T18:18:37+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Inaudible Audio Attacks Can Hijack AI Voice Models, Study Finds",
+      "summary": "Researchers were able to embed hidden signals in audio clips that silently commandeer AI model behavior.",
+      "link": "https://decrypt.co/369042/inaudible-audio-attacks-hijack-ai-voice-models",
+      "published": "2026-05-26T18:17:04+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "UK Issues Sanctions Against Justin Sun's HTX, Other Crypto Firms Over Alleged Russia Ties",
+      "summary": "British financial institutions are now barred from doing business with the exchanges—and may face penalties for interacting with crypto transactions that pass through them.",
+      "link": "https://decrypt.co/369047/uk-issues-sanctions-against-justin-sun-htx-crypto-firms-russia-ties",
+      "published": "2026-05-26T18:15:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "TeraWulf acquires Kentucky AI data center site with planned 1 GW capacity",
+      "summary": "WULF shares surged on Tuesday after the Bitcoin miner announced its latest move to expand into AI and HPC through a multi-phase buildout through 2030.",
+      "link": "https://cointelegraph.com/news/terawulf-kentucky-ai-data-center-1gw-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-26T18:01:53+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "UK sanctions HTX over support of Russia in broad sweep over crypto exchanges",
+      "summary": "The United Kingdom sanctioned a large crypto exchange, accusing it of \"supporting the government of Russia.\"",
+      "link": "https://www.theblock.co/post/402591/uk-sanctions-htx-over-support-of-russia-in-broad-sweep-over-crypto-exchanges?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-26T17:51:40+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Someone just burned $8 million of bitcoin",
+      "summary": "More than 107 BTC are now provably burned from the supply until someone invents a cryptographically relevant quantum computer. The post Someone just burned $8 million of bitcoin appeared first on Protos .",
+      "link": "https://protos.com/someone-just-burned-8-million-of-bitcoin/",
+      "published": "2026-05-26T17:42:11+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Coinbase-incubated Base blockchain rolls out MCP gateway to AI interfaces like Claude, ChatGPT",
+      "summary": "With the integration, users will now be able to use natural language prompts to swap tokens, transfer funds, and interact with Base apps.",
+      "link": "https://www.theblock.co/post/402631/coinbase-base-mcp-gateway-ai-interfaces-claude-chatgpt?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-26T17:24:30+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Spanish authorities block Polymarket and Kalshi over gambling laws",
+      "summary": "Spain joined a growing list of national authorities restricting or banning prediction market platforms amid concerns over unlicensed gambling activities.",
+      "link": "https://cointelegraph.com/news/spain-blocks-polymarket-kalshi-gambling-laws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-26T17:02:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin 'liquidation hunts' control BTC at $77K amid new Iran peace deal doubts",
+      "summary": "Bitcoin failed to copy US stocks' upside after a spike to $78,000 became one of a series of liquidity grabs.",
+      "link": "https://cointelegraph.com/markets/bitcoin-liquidation-hunts-control-btc-at-77k-amid-new-iran-peace-deal-doubts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-26T16:57:58+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "NEAR token price has 'potential to grow 20x,' says Arthur Hayes",
+      "summary": "NEAR is mirroring a 2023–2024 fractal that preceded a 250% rally, hinting at similar upside in 2026 as privacy coin demand grows.",
+      "link": "https://cointelegraph.com/markets/near-token-price-has-potential-to-grow-20x-says-arthur-hayes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-26T16:42:10+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "UK sanctions HTX for alleged Russian sanctions violations",
+      "summary": "The UK FCDO has sanctioned Huobi Global over ties to two organisations which it had previously sanctioned over sanctions evasion concerns. The post UK sanctions HTX for alleged Russian sanctions violations appeared first on Protos .",
+      "link": "https://protos.com/uk-sanctions-htx-for-alleged-russian-sanctions-violations/",
+      "published": "2026-05-26T16:41:39+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bermuda, the small island nation with huge crypto ambitions",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/05/26/bermuda-the-small-island-nation-with-huge-crypto-ambitions",
+      "published": "2026-05-26T16:23:05+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Solana privacy layer Umbra launches confidential vesting with Streamflow targeting $97B token unlock market",
+      "summary": "Umbra and Streamflow launch private token vesting on Solana, letting projects distribute tokens confidentially at scale.",
+      "link": "https://www.theblock.co/post/402549/solana-privacy-layer-umbra-launches-confidential-vesting-with-streamflow-targeting-97b-token-unlock-market?utm_source=rss&utm_medium=rss",
+      "published": "2026-05-26T16:05:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Coinbase’s Base launches AI tool for ChatGPT to manage crypto wallets and DeFi apps",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/05/26/coinbase-s-base-launches-ai-tool-for-chatgpt-to-manage-crypto-wallets-and-defi-apps",
+      "published": "2026-05-26T16:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Tom Lee's BitMine Makes Biggest Ethereum Buy Yet in 2026",
+      "summary": "BitMine Immersion Technologies made its largest Ethereum acquisition yet this year—just weeks after saying it might slow down its ETH buys.",
+      "link": "https://decrypt.co/369011/tom-lee-bitmine-makes-biggest-ethereum-buy-2026",
+      "published": "2026-05-26T15:56:26+00:00",
+      "relevance_score": 0
     },
     {
       "source": "Protos",
@@ -574,6 +729,19 @@
       "summary": "Spain blocked Polymarket and Kalshi on May 26, the latest in a growing wave of international crackdowns on prediction markets.",
       "link": "https://www.theblock.co/post/402620/spain-blocks-polymarket-kalshi-for-operating-without-licenses-amid-widening-global-crackdown-on-prediction-markets?utm_source=rss&utm_medium=rss",
       "published": "2026-05-26T15:40:06+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-26T15:39:04+00:00",
       "relevance_score": 0
     },
     {
@@ -628,6 +796,19 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "AI guardrail removals raise questions over limits of open-source model regulation",
+      "summary": "Financial Times testing found safety controls on open AI models from Meta and Google could be stripped in minutes, raising governance concerns.",
+      "link": "https://cointelegraph.com/news/ai-guardrail-removals-raise-questions-over-limits-of-open-source-model-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-26T15:25:18+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -638,6 +819,19 @@
       "summary": "",
       "link": "https://www.coindesk.com/opinion/2026/05/26/the-clarity-act-won-t-lead-to-adoption-without-crypto-tax-reform",
       "published": "2026-05-26T15:19:18+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Strategy buys back $1.5B of debt at discount, cuts outstanding notes to $6.7B",
+      "summary": "Strategy reduced aggregate convertible notes outstanding to $6.7 billion after repurchasing 2029 notes for $1.38 billion in cash.",
+      "link": "https://cointelegraph.com/news/strategy-repurchases-15b-notes-cuts-outstanding-debt-67b-2029?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-26T15:11:32+00:00",
       "relevance_score": 0
     },
     {
@@ -678,20 +872,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/05/26/live-markets-bitcoin-on-sidelines-as-markets-surge-on-iran-peace-hopes",
       "published": "2026-05-26T14:43:53+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "UK sanctions HTX over support of Russia in broad sweep over crypto exchanges",
-      "summary": "The United Kingdom sanctioned a large crypto exchange, accusing it of \"supporting the government of Russia.\"",
-      "link": "https://www.theblock.co/post/402591/uk-sanctions-htx-over-support-of-russia-in-broad-sweep-over-crypto-exchanges?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-26T14:39:08+00:00",
       "relevance_score": 0
     },
     {
@@ -1061,6 +1241,19 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Liquid launches ChatGPT and Claude trading app with live market execution",
+      "summary": "Co-Invest lets users fund accounts, analyze positions and execute trades across more than 500 markets without leaving AI chat interfaces.",
+      "link": "https://cointelegraph.com/news/liquid-launches-chatgpt-and-claude-trading-app-with-live-market-execution?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-05-26T07:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1232,19 +1425,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin holds $77K as stocks rally, global tensions cool: Are BTC bulls back?",
-      "summary": "Data suggests that Bitcoin may be gearing up for a rally to $82,000. Will bulls seize the opportunity?",
-      "link": "https://cointelegraph.com/markets/bitcoin-holds-77k-as-stocks-rally-global-tensions-cool-are-btc-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-26T01:31:39+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1255,19 +1435,6 @@
       "summary": "Polkadot governance has approved a proposal to implement a 10,000 DOT validator self-stake minimum, making nominators unslashable and reducing unbonding periods from 28 days to as little as 24 hours.",
       "link": "https://thedefiant.io/news/blockchains/polkadot-validator-self-stake-minimum-approved-5lqfj3",
       "published": "2026-05-26T01:02:54+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin chases range highs despite rising BTC exchange inflows: Is $80K next?",
-      "summary": "Bitcoin reclaimed $77,000 despite rising exchange supply and spot BTC ETF outflows. Will bulls push BTC to $80,000 this week?",
-      "link": "https://cointelegraph.com/markets/bitcoin-retests-77k-despite-mounting-btc-supply-is-80k-possible-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-26T00:10:24+00:00",
       "relevance_score": 0
     },
     {
@@ -1297,41 +1464,15 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "XRP price trades in ‘value zone’ near $1.40 as whales pull $170M from exchanges",
-      "summary": "Whales withdrew $170 million in XRP from Binance as the price holds a key $1.35-$1.40 accumulation and support zone.",
-      "link": "https://cointelegraph.com/markets/xrp-price-in-value-zone-near-140-as-whales-pull-170m-from-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T20:30:46+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
         "general"
       ],
       "title": "Tom Lee Outlines Liquidity Catalyst for Ethereum Firm BitMine Following Russell Index Update",
-      "summary": "The Ethereum-buying firm owns 3.8% of the digital asset’s supply.",
+      "summary": "The Ethereum-buying firm owns 4.3% of the digital asset’s supply.",
       "link": "https://decrypt.co/368971/tom-lee-iquidity-ethereum-bitmine-russell-index",
       "published": "2026-05-25T20:06:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Crypto PAC money pours into Texas primary runoffs, as prediction markets favor challengers",
-      "summary": "The crypto-aligned Protect Progress PAC reported spending another $750,000 on media for a Democratic candidate over Representative Al Green, whom it described as “actively hostile” to digital assets.",
-      "link": "https://cointelegraph.com/news/texas-primary-runoffs-crypto-pac-prediction-markets-newcomers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T17:57:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1373,32 +1514,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Indonesia blocks Polymarket, calling prediction market online gambling in disguise",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/05/25/indonesia-blocks-polymarket-calling-prediction-market-online-gambling-in-disguise",
-      "published": "2026-05-25T17:04:49+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin, crypto prices tick up as US-Iran peace deal odds climb",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/05/25/bitcoin-crypto-prices-tick-up-as-us-iran-peace-deal-odds-climb",
-      "published": "2026-05-25T16:46:45+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1411,32 +1526,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Buterin says Ethereum Foundation will shrink, sell less ETH, and focus on 'CROPS'",
-      "summary": "",
-      "link": "https://www.coindesk.com/web3/2026/05/25/buterin-says-ethereum-foundation-will-shrink-sell-less-eth-and-focus-on-crops",
-      "published": "2026-05-25T15:51:37+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "CoinQuant introduces trading infrastructure for the agent economy",
-      "summary": "CoinQuant, the AI-powered no-code trading platform that has attracted over 15,000 users since launch, today announces its expansion into a unified trading intelligence architecture built for both human traders and autonomous AI agents.",
-      "link": "https://cointelegraph.com/press-releases/coinquant-introduces-trading-infrastructure-for-the-agent-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-05-25T15:39:11+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1446,20 +1535,6 @@
       "summary": "The 245-paragraph document was presented alongside Anthropic co-founder Christopher Olah, whose company is actively suing the Trump administration over military AI use.",
       "link": "https://decrypt.co/368933/pope-leo-xiv-ai-encyclical-2026",
       "published": "2026-05-25T15:02:22+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Indonesia blocks Polymarket amid crackdown on online betting",
-      "summary": "Indonesia blocked Polymarket over online gambling concerns as regulators widen global scrutiny of prediction market platforms.",
-      "link": "https://www.theblock.co/post/402481/indonesia-blocks-polymarket?utm_source=rss&utm_medium=rss",
-      "published": "2026-05-25T13:09:28+00:00",
       "relevance_score": 0
     },
     {
@@ -1532,42 +1607,6 @@
       "summary": "A real astrology engine disguised as a fortune teller. A scammer-punishment machine loaded with the Shrek screenplay. A tool that reads any book and maps every idea to your actual life. These are not normal skills.",
       "link": "https://decrypt.co/368188/3-wacky-hermes-skills-you-should-try",
       "published": "2026-05-23T13:01:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Kash Patel-Linked Apparel Store Goes Dark After Pushing Crypto-Stealing Malware",
-      "summary": "User losses weren’t immediately clear.",
-      "link": "https://decrypt.co/368856/kash-patel-apparel-store-goes-dark-crypto-malware",
-      "published": "2026-05-22T21:13:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Microsoft's Free AI Just Beat OpenAI and Google at Browsing the Web",
-      "summary": "Fara1.5 is a family of open-weight browser agents from Microsoft Research that outperforms OpenAI's Operator and Google's Gemini 2.5 Computer Use on the industry's toughest live-web benchmark.",
-      "link": "https://decrypt.co/368807/microsoft-fara15-open-source-ai-beats-openai-gemini",
-      "published": "2026-05-22T20:31:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Kalshi Debuts 'Fair Markets' Lobby Group as Congress Opens Insider Trading Probe",
-      "summary": "Kalshi unveiled Americans for Fair Markets, an advocacy group to help shape policymakers’ perception of prediction markets.",
-      "link": "https://decrypt.co/368803/kalshi-fair-markets-lobby-group-congress-opens-insider-trading-probe",
-      "published": "2026-05-22T20:01:52+00:00",
       "relevance_score": 0
     },
     {
