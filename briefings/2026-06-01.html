@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Crypto Custody &amp; Treasury Briefing — Week of June 1, 2026</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of June 1, 2026 &nbsp;·&nbsp; Covering May 26 – June 1</div>
+  </div>
+
+  <!-- Audio player block -->
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-06-01.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top 3 Takeaways -->
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+
+    <div style="display:flex;gap:14px;margin-bottom:16px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Key compromise is the attack vector of the week — three incidents, $6.4M drained</strong> — <em style="color:#57534e;">So what: Gravity Bridge ($5.4M), StakeDAO ($91K), and Alephium ($815K) all fell to private or signing key vulnerabilities in the same 7 days. Your platform's MPC/HSM architecture is no longer a differentiator to mention in passing — it's the product story institutions need right now. Quantify your key lifecycle controls and get them in front of prospects.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;margin-bottom:16px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Stablecoin rails are going mainstream faster than the policy framework can follow</strong> — <em style="color:#57534e;">So what: Cash App launched fee-free USDC transfers to 59 million users, Mastercard secured NY BitLicense for stablecoin settlement, and Circle showed it will freeze funds on a court order — trapping innocent DeFi depositors in the crossfire. Your institutional clients need a clear-eyed view of USDC's counterparty risk profile; make freeze/blacklist risk a first-class disclosure in your onboarding and compliance flows.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">TradFi infrastructure is tokenizing — DTCC and Paxos make it structural, not experimental</strong> — <em style="color:#57534e;">So what: DTCC selected Stellar to put DTC-custodied securities on a public blockchain (H1 2027), and Paxos became the first blockchain-native SEC-registered clearing agency. These are direct TAM expansions for custody platforms. Start scoping what it would take to custody tokenized securities and plug into clearing workflows — this is 18-month horizon, not 5-year.</em></div>
+    </div>
+  </div>
+
+  <!-- Section 1: Custody & Wallet Infrastructure -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Key management failures, bridge exploits, MPC/HSM relevance, and signing key security.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Gravity Bridge Drained of $5.4M in Suspected Signing Key Compromise</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Cosmos-based bridge was drained of USDC, ETH, USDT, and PAYG tokens after attackers apparently compromised a signing key. Validators halted the bridge mid-investigation; a portion was laundered through ChangeNow and Binance.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say" style="color:#0284c7;text-decoration:none;">The Block</a> &nbsp;·&nbsp; May 30, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Bridge architecture is a custody question — who controls the signing keys and how are they stored? This is a direct competitive talking point: your MPC threshold signing prevents any single key from being a single point of failure. Use this incident in sales conversations this week.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Alephium Bridge Loses $815K to Forged Guardian Messages</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Alephium's Wormhole-fork TokenBridge was drained on Ethereum and BNB Chain in ~7 minutes after an off-chain backend flaw allowed fraudulent guardian messages to bypass the 4-guardian verification network.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/alephium-bridge-815k-forged-guardian-messages" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; May 31, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Multi-guardian architectures are only as strong as their off-chain validation layer. For any cross-chain features your platform supports, the attack surface includes the message-passing layer, not just key storage. Worth a security review pass if you have any bridge integrations in the roadmap.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">StakeDAO Hit by Private Key Compromise, Attacker Mints 5.4 Trillion Tokens</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A compromised private key let an attacker forge a cross-chain message on Arbitrum, triggering unauthorized minting of vsdCRV tokens. Net loss was ~$91K but the attack surfaced cascading risk warnings across Curve Finance and Beefy Finance integrations.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/hacker-mints-5-4-trillion-tokens-in-stakedao-exploit-nets-usd91k" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; May 27, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Three key-compromise exploits in one week signals a systemic pattern, not isolated incidents. Institutions watching these headlines are looking for custody providers who can articulate their key management story with specifics — hardware, access controls, audit logs, and insurance.</div>
+    </div>
+  </div>
+
+  <!-- Section 2: Stablecoins & Payments -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">USDC distribution, settlement rails, freeze risk, and the legislative backdrop.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Cash App Launches Fee-Free USDC Transfers Across Four Chains</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Block's Cash App (59 million monthly active users) now supports sending and receiving USDC across four blockchain networks with no wallet setup required. Jack Dorsey framed stablecoins as an on-ramp to Bitcoin.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/tradfi-and-fintech/cash-app-goes-live-with-fee-free-usdc-transfers-framing-stablecoins-as-a-path-to-bitcoin" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; May 27, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> 59M retail users now have frictionless USDC access — this accelerates institutional demand for USDC settlement infrastructure. If your platform doesn't offer USDC settlement or USDC custody, the market is moving ahead of you. Track whether enterprise treasury clients start asking for USDC-denominated settlement options.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Mastercard Wins NY BitLicense, Deepening Push Into Stablecoin Settlement</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Mastercard, which processed nearly $11 trillion in volume last year, secured NY's BitLicense to settle transactions in digital assets. This is one of the most demanding state crypto licenses in the US.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/mastercard-wins-ny-bitlicense-deepening-push-into-stablecoin-settlement" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; May 27, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> When a $11T network gets a BitLicense to settle in stablecoins, it signals the payments industry is embedding crypto rails at scale. This is both a competitive signal (Mastercard is becoming a settlement infrastructure player) and a distribution opportunity — enterprise clients using Mastercard networks will expect their custodian to integrate with those rails.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Circle Court-Ordered Freeze Traps $12.6M in Zama's cUSDC — Innocent Depositors Locked Out</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A court-ordered restraining order in the Overnight Finance lawsuit caused Circle to blacklist Zama's confidential USDC wrapper contract. The privacy protocol isn't a defendant, but every depositor in the pooled contract is now locked out alongside the targeted funds ($12.6M frozen).</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/defi/circle-freeze-on-zamas-confidential-usdc-locks-12-6m-of-user-funds-in-defi-crossfire" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; May 30, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is the clearest real-world demonstration of USDC's centralized freeze risk to date — and it affected uninvolved users in a pooled contract. Your platform should explicitly document this risk for clients holding USDC in custody, and consider whether your product surfaces any pooled-asset exposure that could create similar collateral freezes.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Fed and Bank of England Clash Publicly on Stablecoin Viability</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Federal Reserve governor Christopher Waller said stablecoins expand the reach of US monetary policy; Bank of England's Megan Greene countered that their popularity will soon fade. Divergent G7 central bank views signal no near-term global framework consensus.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/us-uk-central-bankers-offer-contrary-views-on-stablecoins" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a> &nbsp;·&nbsp; May 31, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If your clients operate across jurisdictions, this regulatory fragmentation matters for how they hold and settle in stablecoins. The US is bullish; the UK is skeptical. Build your compliance disclosure to be jurisdiction-aware for stablecoin exposure.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Dimon Escalates Battle Against Stablecoin Yield in CLARITY Act Debate</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>JPMorgan CEO Jamie Dimon is publicly lobbying against provisions in the CLARITY Act that would allow stablecoin issuers to pay yield to holders, arguing banks "will not accept it."</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/policy/2026/05/29/the-banks-will-not-accept-it-dimon-escalates-battle-over-stablecoin-rewards-in-clarity-act-debate" style="color:#0284c7;text-decoration:none;">CoinDesk</a> &nbsp;·&nbsp; May 29, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The outcome of the yield-bearing stablecoin debate shapes the entire business model of stablecoin custody — whether clients will demand yield pass-through and whether your platform needs to support it. Watch the CLARITY Act closely; this is a potential product requirement trigger.</div>
+    </div>
+  </div>
+
+  <!-- Section 3: Treasury, RWA & Corporate Adoption -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenized securities, corporate Bitcoin, clearing infrastructure, and institutional flows.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">DTCC Picks Stellar for Tokenized Securities Rollout — DTC-Custodied Assets On-Chain by H1 2027</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The post-trade giant plans to make DTC-custodied assets available on the Stellar public blockchain in H1 2027, adding a second network to its growing tokenization strategy.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/dtcc-picks-stellar-for-tokenized-securities-rollout-as-multi-chain-push-expands" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; May 27, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> When DTCC tokenizes securities on Stellar, custody platforms need to be ready to hold those assets. This is an 18-month runway to scope tokenized-security custody support. Get a spike on Stellar integration and understand the qualified-custodian requirements for tokenized equities now.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Paxos Becomes First Blockchain-Native SEC-Registered Clearing Agency</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The SEC approved Paxos to clear and settle US stocks on blockchain, making it the only blockchain-native firm with SEC registered clearing agency status.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/369440/paxos-secures-sec-registration-as-clearing-agency" style="color:#0284c7;text-decoration:none;">Decrypt</a> &nbsp;·&nbsp; May 29, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Paxos is now a direct competitor in the institutional settlement layer — and a potential integration partner. Clearing on-chain means custody platforms that can interface with Paxos's clearing rails gain a significant workflow advantage for institutional clients doing securities settlement.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitcoin Treasury Space Called Out for "Carnival Barkers" Without Real Deployment Ability</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>BSTR co-founder Sean Bill publicly stated that many Bitcoin treasury companies lack the operational ability to actually deploy Bitcoin, calling out hype versus substance in the corporate treasury space.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/bitcoin-treasury-space-still-has-fair-share-of-carnival-barkers-bstr-founder" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a> &nbsp;·&nbsp; May 30, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is a sales and positioning signal. Corporate treasury clients doing due diligence on Bitcoin holdings want a custody partner that can demonstrate actual deployment infrastructure — not just announcements. Lead with your operational track record in BD conversations with treasury prospects.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Spot Bitcoin ETFs Log Record 10-Day Outflow Streak — Nearly $3B Redeemed</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Spot Bitcoin ETFs saw a record 10-consecutive-day outflow streak totaling nearly $3 billion. Ether ETFs bled for 14 straight sessions. Some analysts are calling it a contrarian indicator.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/spot-bitcoin-etfs-see-record-10-day-outflow-streak-analyst-calls-it-contrarian-indicator" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a> &nbsp;·&nbsp; May 30, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Large ETF outflows don't mean custody demand drops — they may mean assets are rotating from ETF wrappers to direct custody. This is worth tracking as a leading indicator: if institutional clients redeem ETF positions, some portion will seek direct Bitcoin custody. Monitor your inbound pipeline for this pattern.</div>
+    </div>
+  </div>
+
+  <!-- Section 4: Regulation & Policy -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">SEC actions, Treasury enforcement, landmark legislation, and CFTC market structure moves.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">US Treasury Seizes Nearly $1B in Iranian Crypto — Double the April Figure</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Treasury Secretary Scott Bessent disclosed the US has "outright grabbed" roughly $1 billion in Iranian crypto assets — double what was disclosed in April. The figure spans multiple seizure operations.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/us-has-seized-nearly-1-billion-in-iranian-crypto-treasury-secretary-says" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a> &nbsp;·&nbsp; May 30, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The scale of US crypto enforcement capability is growing. For custody platforms, this reinforces the importance of robust AML/sanctions screening in onboarding and transaction monitoring — any institutional client operating across borders needs to see your OFAC screening infrastructure.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Trump's Crypto Advocacy Is Now a Legislative Liability for the Industry</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Block reports that President Trump's association with crypto — including personal meme coins and the $TRUMP token controversy — is creating political headwinds for the GENIUS Act and CLARITY Act, the industry's two flagship legislation priorities.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/403083/crypto-champion-trump-may-be-jeopardizing-the-industrys-landmark-legislation" style="color:#0284c7;text-decoration:none;">The Block</a> &nbsp;·&nbsp; May 30, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If GENIUS Act or CLARITY Act stalls, the stablecoin regulatory framework your institutional clients are waiting for gets pushed out. Adjust your roadmap timeline assumptions for stablecoin custody features that depend on regulatory clarity — plan for a 6-12 month slip in the base case.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">CFTC Opens Door for Crypto Perpetual Futures in US — Kalshi and Coinbase Move First</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The CFTC approved Kalshi's Bitcoin perpetual futures contract — the first on a registered US exchange — and separately cleared Coinbase to route customers to its Deribit affiliate offshore. Together they open an onshore path for a product long pushed abroad.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/regulation/cftc-approves-first-us-regulated-bitcoin-perpetual-futures" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; May 29, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> US-regulated perps expand the product surface for institutional crypto clients — and their margin and collateral requirements mean more assets in custody. This is a medium-term demand signal for your platform: institutions trading US perps will need a custody counterparty for collateral management.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Argentine Prosecutors Run 90-Raid Crypto Fraud Sweep, Freeze $8M+ in USDT</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Buenos Aires prosecutors arrested 24 individuals and froze over $8M USDT across three fraud rings — fake trading apps, WhatsApp hijacks, and a Chinese-origin infostealer operation — in the province's largest crypto seizure to date.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/regulation/argentine-prosecutors-arrest-24-seize-8m-usdt-fake-coins" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; May 31, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> LatAm enforcement capacity is growing — and USDT is the dominant fraud vector. For any platform expansion into LatAm markets, robust KYC/AML and transaction monitoring for USDT flows are table stakes, not optional features.</div>
+    </div>
+  </div>
+
+  <!-- Section 5: Smart Contracts & Infrastructure -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚙️ Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Chain reliability, on-chain governance, and protocol infrastructure relevant to custody integrations.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Sui Suffers Back-to-Back Outages Totaling ~12 Hours in Two Days</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Sui went down for 5 hours 55 minutes on Thursday due to a bug in its "1.72 release," then suffered additional downtime the next day. The token fell 20% over the week.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/369464/sui-network-goes-down-second-straight-day-weekly-token-slide" style="color:#0284c7;text-decoration:none;">Decrypt</a> &nbsp;·&nbsp; May 29, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If your platform supports or plans to support Sui, this reliability record should trigger a review of your SLA commitments for that chain. Custody clients with Sui assets need to understand your incident response playbook when the underlying network is unavailable.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">DTCC–Stellar Announcement: How a Post-Trade Giant Chose a Public Blockchain</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>CoinDesk published a deep dive on DTCC's decision-making process for selecting Stellar — covering speed, compliance tooling, and institutional trust factors that put it ahead of alternative chains.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/05/31/how-stellar-became-part-of-dtcc-s-tokenization-push-for-wall-street-securities-onchain" style="color:#0284c7;text-decoration:none;">CoinDesk</a> &nbsp;·&nbsp; May 31, 2026</div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Read the full piece to understand what compliance and operational criteria DTCC used for chain selection — those same criteria are likely what your institutional clients will apply when evaluating multi-chain custody support. Stellar integration should move up the priority queue.</div>
+    </div>
+  </div>
+
+  <!-- Watch List -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">👀 Watch List for Next Week</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:14px;font-style:italic;">Items to monitor — not yet product-actionable but worth tracking.</div>
+    <div style="font-size:14px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">GENIUS Act / CLARITY Act floor movement</strong> — With Trump as a legislative liability, watch for procedural votes or committee markups that would signal timeline slippage. Key for stablecoin roadmap planning.</div>
+    <div style="font-size:14px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Gravity Bridge post-mortem</strong> — Forensics will determine whether the signing key was stored on infrastructure or exfiltrated. The attack methodology will inform best practices across bridge security and cross-chain custody design.</div>
+    <div style="font-size:14px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Circle / Zama freeze resolution</strong> — How and when innocent depositors get their $12.6M back will set a precedent for court-ordered USDC freezes. Watch for court filings and Circle communications.</div>
+    <div style="font-size:14px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Paxos clearing go-live timeline</strong> — Now SEC-approved, Paxos will announce its first live securities settlement on-chain. This triggers a concrete integration timeline for any custodian seeking to connect.</div>
+    <div style="font-size:14px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Bitcoin ETF outflow reversal</strong> — Analysts flagging the streak as a contrarian indicator. Monitor BlackRock IBIT flows; a reversal into inflows would signal institutional risk appetite returning.</div>
+  </div>
+
+  <!-- By the Numbers -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 14px;letter-spacing:-0.005em;">📊 By the Numbers</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;">
+      <div style="background:#f9f9f8;border-radius:8px;padding:14px 16px;text-align:center;">
+        <div style="font-size:24px;font-weight:700;color:#0a2540;">$6.4M</div>
+        <div style="font-size:12px;color:#78716c;margin-top:4px;">Lost to key-compromise exploits this week (3 incidents)</div>
+      </div>
+      <div style="background:#f9f9f8;border-radius:8px;padding:14px 16px;text-align:center;">
+        <div style="font-size:24px;font-weight:700;color:#0a2540;">$12.6M</div>
+        <div style="font-size:12px;color:#78716c;margin-top:4px;">USDC frozen by court order in Zama cUSDC contract</div>
+      </div>
+      <div style="background:#f9f9f8;border-radius:8px;padding:14px 16px;text-align:center;">
+        <div style="font-size:24px;font-weight:700;color:#0a2540;">~$1B</div>
+        <div style="font-size:12px;color:#78716c;margin-top:4px;">Iranian crypto seized by US Treasury (total disclosed)</div>
+      </div>
+      <div style="background:#f9f9f8;border-radius:8px;padding:14px 16px;text-align:center;">
+        <div style="font-size:24px;font-weight:700;color:#0a2540;">59M</div>
+        <div style="font-size:12px;color:#78716c;margin-top:4px;">Cash App monthly users now with access to USDC</div>
+      </div>
+      <div style="background:#f9f9f8;border-radius:8px;padding:14px 16px;text-align:center;">
+        <div style="font-size:24px;font-weight:700;color:#0a2540;">~$3B</div>
+        <div style="font-size:12px;color:#78716c;margin-top:4px;">Bitcoin ETF outflows over record 10-day streak</div>
+      </div>
+      <div style="background:#f9f9f8;border-radius:8px;padding:14px 16px;text-align:center;">
+        <div style="font-size:24px;font-weight:700;color:#0a2540;">H1 2027</div>
+        <div style="font-size:12px;color:#78716c;margin-top:4px;">DTCC target for DTC securities live on Stellar</div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;padding-bottom:24px;">Generated by the Crypto Research weekly automation &nbsp;·&nbsp; 133 items scanned across 9 sources &nbsp;·&nbsp; Week of June 1, 2026</footer>
+
+</div></body></html>
