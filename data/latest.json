@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-05T15:17:19.465101+00:00",
+  "generated_at": "2026-06-05T18:00:54.055158+00:00",
   "lookback_days": 8,
-  "total_items": 131,
+  "total_items": 128,
   "feed_status": [
     {
       "name": "CoinDesk",
       "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-      "kept": 25
+      "kept": 24
     },
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 20
+      "kept": 19
     },
     {
       "name": "Decrypt",
@@ -21,7 +21,7 @@
     {
       "name": "CoinTelegraph",
       "url": "https://cointelegraph.com/rss",
-      "kept": 25
+      "kept": 24
     },
     {
       "name": "The Defiant",
@@ -107,6 +107,19 @@
       "relevance_score": 3
     },
     {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "apxUSD Loses Dollar Peg as Bitcoin Slide Squeezes STRC-Backed Collateral",
+      "summary": "Apyx Finance's apxUSD stablecoin slipped to $0.94 after Bitcoin fell to $63K, the first concrete peg break in the chain linking Strategy's BTC treasury to on-chain dollar instruments.",
+      "link": "https://thedefiant.io/news/defi/apxusd-loses-dollar-peg-bitcoin-slide-strc-backed-collateral",
+      "published": "2026-06-05T16:09:35+00:00",
+      "relevance_score": 2
+    },
+    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -146,20 +159,6 @@
       "relevance_score": 2
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Immunefi says DeFi is ‘getting safer’ as exploit losses fall 74% from 2022 peak amid AI-driven security arms race",
-      "summary": "DeFi exploit losses fell 74% from the 2022 peak to $680 million in 2025, according to Immunefi, amid structural security shifts.",
-      "link": "https://www.theblock.co/post/403624/immunefi-says-defi-is-getting-safer-as-exploit-losses-fall-74-from-2022-peak-amid-ai-driven-security-arms-race?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-04T13:00:00+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -170,18 +169,6 @@
       "summary": "Deel is the first enterprise to combine Bridge, Privy, and Tempo in a single product, issuing a custom USD-denominated stablecoin for 1.5 million contractors across 150 countries, starting in Argentina.",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/deel-deploys-stripe-stablecoin-stack-dlusd-contractors",
       "published": "2026-06-03T21:18:10+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Tether Debuts Tokenized Gold Stablecoin Visa Card That Pays Out Crypto Rewards",
-      "summary": "Holders will be able to do more with their gold, instantly spending Tether's tokenized version anywhere Visa is accepted.",
-      "link": "https://decrypt.co/369972/tether-tokenized-gold-visa-stablecoin-card-pays-crypto-rewards",
-      "published": "2026-06-03T21:03:50+00:00",
       "relevance_score": 2
     },
     {
@@ -196,6 +183,122 @@
       "link": "https://thedefiant.io/converge/regulation/160-former-us-national-security-officials-tell-senate-to-pass-clarity-act-as-floor-talks-resume",
       "published": "2026-06-03T12:30:00+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Tom Lee's Ethereum Treasury BitMine Prices Preferred Shares With 9.5% Dividend",
+      "summary": "BitMine is borrowing from Strategy’s Bitcoin playbook, debuting its own preferred share in an upsized offering to raise funds to buy Ethereum.",
+      "link": "https://decrypt.co/370188/tom-lees-ethereum-treasury-bitmine-prices-preferred-shares",
+      "published": "2026-06-05T17:57:29+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Next up, taxes: Crypto tax legislation circulated ahead of House Ways and Means Committee hearing next week",
+      "summary": "As cryptocurrency-related bills from regulating stablecoins to the market as a whole take center stage — now comes how to tax those assets.",
+      "link": "https://www.theblock.co/post/403851/next-up-taxes-crypto-tax-legislation-circulated-ahead-of-house-ways-and-means-committee-hearing-next-week?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-05T16:55:40+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "BlackRock-backed tokenization firm Securitize clears key hurdle to go public on NYSE",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/05/blackrock-backed-tokenization-firm-securitize-clears-key-hurdle-to-go-public-on-nyse",
+      "published": "2026-06-05T16:46:28+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "‘Please stop the FUD’: Zcash treasury company Cypherpunk remains committed to accumulating 5% of ZEC supply",
+      "summary": "Shares of Cypherpunk Technologies plunged more than 40% following the disclosure of a critical bug that was recently patched in Zcash.",
+      "link": "https://www.theblock.co/post/403839/zcash-treasury-cypherpunk-remains-committed-accumulating-5-zec-supply?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-05T16:46:20+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Securitize clears SEC registration statement hurdle, sets path to NYSE listing as SECZ",
+      "summary": "Securitize's SPAC merger is expected to close shortly after a CEPT shareholder vote, if approved, later this month.",
+      "link": "https://www.theblock.co/post/403842/securitize-clears-sec-registration-statement-hurdle-sets-path-to-nyse-listing-as-secz?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-05T16:30:52+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "What Is Strategy (MSTR)? The Bitcoin Treasury Company",
+      "summary": "Software firm Strategy (formerly MicroStrategy) and its co-founder Michael Saylor have become synonymous with Bitcoin. Here’s what you need to know.",
+      "link": "https://decrypt.co/resources/what-is-strategy-microstrategy-mstr-the-bitcoin-treasury-company",
+      "published": "2026-06-05T16:15:02+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Saylor says Bitcoin needs ‘disciplined expansion’ as analysts weigh demand reset",
+      "summary": "Michael Saylor’s essay calls for Bitcoin to expand through banks, credit, securities and higher layers while preserving its base layer.",
+      "link": "https://cointelegraph.com/news/saylor-bitcoin-disciplined-expansion-demand-reset?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-05T16:09:40+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Government Stablecoin Payments Would Fuel 'Tax Evasion Economy,' Lawmaker Warns",
+      "summary": "Rep. Brad Sherman warned that allowing government payments in stablecoins would \"sanctify an alternative to the U.S. dollar.\"",
+      "link": "https://decrypt.co/370121/government-stablecoin-payments-would-fuel-tax-evasion-economy-lawmaker-warns",
+      "published": "2026-06-05T15:52:15+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Winklevoss-Backed Zcash Treasury Plunges Nearly 40% on ZEC Privacy Bug Concerns",
+      "summary": "Cypherpunk Technologies shares tumbled to their lowest point since March as jitters tied to a Zcash bug knocked the Winklevoss-backed firm.",
+      "link": "https://decrypt.co/370127/winklevoss-backed-zcash-treasury-plunges-nearly-40-zec-privacy-bug",
+      "published": "2026-06-05T15:49:08+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinTelegraph",
@@ -448,47 +551,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Travala unveils agentic AI travel protocol with gasless USDC payments on Base",
-      "summary": "Travala introduced an agentic AI travel protocol on Base supporting gasless USDC hotel bookings and AI-assisted payment execution.",
-      "link": "https://www.theblock.co/post/402860/travala-debuts-agentic-ai-travel-protocol-with-gasless-usdc-payments-on-base?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-04T14:00:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Visa, Brale test privacy-enabled SBC stablecoin settlement on Canton Network",
-      "summary": "Visa and Brale initiate a proof of concept testing SBC stablecoin settlement with privacy controls on the Canton Network.",
-      "link": "https://www.theblock.co/post/403658/visa-brale-test-privacy-enabled-sbc-stablecoin-settlement-on-canton-network?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-04T13:34:02+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Apex, Archax join Goldman Sachs tokenized real estate fund project",
-      "summary": "Apex Group is providing fund services for a tokenized real estate fund using Goldman Sachs’ GS DAP platform.",
-      "link": "https://cointelegraph.com/news/apex-group-tokenized-real-estate-fund-goldman-sachs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-04T13:25:56+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -617,6 +679,111 @@
       "relevance_score": 1
     },
     {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Dragonfly GP Tom Schmidt Calls Nova Markets Startup 'Huge Scammers,' Slams VCs",
+      "summary": "A Dragonfly Capital general partner partially walked back the attack on named investors. The founder responded by calling Schmidt a former backer turned hostile critic.",
+      "link": "https://thedefiant.io/news/people/dragonfly-gp-tom-schmidt-calls-nova-markets-startup-huge-scammers-slams-vcs",
+      "published": "2026-06-05T17:04:10+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Crypto Biz: Nobody told Saylor ‘never sell’",
+      "summary": "Strategy’s Bitcoin sale challenged the “never sell” narrative, while JPMorgan attacked CLARITY and Capital B pursued a huge fundraising plan for BTC.",
+      "link": "https://cointelegraph.com/news/strategy-bitcoin-sale-clarity-act-jpmorgan-capital-b-fundraising?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-05T17:04:07+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-05T16:55:50+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Bitcoin Dives Below $60K Following Strong Jobs Data, Zcash Crash Shaking Crypto Confidence",
+      "summary": "Bitcoin has now fallen more than 50% from its October peak, dipping below $60,000 as the crypto industry reckons with the Zcash vulnerability.",
+      "link": "https://decrypt.co/370120/bitcoin-dives-below-60k-first-time-2024-zcash-crash",
+      "published": "2026-06-05T16:15:42+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Crypto Council for Innovation launches coalition to push for regulatory clarity on vaults",
+      "summary": "A new coalition is forming, focused on crypto vaults, an increasingly popular mechanism for depositing digital assets and earning yield.",
+      "link": "https://www.theblock.co/post/403829/crypto-council-for-innovation-launches-coalition-to-push-for-regulatory-clarity-on-vaults?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-05T16:05:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "U.S. House tax committee weighs crypto bills, including relief for small transactions",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/06/05/u-s-house-tax-committee-weighs-crypto-bills-including-relief-for-small-transactions",
+      "published": "2026-06-05T15:49:13+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin teases 'seller exhaustion' as BTC price downside reaches $60.3K",
+      "summary": "Bitcoin sellers were losing steam, market analysis said as ongoing BTC price downside brought the market closer to $60,000.",
+      "link": "https://cointelegraph.com/markets/bitcoin-approaches-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-05T15:43:14+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Strategy’s Saylor says Bitcoin should avoid choosing between ‘purity and adoption’ as BTC extends losses",
+      "summary": "Strategy Exec Chairman Michael Saylor divided the Bitcoin ecosystem into four camps, saying that each serves a necessary role.",
+      "link": "https://www.theblock.co/post/403818/strategy-saylor-bitcoin-avoid-choosing-purity-adoption-btc-extends-losses?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-05T15:25:02+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -641,6 +808,19 @@
       "summary": "",
       "link": "https://www.coindesk.com/coindesk-news/2026/06/05/alsobrooks-says-clarity-act-needs-ethics-deal-before-senate-vote",
       "published": "2026-06-05T15:05:55+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin loses $60,000, falls to weakest price since October 2024",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/05/bitcoin-loses-usd60-000-falls-to-weakest-price-since-october-2024",
+      "published": "2026-06-05T15:02:28+00:00",
       "relevance_score": 0
     },
     {
@@ -1356,19 +1536,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-04T15:02:00+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1379,33 +1546,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/coindesk-indices/2026/06/03/crypto-for-advisors-the-crypto-due-diligence-questions-you-forgot-to-ask",
       "published": "2026-06-04T15:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Senate Republicans urged financial regulators to rework bank capital rules for digital assets",
-      "summary": "A group of Senate Republicans is pressing key financial regulatory agencies to clarify capital standards for digital assets.",
-      "link": "https://www.theblock.co/post/403671/senate-republicans-urged-financial-regulators-to-rework-bank-capital-rules-for-digital-assets?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-04T14:54:53+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Saylor downplays Bitcoin slide as Strategy faces $11B paper loss",
-      "summary": "Strategy’s Bitcoin paper loss tops $11 billion as Saylor pointed to ETF outflows and AI infrastructure spending as factors pressuring BTC.",
-      "link": "https://cointelegraph.com/news/strategys-unrealized-loss-soars-11b-standard-chartered-bottom-near?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-04T14:48:44+00:00",
       "relevance_score": 0
     },
     {
@@ -1447,72 +1587,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "‘The rally that wasn’t’: Bitcoin slides 14% in one week as ETF outflows, Strategy sale and oil prices hit sentiment",
-      "summary": "Bitcoin falls 13% to near $62K as Strategy's BTC sale, $4.2B in ETF outflows and macro headwinds pressure crypto markets.",
-      "link": "https://www.theblock.co/post/403659/the-rally-that-wasnt-bitcoin-slides-14-in-one-week-as-etf-outflows-strategy-sale-and-oil-prices-hit-sentiment?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-04T13:58:53+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Not all Ethereum layer 2s are dying, but many general-purpose chains no longer have a reason to exist",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/06/04/not-all-ethereum-layer-2s-are-dying-but-many-general-purpose-chains-no-longer-have-a-reason-to-exist",
-      "published": "2026-06-04T13:52:21+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Tom Lee’s $250,000 ether target: Here’s what math says about this crazy prediction",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/04/tom-lee-s-usd250-000-ether-target-runs-into-a-usd30-trillion-problem",
-      "published": "2026-06-04T13:30:02+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Ripple-linked XRP sinks 7% to four-month lows",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/04/ripple-linked-xrp-sinks-7-to-four-month-lows",
-      "published": "2026-06-04T13:18:32+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH), up 1.5%, is only gainer",
-      "summary": "",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/06/04/coindesk-20-performance-update-bitcoin-cash-bch-up-1-5-is-only-gainer",
-      "published": "2026-06-04T13:10:38+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1522,46 +1596,6 @@
       "summary": "Bitcoin has dropped 17% in four days, sparking $4.5 billion in liquidations, as analysts warn of a potential move below $60,000.",
       "link": "https://decrypt.co/369999/as-btc-tests-62000-how-low-can-bitcoin-go",
       "published": "2026-06-04T13:06:17+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Arthur Hayes dumps HYPE, NEAR as he warns of AI IPO wave",
-      "summary": "Arthur Hayes said he dumped his HYPE and NEAR holdings after warning markets may peak before September and AI IPOs could drain liquidity.",
-      "link": "https://cointelegraph.com/news/arthur-hayes-dumped-hype-near-holdings-mega-ai-ipos?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-04T13:04:25+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Cosmos Labs acquires block explorer Mintscan, forms Korea subsidiary to expand ecosystem",
-      "summary": "Cosmos Labs has acquired Cosmos block explorer Mintscan and formed a new Korea-based subsidiary, Cosmos Labs Korea.",
-      "link": "https://www.theblock.co/post/403652/cosmos-labs-acquires-mintscan-forms-korea-subsidiary?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-04T13:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Coinbase launches pre-IPO markets, starting with Elon Musk’s SpaceX",
-      "summary": "Coinbase launches pre-IPO markets starting with SpaceX, offering non-US users perpetual futures tied to private company valuations amid rising competition.",
-      "link": "https://cointelegraph.com/news/coinbase-launches-pre-ipo-markets-amid-crypto-push-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-04T12:48:03+00:00",
       "relevance_score": 0
     },
     {
@@ -1598,54 +1632,6 @@
       "summary": "A new study finds that leading AI models often encourage emotional attachment, portray themselves as human, and fail to maintain clear boundaries.",
       "link": "https://decrypt.co/369979/best-ai-models-harmful-intimacy-behavior-study",
       "published": "2026-06-03T21:58:25+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Cardano Slumps to 5-Year Low Price as Charles Hoskinson Warns of 'Wave of Failures'",
-      "summary": "Founder Charles Hoskinson was brutally honest about the troubles the Cardano ecosystem could face as the market continues declining.",
-      "link": "https://decrypt.co/369974/cardano-slumps-5-year-low-price-charles-hoskinson-warns-failures",
-      "published": "2026-06-03T21:20:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "AI Lawyers Are Already Better Than Law Professors at Reasoning—Say Law Professors",
-      "summary": "Researchers found professors preferred AI-generated answers over those written by their peers, raising questions about the role of AI in professional education.",
-      "link": "https://decrypt.co/369951/ai-lawyers-better-law-professors-reasoning-stanford",
-      "published": "2026-06-03T20:40:49+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Hermes Ends AI Agent Terminal Era With Release of Official Desktop App",
-      "summary": "Until now, the only way to run Hermes was through a terminal—or one of several unofficial GUIs the community had cobbled together.",
-      "link": "https://decrypt.co/369952/hermes-ai-agent-official-app-terminal",
-      "published": "2026-06-03T20:28:37+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Someone Just Redeemed a 15-Year-Old Physical Bitcoin, Scoring $1.78 Million in BTC",
-      "summary": "Physical Casascius coins were minted 15 years ago in the early days of Bitcoin—and the BTC held within is worth a whole lot more today.",
-      "link": "https://decrypt.co/369947/someone-redeemed-15-year-old-physical-bitcoin-scoring-1-78-million",
-      "published": "2026-06-03T20:21:13+00:00",
       "relevance_score": 0
     },
     {
@@ -1750,32 +1736,6 @@
       "summary": "The Sui Foundation's post-mortem ties two of three outages to an edge case in the v1.72 address-balances feature, and the third to a randomness-state bug exposed by an interim fix the team shipped knowing it carried halt risk.",
       "link": "https://thedefiant.io/news/blockchains/sui-blames-triple-mainnet-halt-gas-charging-bug-known-risk-patch",
       "published": "2026-06-02T20:53:09+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Polymarket Books First On-Chain Institutional Block Trade",
-      "summary": "A six-figure trade settled against the Ornn Compute Price Index pushes the world's largest prediction market into TradFi-style risk transfer, with FalconX signing on as a dedicated market maker for future blocks.",
-      "link": "https://thedefiant.io/news/tradfi-and-fintech/polymarket-books-first-on-chain-institutional-block-trade",
-      "published": "2026-06-02T20:49:28+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Bad Sentiment, Strong Fundamentals: the Institutional Turn | Chris Perkins, Franklin Crypto",
-      "summary": "Crypto is entering a new phase — and institutions, not retail, are driving it. As regulatory clarity arrives, the largest institutions in the world are moving from the sidelines into the market. The thesis from our guest: sentiment is poor, but fundamentals are improving; a coiled spring.",
-      "link": "https://thedefiant.io/converge/podcast/bad-sentiment-strong-fundamentals-the-institutional-turn-or-chris-perkins-franklin-crypto",
-      "published": "2026-06-02T17:43:53+00:00",
       "relevance_score": 0
     }
   ]
