@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Crypto Custody &amp; Treasury Briefing — Week of June 8, 2026</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of June 8, 2026 &nbsp;·&nbsp; 129 items reviewed &nbsp;·&nbsp; 20 selected</div>
+  </div>
+
+  <!-- Audio player block -->
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-06-08.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top 3 Takeaways -->
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+
+    <div style="display:flex;gap:14px;margin-bottom:16px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">The big banks just announced their stablecoin counterplay</strong> — JPMorgan, Citi, BofA, and Wells Fargo are building a shared tokenized deposit network targeting H1 2027. <em style="color:#57534e;">So what: TradFi isn't ceding the stablecoin lane — they're building their own on-chain rails. Custody platforms that can serve both bank-issued tokenized deposits and independent stablecoins are the connective tissue this ecosystem needs. Start mapping which of your institutional clients are in the Clearing House network.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;margin-bottom:16px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">AI found a 4-year-old zero-day in ZCash — and it will find yours next</strong> — Anthropic's Claude Opus surfaced a critical exploit in ZCash's privacy protocol that had gone undetected for four years. <em style="color:#57534e;">So what: AI-assisted auditing just became a real threat vector and a real moat. Custody platforms that proactively red-team their smart contracts, key-management logic, and wallet code with frontier LLMs will surface risks before bad actors do. This is table-stakes security hygiene by 2027.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">GENIUS Act passes, but the security spec is a blank page</strong> — The US now has a federal framework for payment stablecoins, but OpenZeppelin flags it is intentionally vague on technical security standards for issuers. <em style="color:#57534e;">So what: Whoever writes the de-facto security playbook for GENIUS-compliant stablecoin custody becomes the reference architecture for the industry. There is a product and partnership opportunity here — don't wait for a regulator to define this for you.</em></div>
+    </div>
+  </div>
+
+  <!-- Section 1: Custody & Wallet Infrastructure -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">AI-assisted auditing, exploit disclosures, admin key security, qualified-custodian movements.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">AI Models Are Finding Crypto's Biggest Bugs — Industry Isn't Ready</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Anthropic's Claude Opus 4.8 helped discover a critical, four-year-old vulnerability in ZCash's privacy protocol. The ZCash team hired a security researcher who used the frontier model to surface the exploit — extent of exposure still unknown at time of reporting. Experts warn crypto infrastructure broadly is underprepared for AI-speed vulnerability discovery.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/370232/frontier-ai-models-find-crypto-bugs-industry-isnt-ready" style="color:#0284c7;text-decoration:none;">Decrypt</a> &nbsp;·&nbsp; <a href="https://decrypt.co/370112/morning-minute-massive-zcash-exploit-found-by-claude-extent-unknown" style="color:#0284c7;text-decoration:none;">Decrypt (ZCash story)</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If a hired researcher using a consumer AI model can unearth a critical custodial vulnerability that sat dormant for four years, so can a malicious actor. Time to scope an AI-assisted security review of your wallet and key-management code.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">GENIUS Act Sets the Stage — But Who Writes the Security Playbook?</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>OpenZeppelin published a deep-dive noting that the GENIUS Act, now signed into US law, establishes a federal framework for payment stablecoins but deliberately leaves technical security requirements vague. Stablecoin issuers must meet "adequate" security standards — but no one has defined what "adequate" means in practice.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.openzeppelin.com/news/the-genius-act-sets-the-stage.-but-who-writes-the-security-playbook" style="color:#0284c7;text-decoration:none;">OpenZeppelin Blog</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The first qualified custodians to publish a detailed GENIUS-compliant security framework will become the de-facto standard and preferred partner for stablecoin issuers who need to demonstrate compliance. This is a product positioning moment.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">DxSale Lockers Drained $7.3M via Admin Key Exploit Across 1,400 BNB Chain Pools</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A dormant 2021-era launchpad contract on BNB Chain was exploited through a quiet ownership transfer and a one-wei fee reset, draining $7.3M across 1,400 liquidity pools. This is the latest in a string of admin-key exploits on BNB Chain where privileged contract roles are the primary attack surface.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/old-dxsale-lockers-drained-for-7-3m-across-1-400-bnb-chain-pools-as-owner-privil" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Admin key management and privileged role rotation remain the weakest link in smart contract custody. Audit your contracts for dormant admin roles and ensure time-locks or multi-sig requirements on any ownership-transfer functions.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Forward Industries Moves $32M in SOL to Coinbase Prime Amid $1B Paper Loss</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Forward Industries, a corporate Solana treasury firm, transferred $31.9M in SOL to Coinbase Prime as its position sits over 70% underwater — underscoring the growing strain on smaller treasury companies that bet heavily on altcoins during 2025's run-up.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/forward-industries-moves-319m-in-sol-to-coinbase-prime-amid-113b-paper-loss" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Stressed treasury companies moving large positions to prime brokers signal a wave of custody consolidation. These clients need active treasury reporting dashboards and rebalancing tools — a product expansion worth scoping.</div>
+    </div>
+  </div>
+
+  <!-- Section 2: Stablecoins & Payments -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Enterprise stablecoin deployments, payment rail integrations, privacy-enabled settlement.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Deel Deploys Stripe's Full Stablecoin Stack to Pay 1.5M Contractors in DLUSD</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Deel, the HR and payroll platform, became the first enterprise to combine Stripe's Bridge, Privy, and Tempo products in a single stack, issuing a custom USD-denominated stablecoin (DLUSD) to pay 1.5 million contractors across 150 countries, starting in Argentina.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/deel-deploys-stripe-stablecoin-stack-dlusd-contractors" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Enterprise-branded stablecoins are becoming a real product category — each one needs a custody layer for reserve management and compliance. This is a warm intro opportunity for your enterprise sales team targeting large payroll platforms.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Visa and Brale Test Privacy-Enabled Stablecoin Settlement on Canton Network</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Visa is piloting settlement using Brale's SBC stablecoin on Canton Network — a privacy-preserving institutional DLT — to test whether blockchain settlement can meet bank-grade compliance requirements without exposing sensitive transaction data to other network participants.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/visa-and-brale-test-privacy-enabled-sbc-stablecoin-settlement-on-canton-network" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; <a href="https://cointelegraph.com/news/visa-tests-private-stablecoin-settlement-as-institutions-push-blockchain-privacy" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Privacy-preserving settlement is emerging as an institutional requirement, not a nice-to-have. Your custody platform's ability to support confidential transactions (Canton, Hyperledger Besu, or similar) will increasingly be a differentiator for Tier-1 financial institution clients.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Western Union Deploys USDPT on Bybit's Fiat Channels Across Latin America</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Western Union made its USDPT stablecoin available on Bybit's fiat channels in Latin America, making Bybit the first major crypto exchange to integrate USDPT — arriving two days after MoneyGram launched its own rival dollar token on Stellar. The legacy remittance giants are in a stablecoin race.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/western-union-usdpt-bybit-fiat-channels-latin-america" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Multiple branded stablecoins from the same issuer category (remittance) means more fragmentation for custody platforms to support. Consider a stablecoin abstraction layer that lets institutional clients hold and settle any dollar-pegged asset without custom integration work per token.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Revolut Plans 2027 US Bank Launch With Stablecoins Built In From Day One</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Revolut (70M customers, $75B valuation) plans to launch as a US bank in 2027, combining FDIC-insured accounts with stablecoin access on a single platform. This is a tier-one fintech making stablecoins a first-class citizen of a chartered bank, not a bolt-on.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/revolut-plans-2027-us-bank-launch-stablecoin-services-day-one" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Revolut entering the US market as a bank with stablecoin services built in is a meaningful competitive signal — they will need a custody backend for the stablecoin reserve side of that product. Track their vendor selection process as a potential enterprise sales target.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Meta Paying Creators in Stablecoins — Spending Them Is Someone Else's Problem</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Meta has begun paying content creators in stablecoins, but CoinDesk's analysis points out that Meta has solved the issuance side while leaving the spending/conversion infrastructure gap wide open. Creators are earning stablecoins with limited off-ramp options built into the Meta experience.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/opinion/2026/06/06/meta-is-paying-creators-in-stablecoins-spending-them-is-someone-else-s-problem" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The "stablecoin issuance without spending rails" gap is a custody and treasury management problem at scale. Platforms that can offer compliant custody + off-ramp for creator economy stablecoins have an underserved market opening.</div>
+    </div>
+  </div>
+
+  <!-- Section 3: Treasury, RWA & Corporate Adoption -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenized deposits, corporate BTC/ETH treasury stress, RWA tokenization milestones.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">JPMorgan, Citi, BofA, Wells Fargo Plan Shared Tokenized Deposit Network for H1 2027</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Clearing House (backed by JPMorgan, Citi, Bank of America, Wells Fargo and more than a dozen peers) has announced a joint initiative to put commercial bank deposits on-chain, explicitly positioning it as a response to growing stablecoin competition from fintechs. Target launch: H1 2027.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/four-major-us-banks-and-the-clearing-house-plan-shared-tokenized-deposit-network" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; <a href="https://cointelegraph.com/news/jpmorgan-citi-bank-of-america-launch-tokenized-deposit-system-2027" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is the single biggest institutional on-chain signal of 2026. A shared bank-deposit network means your institutional clients will soon have tokenized fiat sitting on public or permissioned rails — they will need a custody platform that can hold, settle, and audit both crypto-native assets and bank-issued tokenized deposits from a single interface.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Securitize Clears SEC Registration Hurdle, Sets Path to NYSE Listing as SECZ</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>BlackRock-backed tokenization firm Securitize cleared its SEC registration statement, opening a path to an NYSE listing via a SPAC merger (expected to close after a shareholder vote later this month). Securitize manages tokenized versions of real-world assets including BlackRock's BUIDL fund.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/06/05/blackrock-backed-tokenization-firm-securitize-clears-key-hurdle-to-go-public-on-nyse" style="color:#0284c7;text-decoration:none;">CoinDesk</a> &nbsp;·&nbsp; <a href="https://www.theblock.co/post/403842/securitize-clears-sec-registration-statement-hurdle-sets-path-to-nyse-listing-as-secz" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Securitize going public validates the RWA tokenization market at scale — and as a public company it will need audited custody solutions for its growing AUM. This is also a benchmark moment for competitor positioning in the tokenized securities custody space.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">BitMine Files for $300M Preferred Stock at 9.5% Yield to Expand ETH Treasury</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>BitMine filed a 424B5 to raise up to $300M through Series A Perpetual Preferred Stock at a 9.5% cumulative dividend — applying Strategy's STRC capital-markets playbook to an Ethereum treasury that currently sits on $9.2B in unrealized losses. ETF outflow streak (13 consecutive days, $4.4B total) and BTC sliding toward $63K are straining all treasury company balance sheets.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/tradfi-and-fintech/bitmine-files-300m-preferred-stock-offering-9-5-yield-eth-treasury" style="color:#0284c7;text-decoration:none;">The Defiant</a> &nbsp;·&nbsp; <a href="https://thedefiant.io/news/markets/spot-bitcoin-etf-outflow-streak-record-13-days" style="color:#0284c7;text-decoration:none;">The Defiant (ETF outflows)</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Corporate crypto treasuries are under real balance-sheet pressure. Clients holding BTC/ETH treasury positions need real-time unrealized P&amp;L reporting, collateral management tools, and automated alerts for margin/covenant thresholds — these are product gaps your platform should be filling right now.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Kraken and Bybit Offer Tokenized SpaceX IPO Access via xStocks</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Kraken and Bybit are offering eligible users in 110+ markets access to tokenized SpaceX pre-IPO equity via the xStocks framework (built on Backed Finance, which Kraken acquired in late 2025). Coinbase also launched USDC-settled perpetual futures on SpaceX valuations through its Bermuda entity.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/403893/bybit-follows-kraken-in-offering-tokenized-spacex-ipo-access-via-xstocks" style="color:#0284c7;text-decoration:none;">The Block</a> &nbsp;·&nbsp; <a href="https://thedefiant.io/news/cefi/coinbase-launches-pre-ipo-perpetual-futures-spacex" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Tokenized equities are becoming a mainstream exchange product. Custody platforms that can support tokenized stocks alongside crypto will have a clear advantage as institutional clients want multi-asset portfolios on a single custody rail.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">apxUSD Loses Dollar Peg as BTC Slide Squeezes STRC-Backed Collateral</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Apyx Finance's apxUSD slipped to $0.94 after Bitcoin fell to $63K — the first concrete peg break in the chain linking Strategy's BTC treasury to on-chain dollar instruments. This illustrates the systemic risk of stablecoins collateralized by correlated volatile assets.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/defi/apxusd-loses-dollar-peg-bitcoin-slide-strc-backed-collateral" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If your clients hold or custody BTC-backed synthetic dollar instruments, this is a live stress test of those collateral models. Ensure your risk dashboard flags synthetic stablecoin depeg events and the underlying collateral ratios in real time.</div>
+    </div>
+  </div>
+
+  <!-- Section 4: Regulation & Policy -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">GENIUS Act implementation, EU tokenized deposit rules, US crypto tax legislation, token freeze governance.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">ECB Calls for EU Tokenized Deposit Regulation to Prevent Fragmentation</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>ECB Executive Board member Piero Cipollone told the European Parliament's ECON committee that public sector involvement in wholesale tokenized finance is "extremely important," warning that without EU-level regulation of tokenized deposits, the market will fragment across member state regimes and the ECB will lose its window to shape the infrastructure.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.ledgerinsights.com/ecb-highlights-need-for-eu-tokenized-deposit-regulation-to-avoid-fragmentation/" style="color:#0284c7;text-decoration:none;">Ledger Insights</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> EU tokenized deposit regulation is now a when, not an if. Begin mapping your EU regulatory framework roadmap — especially if you custody assets for European banks or plan to serve the EU market when the Clearing House-style tokenized deposit network equivalents launch in Europe.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Crypto Tax Legislation Circulated Ahead of House Ways and Means Committee Hearing</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Draft crypto tax legislation has been circulated ahead of a House Ways and Means Committee hearing. The bills address how digital assets are taxed — including treatment of staking rewards, DeFi transactions, and corporate treasury holdings — as Congress moves to close the policy stack after the GENIUS Act.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/403851/next-up-taxes-crypto-tax-legislation-circulated-ahead-of-house-ways-and-means-committee-hearing-next-week" style="color:#0284c7;text-decoration:none;">The Block</a> &nbsp;·&nbsp; <a href="https://www.coindesk.com/policy/2026/06/07/a-quick-review-of-the-ways-and-means-tax-bills-state-of-crypto" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Tax reporting and cost-basis tracking for institutional clients is about to get far more complex. If your platform doesn't yet have a compliant tax-lot accounting layer (FIFO/HIFO/specific-ID) with export to standard reporting formats, that roadmap item just moved up in priority.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">HTX Delists Trump's USD1 Token After World Liberty Freezes Exchange Addresses</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Justin Sun's HTX exchange delisted and suspended USD1, the Trump family's stablecoin issued by World Liberty Financial, after World Liberty froze HTX's wallet addresses on-chain. The freeze — a unilateral admin action — highlights the governance and counterparty risks of politically-connected stablecoin issuers.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/justin-suns-htx-delists-trump-familys-usd1-amid-freeze-fight" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Stablecoin freeze authority is a custody due-diligence issue — issuers can unilaterally freeze client assets. Ensure your client onboarding process for custodying any stablecoin includes a review of the issuer's freeze governance policies and smart contract admin controls.</div>
+    </div>
+  </div>
+
+  <!-- Section 5: Smart Contracts & Infrastructure -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚙️ Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Cross-chain bridging, interoperability standards, protocol migrations.</div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Chainlink CCIP Draws $1.1B in One Week as LayerZero Migration Wave Continues</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Chainlink's Cross-Chain Interoperability Protocol (CCIP) drew over $1.1 billion in token value in a single week as Virtuals Protocol, Pleasing Market, and Zest Protocol joined a migration away from LayerZero following April's Kelp DAO exploit. Total value migrated to CCIP since the exploit: ~$5 billion.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/defi/chainlink-ccip-draws-usd1-1-billion-in-value-in-one-week-as-virtuals-join-migration-wave" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> CCIP is rapidly becoming the institutional-grade cross-chain standard — especially for custody-adjacent flows like cross-chain asset transfers and DeFi collateral movements. If your platform supports cross-chain transactions, evaluate whether your bridge provider is on the right side of this market-structure shift.</div>
+    </div>
+
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">0x Opens Cross-Chain API to All Developers With 12 Bridge Partners on Day One</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>0x Protocol opened its Cross-Chain API to general availability with 12 bridge providers — including Circle, LayerZero, Stargate, and Across — accessible through a single API integration. The product abstracts bridge selection and routing, optimizing for cost, speed, and security per transaction.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/defi/0x-opens-cross-chain-api-general-availability-12-bridge-partners" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Bridge aggregation APIs reduce the integration burden for custody platforms wanting to offer cross-chain asset movement without managing bridge risk per-provider. Worth evaluating as a backend option if your platform's cross-chain UX is currently fragmented.</div>
+    </div>
+  </div>
+
+  <!-- Watch List -->
+  <div style="background:#fff8ed;border:1px solid #fed7aa;border-radius:10px;padding:20px 24px;margin-bottom:18px;">
+    <h2 style="font-size:16px;font-weight:600;margin:0 0 12px;color:#92400e;">👀 Watch List — Next 2 Weeks</h2>
+    <div style="font-size:13.5px;color:#78350f;line-height:1.7;">
+      <div style="margin-bottom:8px;"><strong>House Ways and Means crypto tax hearing</strong> — Watch for cost-basis methodology and staking reward tax treatment. Directly impacts your tax reporting product requirements.</div>
+      <div style="margin-bottom:8px;"><strong>Securitize SPAC shareholder vote (late June)</strong> — If approved, sets the RWA custody competitive landscape. Track their custody partner announcements post-listing.</div>
+      <div style="margin-bottom:8px;"><strong>Strategy STRC dividend vote (closes this week)</strong> — Signal of institutional appetite for leveraged BTC treasury equity. Monitor for copycat treasury companies increasing custody demand.</div>
+      <div style="margin-bottom:8px;"><strong>Clearing House tokenized deposit network tech specs</strong> — Expect more detail on the on-chain architecture (likely a permissioned chain). Your interoperability roadmap should be planning for this network.</div>
+      <div><strong>GENIUS Act technical guidance</strong> — Treasury / OCC rulemaking on stablecoin issuer security requirements. First agency guidance will establish the audit and custody standards your platform must meet.</div>
+    </div>
+  </div>
+
+  <!-- By the Numbers -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:16px;font-weight:600;margin:0 0 14px;">📊 By the Numbers</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;">
+      <div style="text-align:center;padding:14px;background:#f9fafb;border-radius:8px;">
+        <div style="font-size:22px;font-weight:700;color:#0a2540;">$4.4B</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">Bitcoin ETF cumulative outflows over 13-day streak</div>
+      </div>
+      <div style="text-align:center;padding:14px;background:#f9fafb;border-radius:8px;">
+        <div style="font-size:22px;font-weight:700;color:#0a2540;">$5B</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">Total value migrated to Chainlink CCIP since April exploit</div>
+      </div>
+      <div style="text-align:center;padding:14px;background:#f9fafb;border-radius:8px;">
+        <div style="font-size:22px;font-weight:700;color:#0a2540;">1.5M</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">Contractors now paid via Deel's DLUSD stablecoin stack</div>
+      </div>
+      <div style="text-align:center;padding:14px;background:#f9fafb;border-radius:8px;">
+        <div style="font-size:22px;font-weight:700;color:#dc2626;">$0.94</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">apxUSD depeg low — BTC-backed stablecoin stress signal</div>
+      </div>
+      <div style="text-align:center;padding:14px;background:#f9fafb;border-radius:8px;">
+        <div style="font-size:22px;font-weight:700;color:#0a2540;">$7.3M</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">Drained via DxSale admin key exploit across 1,400 pools</div>
+      </div>
+      <div style="text-align:center;padding:14px;background:#f9fafb;border-radius:8px;">
+        <div style="font-size:22px;font-weight:700;color:#0a2540;">4 yrs</div>
+        <div style="font-size:12px;color:#6b7280;margin-top:4px;">ZCash exploit went undetected before AI-assisted discovery</div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation &nbsp;·&nbsp; 129 items reviewed &nbsp;·&nbsp; Week of June 8, 2026</footer>
+
+</div></body></html>
