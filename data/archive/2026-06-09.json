@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-09T18:12:51.841164+00:00",
+  "generated_at": "2026-06-09T21:52:22.281785+00:00",
   "lookback_days": 8,
-  "total_items": 132,
+  "total_items": 131,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 19
+      "kept": 18
     },
     {
       "name": "Decrypt",
@@ -108,6 +108,19 @@
       "relevance_score": 3
     },
     {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Securitize CEO says tokenized stocks could unlock a $5 trillion crypto market",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/09/securitize-ceo-says-tokenized-stocks-could-unlock-a-usd5-trillion-crypto-market",
+      "published": "2026-06-09T19:49:28+00:00",
+      "relevance_score": 2
+    },
+    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -173,17 +186,67 @@
       "relevance_score": 2
     },
     {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Seattle-Area Man Gets Prison for Laundering Foreign Fraud Funds With Bitcoin, Ethereum",
+      "summary": "The fraudster took in nearly $100 million from victims before laundering funds via Bitcoin, Ethereum, and stablecoins.",
+      "link": "https://decrypt.co/370576/seattle-man-prison-laundering-foreign-fraud-funds-bitcoin-ethereum",
+      "published": "2026-06-09T20:26:11+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "AI Malware Worm Adapts to New Targets in Real Time, Cybersecurity Experts Say",
+      "summary": "Researchers demonstrated an AI-powered worm that adapts to targets, generates attack strategies, and spreads across networks without cloud services.",
+      "link": "https://decrypt.co/370557/ai-malware-worm-adapts-targets-cybersecurity",
+      "published": "2026-06-09T19:03:05+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Anthropic Rolls Out Claude Mythos 5 AI Model—Along With the Safer Fable 5 for the Public",
+      "summary": "Anthropic has released a full version of its cybersecurity-centric Claude Mythos model—along with a safer version for the general public.",
+      "link": "https://decrypt.co/370556/anthropic-rolls-out-claude-mythos-5-ai-model-safer-fable-public",
+      "published": "2026-06-09T18:38:37+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Hyperliquid advocate and Paradigm urge US to revise proposed anti-money laundering rule",
+      "summary": "The Hyperliquid-backed lobby group and Paradigm seek to prevent rules that would limit decentralized stablecoin usage on public blockchains.",
+      "link": "https://www.theblock.co/post/404159/hyperliquid-advocate-paradigm-urge-us-revise-proposed-anti-money-laundering-rule?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-09T18:37:53+00:00",
+      "relevance_score": 1
+    },
+    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
         "defi",
         "smart-contracts"
       ],
-      "title": "apxUSD Loses Dollar Peg as Bitcoin Slide Squeezes STRC-Backed Collateral",
-      "summary": "Apyx Finance's apxUSD stablecoin slipped to $0.94 after Bitcoin fell to $63K, the first concrete peg break in the chain linking Strategy's BTC treasury to on-chain dollar instruments.",
-      "link": "https://thedefiant.io/news/defi/apxusd-loses-dollar-peg-bitcoin-slide-strc-backed-collateral",
-      "published": "2026-06-05T16:09:35+00:00",
-      "relevance_score": 2
+      "title": "Polymarket World Cup Winner Markets Cross $1.8B in Volume as France-Spain Group Stage Opens",
+      "summary": "Polymarket's 2026 FIFA World Cup prediction markets have accumulated more than $1.8 billion in cumulative trading volume as the tournament's group stage gets underway, with France and Spain trading as the narrowest co-favorites.",
+      "link": "https://thedefiant.io/news/defi/polymarket-world-cup-winner-markets-1-8b-volume-france-spain",
+      "published": "2026-06-09T17:59:37+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinTelegraph",
@@ -196,6 +259,19 @@
       "summary": "Bitwise research suggests that Bitcoin is leading a broader risk-off move across markets as global liquidity and stablecoin reserves remain elevated.",
       "link": "https://cointelegraph.com/markets/bitcoin-may-act-as-a-canary-in-the-coal-mine-as-risk-off-pressure-spreads-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-06-09T17:48:44+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Aave Proposes Protocol-Wide Risk Framework After KelpDAO Exploit",
+      "summary": "LlamaRisk has submitted two Aave governance proposals covering a four-layer protocol-wide risk standard and a PT oracle upgrade to Chainlink CRE. Founder Stani Kulechov says assets that fail the new standard will be off-boarded.",
+      "link": "https://thedefiant.io/news/defi/aave-proposes-protocol-wide-risk-framework-after-kelpdao-exploit",
+      "published": "2026-06-09T17:39:47+00:00",
       "relevance_score": 1
     },
     {
@@ -511,30 +587,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Strategy Buys Bitcoin, Pads Cash Reserves Following Biggest Weekly Stock Drop Since 2022",
-      "summary": "Strategy’s stockpile was $10.7 billion underwater as of Monday morning after Bitcoin hit its lowest price since October 2024.s",
-      "link": "https://decrypt.co/370309/strategy-buys-bitcoin-pads-cash-reserves-biggest-weekly-drop-2022",
-      "published": "2026-06-08T13:46:18+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "MetaMask Launches AI Agent Wallet With Built-In Security Controls",
-      "summary": "MetaMask's new self-custodial wallet is designed to let AI agents trade across DeFi while keeping users in control of funds and approvals.",
-      "link": "https://decrypt.co/370239/metamask-launches-ai-agent-wallet-security-controls",
-      "published": "2026-06-08T13:01:03+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -561,17 +613,91 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
+      "source": "Decrypt",
       "tier": 1,
       "topics": [
-        "defi",
-        "smart-contracts"
+        "general"
       ],
-      "title": "Major US Banks Including JPMorgan, Citi and BofA Plan Shared Tokenized Deposit Network",
-      "summary": "JPMorgan, Citi, Bank of America, Wells Fargo, and more than a dozen peers have announced a joint initiative to put commercial bank deposits onchain, operated by The Clearing House and targeting a first-half 2027 launch.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/four-major-us-banks-and-the-clearing-house-plan-shared-tokenized-deposit-network",
-      "published": "2026-06-05T16:41:00+00:00",
-      "relevance_score": 1
+      "title": "Crypto Tax Bills Face Pushback in House Committee Hearing",
+      "summary": "Pro-crypto Democrats questioned staking and mining tax exemptions Tuesday, while party leadership said the bills may need to wait until after the midterms.",
+      "link": "https://decrypt.co/370599/crypto-tax-bills-pushback-house-committee",
+      "published": "2026-06-09T21:44:38+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Crypto tax bills a work-in-progress as U.S. House lawmakers pose concerns",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/06/09/crypto-tax-bills-a-work-in-progress-as-u-s-house-lawmakers-pose-concerns",
+      "published": "2026-06-09T21:06:01+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "EU Orders Meta to Open WhatsApp to Rival AI Chatbots—Meta Calls It 'Regulatory Overreach'",
+      "summary": "The European Commission has issued interim measures forcing Meta to restore third-party AI access to the WhatsApp Business API within five days.",
+      "link": "https://decrypt.co/370580/eu-orders-meta-open-whatsapp-rival-ai-chatbots",
+      "published": "2026-06-09T20:36:20+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "December Trial Date Set for US Soldier Accused of Insider Trading on Polymarket",
+      "summary": "The insider trading case is the government's first to center on prediction markets.",
+      "link": "https://decrypt.co/370571/december-trial-date-us-soldier-insider-trading-polymarket",
+      "published": "2026-06-09T20:09:50+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Solana Institute CEO says CLARITY Act must shield open-source developers",
+      "summary": "Kristin Smith urged the Senate to preserve developer protections in the CLARITY Act, arguing open-source builders should not be regulated as financial intermediaries.",
+      "link": "https://cointelegraph.com/news/solana-institute-ceo-clarity-act-developer-protections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-09T20:05:52+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "A Quantum Clock Is Ticking for Bitcoin and Crypto—Here's How Stellar Is Preparing",
+      "summary": "The Stellar Development Foundation unveiled a three-step roadmap to prepare the XLM network for the coming quantum computing threat.",
+      "link": "https://decrypt.co/370570/quantum-clock-ticking-bitcoin-crypto-how-stellar-preparing",
+      "published": "2026-06-09T19:49:05+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Bitcoin investor says he stopped paying taxes to stack more BTC",
+      "summary": "Despite the legal risks, an investor bragged about delaying his tax payments over three years to buy more BTC. The post Bitcoin investor says he stopped paying taxes to stack more BTC appeared first on Protos .",
+      "link": "https://protos.com/bitcoin-investor-says-he-stopped-paying-taxes-to-stack-more-btc/",
+      "published": "2026-06-09T18:42:23+00:00",
+      "relevance_score": 0
     },
     {
       "source": "The Defiant",
@@ -623,6 +749,32 @@
       "summary": "Crypto exchange Kraken is teaming up with FIFA to sponsor the World Cup, with plans for \"fan-focused\" experiences in the U.S. and Europe.",
       "link": "https://decrypt.co/370536/kraken-named-official-crypto-exchange-fifa-world-cup-2026",
       "published": "2026-06-09T17:45:13+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Citrini Research Calls Hyperliquid a Compelling Investment, Citing Nearly Half of All Crypto Token Buybacks",
+      "summary": "Citrini Research, known for moving AI equities with its reports, published an analysis calling Hyperliquid compelling, citing the protocol's Assistance Fund directing more than 90% of fees to HYPE buybacks and its command of close to half of all crypto token buyback activity this year.",
+      "link": "https://thedefiant.io/news/markets/citrini-research-hyperliquid-compelling-investment-buybacks",
+      "published": "2026-06-09T17:45:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Arthur Hayes Says Bitcoin Cannot Rally Until the AI Bubble Bursts",
+      "summary": "Arthur Hayes published a macro thesis arguing Bitcoin cannot rally until the AI stock bubble deflates, citing $1.5 trillion in AI debt issuance that absorbed the liquidity Bitcoin needed. He exited HYPE, NEAR, WLD, and ZEC and rotated Maelstrom's equity book into US energy producers.",
+      "link": "https://thedefiant.io/news/people/arthur-hayes-bitcoin-wont-rally-until-ai-bubble-bursts",
+      "published": "2026-06-09T17:40:00+00:00",
       "relevance_score": 0
     },
     {
@@ -906,7 +1058,7 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: Bitcoin drifts back to $61,000, after two straight up days amid equities selloff",
+      "title": "Live updates: Bitcoin narrows early losses, returns to $62,000 as Nasdaq bounces to close down 1%",
       "summary": "",
       "link": "https://www.coindesk.com/tech/2026/06/09/live-updates-bitcoin-drifts-back-to-usd62-500-putting-damper-on-hope-for-two-straight-up-days",
       "published": "2026-06-09T12:52:07+00:00",
@@ -1122,6 +1274,19 @@
       "summary": "The Ironwood upgrade would introduce a new shielded pool and ensure the circulating ZEC supply remains bounded.",
       "link": "https://www.theblock.co/post/404065/zcash-finalizes-ironwood-upgrade-plan?utm_source=rss&utm_medium=rss",
       "published": "2026-06-09T07:14:26+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Merck and Hashgraph Group launch Hedera-based product passport for EU compliance",
+      "summary": "The Hedera-based platform combines product authentication and blockchain traceability to support compliance with new European Union sustainability and supply-chain reporting requirements.",
+      "link": "https://cointelegraph.com/news/merck-and-hashgraph-group-launch-hedera-based-product-passport-for-eu-compliance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-09T07:00:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1407,20 +1572,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Coinbase strategist says institutions aren’t panicking about bitcoin, ‘love it even more’ at lower prices",
-      "summary": "Family offices and sovereign wealth funds continue accumulating bitcoin despite the recent selloff, according to Coinbase's John D'Agostino.",
-      "link": "https://www.theblock.co/post/404019/coinbase-strategist-institutions-arent-panicking-bitcoin-love-more-lower-prices?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-08T17:52:18+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1442,19 +1593,6 @@
       "summary": "Zcash is a privacy-focused cryptocurrency that enables users to hide key details of transactions by leveraging zk-SNARKs.",
       "link": "https://decrypt.co/resources/zcash",
       "published": "2026-06-08T17:13:52+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Live updates: Bitcoin tops $63,000 as Strategy adds $100 million BTC in latest purchase",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/08/live-updates-bitcoin-above-usd63-400-as-strategy-adds-usd100-million-btc-in-latest-purchase",
-      "published": "2026-06-08T17:04:38+00:00",
       "relevance_score": 0
     },
     {
@@ -1522,33 +1660,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Strategy shareholders approve semi-monthly dividends for STRC preferred stock",
-      "summary": "\"Paying dividends on STRC twice a month is designed to stabilize price, dampen cyclicality, drive liquidity, and grow demand for STRC,\" Strategy's CEO said.",
-      "link": "https://www.theblock.co/post/404010/strategy-shareholders-approve-semi-monthly-dividends-strc-preferred-stock?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-08T15:41:38+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Sam Bankman-Fried officially asks Trump for a presidential pardon",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/06/08/sam-bankman-fried-officially-asks-donald-trump-for-a-presidential-pardon",
-      "published": "2026-06-08T15:41:10+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1575,44 +1686,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "South Korea police raid Bithumb over lawmaker hiring favoritism probe: report",
-      "summary": "South Korean lawmaker Kim Byung-gi faces probe over alleged nepotism tied to his son’s crypto jobs as police raid Bithumb's offices.",
-      "link": "https://cointelegraph.com/news/south-korea-police-raid-bithumb-over-lawmaker-hiring-favoritism-probe-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-08T14:02:36+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Congress to Discuss Crypto Tax Rules: What to Watch",
-      "summary": "The House Ways and Means committee will review draft crypto tax bills covering staking, mining, network fees, and reporting.",
-      "link": "https://decrypt.co/370310/congress-to-discuss-crypto-tax-rules-what-to-watch",
-      "published": "2026-06-08T13:52:16+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-08T13:52:00+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1623,54 +1696,6 @@
       "summary": "Pump Fun’s GO program is encouraging people to tattoo their foreheads with cryptocurrency tickers in the hopes of making big money. The post Bounty-chasing Pump Fun users are tattooing crypto tickers on their faces appeared first on Protos .",
       "link": "https://protos.com/bounty-chasing-pump-fun-users-are-tattooing-crypto-tickers-on-their-faces/",
       "published": "2026-06-08T13:49:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Bitcoin's $63K Reclaim Liquidates $540M in Crypto Shorts, a 7-Week High",
-      "summary": "Experts remain cautious of Bitcoin’s weekend rebound to $63,000, pointing to ETF outflows and CME BTC volatility.",
-      "link": "https://decrypt.co/370306/bitcoins-63k-reclaim-liquidates-540m-in-shorts-a-7-week-high",
-      "published": "2026-06-08T12:41:22+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Morning Minute: Bitcoin Recovers After Fall Below $60k",
-      "summary": "Crypto rebounded Monday after Friday's selloff, driven by strong jobs data, AI IPO liquidity drain and Saylor worries.",
-      "link": "https://decrypt.co/370303/morning-minute-bitcoin-recovers-after-fall-below-60k",
-      "published": "2026-06-08T12:21:16+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Reform UK's Farage 'Evading' Scrutiny Over Tether Billionaire's $6.7M Gift: Labour",
-      "summary": "Labour Party Chair Anna Turley wrote to Nigel Farage accusing him of “evading reasonable scrutiny” over Christopher Harborne’s gift.",
-      "link": "https://decrypt.co/370295/reform-uks-farage-evading-scrutiny-over-tether-billionaires-6-7m-gift-labour",
-      "published": "2026-06-08T11:35:27+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Frontier AI Models Can Find Crypto's Biggest Bugs. Experts Warn the Industry Isn't Ready",
-      "summary": "The Zcash vulnerability uncovered with help from Anthropic's Claude Opus 4.8 signals a shift in who may discover critical flaws first.",
-      "link": "https://decrypt.co/370232/frontier-ai-models-find-crypto-bugs-industry-isnt-ready",
-      "published": "2026-06-07T18:01:03+00:00",
       "relevance_score": 0
     },
     {
@@ -1736,45 +1761,6 @@
       "summary": "Bitcoin fell below its 200-week moving average dropping below $61,000 for the first time since the 2022 bear market, triggered by a blowout May payrolls report that repriced Fed rate-cut expectations and exposed a $1.2 billion options wall at $60,000.",
       "link": "https://thedefiant.io/news/markets/bitcoin-200-week-moving-average-break-jobs-report-2026",
       "published": "2026-06-05T16:42:20+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "CME CEO Terry Duffy Calls US Crypto Perps 'a Disaster Waiting to Happen'",
-      "summary": "CME Group CEO Terry Duffy warned that newly approved US-regulated perpetual futures are \"a disaster waiting to happen,\" citing excessive leverage and retail risk — a pointed critique from the incumbent US institutional crypto derivatives exchange.",
-      "link": "https://thedefiant.io/news/markets/cme-ceo-terry-duffy-calls-us-crypto-perps-disaster-waiting-to-happen",
-      "published": "2026-06-05T14:58:25+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Helium CEO Amir Haleem quits after HNT tanks 96%",
-      "summary": "Helium CEO Amir Haleem has stepped down to a chairman role with the HNT token down 96% over the past five years. The post Helium CEO Amir Haleem quits after HNT tanks 96% appeared first on Protos .",
-      "link": "https://protos.com/helium-ceo-amir-haleem-quits-after-hnt-tanks-96/",
-      "published": "2026-06-05T12:03:27+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Shielded Labs Proposes New Zcash Upgrade to Prove ZEC Supply After Orchard Bug",
-      "summary": "The Zcash developer said researcher Taylor Hornby used Anthropic's latest AI model to find a flaw that could have minted undetectable counterfeit ZEC inside the Orchard privacy pool. It wants a further network upgrade to prove the supply is sound, beyond the emergency fix activated June 3.",
-      "link": "https://thedefiant.io/news/blockchains/shielded-labs-proposes-new-zcash-upgrade-to-prove-zec-supply-after-orchard-bug",
-      "published": "2026-06-04T23:00:43+00:00",
       "relevance_score": 0
     },
     {
