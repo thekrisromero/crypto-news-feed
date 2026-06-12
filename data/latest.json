@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-12T15:29:07.797666+00:00",
+  "generated_at": "2026-06-12T18:11:50.904043+00:00",
   "lookback_days": 8,
-  "total_items": 133,
+  "total_items": 135,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 18
+      "kept": 19
     },
     {
       "name": "Decrypt",
@@ -61,7 +61,7 @@
     {
       "name": "Coin Center",
       "url": "https://www.coincenter.org/feed/",
-      "kept": 2
+      "kept": 3
     },
     {
       "name": "Bankless",
@@ -94,17 +94,30 @@
       "relevance_score": 3
     },
     {
-      "source": "Protos",
+      "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
-        "investigative",
-        "business"
+        "breaking",
+        "global"
       ],
-      "title": "HTX moved $1.3 billion from reserves to undisclosed ‘ThirdParty’",
-      "summary": "The decision by HTX has affected multiple assets for the exchange, including BTC, ETH, USDC, Usual Stablecoin, and USDT. The post HTX moved $1.3 billion from reserves to undisclosed &#8216;ThirdParty&#8217; appeared first on Protos .",
-      "link": "https://protos.com/htx-moved-1-3-billion-from-reserves-to-undisclosed-thirdparty/",
-      "published": "2026-06-10T17:38:07+00:00",
-      "relevance_score": 3
+      "title": "Crypto Biz: SpaceX fuels tokenization’s next boom",
+      "summary": "Tokenized RWAs surge despite crypto volatility, Kraken launches SpaceX IPO xStocks, prediction markets outpace onchain gambling and Sam Bankman-Fried seeks a Trump pardon.",
+      "link": "https://cointelegraph.com/news/tokenized-rwas-kraken-spacex-ipo-prediction-markets-sbf-trump-pardon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-12T16:07:08+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Q2 2026 Sets All-Time High for DeFi Hack Count With ~70 Exploits, $746M Stolen",
+      "summary": "DeFi logged approximately 70 separate exploits in Q2 2026, roughly doubling the previous quarterly record, even as the $746 million dollar total remains a fraction of historical single-event peaks.",
+      "link": "https://thedefiant.io/news/hacks/q2-2026-most-hacked-quarter-defi-70-exploits-746m",
+      "published": "2026-06-12T15:45:48+00:00",
+      "relevance_score": 2
     },
     {
       "source": "The Block",
@@ -288,7 +301,111 @@
       "title": "Fidelity’s Dollar Stablecoin Taps Curve and Uniswap as Its DeFi Liquidity Layer",
       "summary": "The Fidelity Digital Dollar stablecoin deployed Curve Finance Stableswap LP positions and Uniswap LP positions simultaneously in a single Ethereum block Thursday evening, with Curve founder Michael Egorov noting the same-block execution as evidence of DeFi operational expertise.",
       "link": "https://thedefiant.io/converge/defi/fidelity-digital-dollar-curve-uniswap-defi-liquidity",
-      "published": "2026-06-12T15:29:03+00:00",
+      "published": "2026-06-12T18:11:47+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Crypto Firms Scrap Tokenized SpaceX Share Offerings as SPCX Surges After IPO",
+      "summary": "Participants were refunded and did not receive shares in the record-breaking SpaceX IPO from Elon Musk's rocket company.",
+      "link": "https://decrypt.co/370948/crypto-firms-scrap-tokenized-spacex-share-offerings-spcx-surges-ipo",
+      "published": "2026-06-12T17:50:06+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Former SEC Chair Gensler rejects CFTC claim of authority over prediction market sports betting",
+      "summary": "Gary Gensler is calling malarkey the claim that the CFTC has jurisdiction over prediction markets, specifically sports bets.",
+      "link": "https://www.theblock.co/post/404662/former-sec-chair-gensler-rejects-cftc-claim-authority-prediction-market-sports-betting?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-12T17:49:07+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Liberland fires tech sec for seizing blockchain and blocking president’s vote",
+      "summary": "Liberland's Secretary of Technology allegedly took control of the micronation's liquidity pools and won't return a sum of cryptocurrency. The post Liberland fires tech sec for seizing blockchain and blocking president’s vote appeared first on Protos .",
+      "link": "https://protos.com/liberland-fires-tech-sec-for-seizing-blockchain-and-blocking-presidents-vote/",
+      "published": "2026-06-12T17:26:34+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Iran-Linked Group That Hacked Kash Patel's Email Threatens World Cup With Hijacked FBI Drones",
+      "summary": "The Iran-linked hacking group said it accessed footage from FBI-controlled drones and warned World Cup teams that they could be targeted.",
+      "link": "https://decrypt.co/370937/iran-group-hacked-kash-patel-email-threatens-world-cup-hijacked-drones",
+      "published": "2026-06-12T17:12:36+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Bybit, Binance and Bitget Cancel Tokenized SpaceX Allocations as xStocks Fails to Deliver Shares",
+      "summary": "Three major crypto exchanges canceled their tokenized SpaceX IPO allocation campaigns Friday after xStocks could not source underlying shares, while rival onchain protocols from Ondo, xStocks' DeFi arm and Backpack launched successfully on the same morning.",
+      "link": "https://thedefiant.io/news/cefi/bybit-binance-bitget-cancel-tokenized-spacex-allocations-xstocks-fails-deliver-shares",
+      "published": "2026-06-12T17:00:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Bybit, Binance, Bitget cancel tokenized SpaceX IPO allocations after share shortage",
+      "summary": "All three providers are issuing full refunds and additional compensation to affected users.",
+      "link": "https://www.theblock.co/post/404644/bybit-binance-bitget-cancel-tokenized-spacex-ipo-allocations-share-shortage?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-12T16:12:10+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Sam Bankman-Fried needs favor from Trump after failed appeal",
+      "summary": "Sam Bankman-Fried appealed his fraud convictions and 25-year prison sentence to the Second US Circuit Court of Appeals and lost. The post Sam Bankman-Fried needs favor from Trump after failed appeal appeared first on Protos .",
+      "link": "https://protos.com/sam-bankman-fried-needs-favor-from-trump-after-failed-appeal/",
+      "published": "2026-06-12T15:55:22+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Second Circuit Affirms SBF’s Fraud Conviction and 25-Year Sentence",
+      "summary": "A three-judge Second Circuit panel affirmed Sam Bankman-Fried’s conviction on seven counts of fraud and conspiracy, along with his 25-year prison sentence, closing his primary legal path to overturning the 2023 verdict.",
+      "link": "https://thedefiant.io/news/regulation/second-circuit-affirms-sbf-fraud-conviction-25-year-sentence",
+      "published": "2026-06-12T15:41:06+00:00",
       "relevance_score": 1
     },
     {
@@ -327,6 +444,19 @@
       "summary": "Monero surged roughly 30% to an intraday high of $438 on Thursday after blockchain investigator ZachXBT traced a $120 million USDT movement that included large purchases of the privacy coin, with Tether subsequently freezing $72 million in connected funds.",
       "link": "https://thedefiant.io/news/markets/monero-jumps-zachxbt-120m-usdt-laundering-tether-freeze",
       "published": "2026-06-12T14:22:22+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Japan's Lower House Passes Bill Moving Crypto Under Securities Law, Opening Path to ETFs and 20% Tax Rate",
+      "summary": "Japan's lower house passed a bill amending the Financial Instruments and Exchange Act to regulate crypto like stocks, opening a path to regulated ETFs by 2027 and cutting the capital-gains tax from up to 55% to a flat 20%. Upper-house passage is pending; the reform is not yet law.",
+      "link": "https://thedefiant.io/converge/regulation/japan-lower-house-crypto-fiea-bill-etf-20-percent-tax",
+      "published": "2026-06-12T14:00:00+00:00",
       "relevance_score": 1
     },
     {
@@ -444,6 +574,19 @@
       "summary": "Metaplanet CEO Simon Gerovich said the deal is expected to close in July, and the company plans to rename the business Metaplanet Securities.",
       "link": "https://www.theblock.co/post/404564/metaplanet-siiibo-securities-acquisition?utm_source=rss&utm_medium=rss",
       "published": "2026-06-12T09:39:38+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Exodus launches tokenized stock marketplace with Ondo, adds 200-plus onchain equities",
+      "summary": "The launch comes as tokenized equities surge in popularity, with crypto exchanges and wallets racing to offer onchain access to stocks and pre-IPO companies.",
+      "link": "https://cointelegraph.com/news/exodus-launches-tokenized-stock-marketplace-with-ondo-adds-200-onchain-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-12T07:00:00+00:00",
       "relevance_score": 1
     },
     {
@@ -614,19 +757,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Citi opens new route into private markets with tokenized share offering",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/11/citi-opens-new-route-into-private-markets-with-tokenized-share-offering",
-      "published": "2026-06-11T13:27:12+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -640,19 +770,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "DOJ Opens Debanking Probe Into JPMorgan, Bank of America and Wells Fargo",
-      "summary": "Federal prosecutors have subpoenaed JPMorgan Chase, Bank of America and Wells Fargo, examining whether banks unlawfully terminated customer accounts for political reasons. The probe directly validates the crypto industry's Operation Chokepoint 2.0 grievances.",
-      "link": "https://thedefiant.io/converge/regulation/doj-opens-debanking-probe-jpmorgan-bank-of-america-wells-fargo",
-      "published": "2026-06-10T19:45:00+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -663,58 +780,6 @@
       "summary": "Michael Saylor reposted plenty of notifications about DeFi tokens associated with STRC, but he swears reposts weren't endorsements. The post Saylor distances himself from STRC-backed DeFi after stablecoin wobble appeared first on Protos .",
       "link": "https://protos.com/saylor-distances-himself-from-strc-backed-defi-after-stablecoin-wobble/",
       "published": "2026-06-10T19:17:44+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Robinhood Securities Gains IPO Underwriter Status, CEO Tenev Targets Retail Allocation",
-      "summary": "Robinhood Securities has received approval to serve as an IPO underwriter, CEO Vlad Tenev announced Tuesday, positioning the zero-commission broker to compete directly with Wall Street banks on the mega-IPO pipeline.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/robinhood-securities-gains-ipo-underwriter-status-ceo-tenev-targets-retail-allocation",
-      "published": "2026-06-10T17:48:30+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Attacker Mints 10 Billion TOP Tokens Through Governance Takeover, Drains $1.58M from Balancer Pool",
-      "summary": "An attacker exploited Token of Power's Aragon DAO on Tuesday to mint 10 billion TOP tokens via a malicious governance proposal, then swapped the supply for 944.2 WETH worth roughly $1.58 million.",
-      "link": "https://thedefiant.io/news/hacks/attacker-mints-10-billion-top-tokens-governance-takeover-drains-1-58m-balancer",
-      "published": "2026-06-10T17:08:28+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Anthropic’s new model refuses to find smart contract vulnerabilities",
-      "summary": "Anthropic's Claude Fable 5 AI model features \"guardrails\" that automatically redirect topics on cybersecurity, biology, and chemistry. The post Anthropic’s new model refuses to find smart contract vulnerabilities appeared first on Protos .",
-      "link": "https://protos.com/anthropics-new-model-refuses-to-find-smart-contract-vulnerabilities/",
-      "published": "2026-06-10T16:48:12+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Raydium Confirms $1.34M Drain on Deprecated AMM V3, Pledges Treasury Compensation",
-      "summary": "Raydium core contributor Infra confirmed Wednesday that an attacker drained ~$1.34M from the legacy AMM V3 program, a contract phased out in 2021. Current users were unaffected, the treasury will cover full compensation, and the root cause was a self-contained LP-mint validation flaw. PeckShield",
-      "link": "https://thedefiant.io/news/hacks/raydium-drained-1-3m-attacker-bridges-ethereum-tornado-cash",
-      "published": "2026-06-10T16:34:23+00:00",
       "relevance_score": 1
     },
     {
@@ -742,6 +807,161 @@
       "link": "https://coincenter.org/comment-to-fincen-and-ofac-on-ppsi-aml-cft-and-sanctions-program-requirements/",
       "published": "2026-06-09T16:04:02+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin hit bottom at $59,000 marking end to the crypto winter, says Standard Chartered analyst",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/12/bitcoin-hit-bottom-at-usd59-000-marking-end-to-the-crypto-winter-says-standard-chartered-analyst",
+      "published": "2026-06-12T18:09:06+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Tennessee Man Indicted for Alleged Crypto Ponzi Scheme That Stole Millions From Investors",
+      "summary": "Feds indicted a Tennessee man for allegedly running a crypto Ponzi scheme from 2020-2024 and bilking investors out of millions.",
+      "link": "https://decrypt.co/370943/tennessee-man-indicted-crypto-ponzi-scheme-stole-millions-investors",
+      "published": "2026-06-12T17:22:37+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Early Airbnb, DoorDash backer Y Combinator says Clarity Act could bring crypto to ‘every’ portfolio company",
+      "summary": "Also a backer of companies like Coinbase, OpenAI, Stripe, Reddit, OpenAI and Kalshi, Y Combinator wants to see Congress pass the CLARITY Act.",
+      "link": "https://www.theblock.co/post/404643/early-airbnb-doordash-backer-y-combinator-expects-crypto-to-be-used-by-every-one-of-its-portfolio-companies?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-12T16:51:35+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Blockworks Acquires Messari in Crypto Data Consolidation",
+      "summary": "Crypto data and media company Blockworks has acquired rival research platform Messari at a discount to its prior valuation, the Wall Street Journal and Bloomberg reported Friday. The deal joins two of the most prominent names in the crypto intelligence space.",
+      "link": "https://thedefiant.io/news/infrastructure/blockworks-acquires-messari-crypto-data-consolidation",
+      "published": "2026-06-12T16:50:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Americans Traded Up to $34 Billion on Offshore Prediction Markets: Study",
+      "summary": "The study estimated Americans could end up wagering up to $133 billion annually on offshore prediction markets by 2030.",
+      "link": "https://decrypt.co/370908/americans-traded-34-billion-offshore-prediction-markets-study",
+      "published": "2026-06-12T16:44:39+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Sam Bankman-Fried loses appeal to overturn 25-year prison sentence",
+      "summary": "A federal appeals court upheld the former FTX chief’s conviction, while his bid for clemency from President Donald Trump appears to face steep political odds.",
+      "link": "https://cointelegraph.com/news/sam-bankman-fried-loses-appeal-to-overturn-25-year-prison-sentence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-12T16:39:16+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin surfs SpaceX IPO at $64K as trader warns key BTC price support may crumble",
+      "summary": "Bitcoin hit $64,000 as SpaceX launched a record-breaking IPO and US-Iran peace deal hopes continued to grow, but doubts over BTC price support remained.",
+      "link": "https://cointelegraph.com/markets/bitcoin-surfs-spacex-ipo-iran-peace-cues-as-trader-warns-62k-may-crumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-12T16:17:33+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "VanEck bets BNB’s real-world usage can stand out in a crowded crypto ETF market",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/12/vaneck-bets-bnb-s-real-world-usage-can-stand-out-in-a-crowded-crypto-etf-market",
+      "published": "2026-06-12T16:05:31+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Elon Musk's SpaceX soars 20% in blockbuster Nasdaq debut",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/12/spacex-opens-at-usdtk-in-blockbuster-nasdaq-debut",
+      "published": "2026-06-12T15:55:42+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bloomberg Analyst: Most Bitcoin ETF Investors Have Stayed Put Despite Outflows",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/08/bloomberg-analyst-most-bitcoin-etf-investors-have-stayed-put-despite-outflows",
+      "published": "2026-06-12T15:49:36+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Kalshi’s crypto perpetuals spark debate over whether they’re futures or swaps",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/06/12/kalshi-s-crypto-perpetuals-spark-debate-over-whether-they-re-futures-or-swaps",
+      "published": "2026-06-12T15:37:08+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "The U.S. government is betting $2 Billion on quantum computing, and the defense side can't keep up",
+      "summary": "",
+      "link": "https://www.coindesk.com/opinion/2026/06/12/the-u-s-government-is-betting-usd2-billion-on-quantum-computing-and-the-defense-side-can-t-keep-up",
+      "published": "2026-06-12T15:31:00+00:00",
+      "relevance_score": 0
     },
     {
       "source": "Decrypt",
@@ -1075,7 +1295,7 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: Bitcoin climbs to $64,000 on Iran peace hope as Street awaits opening SpaceX trades",
+      "title": "Live updates: SpaceX surges 26% on debut, while bitcoin stalls just shy of $64,000",
       "summary": "",
       "link": "https://www.coindesk.com/tech/2026/06/12/live-updates-bitcoin-in-volatile-trading-above-usd63-000-doge-unchanged",
       "published": "2026-06-12T06:32:02+00:00",
@@ -1391,20 +1611,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "JPMorgan says debasement trade retreat has ‘accelerated’ for bitcoin",
-      "summary": "The retreat from the debasement trade has continued for gold and accelerated for bitcoin in recent weeks, JPMorgan analysts said.",
-      "link": "https://www.theblock.co/post/404471/jpmorgan-debasement-trade-retreat-bitcoin-gold?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-11T17:54:56+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1441,20 +1647,6 @@
       "summary": "AudiA6 is a money laundering service suspected of processing $389M in crypto, linked to over 15 international cybercrime investigations. The post &#8216;AudiA6&#8217; crypto laundering suspects face extradition to US appeared first on Protos .",
       "link": "https://protos.com/audia6-crypto-laundering-suspects-face-extradition-to-us/",
       "published": "2026-06-11T17:13:53+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Coinbase for Agents sets up dedicated accounts for AI bots to trade and pay for users",
-      "summary": "AI agents will get access to trade, manage money, and make payments on behalf of Coinbase users via dedicated accounts.",
-      "link": "https://www.theblock.co/post/404458/coinbase-agents-dedicated-accounts-ai-bots-trade-pay-users?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-11T17:11:22+00:00",
       "relevance_score": 0
     },
     {
@@ -1521,71 +1713,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "U.S. House bill would erect crypto-theft task force across law enforcement agencies",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/06/10/u-s-house-bill-would-erect-crypto-theft-task-force-across-law-enforcement-agencies",
-      "published": "2026-06-11T14:30:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "SpaceX stock is coming to Solana on the same day it lists on Nasdaq",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq",
-      "published": "2026-06-11T14:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Canton Network developer raises $355 million to bring Wall Street onchain",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/11/canton-network-developer-raises-usd355-million-to-bring-wall-street-onchain",
-      "published": "2026-06-11T13:50:13+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Tether leads $1.4 billion funding round in German robotics company Neura",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/11/tether-leads-usd1-4-billion-funding-round-in-german-robotics-company-neura",
-      "published": "2026-06-11T13:49:27+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "CoinDesk 20 performance update: Uniswap (UNI) gains 4.5% as all constituents rise",
-      "summary": "",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/06/11/coindesk-20-performance-update-uniswap-uni-gains-4-5-as-all-constituents-rise",
-      "published": "2026-06-11T13:45:50+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1609,44 +1736,6 @@
       "summary": "South Korean police have booked Bithumb CEO Lee Jae-won after he allegedly gave a politician's son a job in return for legislative favors. The post Bithumb CEO booked in Korea over job offer bribe allegations appeared first on Protos .",
       "link": "https://protos.com/bithumb-ceo-booked-in-korea-over-job-offer-bribe-allegations/",
       "published": "2026-06-11T13:40:02+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Digital Asset lands $355M as a16z doubles down on Wall Street blockchain rails",
-      "summary": "Digital Asset raised $355M in an a16z‑led round at a $2B valuation, extending a Wall Street‑backed funding run as banks ramp up pilots on its Canton Network blockchain.",
-      "link": "https://cointelegraph.com/news/digital-asset-355m-16z-wall-street-blockchain-rails?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-11T12:59:11+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Hungary to reverse crypto trading crackdown after EU scrutiny",
-      "summary": "Hungary’s government said it will unwind crypto trading restrictions that required approved validation for conversions and exposed users and service providers to criminal liability.",
-      "link": "https://cointelegraph.com/news/hungary-decriminalize-crypto-trading-prison-terms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-11T12:52:15+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Bitcoin ETFs Shed $2.1B in June So Far as Market Selloff Deepens",
-      "summary": "The pace of outflows from U.S. spot Bitcoin ETFs has “moderated,” with analysts assessing whether selling pressure is exhausting.",
-      "link": "https://decrypt.co/370749/bitcoin-etfs-shed-2-1b-in-june-so-far-as-market-selloff-deepens",
-      "published": "2026-06-11T12:36:17+00:00",
       "relevance_score": 0
     },
     {
@@ -1676,32 +1765,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Japan crypto bill advances with ETF, tax reform path: Report",
-      "summary": "Japan’s Lower House reportedly passed a bill that would bring crypto under the country’s financial instruments framework, potentially opening the door to ETFs and lower tax treatment.",
-      "link": "https://cointelegraph.com/news/japan-crypto-bill-etf-tax-reform-path?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-11T12:17:21+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Audiera’s AI token BEAT beats Bitcoin, Ethereum as price surges 1,500% in a month",
-      "summary": "BEAT has reached its most overbought readings on record, raising the odds of a 35% price decline in the coming days.",
-      "link": "https://cointelegraph.com/markets/audieras-ai-token-beat-beats-bitcoin-ethereum-as-price-surges-1500-in-a-month?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-11T12:08:03+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1712,42 +1775,6 @@
       "summary": "Jack Mallers asked Michael Saylor to explain the true meaning of multiple-to-Net Asset Value and everyone got confused. The post It took Michael Saylor seven minutes to define mNAV appeared first on Protos .",
       "link": "https://protos.com/it-took-michael-saylor-seven-minutes-to-define-mnav/",
       "published": "2026-06-11T11:57:46+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Morning Minute: Citadel Cautions Against the AI Trade Ahead of SpaceX IPO",
-      "summary": "Citadel says the AI boom may be running into a cost wall, and Tether just led a $1.4B round into humanoid robotics.",
-      "link": "https://decrypt.co/370746/morning-minute-citadel-cautions-against-the-ai-trade-ahead-of-spacex-ipo",
-      "published": "2026-06-11T11:57:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "IMF Urges Nepal Monitor Crypto as Usage Rises Despite Ban",
-      "summary": "The warning echoes the IMF's concerns over crypto adoption, including previous clashes with El Salvador over Bitcoin accumulation.",
-      "link": "https://decrypt.co/370738/imf-urges-nepal-monitor-crypto-as-usage-rises-despite-ban",
-      "published": "2026-06-11T11:33:30+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Bithumb CEO Booked as Suspect Over South Korea Bribery Case",
-      "summary": "South Korean police have placed Lee Jae-won under investigation for bribery over allegedly hiring a legislator’s relatives.",
-      "link": "https://decrypt.co/370730/bithumb-ceo-booked-as-suspect-over-south-korea-bribery-case",
-      "published": "2026-06-11T11:09:01+00:00",
       "relevance_score": 0
     },
     {
@@ -1790,16 +1817,16 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
+      "source": "Coin Center",
+      "tier": 5,
       "topics": [
-        "defi",
-        "smart-contracts"
+        "regulation",
+        "policy"
       ],
-      "title": "On-Chain Tracking Revives Allegations That Hoskinson Sold 1.5B ADA in the 2021 Rally",
-      "summary": "An NFT creator published a thread claiming to trace large ADA flows to IOG-linked stake pool pledges from the 2021 bull market. Cardano's founder has made no public statement in response to the new analysis. ADA is down 42% over the past 30 days.",
-      "link": "https://thedefiant.io/news/people/on-chain-tracking-revives-allegations-that-hoskinson-sold-1-5b-ada-in-the-2021-rally",
-      "published": "2026-06-10T18:17:26+00:00",
+      "title": "Testimony on Digital Asset Taxation before the House Ways & Means Committee",
+      "summary": "Director of Policy Jason Somensatto testified before the House Ways &#38; Means Committee to discuss tax issues facing the users of digital assets today. Some issues discussed were: A de minimus exemption for small day-to-day cryptocurrency transactions The tax treatment of block rewards as new property rather than income The unworkability of applying of the [&#8230;] The post Testimony on Digital Asset Taxation before the House Ways &#038; Means Committee appeared first on Coin Center .",
+      "link": "https://coincenter.org/testimony-on-digital-asset-taxation-before-the-house-ways-means-committee/",
+      "published": "2026-06-09T17:37:49+00:00",
       "relevance_score": 0
     }
   ]
