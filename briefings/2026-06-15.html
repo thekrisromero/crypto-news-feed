@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Custody &amp; Treasury Briefing — Week of June 15, 2026</title>
+</head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+
+  <!-- Hero -->
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of June 15, 2026 &nbsp;·&nbsp; 134 items tracked &nbsp;·&nbsp; 17 selected</div>
+  </div>
+
+  <!-- Audio player block -->
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-06-15.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top 3 Takeaways -->
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 16px;font-weight:600;">Top 3 Takeaways This Week</div>
+
+    <div style="display:flex;gap:14px;margin-bottom:16px;align-items:flex-start;">
+      <div style="flex-shrink:0;width:28px;height:28px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:28px;font-size:13px;font-weight:700;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Tokenized RWAs hit $14.6B — and the infrastructure race is on.</strong> <em style="color:#57534e;">So what: Tokenized treasuries, CLOs, stocks, and even physical gold are scaling beyond proof-of-concept. Custody platforms that can't service tokenized securities will be left out of the fastest-growing institutional product category. Start mapping which RWA asset classes your clients hold and whether your safeguarding + servicing stack can support them.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;margin-bottom:16px;align-items:flex-start;">
+      <div style="flex-shrink:0;width:28px;height:28px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:28px;font-size:13px;font-weight:700;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">The SEC is actively clearing the regulatory path for tokenized stock trading via DeFi — global regulators are following.</strong> <em style="color:#57534e;">So what: The SEC's proposed rollback of NMS Rules 611 and 610(e) could let tokenized equities trade through DeFi AMMs without best-execution constraints. Japan and South Korea are simultaneously classifying tokenized stocks as securities. Qualified custodian status for tokenized securities is becoming a competitive moat — the window to be first in market is now.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;align-items:flex-start;">
+      <div style="flex-shrink:0;width:28px;height:28px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:28px;font-size:13px;font-weight:700;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Q2 2026 was the most-hacked quarter in DeFi history — 70 exploits, $746M stolen — and AI-assisted attacks are coming.</strong> <em style="color:#57534e;">So what: Institutional clients are watching. A custody platform's security narrative and audit posture are now as important as its feature set. Double down on SOC 2 Type II documentation, incident-response playbooks, and proactive disclosure of quantum-readiness roadmaps — these are now sales assets, not just compliance checkboxes.</em></div>
+    </div>
+  </div>
+
+  <!-- Section 1: Custody & Wallet Infrastructure -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:700;margin:0 0 4px;letter-spacing:-0.005em;color:#1c1917;">🔐 Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">MPC/HSM tech, qualified-custodian moves, key management, and direct competitor signals.</div>
+
+    <!-- Item 1 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Coinbase Quantum Report: Cold Wallets Among BTC Most Exposed by Address Reuse</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Coinbase published a quantum threat analysis flagging that exchange cold wallets holding Bitcoin in addresses that have already signed transactions are exposed to future quantum attacks — and proposed solutions including migration deadlines and freezing vulnerable coins.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/404685/coinbase-quantum-report-flags-exchange-cold-wallets-among-millions-of-bitcoin-exposed-by-address-reuse" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> This is the first major custodian to publicly quantify their quantum exposure — which means enterprise clients will soon be asking you the same question. Audit which wallet address cohorts in your custody stack have exposed public keys and begin drafting your migration plan now, before it becomes a due-diligence liability.</div>
+    </div>
+
+    <!-- Item 2 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ethereum Quantum-Proofing Could Cost Just 7 Cents Per Account</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Ethereum researchers are proposing SPHINCS+ post-quantum signature verification for under $0.07 per account — a near-zero-cost path to making Ethereum wallets quantum-resistant without a hard fork.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/ethereum-quantum-proof-accounts-7-cents-researcher" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> If Ethereum adopts SPHINCS+, EVM-based custody infrastructure gets quantum resistance nearly for free. Track this EIP and assess whether your clients' EVM-based holdings are in scope — it could become a differentiator in RFPs from institutions with long-horizon compliance requirements.</div>
+    </div>
+
+    <!-- Item 3 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">OpenZeppelin Partners With Canton Network for Institutional Smart Contract Security</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>OpenZeppelin announced it will accelerate secure development for institutions building on Canton — the privacy-preserving blockchain used by Goldman Sachs, BNP Paribas, and Deutsche Bank for tokenized asset settlement.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://www.openzeppelin.com/news/openzeppelin-to-accelerate-secure-development-for-institutions-building-on-canton" style="color:#0284c7;text-decoration:none;">OpenZeppelin Blog</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> Canton is becoming the institutional settlement layer of choice for Tier-1 banks. If your custody stack doesn't have a Canton integration story, you risk being excluded from the tokenized asset settlement workflows that major banks are building right now.</div>
+    </div>
+
+    <!-- Item 4 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Anchorage Digital: How Institutions Are Generating Yield on Bitcoin via Options</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Anchorage Digital's Head of Research walked through how institutional clients — ETFs, treasury companies, miners, and crypto-native desks — are using covered calls and other options strategies to generate yield on idle BTC holdings in custody.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/podcast/bitcoin-s-hidden-yield-why-options-are-taking-over-crypto-or-david-lawant-anchorage-digital" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> Custody is no longer just safeguarding — clients expect yield-generating programs on idle assets. If you aren't offering or facilitating options/lending programs, Anchorage and competitors are already having this conversation with your target accounts. This is a product gap worth sizing this quarter.</div>
+    </div>
+  </div>
+
+  <!-- Section 2: Stablecoins & Payments -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:700;margin:0 0 4px;letter-spacing:-0.005em;color:#1c1917;">💳 Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">USDC, USDT, institutional stablecoin launches, payment rails, and DeFi liquidity dynamics.</div>
+
+    <!-- Item 1 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Fidelity's Dollar Stablecoin Goes Live on Curve and Uniswap</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Fidelity's Digital Dollar stablecoin simultaneously deployed Curve Stableswap and Uniswap LP positions in a single Ethereum block, using DeFi protocols as its primary liquidity layer — a first for a major TradFi firm.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/defi/fidelity-digital-dollar-curve-uniswap-defi-liquidity" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> Fidelity leaning into permissionless DeFi liquidity — not a walled garden — signals that the institutional stablecoin playbook is fully public-chain. Treasury clients will soon ask whether your platform can hold and transact TradFi-issued stablecoins. Prioritize Fidelity Digital Dollar integration evaluation.</div>
+    </div>
+
+    <!-- Item 2 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Coinbase Launches USDC Lending Vaults on Morpho With Risk-Tiered Options</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Coinbase added two USDC onchain lending vaults via Morpho — a conservative "Prime" tier backed by BTC and ETH collateral, and a "Higher Yield" tier drawing on Ethena and other structured credit. Both curated by Steakhouse Financial.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/cefi/coinbase-usdc-lending-vaults-morpho-steakhouse-ethena-risk-tier" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> Coinbase is productizing tiered USDC yield directly inside custody — this is a direct competitive pressure point. Clients sitting on large USDC treasury balances will expect yield options. Evaluate whether you can offer a similar vault model or integrate with Morpho/Steakhouse as a white-label solution.</div>
+    </div>
+
+    <!-- Item 3 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ripple Pitches XRP and RLUSD for AI Agent Payments — But USDC Dominates</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Ripple is positioning XRP and its RLUSD stablecoin as the payment rail for autonomous AI agents making micropayments. However, actual onchain AI agent payment volume remains overwhelmingly in USDC.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/tech/2026/06/11/ripple-wants-ai-agents-to-pay-in-xrp-and-rlusd-the-market-is-still-mostly-usdc" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> AI agent payment flows are an emerging use case for treasury management. USDC's dominance means building out USDC infrastructure positions you well for agent-to-agent settlement — a potential new client vertical worth scoping for your 2027 roadmap.</div>
+    </div>
+
+    <!-- Item 4 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tether Freezes $72M After Tracing $120M USDT Laundering Run Through Monero</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>ZachXBT traced a $120M USDT movement that routed through Monero as an obfuscation layer. Tether subsequently froze $72M in connected wallet addresses — triggering a 30% spike in Monero's price as a side effect.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/markets/monero-jumps-zachxbt-120m-usdt-laundering-tether-freeze" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> Tether's freeze capability is a double-edged sword for institutional USDT holders — it's a compliance feature, but also a counterparty risk. Review your clients' exposure to USDT versus USDC and evaluate whether your AML/CFT monitoring stack flags privacy coin hops in transaction chains.</div>
+    </div>
+  </div>
+
+  <!-- Section 3: Treasury, RWA & Corporate Adoption -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:700;margin:0 0 4px;letter-spacing:-0.005em;color:#1c1917;">🏦 Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenized assets, corporate treasury moves, institutional on-ramps, and real-world asset infrastructure.</div>
+
+    <!-- Item 1 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tokenized Treasury Markets Hit $14.6 Billion as Wall Street and Crypto Converge</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>The tokenized treasury market crossed $14.6B this week, driven by BlackRock's BUIDL, Franklin Templeton's BENJI, and growing demand from DAO treasuries and crypto-native funds rotating out of stablecoins into yield-bearing on-chain T-bills.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/markets/2026/06/11/wall-street-and-crypto-are-crashing-into-each-other-as-tokenized-treasury-markets-hit-usd14-6-billion" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> At $14.6B, tokenized treasuries are the most validated RWA category. Custody platforms need a clear answer to "can you hold BUIDL or BENJI tokens?" — whether via direct safeguarding or integration with the issuer's transfer agent. This is now table stakes in institutional RFPs.</div>
+    </div>
+
+    <!-- Item 2 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ethena Labs Allocates $250M to Securitize's Tokenized AAA CLO Fund, Deploys on Solana</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Ethena Labs is deploying $250M into Securitize's STAC fund — a tokenized AAA-rated collateralized loan obligation providing onchain access to institutional-grade floating-rate structured credit, now live on Solana.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/404602/ethena-labs-to-allocate-250-million-to-securitizes-tokenized-aaa-clo-fund-as-it-deploys-on-solana" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> Structured credit is going on-chain at institutional scale — $250M in a single allocation. Custody platforms need Solana support and the ability to hold Securitize-issued tokens. If you're not already in conversations with Securitize about their transfer agent rails, start now.</div>
+    </div>
+
+    <!-- Item 3 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">SpaceX IPO Tokenized Equity: DeFi Delivered, CeFi Failed</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>SpaceX ($75B IPO, largest in history) launched on Nasdaq with simultaneous tokenized versions across Ondo, Kraken xStocks, Backpack Securities, and Hyperliquid. However, Bybit, Binance, and Bitget canceled their tokenized SpaceX allocation campaigns after xStocks' CeFi arm couldn't source underlying shares — while DeFi-native protocols like Ondo successfully settled.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/cefi/bybit-binance-bitget-cancel-tokenized-spacex-allocations-xstocks-fails-deliver-shares" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> The SpaceX IPO was a live stress test for tokenized equity delivery, and it exposed a supply-chain gap between broker-dealers and tokenization platforms. Before you launch a tokenized equity product, map the end-to-end share-sourcing pipeline — primary allocation access is the hard problem, not the token wrapper.</div>
+    </div>
+
+    <!-- Item 4 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">DBS Bank Bringing Tokenized Physical Gold to Retail Customers in Singapore</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>DBS will let retail customers buy, hold, and trade tokenized gold backed by physical bullion stored in a DBS vault, launching via its digibank app in H2 2026 — its first retail tokenized commodity product.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/dbs-bank-tokenized-physical-gold-retail-singapore" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> DBS moving to retail tokenized commodities signals that tokenized RWA is no longer just an institutional product — it will require custodians to support fractional, retail-grade token holdings with different compliance profiles than current institutional clients. Singapore's MAS framework is worth tracking as a model.</div>
+    </div>
+
+    <!-- Item 5 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Exodus + Ondo Launch 200+ Tokenized Stocks and ETFs on Solana</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Exodus partnered with Ondo to enable tokenized trading of 200+ equities and ETFs directly on Solana — expanding the tokenized stock product from a handful of marquee names to a broad investable universe.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/404622/exodus-launches-tokenized-markets-200-plus-stocks-etfs-on-solana" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> The tokenized equity universe is expanding from SPACs and marquee names to broad market access. Custody platforms need Solana multi-asset support and, more critically, a legal framework for holding tokenized securities that aren't registered with any regulator in the user's jurisdiction.</div>
+    </div>
+  </div>
+
+  <!-- Section 4: Regulation & Policy -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:700;margin:0 0 4px;letter-spacing:-0.005em;color:#1c1917;">⚖️ Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">SEC, CFTC, MiCA, AML/CFT, and global regulatory signals affecting custody and treasury operations.</div>
+
+    <!-- Item 1 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">SEC Proposes Scrapping Two NMS Rules That Block Tokenized Stock Trading via DeFi AMMs</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>The SEC proposed on June 11 to rescind Rule 611 (the "trade-through rule" requiring best-execution routing) and Rule 610(e) from Regulation NMS, opening a 60-day comment period. The rollback would let tokenized stocks trade through DeFi AMMs without best-execution constraints — a major unlock for on-chain equity markets.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://www.ledgerinsights.com/sec-plans-to-scrap-two-nms-rules-that-hinder-tokenized-stock-trading-via-defi-amms/" style="color:#0284c7;text-decoration:none;">Ledger Insights</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> This is the biggest regulatory unlock for tokenized equity trading yet. If finalized, it removes a structural barrier that has kept tokenized stocks in a legal gray zone. File a comment, brief your legal team, and begin roadmapping what qualified custodian support for tokenized equities looks like under the new framework.</div>
+    </div>
+
+    <!-- Item 2 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Japan's Lower House Passes Crypto Securities Bill — Path to ETFs and 20% Tax Rate</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Japan's lower house passed a bill amending the Financial Instruments and Exchange Act to regulate crypto like stocks — opening a path to regulated crypto ETFs by 2027 and cutting capital-gains tax from up to 55% to a flat 20%. Upper house passage is still pending.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/regulation/japan-lower-house-crypto-fiea-bill-etf-20-percent-tax" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> Japan is one of the world's largest retail crypto markets. Custody platforms with Japan exposure or clients operating there need to understand how the FIEA classification changes their regulated-entity obligations — Japan ETF custody could be a significant new revenue line if you're already licensed there.</div>
+    </div>
+
+    <!-- Item 3 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Hester Peirce Departs SEC — "Crypto Mom" Leaves After Nearly 30 Years</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>SEC Commissioner Hester Peirce delivered her farewell remarks at the U.S. Chamber of Commerce Capital Markets Summit, ending a tenure defined by crypto advocacy and dissent from the Gensler era. Peirce was the most consistently pro-crypto voice at the SEC.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/people/hester-peirce-farewell-remarks-sec-project-crypto" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> Peirce's departure removes the most prominent industry-friendly voice at the SEC. Monitor who replaces her — the new commissioner's stance on custody reform, ETF approvals, and tokenized securities will matter significantly to your platform's regulatory runway.</div>
+    </div>
+
+    <!-- Item 4 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Coin Center Files AML/CFT Comments to FinCEN — Privacy Coin Implications for Custodians</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Coin Center filed two substantive comment letters to FinCEN this week — one on updated AML/CFT program requirements, and one specifically on PPSI (Primary Payment System Infrastructure) sanctions program requirements — arguing against overly broad surveillance mandates that would capture non-custodial wallets and privacy-enhancing tools.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://coincenter.org/comment-to-fincen-on-aml-cft-programs/" style="color:#0284c7;text-decoration:none;">Coin Center</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> FinCEN's final AML/CFT rule will directly shape your Travel Rule and transaction monitoring obligations. Review Coin Center's comments for argument framing — if the PPSI rules are adopted broadly, you may face new requirements for monitoring transactions involving privacy-preserving protocols, including chains your clients use.</div>
+    </div>
+  </div>
+
+  <!-- Section 5: Smart Contracts & Infrastructure -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:700;margin:0 0 4px;letter-spacing:-0.005em;color:#1c1917;">🔗 Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">DeFi security, protocol exploits, onchain infrastructure developments, and emerging attack vectors.</div>
+
+    <!-- Item 1 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Q2 2026 Is the Most-Hacked Quarter in DeFi History: 70 Exploits, $746M Stolen</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>DeFi logged approximately 70 separate exploits in Q2 2026 — roughly double the previous quarterly record — even as the $746M total remains below historical single-event peaks like the $600M Ronin hack. Attack vectors span flash loans, oracle manipulation, and re-entrancy bugs.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/q2-2026-most-hacked-quarter-defi-70-exploits-746m" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> If your clients are earning yield through DeFi protocols, the counter-party risk just hit a new high. Build a DeFi protocol risk scorecard for client-facing use — which protocols are audited, which have on-chain insurance, what's the TVL-to-audit ratio — and surface it in your treasury management product before clients ask about it after the next headline.</div>
+    </div>
+
+    <!-- Item 2 -->
+    <div style="padding:14px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">North Korean Hackers Tied to $36M Humanity Protocol Breach via Fake Exchange Email</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">What:</span>Quantstamp linked the $36M Humanity Protocol hack to suspected North Korean threat actors using a spear-phishing email spoofing Bithumb — the same playbook used in prior DPRK crypto heists. The attack vector was social engineering, not a smart contract bug.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:600;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/humanity-protocol-hack-linked-north-korean-actors-quantstamp" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:700;">So what:</span> DPRK social engineering via exchange impersonation is an active threat against crypto operators. Review whether your team has completed phishing simulations specifically targeting wire/withdrawal approval flows — this is the highest-risk human vector in custody operations.</div>
+    </div>
+  </div>
+
+  <!-- Watch List -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:700;margin:0 0 12px;letter-spacing:-0.005em;color:#1c1917;">👁️ Watch List</h2>
+
+    <div style="padding:10px 0;border-top:1px solid #f5f5f4;font-size:14px;color:#44403c;">
+      <strong style="color:#1c1917;">SEC NMS Rule 611/610(e) Comment Period (60 days from June 11):</strong> This is the most important regulatory development this quarter for tokenized equity custody. Submit a comment or track industry filings closely.
+    </div>
+    <div style="padding:10px 0;border-top:1px solid #f5f5f4;font-size:14px;color:#44403c;">
+      <strong style="color:#1c1917;">Japan Upper House FIEA Vote:</strong> If passed, opens the path to Japan-regulated crypto ETFs by 2027 — significant custody opportunity in one of the world's largest retail crypto markets.
+    </div>
+    <div style="padding:10px 0;border-top:1px solid #f5f5f4;font-size:14px;color:#44403c;">
+      <strong style="color:#1c1917;">Hester Peirce Replacement at SEC:</strong> Who fills her seat will reshape the SEC's stance on crypto custody reform and tokenized securities — watch for nomination signals from the White House.
+    </div>
+    <div style="padding:10px 0;border-top:1px solid #f5f5f4;font-size:14px;color:#44403c;">
+      <strong style="color:#1c1917;">Morpho's $175M Raise:</strong> The largest single raise in DeFi lending infrastructure signals institutional confidence in on-chain credit markets. Morpho will likely deepen integrations with custodians — evaluate a partnership track.
+    </div>
+    <div style="padding:10px 0;border-top:1px solid #f5f5f4;font-size:14px;color:#44403c;">
+      <strong style="color:#1c1917;">FinCEN PPSI Rulemaking Final Rule:</strong> The Coin Center comments signal this is still contested. The final rule will directly impact custody Travel Rule obligations — assign someone to monitor the Federal Register for the final rule notice.
+    </div>
+  </div>
+
+  <!-- By the Numbers -->
+  <div style="background:#0a2540;color:#fff;border-radius:10px;padding:20px 24px;margin-bottom:32px;">
+    <h2 style="font-size:17px;font-weight:700;margin:0 0 16px;color:#fff;">📊 By the Numbers</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;">
+      <div style="background:rgba(255,255,255,0.08);border-radius:8px;padding:14px;">
+        <div style="font-size:24px;font-weight:700;color:#38bdf8;">$14.6B</div>
+        <div style="font-size:12px;opacity:0.75;margin-top:4px;">Tokenized Treasury Market Cap</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.08);border-radius:8px;padding:14px;">
+        <div style="font-size:24px;font-weight:700;color:#34d399;">$746M</div>
+        <div style="font-size:12px;opacity:0.75;margin-top:4px;">DeFi Stolen in Q2 2026 (Record)</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.08);border-radius:8px;padding:14px;">
+        <div style="font-size:24px;font-weight:700;color:#fb923c;">$250M</div>
+        <div style="font-size:12px;opacity:0.75;margin-top:4px;">Ethena → Securitize CLO Allocation</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.08);border-radius:8px;padding:14px;">
+        <div style="font-size:24px;font-weight:700;color:#c084fc;">70</div>
+        <div style="font-size:12px;opacity:0.75;margin-top:4px;">DeFi Exploits in Q2 2026 (ATH)</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.08);border-radius:8px;padding:14px;">
+        <div style="font-size:24px;font-weight:700;color:#38bdf8;">$175M</div>
+        <div style="font-size:12px;opacity:0.75;margin-top:4px;">Morpho VC Raise</div>
+      </div>
+      <div style="background:rgba(255,255,255,0.08);border-radius:8px;padding:14px;">
+        <div style="font-size:24px;font-weight:700;color:#34d399;">200+</div>
+        <div style="font-size:12px;opacity:0.75;margin-top:4px;">Stocks/ETFs Now Tokenized on Solana (Ondo + Exodus)</div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align:center;margin-top:12px;font-size:12px;color:#a8a29e;padding-bottom:24px;">
+    Generated by the Crypto Research weekly automation &nbsp;·&nbsp; Week of June 15, 2026 &nbsp;·&nbsp; 134 items reviewed, 17 selected<br>
+    <span style="margin-top:6px;display:block;">Feed sources: CoinDesk, The Block, Decrypt, CoinTelegraph, The Defiant, Protos, Ledger Insights, Coin Center, OpenZeppelin Blog</span>
+  </footer>
+
+</div>
+</body>
+</html>
