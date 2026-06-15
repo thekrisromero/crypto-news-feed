@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-15T14:30:09.483539+00:00",
+  "generated_at": "2026-06-15T19:52:03.539581+00:00",
   "lookback_days": 8,
-  "total_items": 135,
+  "total_items": 134,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -36,7 +36,7 @@
     {
       "name": "Ledger Insights",
       "url": "https://www.ledgerinsights.com/feed/",
-      "kept": 1
+      "kept": 0
     },
     {
       "name": "Protos",
@@ -81,6 +81,45 @@
   ],
   "items": [
     {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Aztec Connect Drained of $2.1M Through Deprecated Contract Three Years After Shutdown",
+      "summary": "An attacker exploited a proof-verification flaw in Aztec Connect's abandoned RollupProcessorV3 contract to withdraw roughly $2.1 million, including 909 ETH, from a privacy bridge that Aztec Labs shut down three years ago and can no longer control.",
+      "link": "https://thedefiant.io/news/hacks/aztec-connect-deprecated-contract-exploit-2-1m-zk-proof",
+      "published": "2026-06-15T15:04:30+00:00",
+      "relevance_score": 3
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "‘There’s room for win-win outcomes’: Largest Solana treasury firm Forward looks to acquire smaller SOL DATs",
+      "summary": "Forward Industries is offering to acquire Solana DAT competitors at a premium as their mNAVs slip along with the declining price of SOL.",
+      "link": "https://www.theblock.co/post/404792/win-win-outcomes-solana-treasury-forward-acquire-sol-dats?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-15T17:59:08+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Solana Treasury Firm Forward Industries Keeps Trying to Acquire Rivals—But Nobody's Biting",
+      "summary": "Forward Industries has been unsuccessful on all three recent attempts to combine with rival publicly traded Solana treasury firms.",
+      "link": "https://decrypt.co/371198/solana-treasury-firm-forward-industries-trying-acquire-rivals",
+      "published": "2026-06-15T17:30:29+00:00",
+      "relevance_score": 2
+    },
+    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -118,19 +157,6 @@
       "summary": "Bitcoin does not have native yield. But that has not stopped institutions, treasury companies, miners, whales, ETFs, and crypto-native desks from looking for ways to generate returns on top of BTC. In this episode of Converge by The Defiant, David Lawant, Head of Research at Anchorage Digital,",
       "link": "https://thedefiant.io/converge/podcast/bitcoin-s-hidden-yield-why-options-are-taking-over-crypto-or-david-lawant-anchorage-digital",
       "published": "2026-06-12T18:34:40+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "Ledger Insights",
-      "tier": 1,
-      "topics": [
-        "enterprise",
-        "institutional"
-      ],
-      "title": "SEC plans to scrap two NMS rules that hinder tokenized stock trading via DeFi AMMs",
-      "summary": "The SEC proposed on 11 June to rescind two pillars of Regulation NMS for listed stock trading, the Rule 611 trade through rule and Rule 610(e). It opened a 60 day comment period. Rule 611 bars a trading venue from executing an order at a price worse than the best automated quote displayed at another [&#8230;] The post SEC plans to scrap two NMS rules that hinder tokenized stock trading via DeFi AMMs appeared first on Ledger Insights - blockchain for enterprise .",
-      "link": "https://www.ledgerinsights.com/sec-plans-to-scrap-two-nms-rules-that-hinder-tokenized-stock-trading-via-defi-amms/",
-      "published": "2026-06-12T15:53:48+00:00",
       "relevance_score": 2
     },
     {
@@ -184,6 +210,123 @@
       "link": "https://www.openzeppelin.com/news/openzeppelin-to-accelerate-secure-development-for-institutions-building-on-canton",
       "published": "2026-06-10T13:42:18+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Most of Ripple’s own stablecoin lives on Ethereum",
+      "summary": "$879 million of the $1.63 billion worth of tokens in circulation sits on Ethereum versus $760 million on the XRP Ledger. The post Most of Ripple’s own stablecoin lives on Ethereum appeared first on Protos .",
+      "link": "https://protos.com/most-of-ripples-own-stablecoin-lives-on-ethereum/",
+      "published": "2026-06-15T18:46:56+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Paradigm Leads $9 Million Round in Latin American Stablecoin App El Dorado",
+      "summary": "Paradigm has led a roughly $9 million round in El Dorado, the stablecoin-powered payments app that has signed up more than a million users across Latin America. The bet extends the venture firm's push into dollar-rails for emerging markets.",
+      "link": "https://thedefiant.io/converge/cefi/paradigm-leads-9m-round-el-dorado-latam-stablecoin-app",
+      "published": "2026-06-15T16:36:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Standard Chartered Sets UNI 2030 Price Target at 40x Current Levels",
+      "summary": "Standard Chartered Global Research initiated coverage of Uniswap, with Geoff Kendrick framing the decentralized exchange as the trading hub for tokenized real-world assets and setting a $100 UNI price target for end-2030, roughly 40x current levels.",
+      "link": "https://thedefiant.io/news/defi/standard-chartered-sets-uni-2030-price-target-at-40x-current-levels",
+      "published": "2026-06-15T16:28:54+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Sui Processes $65 Billion in Stablecoin Transfers in Five Days After Zeroing Out Fees",
+      "summary": "The Layer 1's gasless stablecoin design pushed transfer throughput to nearly $65 billion since June 10, recasting Sui as a fee-free settlement rail for institutional and agentic payments.",
+      "link": "https://thedefiant.io/converge/blockchains/sui-65-billion-stablecoin-transfers-gasless-fee-removal",
+      "published": "2026-06-15T16:08:41+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Benchmark says SEC’s NMS proposal is the ‘most consequential’ US crypto rule this year",
+      "summary": "Benchmark said the SEC's proposal last week to rescind Rules 611 and 610(e) is the year's \"most consequential\" U.S. crypto rule.",
+      "link": "https://www.theblock.co/post/404768/benchmark-sec-nms-proposal-most-consequential-us-crypto-rule-this-year?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-15T15:33:59+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Bitcoin Giant Strategy Pads Cash Cushion for Second Straight Week, Buys BTC",
+      "summary": "Strategy expanded its USD Reserve to $1.1 billion and increased its total Bitcoin holdings, after dipping into those funds last month.",
+      "link": "https://decrypt.co/371176/bitcoin-giant-strategy-pads-cash-cushion-second-week-buys-btc",
+      "published": "2026-06-15T15:29:41+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "‘Let’s just put it in an ETF’ is the worst outcome for bitcoin, says Trezor exec",
+      "summary": "Trezor Chief Commercial Officer Danny Sanders said simplifying self-custody remains one of bitcoin's biggest onboarding challenges.",
+      "link": "https://www.theblock.co/post/404752/lets-put-it-in-etf-worst-outcome-bitcoin-says-trezor-exec?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-15T15:22:37+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Strategy Buys 1,587 Bitcoin for $100M Below Its Blended Cost Basis, Lifting Stack to 846,842 BTC",
+      "summary": "Michael Saylor's firm paid an average $63,024 a coin this week, roughly 17% under the $75,656 it has paid across its entire 846,842-BTC treasury.",
+      "link": "https://thedefiant.io/news/cefi/strategy-buys-1-587-bitcoin-for-100m-below-its-blended-cost-basis-lifting-stack-to-846-842-btc",
+      "published": "2026-06-15T14:40:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Tom Lee's BitMine Adds $139 Million in Ethereum Ahead of Preferred Share Trading Start",
+      "summary": "BitMine Immersion Technologies expanded its leading Ethereum treasury to more than 5.6 million ETH valued at greater than $10 billion.",
+      "link": "https://decrypt.co/371142/tom-lees-bitmine-139-million-ethereum-preferred-share-trading",
+      "published": "2026-06-15T14:36:50+00:00",
+      "relevance_score": 1
     },
     {
       "source": "The Block",
@@ -344,32 +487,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Anthropic suspends access to Fable 5, Mythos 5, citing US directive",
-      "summary": "Anthropic has abruptly disabled its flagship AI models after a US government directive citing national security concerns.",
-      "link": "https://cointelegraph.com/news/anthropic-suspends-access-to-fable-mythos-citing-us-directive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-13T02:37:40+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Major crypto exchanges cancel SpaceX IPO allocations, promising refunds",
-      "summary": "Elon Musk’s SpaceX completed its landmark IPO on the Nasdaq on Friday, but crypto users seeking tokenized exposure to the IPO were left empty-handed after allocations fell through.",
-      "link": "https://cointelegraph.com/news/major-crypto-exchanges-cancel-spacex-ipo-allocations-promising-refunds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-13T02:17:55+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -405,20 +522,6 @@
       "summary": "Participants were refunded and did not receive shares in the record-breaking SpaceX IPO from Elon Musk's rocket company.",
       "link": "https://decrypt.co/370948/crypto-firms-scrap-tokenized-spacex-share-offerings-spcx-surges-ipo",
       "published": "2026-06-12T17:50:06+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Former SEC Chair Gensler rejects CFTC claim of authority over prediction market sports betting",
-      "summary": "Gary Gensler is calling malarkey the claim that the CFTC has jurisdiction over prediction markets, specifically sports bets.",
-      "link": "https://www.theblock.co/post/404662/former-sec-chair-gensler-rejects-cftc-claim-authority-prediction-market-sports-betting?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-12T17:49:07+00:00",
       "relevance_score": 1
     },
     {
@@ -473,20 +576,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bybit, Binance, Bitget cancel tokenized SpaceX IPO allocations after share shortage",
-      "summary": "All three providers are issuing full refunds and additional compensation to affected users.",
-      "link": "https://www.theblock.co/post/404644/bybit-binance-bitget-cancel-tokenized-spacex-ipo-allocations-share-shortage?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-12T16:12:10+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -510,18 +599,6 @@
       "summary": "A three-judge Second Circuit panel affirmed Sam Bankman-Fried’s conviction on seven counts of fraud and conspiracy, along with his 25-year prison sentence, closing his primary legal path to overturning the 2023 verdict.",
       "link": "https://thedefiant.io/news/regulation/second-circuit-affirms-sbf-fraud-conviction-25-year-sentence",
       "published": "2026-06-12T15:41:06+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "GameStop Renews Bitcoin Deal That Did Little for Its Record Quarter",
-      "summary": "The retailer rolled its Coinbase options deal forward in late May, keeping nearly all its Bitcoin tied up for upfront cash.",
-      "link": "https://decrypt.co/370905/gamestop-renews-bitcoin-deal-that-did-little-for-its-record-quarter",
-      "published": "2026-06-12T15:02:28+00:00",
       "relevance_score": 1
     },
     {
@@ -564,96 +641,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Exodus, Ondo launch tokenized markets with 200-plus stocks and ETFs on Solana",
-      "summary": "Exodus partnered with Ondo on to launch tokenized trading of 200+ stocks and ETFs directly on the Solana blockchain.",
-      "link": "https://www.theblock.co/post/404622/exodus-launches-tokenized-markets-200-plus-stocks-etfs-on-solana?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-12T13:26:25+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Metaplanet Acquires Japanese Securities Firm for $13M to Launch Bitcoin Yield Products",
-      "summary": "The Siiibo Securities deal positions Metaplanet to tap $7.4 trillion in household savings as the country shifts from deflation to inflation.",
-      "link": "https://decrypt.co/370891/metaplanet-acquires-japanese-securities-firm-for-13m-to-launch-bitcoin-yield-products",
-      "published": "2026-06-12T12:45:39+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Gary Gensler Backs States in Fight Over Prediction Market Regulation",
-      "summary": "The former SEC and CFTC chair says Congress \"categorically\" did not intend to put sports betting under exclusive federal oversight.",
-      "link": "https://decrypt.co/370875/gary-gensler-backs-states-in-fight-over-prediction-market-regulation",
-      "published": "2026-06-12T11:02:05+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Solana Foundation Launches Frontier Traders, an Institutional Program for $500M+ Volume Firms",
-      "summary": "The Solana Foundation formalized Solana's institutional market-structure tier with Frontier Traders, requiring $500M in trailing 30-day DEX volume for VIP access, with the debut campaign running on SpaceX tokenized equity.",
-      "link": "https://thedefiant.io/news/blockchains/solana-foundation-frontier-traders-institutional-program-500m-volume",
-      "published": "2026-06-11T21:30:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "DBS Bank to Offer Tokenized Physical Gold to Retail Customers in Singapore",
-      "summary": "Singapore largest bank will let retail customers buy, hold and trade tokenized gold backed by 1 gram of physical bullion stored in a DBS vault, launching via its digibank app in H2 2026.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/dbs-bank-tokenized-physical-gold-retail-singapore",
-      "published": "2026-06-11T19:44:08+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Fidelity’s Dollar Stablecoin Taps Curve and Uniswap as Its DeFi Liquidity Layer",
-      "summary": "The Fidelity Digital Dollar stablecoin deployed Curve Finance Stableswap LP positions and Uniswap LP positions simultaneously in a single Ethereum block Thursday evening, with Curve founder Michael Egorov noting the same-block execution as evidence of DeFi operational expertise.",
-      "link": "https://thedefiant.io/converge/defi/fidelity-digital-dollar-curve-uniswap-defi-liquidity",
-      "published": "2026-06-11T19:33:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Coinbase Adds Two USDC Lending Vaults on Morpho, With a Choice of Risk Tier",
-      "summary": "Coinbase has launched two onchain USDC lending vaults built on Morpho and curated by Steakhouse Financial: a conservative Prime tier backed by BTC and ETH collateral, and a Higher Yield tier drawing on Ethena-powered assets.",
-      "link": "https://thedefiant.io/news/cefi/coinbase-usdc-lending-vaults-morpho-steakhouse-ethena-risk-tier",
-      "published": "2026-06-11T19:10:00+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -664,19 +651,6 @@
       "summary": "Traditional finance is moving onchain. For most financial institutions, the strategic decision has already been made. The focus now is execution, and doing it with the same rigor applied to every other part of their financial infrastructure.",
       "link": "https://www.openzeppelin.com/news/what-security-standards-actually-mean-for-financial-institutions-building-onchain",
       "published": "2026-06-11T13:38:09+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Saylor distances himself from STRC-backed DeFi after stablecoin wobble",
-      "summary": "Michael Saylor reposted plenty of notifications about DeFi tokens associated with STRC, but he swears reposts weren't endorsements. The post Saylor distances himself from STRC-backed DeFi after stablecoin wobble appeared first on Protos .",
-      "link": "https://protos.com/saylor-distances-himself-from-strc-backed-defi-after-stablecoin-wobble/",
-      "published": "2026-06-10T19:17:44+00:00",
       "relevance_score": 1
     },
     {
@@ -704,6 +678,252 @@
       "link": "https://coincenter.org/comment-to-fincen-and-ofac-on-ppsi-aml-cft-and-sanctions-program-requirements/",
       "published": "2026-06-09T16:04:02+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Bitcoin Policy UK CEO calls Michael Saylor’s STRC investment promotion ‘dishonest’",
+      "summary": "\"Saylor put out a video talking about his yield with STRC...it was making it out that there is no risk involved,\" says Ward.",
+      "link": "https://www.theblock.co/post/404785/bitcoin-policy-uk-ceo-calls-michael-saylors-strc-investment-promotion-dishonest?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-15T19:51:14+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Rio de Janeiro Built an AI Model That Beat DeepSeek—But Was Based on Someone Else's Work",
+      "summary": "Rio de Janeiro released a frontier-class AI model that claimed to beat Alibaba's best. Then Nex showed up with receipts.",
+      "link": "https://decrypt.co/371210/rio-ai-model-beat-deepseek-ownership-dispute-nex",
+      "published": "2026-06-15T19:43:48+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Standard Chartered says Uniswap’s UNI token could surge 40x to $100 by 2030",
+      "summary": "Standard Chartered Bank has initiated coverage of Uniswap and forecasts its UNI token could rise 40x to $100 by the end of 2030.",
+      "link": "https://www.theblock.co/post/404809/standard-chartered-uniswap-uni-token-price-100-by-2030?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-15T19:27:10+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "BitMine boosts ETH holdings closer to $10B as bear market accumulation continues",
+      "summary": "BitMine continued buying Ether through the market downturn, growing its stake to nearly 5% of the circulating supply while generating staking yield amid mounting ecosystem challenges.",
+      "link": "https://cointelegraph.com/news/bitmine-eth-holdings-near-10b-bear-market-accumulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-15T18:55:11+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Kraken rolls out perpetual futures for US traders through CFTC-regulated venue",
+      "summary": "The offering follows Kraken's acquisition of Bitnomial and comes amid a broader push to bring crypto derivatives trading onshore.",
+      "link": "https://cointelegraph.com/news/kraken-launches-perpetual-futures-for-us-traders-through-cftc-regulated-venue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-15T18:53:15+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Wall Street Could Boost Uniswap's Token Price Nearly 40x by 2030: Standard Chartered",
+      "summary": "Uniswap’s native token UNI is set to surge nearly fortyfold in the coming years as Wall Street migrates on-chain, Standard Chartered said.",
+      "link": "https://decrypt.co/371207/wall-street-boost-uniswap-token-price-40x-2030-standard-chartered",
+      "published": "2026-06-15T18:37:57+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Hyperliquid loses Anthropic, OpenAI markets as creator shuts down project",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/15/hyperliquid-loses-anthropic-openai-markets-as-creator-shuts-down-project",
+      "published": "2026-06-15T18:14:07+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Anthropic Faces Lawsuit Over Allegedly Misleading Claude AI Pricing",
+      "summary": "A class action lawsuit alleges Anthropic overstated the usage limits of its Claude Max subscription plans and misled customers about savings.",
+      "link": "https://decrypt.co/371201/anthropic-lawsuit-allegedly-misleading-claude-ai-pricing",
+      "published": "2026-06-15T17:57:48+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "IREN enters Europe with acquisition of Spanish AI data center developer Nostrum",
+      "summary": "IREN now has AI infrastructure projects in the works across multiple continents as it expands beyond bitcoin mining.",
+      "link": "https://www.theblock.co/post/404783/iren-enters-europe-acquisition-spanish-ai-data-center-developer-nostrum?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-15T16:46:17+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "SIREN Token Crashes 95% in a Week After Whale Sells 670M Tokens for $64.8M",
+      "summary": "A single dominant wallet offloaded roughly 92% of SIREN's total supply across two days, collecting $64.8 million in Tether and gutting the BNB Chain AI token.",
+      "link": "https://thedefiant.io/news/markets/siren-token-crash-whale-dump-92-percent-supply-64-8m",
+      "published": "2026-06-15T16:23:50+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Pudgy Penguins mobile game axed after losing millions of dollars",
+      "summary": "Pudgy Penguins CEO Lucas Netz claimed that his mobile game Pudgy Party, if it continued, would have cost the firm $2.5M. The post Pudgy Penguins mobile game axed after losing millions of dollars appeared first on Protos .",
+      "link": "https://protos.com/pudgy-penguins-mobile-game-axed-after-losing-millions-of-dollars/",
+      "published": "2026-06-15T16:20:12+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "These Bitcoin charts show how BTC price could hit $100K before October",
+      "summary": "Bitcoin’s double-bottom setup, weekly RSI divergence and whale flows put traders on alert as BTC tests a key breakout zone.",
+      "link": "https://cointelegraph.com/markets/these-bitcoin-charts-show-how-btc-price-could-hit-100k-before-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-15T16:18:14+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Canadian PM Urges AI Diversification After US Anthropic Block, Decentralized AI Tokens Rally",
+      "summary": "The U.S. move to pull Anthropic's top models offline shows the dangers of leaning on a few AI providers, Carney said.",
+      "link": "https://decrypt.co/371159/canadian-pm-urges-ai-diversification-after-us-anthropic-block-decentralized-ai-tokens-rally",
+      "published": "2026-06-15T16:07:35+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Bitcoin Tops $67,000 to Two-Week High After Trump Declares US-Iran Deal Complete and Hormuz Reopening",
+      "summary": "Bitcoin climbed past $67,000, its highest level in roughly two weeks, after President Trump declared the US-Iran deal \"complete\" and authorized reopening the Strait of Hormuz. Oil fell about 4% and around $150 million in crypto short positions were liquidated.",
+      "link": "https://thedefiant.io/news/markets/bitcoin-tops-usd67-000-to-two-week-high-after-trump-declares-us-iran-deal-complete-and-hormuz",
+      "published": "2026-06-15T16:06:06+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Strategy supporters rebut ‘death spiral’ fears as bitcoin price wobbles",
+      "summary": "\"The death-spiral story assumes that Strategy is one bad week from selling bitcoins, and it skips several steps to get there,\" said Benchmark.",
+      "link": "https://www.theblock.co/post/404764/strategy-supporters-rebut-death-spiral-fears-as-bitcoin-price-wobbles?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-15T15:43:51+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Hyperliquid-Based Ventuals Winds Down On-Chain Pre-IPO Markets",
+      "summary": "Ventuals froze its OpenAI and Anthropic pre-IPO markets at 24-hour average prices and is returning deposited HYPE to users as the team folds into another Hyperliquid-ecosystem project.",
+      "link": "https://thedefiant.io/news/defi/hyperliquid-based-ventuals-winds-down-on-chain-pre-ipo-markets",
+      "published": "2026-06-15T15:35:12+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin analysis warns over BTC price rejection as $67K approaches",
+      "summary": "Bitcoin snatched upside liquidity as the US trading session began, but traders warned over a failure to preserve BTC price gains.",
+      "link": "https://cointelegraph.com/markets/bitcoin-analysis-warn-over-btc-price-rejection-as-67k-approaches?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-15T15:22:18+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Pudgy Penguins winds down Pudgy Party mobile game",
+      "summary": "Pudgy Penguins will halt development of Pudgy Party and focus on Pudgy World, as another Web3 gaming project shuts down after failing to find a sustainable business model.",
+      "link": "https://cointelegraph.com/news/pudgy-penguins-winds-down-pudgy-party-mobile-game?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-15T15:05:14+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "One Indicted Over Crypto ‘Wrench Attack’ in France",
+      "summary": "The crypto-related assault reportedly involved attackers posing as police officers, and follows a spate of attacks in the country.",
+      "link": "https://decrypt.co/371143/one-indicted-over-crypto-wrench-attack-in-france",
+      "published": "2026-06-15T14:40:46+00:00",
+      "relevance_score": 0
     },
     {
       "source": "CoinDesk",
@@ -1092,7 +1312,7 @@
         "general",
         "policy"
       ],
-      "title": "Live markets: Bitcoin jumps above $66,000 as short squeeze builds on US-Iran deal hopes",
+      "title": "Live markets: Bitcoin jumps above $67,000 as short squeeze builds on US-Iran deal hopes",
       "summary": "",
       "link": "https://www.coindesk.com/tech/2026/06/15/live-markets-bitcoin-not-fully-out-of-danger-as-trump-warns-of-further-iran-strikes",
       "published": "2026-06-15T05:19:14+00:00",
@@ -1149,6 +1369,19 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/06/14/bitcoin-shoots-higher-on-iran-deal-with-strait-of-hormuz-set-to-open",
       "published": "2026-06-15T00:08:10+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin Covenants Part 1: Exploring New Possibilities for Complex Spending Conditions on the Bitcoin Network",
+      "summary": "A single missing feature in Bitcoin Script has spawned twelve competing proposals. Cointelegraph Research gives an overview.",
+      "link": "https://cointelegraph.com/research/bitcoin-covenants-part-1-exploring-new-possibilities-for-complex-spending-conditions-on-the-bitcoin-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-15T00:00:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1321,19 +1554,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Here's what SpaceX's IPO means for its $1.3 billion bitcoin reserve",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/13/here-s-what-spacex-s-ipo-means-for-its-usd1-3-billion-bitcoin-reserve",
-      "published": "2026-06-13T17:00:16+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1343,20 +1563,6 @@
       "summary": "Google alleges a Chinese network weaponized its Gemini AI to create phishing sites that stole millions of credit card numbers and targeted crypto investors.",
       "link": "https://decrypt.co/371014/google-sues-chinese-crime-group-gemini-ai-phishing-scams",
       "published": "2026-06-13T16:01:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Spot bitcoin ETFs snap five-day outflow streak with $85.8 million Friday inflow as ether funds keep sliding",
-      "summary": "BlackRock's IBIT led Friday's inflows at $57.7 million, with Fidelity's FBTC adding $18.0 million, while no fund reported a net outflow on the day.",
-      "link": "https://www.theblock.co/post/404682/spot-bitcoin-etfs-snap-five-day-outflow-streak-with-85-8-million-friday-inflow-as-ether-funds-keep-sliding?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-13T15:25:20+00:00",
       "relevance_score": 0
     },
     {
@@ -1411,32 +1617,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin’s ‘calm top’ challenges most market bottom estimates: Research",
-      "summary": "New data from Galaxy Research suggests that Bitcoin's floor price may not drop as low as previous bear markets, but the bottom-finding process is still playing out.",
-      "link": "https://cointelegraph.com/markets/bitcoins-calm-top-challenges-old-bottom-targets-what-traders-need-to-know?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-13T00:51:36+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin rally to $70K builds as orderbook structure highlights traders’ confidence",
-      "summary": "A positive bid-ask readings and a bullish RSI divergence support Bitcoin's recovery, with $70,000 emerging as a key target.",
-      "link": "https://cointelegraph.com/markets/bitcoin-data-points-to-a-relief-rally-as-order-book-demand-targets-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-12T23:42:12+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1447,20 +1627,6 @@
       "summary": "CFTC staff issued release 9252-26 on Friday, giving designated contract markets a no-action path to convert existing perpetual-style digital commodity futures into true perpetuals, advancing the agency's buildout of a regulated US crypto derivatives market.",
       "link": "https://thedefiant.io/converge/regulation/cftc-staff-dcm-convert-perpetual-style-digital-commodity-futures-true-perpetuals",
       "published": "2026-06-12T22:39:22+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "CFTC sues New Mexico in latest bid to assert authority over sports betting markets",
-      "summary": "New Mexico is the next state in the CFTC's crosshairs as the fight continues over regulatory jurisdiction over sports betting.",
-      "link": "https://www.theblock.co/post/404674/cftc-sues-new-mexico-latest-bid-assert-authority-sports-betting-markets?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-12T20:37:49+00:00",
       "relevance_score": 0
     },
     {
@@ -1538,20 +1704,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Early Airbnb, DoorDash backer Y Combinator says Clarity Act could bring crypto to ‘every’ portfolio company",
-      "summary": "Also a backer of companies like Coinbase, OpenAI, Stripe, Reddit, OpenAI and Kalshi, Y Combinator wants to see Congress pass the CLARITY Act.",
-      "link": "https://www.theblock.co/post/404643/early-airbnb-doordash-backer-y-combinator-expects-crypto-to-be-used-by-every-one-of-its-portfolio-companies?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-12T16:51:35+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1577,32 +1729,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Sam Bankman-Fried loses appeal to overturn 25-year prison sentence",
-      "summary": "A federal appeals court upheld the former FTX chief’s conviction, while his bid for clemency from President Donald Trump appears to face steep political odds.",
-      "link": "https://cointelegraph.com/news/sam-bankman-fried-loses-appeal-to-overturn-25-year-prison-sentence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-12T16:39:16+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin surfs SpaceX IPO at $64K as trader warns key BTC price support may crumble",
-      "summary": "Bitcoin hit $64,000 as SpaceX launched a record-breaking IPO and US-Iran peace deal hopes continued to grow, but doubts over BTC price support remained.",
-      "link": "https://cointelegraph.com/markets/bitcoin-surfs-spacex-ipo-iran-peace-cues-as-trader-warns-62k-may-crumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-12T16:17:33+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1612,32 +1738,6 @@
       "summary": "Standard Chartered analyst Geoff Kendrick suggests the crypto market has hit its lowest point following Bitcoin's recent drop below $60,000.",
       "link": "https://decrypt.co/370907/winter-over-standard-chartered-calls-crypto-bottom-bitcoin-recovers-60k-fall",
       "published": "2026-06-12T15:16:08+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Sam Bankman-Fried Loses Appeal as Federal Court Upholds 'Robust' Fraud Conviction",
-      "summary": "Disgraced FTX founder Sam Bankman-Fried has applied for a pardon from President Trump, which is now his one remaining path out of prison.",
-      "link": "https://decrypt.co/370909/sam-bankman-fried-loses-appeal-federal-court-upholds-fraud",
-      "published": "2026-06-12T15:05:24+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Appeals court rejects Sam Bankman-Fried’s bid for new trial in FTX fraud case",
-      "summary": "Sam Bankman-Fried lost his appeal to overturn his 25-year sentence after accusing the original court of not giving him a fair chance.",
-      "link": "https://www.theblock.co/post/404637/appeals-court-rejects-sam-bankman-frieds-bid-for-new-trial-in-ftx-fraud-case?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-12T13:47:54+00:00",
       "relevance_score": 0
     },
     {
@@ -1651,80 +1751,6 @@
       "summary": "Charles Hoskinson thinks a censored Discord server will free Cardano from “endless rage and embittered people.” The post Hoskinson wants to save Cardano&#8217;s rep by leaving X for Discord safespace appeared first on Protos .",
       "link": "https://protos.com/hoskinson-wants-to-save-cardanos-rep-by-leaving-x-for-discord-safespace/",
       "published": "2026-06-12T13:29:11+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Morning Minute: SpaceX Prices Largest IPO Ever at $135",
-      "summary": "Hyperliquid has SpaceX trading at $177 a share. Will we see a 30% pop on open this morning?",
-      "link": "https://decrypt.co/370879/morning-minute-spacex-prices-largest-ipo-ever-at-135",
-      "published": "2026-06-12T12:31:52+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Elon Musk's SpaceX IPO: The Bull and Bear Case for Bitcoin",
-      "summary": "SpaceX’s $75 billion IPO has already drained crypto liquidity, but a strong first-day pop could help rotate profits back, analysts argue.",
-      "link": "https://decrypt.co/370886/elon-musks-spacex-ipo-the-bull-and-bear-case-for-bitcoin",
-      "published": "2026-06-12T12:25:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "LG Electronics Teams With Arbitrum for Blockchain-Based Ad Platform",
-      "summary": "The South Korean tech giant built a custom layer-2 network with Arbitrum for an advertising platform set to launch this year.",
-      "link": "https://decrypt.co/370866/lg-electronics-teams-with-arbitrum-for-blockchain-based-ad-platform",
-      "published": "2026-06-12T10:23:39+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "OpenAI Wants a Price War With Anthropic—Is It Proving DeepSeek Right?",
-      "summary": "Sam Altman is weighing drastic token price cuts to fight Anthropic. The problem is DeepSeek already made that argument for him—and for free.",
-      "link": "https://decrypt.co/370854/openai-price-war-anthropic-deepseek-china",
-      "published": "2026-06-11T22:31:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Bitcoin Rises Above $63,000 as Trump Cancels Iran Strikes and Signals Peace Deal",
-      "summary": "Bitcoin climbed above $63,000 Thursday after President Trump announced via Truth Social that he was canceling scheduled U.S. military strikes against Iran and signaling that a multi-nation agreement was close, citing approvals from Israel, Saudi Arabia, the UAE, Qatar, Turkey, and other regional",
-      "link": "https://thedefiant.io/news/markets/bitcoin-rises-above-63000-trump-cancels-iran-strikes-peace-deal",
-      "published": "2026-06-11T19:45:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "LG Electronics Pilots On-Chain Ad Network Built on Arbitrum Layer 2",
-      "summary": "LG Electronics is building a blockchain-based advertising network on its own Arbitrum-derived Layer 2, with a pilot completed and a commercial launch targeted for later this year.",
-      "link": "https://thedefiant.io/news/blockchains/lg-electronics-pilots-on-chain-ad-network-arbitrum-layer-2",
-      "published": "2026-06-11T19:30:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1754,19 +1780,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Coinbase Gives AI Agents Their Own Accounts to Trade and Pay",
-      "summary": "Coinbase launched Coinbase for Agents, a standalone account that lets AI assistants including ChatGPT and Claude execute crypto trades, manage portfolios, and pay for data autonomously under user-defined guardrails. x402 payments integration arrives next week.",
-      "link": "https://thedefiant.io/news/cefi/coinbase-for-agents-ai-accounts-trade-pay-x402",
-      "published": "2026-06-11T17:50:00+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1780,19 +1793,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Exclusive: Cardano Foundation Recasts Itself as Active Adoption Driver as Hoskinson Pulls Back",
-      "summary": "The steward of the Cardano blockchain is seeding DeFi liquidity, backing an $80M venture fund and signing enterprise deals — a reversal of its hands-off posture that lands as onchain metrics fall and the network's founder feuds with it over governance.",
-      "link": "https://thedefiant.io/news/blockchains/exclusive-cardano-foundation-recasts-itself-as-active-adoption-driver-as-hoskinson-pulls-back",
-      "published": "2026-06-11T17:05:02+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1803,19 +1803,6 @@
       "summary": "South Korean police have booked Bithumb CEO Lee Jae-won after he allegedly gave a politician's son a job in return for legislative favors. The post Bithumb CEO booked in Korea over job offer bribe allegations appeared first on Protos .",
       "link": "https://protos.com/bithumb-ceo-booked-in-korea-over-job-offer-bribe-allegations/",
       "published": "2026-06-11T13:40:02+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "It took Michael Saylor seven minutes to define mNAV",
-      "summary": "Jack Mallers asked Michael Saylor to explain the true meaning of multiple-to-Net Asset Value and everyone got confused. The post It took Michael Saylor seven minutes to define mNAV appeared first on Protos .",
-      "link": "https://protos.com/it-took-michael-saylor-seven-minutes-to-define-mnav/",
-      "published": "2026-06-11T11:57:46+00:00",
       "relevance_score": 0
     },
     {
