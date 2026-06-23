@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T15:13:54.501312+00:00",
+  "generated_at": "2026-06-23T18:04:29.711110+00:00",
   "lookback_days": 8,
-  "total_items": 133,
+  "total_items": 135,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 19
+      "kept": 20
     },
     {
       "name": "Decrypt",
@@ -71,7 +71,7 @@
     {
       "name": "OpenZeppelin Blog",
       "url": "https://blog.openzeppelin.com/rss.xml",
-      "kept": 2
+      "kept": 3
     },
     {
       "name": "Rekt News",
@@ -222,19 +222,6 @@
       "relevance_score": 2
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Enso launches RWA app and trading for over 500 tokenized assets",
-      "summary": "Enso launched access to over 500 tokenized assets and US stocks, citing a growing demand for US equity exposure among European investors.",
-      "link": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "2026-06-22T14:00:00+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -246,6 +233,86 @@
       "link": "https://www.openzeppelin.com/news/the-architecture-decisions-banks-must-get-right-before-building-onchain",
       "published": "2026-06-18T15:09:26+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Meta is developing a prediction market app called ‘Arena’ as sector booms: NYT",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/23/meta-is-developing-a-prediction-market-app-called-arena-as-sector-booms-nyt",
+      "published": "2026-06-23T17:54:32+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "DOJ seizes Huione Group cloud computing account used to launder billions in fraud proceeds",
+      "summary": "Last year, FinCEN designated Huione Group as a primary money laundering concern under the USA Patriot Act.",
+      "link": "https://www.theblock.co/post/405834/doj-seizes-huione-group-account-launder-billions?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-23T16:58:13+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "BNY sees 'FOMO' driving asset managers into tokenized funds",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/23/bny-sees-fomo-driving-asset-managers-into-tokenized-funds",
+      "published": "2026-06-23T16:34:34+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+      "summary": "Banks across Europe and South Korea will study whether regulated euro and won stablecoins can enable real-time cross-border foreign exchange settlement.",
+      "link": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "2026-06-23T15:45:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Tether-backed Oobit brings USDT to nearly 170 million users of Brazil’s PIX payment network",
+      "summary": "Created by Banco Central do Brasil in 2020, PIX is one of the world's most widely-adopted digital payment networks.",
+      "link": "https://www.theblock.co/post/405819/tether-backed-oobit-brings-usdt-170-million-users-brazils-pix-payment-network?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-23T15:29:08+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+      "summary": "Bitcoin stayed volatile while bulls tried to preserve support at local lows while stocks prepared for Micron forward earnings and digested Asia losses.",
+      "link": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "2026-06-23T15:15:41+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinTelegraph",
@@ -567,20 +634,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Securitize asks court to reject tZERO’s ‘meritless’ tokenization patent allegations",
-      "summary": "Securitize alleged that tZERO's actions are \"nothing more than the culmination\" of shareholder pressure to capitalize on the patents.",
-      "link": "https://www.theblock.co/post/405672/securitize-asks-court-reject-tzeros-meritless-tokenization-patent-allegations?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-22T18:21:42+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -590,20 +643,6 @@
       "summary": "The BoE scrapped individual holding caps for a £40 billion per-coin issuance limit and will let issuers hold more reserves in government debt.",
       "link": "https://decrypt.co/371783/bank-of-england-eases-stablecoin-rules-swaps-holding-caps-for-40b-guardrail",
       "published": "2026-06-22T16:43:17+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Intercontinental Exchange, OKX expand access to tokenized equities via joint venture co-chaired by former Gov. Cuomo",
-      "summary": "The new joint venture will enable OKX customers in the U.S. and internationally to access ICE futures and NYSE tokenized equities markets.",
-      "link": "https://www.theblock.co/post/405640/nyse-intercontinental-exchange-okx-expand-access-tokenized-equities-joint-venture-cuomo?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-22T15:59:21+00:00",
       "relevance_score": 1
     },
     {
@@ -671,14 +710,158 @@
       "relevance_score": 1
     },
     {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "New York man sentenced for $1.4 million crypto fraud scheme using bogus influencer accounts",
+      "summary": "A New York man who posed as crypto influencers on Telegram and used false promises of staking rewards was sentenced to 15 months in prison.",
+      "link": "https://www.theblock.co/post/405850/new-york-man-sentenced-1-4-million-crypto-fraud-scheme-bogus-influencer-accounts?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-23T17:48:51+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "‘Quarter-end catalyst or consolidation?’: Bitcoin below $63,000 amid ETF outflows, $10.6 billion options expiry",
+      "summary": "Bitcoin trades under $63,000 ahead of PCE data Thursday on, which analysts say is the market's next key test.",
+      "link": "https://www.theblock.co/post/405831/quarter-end-catalyst-consolidation-bitcoin-below-63000-etf-outflows-10-6-billion-options-expiry?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-23T17:26:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Meta’s Zuckerberg wants to build prediction market app like Polymarket and Kalshi: NYT",
+      "summary": "Prediction markets have swelled into a multi-billion-dollar business with users from all around the world betting billions of dollars.",
+      "link": "https://www.theblock.co/post/405838/meta-zuckerberg-to-build-prediction-market-app-polymarket-kalshi-nyt?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-23T17:20:55+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "A New OpenClaw Competitor: ToqanClaw Promises Privacy in AI Agent Race",
+      "summary": "Prosus launched ToqanClaw, a no-code AI platform positioned as an European alternative to AI agents like OpenClaw.",
+      "link": "https://decrypt.co/371869/toqanclaw-openclaw-competitor-privacy-gdpr",
+      "published": "2026-06-23T17:06:52+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "CFTC chair says perp trading not suitable for all assets it regulates",
+      "summary": "Michael Selig told US cotton producers that the agency’s regulatory approach to crypto perpetual futures may not be a “natural fit for traditional commodity markets, like agriculture.”",
+      "link": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "2026-06-23T16:54:38+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Goldfinch set to shutter Prime after community vote backs wind-down proposal",
+      "summary": "The protocol facilitated roughly $100 million in loans, but a handful of borrower pools later encountered \"serious performance issues.\"",
+      "link": "https://www.theblock.co/post/405825/goldfinch-set-shutter-prime-community-vote-backs-wind-down-proposal?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-23T16:42:58+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+      "summary": "As US regulatory changes accelerate the adoption of crypto perpetual futures and rivals Coinbase and Kalshi expand their offerings, Cboe mulls a product overhaul.",
+      "link": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "2026-06-23T16:23:56+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Bitcoin Tests Two-Week Low at $62K as Tech Stocks Waver on Wall Street",
+      "summary": "Investors are digesting a hawkish Fed, with risk-off sentiment driving a sell-off in AI and crypto",
+      "link": "https://decrypt.co/371867/bitcoin-tests-two-week-low-at-62k-as-tech-stocks-waver-on-wall-street",
+      "published": "2026-06-23T15:54:07+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Chainlink teams up with 47 South Korean, European banks to speed up international money transfers",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/23/chainlink-teams-up-with-47-south-korean-european-banks-to-speed-up-international-money-transfers",
+      "published": "2026-06-23T15:40:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "OpenZeppelin Blog",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "security"
+      ],
+      "title": "Privacy Contracts Audit",
+      "summary": "Summary Type: DeFi Timeline: 2026-03-18 → 2026-03-31 Languages: Cairo Findings Total issues: 11 (6 resolved) Critical: 0 (0 resolved) · High: 0 (0 resolved) · Medium: 2 (2 resolved) · Low: 5 (1 resolved) Notes &amp; Additional Information 4 notes raised (2 resolved) Client Reported Issues 0 reported issues (0 resolved)",
+      "link": "https://www.openzeppelin.com/news/privacy-contracts-audit",
+      "published": "2026-06-23T15:21:19+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Ethereum Foundation Cuts 20% of Workforce in 'Leaner' Reorganization",
+      "summary": "The non-profit is cutting 54 jobs as it reorganizes into focused \"clusters,\" following a succession of leadership departures.",
+      "link": "https://decrypt.co/371864/ethereum-foundation-cuts-20-of-workforce-in-leaner-reorganization",
+      "published": "2026-06-23T15:19:46+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
         "defi",
         "smart-contracts"
       ],
-      "title": "Ethereum Foundation Cuts 20% of Staff in Sweeping Reorganization",
-      "summary": "The nonprofit is eliminating 54 roles and reorganizing around five core divisions focused on Ethereum’s protocol, users, community and institutional adoption.",
+      "title": "Ethereum Foundation Cuts Budget 40% in Sweeping Restructuring",
+      "summary": "The nonprofit is eliminating 54 roles as Vitalik Buterin warns that the leaner organization will involve “grand sacrifices,” including changes to client development, Devcon and institutional work.",
       "link": "https://thedefiant.io/news/blockchains/ethereum-foundation-cuts-20-of-staff-in-sweeping-reorganization",
       "published": "2026-06-23T15:05:40+00:00",
       "relevance_score": 0
@@ -834,7 +1017,7 @@
         "policy",
         "research"
       ],
-      "title": "Blockchain data startup Allium raises $40M Series B as institutional interest in onchain analytics grows: Fortune",
+      "title": "Blockchain data startup Allium raises $40M Series B as institutional interest in onchain analytics grow",
       "summary": "Allium raised a $40 million Series B to expand blockchain data infrastructure for institutional clients, including Visa and the Fed.",
       "link": "https://www.theblock.co/post/405776/blockchain-data-startup-allium-raises-40m-series-b-as-institutional-interest-in-onchain-analytics-grows-fortune?utm_source=rss&utm_medium=rss",
       "published": "2026-06-23T12:28:13+00:00",
@@ -1002,7 +1185,7 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: Bitcoin drops to $62,000 as South Korea's Kospi crashes 10%",
+      "title": "Live updates: Bitcoin drops to $62,000 as Nasdaq sinks 2% following Korea's market plunge",
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/06/23/live-updates-an-altcoin-season-signal-flashed-but-bitcoin-s-slide-is-what-set-it-off",
       "published": "2026-06-23T06:30:21+00:00",
@@ -1032,6 +1215,19 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/06/23/spacex-s-usd600-billion-dive-erased-nearly-half-a-bitcoin-market-cap-in-three-days",
       "published": "2026-06-23T06:23:36+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Ethereum Foundation sacks 20% of workforce amid strategic restructuring",
+      "summary": "The Ethereum Foundation fired 54 employees and unveiled a new organizational structure as Vitalik Buterin said the group plans to reduce its budget by roughly 40%.",
+      "link": "https://cointelegraph.com/news/ethereum-foundation-cuts-20-of-staff-in-major-organizational-overhaul?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "published": "2026-06-23T06:00:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1208,32 +1404,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Ric Edelman says crypto’s biggest growth story is happening off the price chart",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/22/ric-edelman-says-crypto-s-biggest-growth-story-is-happening-off-the-price-chart",
-      "published": "2026-06-22T20:58:40+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "21Shares co-founder warns tokenization hype is outrunning Wall Street reality",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/22/21shares-co-founder-warns-tokenization-hype-is-outrunning-wall-street-reality",
-      "published": "2026-06-22T20:53:39+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1256,19 +1426,6 @@
       "summary": "Warbler Labs posted an official governance proposal on June 12 to wind down Goldfinch Prime and move the protocol to maintenance mode. A Snapshot vote is passing 100% in favor. Depositors face a two-or-more-year recovery horizon as GFI trades 99.8% below its January 2022 all-time high.",
       "link": "https://thedefiant.io/news/defi/goldfinch-finance-winds-down-depositors-report-50m-defaults",
       "published": "2026-06-22T20:30:59+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Strive says digital credit selloff was a liquidation event, not a credit crisis",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/22/strive-says-digital-credit-selloff-was-a-liquidation-event-not-a-credit-crisis",
-      "published": "2026-06-22T20:14:02+00:00",
       "relevance_score": 0
     },
     {
@@ -1332,20 +1489,6 @@
       "summary": "Despite claiming to be a transparent alternative to traditional finance, a recent series of DeFi contagion events have stemmed from opacity. The post Main Street&#8217;s msUSD collapses as Altura winds down vault appeared first on Protos .",
       "link": "https://protos.com/latest-defi-yield-vault-drama-wipes-out-69m-of-msusd-and-avlt-market-cap-1/",
       "published": "2026-06-22T19:50:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitmine, SharpLink and Joe Lubin back Ethlabs nonprofit to advance Ethereum’s ‘next phase’ of growth",
-      "summary": "Ethlabs, backed by Joe Lubin and the two largest ETH DATs, Bitmine and SharpLink, will focus on institutional adoption.",
-      "link": "https://www.theblock.co/post/405694/bitmine-sharplink-and-joe-lubin-back-ethlabs-nonprofit-to-advance-ethereums-next-phase-of-growth?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-22T19:39:22+00:00",
       "relevance_score": 0
     },
     {
@@ -1423,20 +1566,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Gate CrossEx: An Exchange-Native Answer to the Institutional Capital Fragmentation Problem",
-      "summary": "For sophisticated crypto desks, the bottleneck has rarely been finding liquidity, but rather moving capital fast enough to use it. A fund running active books across the largest CEXs operates multiple separate balance sheets that don’t talk to each other. Every account must be funded to meet worst-case requirements. Collateral can’t be netted across venues. [&hellip;]",
-      "link": "https://www.theblock.co/post/404882/gate-crossex-an-exchange-native-answer-to-the-institutional-capital-fragmentation-problem?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-22T17:26:56+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Coin Center",
       "tier": 5,
       "topics": [
@@ -1502,33 +1631,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "HIVE stock surges 25% as Ivy League researchers train neural networks on Paraguay GPUs",
-      "summary": "The research was submitted to NeurIPS, one of AI's leading academic conferences, to be held later this year.",
-      "link": "https://www.theblock.co/post/405637/hive-stock-surges-ivy-league-researchers-train-neural-networks-paraguay-gpus?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-22T16:32:59+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-      "summary": "Bitcoin sought a breakout toward a potential BTC price target near $70,000 as Iran news sent oil toward its lowest levels since early March.",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "2026-06-22T15:48:49+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1566,19 +1668,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Why Google search can be a crypto wallet risk",
-      "summary": "Think your wallet is safe? A major crypto risk may start with a Google search and one wrong click.",
-      "link": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "2026-06-22T14:30:00+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1589,32 +1678,6 @@
       "summary": "After years of terrorizing DeFi users, ruthless sandwicher JaredFromSubway.eth has been caught in a rival’s on-chain trap. The post MEV bot JaredFromSubway.eth loses $7.5M to approvals honeypot appeared first on Protos .",
       "link": "https://protos.com/mev-bot-jaredfromsubway-eth-loses-7-5m-to-approvals-honeypot/",
       "published": "2026-06-22T14:01:07+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Social trading platform Fomo raises $75M, reaches $550M valuation",
-      "summary": "The Series B round values the social trading and token discovery platform at $550 million as crypto venture funding remains active in 2026.",
-      "link": "https://cointelegraph.com/news/fomo-raise-series-b-trading-app-550m-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "2026-06-22T13:42:45+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Strategy adds $300M to USD Reserve, acquires 520 BTC",
-      "summary": "Michael Saylor’s Strategy boosted its USD Reserve to $1.4 billion and added 520 Bitcoin, funded through $335.5 million in MSTR share sales.",
-      "link": "https://cointelegraph.com/news/strategy-300-million-usd-reserve-acquires-520-btc?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "published": "2026-06-22T13:27:40+00:00",
       "relevance_score": 0
     },
     {
@@ -1700,42 +1763,6 @@
       "summary": "Activity on the Bitcoin network is surging, CryptoQuant said, but it's not correlating with price movement for its native asset.",
       "link": "https://decrypt.co/371702/bitcoin-network-activity-rising-btc-falls-50-percent-below-peak-price",
       "published": "2026-06-20T14:59:51+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Charles Schwab Planning to Roll Out S&#038;P 500 Prediction Markets With Cboe: WSJ",
-      "summary": "Global financial institution Charles Schwab is the latest firm hoping to steal a piece of the growing prediction market pie.",
-      "link": "https://decrypt.co/371708/charles-schwab-planning-sp-500-prediction-markets-cboe",
-      "published": "2026-06-19T20:02:32+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "House Republican Introduces Insider Trading Bill to Ban Lawmaker Prediction Market Bets",
-      "summary": "The bill is meant to curb potential insider trading, blocking lawmakers and family members from policy-related prediction market bets.",
-      "link": "https://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
-      "published": "2026-06-19T19:36:09+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "GPT-5.6 Rumors Heat Up as Users Swear ChatGPT Suddenly Got Smarter",
-      "summary": "Many AI users are convinced that OpenAI is quietly running GPT-5.6 inside ChatGPT. OpenAI isn't confirming anything.",
-      "link": "https://decrypt.co/371699/openai-gpt-5-6-chatgpt-stealth-testing-rumors",
-      "published": "2026-06-19T18:15:55+00:00",
       "relevance_score": 0
     },
     {
