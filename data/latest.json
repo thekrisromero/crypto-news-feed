@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T14:31:53.392254+00:00",
+  "generated_at": "2026-06-30T18:02:55.752218+00:00",
   "lookback_days": 8,
   "total_items": 133,
   "feed_status": [
@@ -61,7 +61,7 @@
     {
       "name": "Coin Center",
       "url": "https://www.coincenter.org/feed/",
-      "kept": 1
+      "kept": 0
     },
     {
       "name": "Bankless",
@@ -71,7 +71,7 @@
     {
       "name": "OpenZeppelin Blog",
       "url": "https://blog.openzeppelin.com/rss.xml",
-      "kept": 2
+      "kept": 3
     },
     {
       "name": "Rekt News",
@@ -94,20 +94,6 @@
       "relevance_score": 3
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "BNY and Circle expand partnership, adding mint and burn capabilities for USDC",
-      "summary": "BNY, the world's largest custodian bank, said it plans to add support for additional stablecoin via its Digital Asset Custody platform.",
-      "link": "https://www.theblock.co/post/406581/bny-circle-expand-partnership-adding-mint-burn-capabilities-usdc?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-29T16:58:42+00:00",
-      "relevance_score": 3
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -121,12 +107,37 @@
       "relevance_score": 3
     },
     {
+      "source": "OpenZeppelin Blog",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "security"
+      ],
+      "title": "The Notorious Bug Digest #9: Rule Downgrade, ZK Misconstraint, and the Aftermath Exploit",
+      "summary": "Introduction Welcome to The Notorious Bug Digest #9 - a curated compilation of insights into recent blockchain bugs and security incidents. When our security researchers aren’t diving into audits, they dedicate time to staying up-to-date with the latest in the security space, analyzing audit reports, and dissecting onchain incidents. We believe this knowledge is invaluable to the broader security community, offering a resource for researchers to sharpen their skills and helping newcomers navigate the world of blockchain security. Join us as we explore this batch of bugs together!",
+      "link": "https://www.openzeppelin.com/news/the-notorious-bug-digest-9",
+      "published": "2026-06-30T17:50:04+00:00",
+      "relevance_score": 2
+    },
+    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
         "general"
       ],
-      "title": "Crypto Wallet MetaMask Launches Yield-Paying Money Accounts on Monad",
+      "title": "Circle Stock Dives as Coinbase, BlackRock and Visa Back Open USD Stablecoin",
+      "summary": "The forthcoming Open USD has more than 100 major supporters onboard, including Coinbase—a key backer of Circle’s USDC.",
+      "link": "https://decrypt.co/372429/circle-stock-dives-coinbase-blackrock-visa-open-usd-stablecoin",
+      "published": "2026-06-30T17:38:12+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Crypto Wallet MetaMask Launches Yield-Paying Money Account on Monad",
       "summary": "MetaMask is packaging stablecoin yield, payments, and trading into a single self-custody account as crypto firms compete to make digital dollars more useful.",
       "link": "https://decrypt.co/372298/crypto-wallet-metamask-yield-paying-money-accounts-monad",
       "published": "2026-06-30T14:01:03+00:00",
@@ -249,17 +260,122 @@
       "relevance_score": 2
     },
     {
-      "source": "Protos",
+      "source": "CoinDesk",
       "tier": 1,
       "topics": [
-        "investigative",
-        "business"
+        "general",
+        "policy"
       ],
-      "title": "Mystery deepens over Cardano wallet’s $18.5M white hat hacker",
-      "summary": "Cardano's founder made various claims that cast doubt on wether or not the white hat hacker moving SecondFi funds is known. The post Mystery deepens over Cardano wallet&#8217;s $18.5M white hat hacker appeared first on Protos .",
-      "link": "https://protos.com/mystery-deepens-over-cardano-wallets-18-5m-white-hat-hacker/",
-      "published": "2026-06-26T15:08:35+00:00",
-      "relevance_score": 2
+      "title": "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/06/30/sec-giving-novel-etfs-a-rethink-as-it-opens-comment-period-on-overhauling-u-s-rules",
+      "published": "2026-06-30T17:51:57+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "SEC opens ETF rule review following crypto fund surge, prediction markets push",
+      "summary": "The SEC is taking a fresh look at how a proposed fast-growing new class of ETFs tied to prediction markets should be regulated.",
+      "link": "https://www.theblock.co/post/406750/sec-opens-etf-rule-review-following-crypto-fund-surge-prediction-markets-push?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T17:19:48+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Business use of stablecoins set for growth surge: Cybrid report",
+      "summary": "The majority of businesses surveyed are likely to use stablecoins within the next 12 months, while regulatory clarity remained the biggest barrier to wider adoption.",
+      "link": "https://cointelegraph.com/news/42-of-businesses-surveyed-use-stablecoins-for-cross-border-payments-cybrid-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T16:34:31+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Sharplink Buys Ethereum for First Time in 2026—With ETH Down 68% From Peak",
+      "summary": "Ethereum treasury firm Sharplink purchased around $16 million worth of ETH last week, marking its first crypto buy since last year.",
+      "link": "https://decrypt.co/372432/harplink-buys-ethereum-first-time-2026-eth-down",
+      "published": "2026-06-30T15:54:01+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Dutch Prosecutors Seek to Bankrupt Crypto Platform Knaken After Funds Frozen",
+      "summary": "Prosecutors asked a Rotterdam court to wind up the unlicensed exchange, which has locked some 30,000 customers out of their crypto.",
+      "link": "https://decrypt.co/372433/dutch-prosecutors-seek-to-bankrupt-crypto-platform-knaken-after-funds-frozen",
+      "published": "2026-06-30T15:50:32+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Open Standard Unveils Open USD, a Bank- and Tech-Backed Stablecoin Governed by Its Users",
+      "summary": "A consortium of more than 140 financial and technology companies introduced Open USD, a dollar stablecoin whose reserve earnings and governance are designed to flow to the businesses that adopt it rather than to a single issuer.",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/open-standard-open-usd-ousd-stablecoin-consortium-blackrock-visa-mastercard",
+      "published": "2026-06-30T15:04:12+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Visa, Stripe, Coinbase and more join Open USD stablecoin that shares reserve revenue",
+      "summary": "Expected to launch later this year, Open Standard said businesses will be able to mint and redeem Open USD without fees or volume limits.",
+      "link": "https://www.theblock.co/post/406736/visa-stripe-coinbase-join-open-usd-stablecoin-shares-reserve-revenue?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T14:57:18+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "OKX AI unveils marketplace for agents to find work and get paid in stablecoins",
+      "summary": "“Think Upwork for Agents with our fintech infrastructure and 150M scale in the background,\" an OKX rep said.",
+      "link": "https://www.theblock.co/post/406704/okx-ai-unveils-marketplace-for-agents-to-find-work-and-get-paid-in-stablecoins?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T14:49:01+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Circle slides 13% as Stripe, Coinbase and BlackRock back rival stablecoin network",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/30/circle-slides-8-as-stripe-coinbase-and-blackrock-back-rival-stablecoin-network",
+      "published": "2026-06-30T14:32:33+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinDesk",
@@ -460,19 +576,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Coinbase, Kraken and OKX move to swoop up EU users affected by MiCA restrictions",
-      "summary": "Several exchanges that have already been authorized by EU regulators are attempting to bring in users from companies unlicensed under the Markets in Crypto-Assets rules, offering transfer bonuses and prizes.",
-      "link": "https://cointelegraph.com/news/coinbase-okx-kraken-eu-users-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T17:50:00+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -521,47 +624,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/tech/2026/06/29/private-keys-not-smart-contracts-caused-40-of-crypto-s-usd16-billion-hack-losses-here-s-whats-being-done",
       "published": "2026-06-29T15:45:18+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Binance founder CZ says MiCA application was ‘fully compliant’ and near approval before political forces intervened",
-      "summary": "Binance founder CZ says the exchange's EU MiCA application was close to approval before unnamed political forces weighed in.",
-      "link": "https://www.theblock.co/post/406554/binance-founder-cz-mica-application-fully-compliant-near-approval-political-forces-intervened?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-29T15:33:27+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "MiCA's looming deadline could leave 10 million crypto users without a platform in the EU",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/29/mica-july-1-deadline-could-leave-10-million-crypto-users-searching-for-a-new-platform-in-the-eu",
-      "published": "2026-06-29T15:03:53+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitmine lifts Ethereum treasury to 5.7 million ETH through ‘challenging’ weekly slide, joins Russell 1000",
-      "summary": "Bitmine added 27,084 ETH last week, bringing total holdings to 5.70M coins worth $8.9B as the company hits 94% of its 5% ETH supply target.",
-      "link": "https://www.theblock.co/post/406538/bitmine-lifts-ethereum-treasury-to-5-7-million-eth-through-challenging-weekly-slide-joins-russell-1000?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-29T14:46:28+00:00",
       "relevance_score": 1
     },
     {
@@ -654,43 +716,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Wall Street's Next Tokenization Test: BlackRock-Backed Securitize's Market Debut",
-      "summary": "Securitize expects to begin trading next week under the ticker symbol “SECZ,” following the completion of a merger with a blank-check firm.",
-      "link": "https://decrypt.co/372249/wall-street-next-tokenization-test-blackrock-backed-securitize-ipo",
-      "published": "2026-06-26T20:47:44+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Base Suffers Second Chain Halt in 24 Hours, Complicating B20 Activation Window",
-      "summary": "Base stalled block production for a second time in less than 24 hours on Friday morning, describing the incident as showing 'similar symptoms' to Thursday's roughly two-hour outage, with the event arriving less than three hours before the B20 Activation Registry was anticipated to go live.",
-      "link": "https://thedefiant.io/news/blockchains/base-second-chain-halt-24-hours-b20-activation-window",
-      "published": "2026-06-26T19:59:08+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Linux Foundation, Tech Giants Launch Akrites to Defend Open Source Against AI-Powered Attacks",
-      "summary": "A coalition of 19 organizations—including every major AI lab and Wall Street banks—just built the security team that open-source maintainers never had.",
-      "link": "https://decrypt.co/372244/linux-foundation-tech-giants-akrites-defend-open-source-ai-attacks",
-      "published": "2026-06-26T19:23:37+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Ledger Insights",
       "tier": 1,
       "topics": [
@@ -702,6 +727,123 @@
       "link": "https://www.ledgerinsights.com/tokenized-deposits-the-threat-and-the-fix-you-probably-missed/",
       "published": "2026-06-26T09:45:09+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "AI’s power crunch turns Bitcoin miners’ grid access into an asset",
+      "summary": "Bitcoin miners have the power sites AI companies need, but turning old mining campuses into real data center revenue is no easy pivot.",
+      "link": "https://cointelegraph.com/features/bitcoin-miners-ai-data-centers-power-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T17:44:31+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Crypto companies have spent $189M so far on 2026 US election cycle: Report",
+      "summary": "The crypto industry, big tech and gambling interest groups are betting big on politicians in the 2026 primaries and elections, with almost $300 million shelled out so far.",
+      "link": "https://cointelegraph.com/news/crypto-companies-spent-2026-us-election-cycle-public-citizen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T17:19:17+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Magic Eden, Founders Sued by $ME Buyers Over Broken 'Utility' Promises",
+      "summary": "A nationwide class action in New York accuses the NFT marketplace and its four co-founders of marketing the token's use cases, then delaying or abandoning them as $ME fell roughly 99% from launch",
+      "link": "https://thedefiant.io/news/defi/magic-eden-founders-sued-by-usdme-buyers-over-broken-utility-promises",
+      "published": "2026-06-30T16:56:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Coinmetro declares bankruptcy, blames years-old failure of provider",
+      "summary": "Coinmetro, an Estonian-based cryptocurrency exchange, has filed for bankruptcy, blaming the failure on one or several financial partners. The post Coinmetro declares bankruptcy, blames years-old failure of provider appeared first on Protos .",
+      "link": "https://protos.com/coinmetro-declares-bankruptcy-blames-years-old-failure-of-provider/",
+      "published": "2026-06-30T16:42:22+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Chinese exile once linked to Trump strategist gets 30-year sentence in $1 billion fraud",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/06/30/chinese-exile-once-linked-to-trump-strategist-gets-30-year-sentence-in-usd1-billion-fraud",
+      "published": "2026-06-30T16:31:46+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T15:31:03+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "TD Cowen Slashes Strategy Price Target, Citing Ongoing Bitcoin Weakness",
+      "summary": "Strategy's stock price started sliding again on Tuesday, one day after breaking a nine-day losing streak.",
+      "link": "https://decrypt.co/372422/td-cowen-slashes-strategy-price-target-bitcoin-weakness",
+      "published": "2026-06-30T15:05:41+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "New Zcash nonprofit Sovright unveils ZEC wallet recovery tool",
+      "summary": "Argos is a recovery tool for users who had shielded funds stuck on ZEC Wallet Lite, an issue impacting some longtime Zcash supporters.",
+      "link": "https://www.theblock.co/post/406731/new-zcash-nonprofit-sovright-unveils-zec-wallet-recovery-tool?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T14:44:26+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/06/30/jefferies-warns-of-crypto-market-volatility-as-clarity-act-faces-senate-test",
+      "published": "2026-06-30T14:41:59+00:00",
+      "relevance_score": 0
     },
     {
       "source": "The Block",
@@ -1040,23 +1182,10 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: bitcoin falls back below $59,000 as demand dwindles",
+      "title": "Live updates: Bitcoin falls back below $59,000, Circle's stock gets crushed",
       "summary": "",
       "link": "https://www.coindesk.com/tech/2026/06/30/live-updates-blackrock-s-ibit-sheds-usd300-million-as-bitcoin-demand-dwindles",
       "published": "2026-06-30T07:01:09+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-30T06:24:14+00:00",
       "relevance_score": 0
     },
     {
@@ -1333,19 +1462,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin put-call ratio hits 1-year high: Are bears preparing for drop to $55K?",
-      "summary": "Rising demand for put options and persistent ETF outflows highlight Bitcoin's weakness despite lower oil prices.",
-      "link": "https://cointelegraph.com/markets/bitcoin-put-call-ratio-hits-1-year-high-are-bears-preparing-for-drop-to-55k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T19:41:04+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1434,19 +1550,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin balances $60K tightrope as US stocks rebound on fresh Iran peace deal hopes",
-      "summary": "Bitcoin faced its own battle for support as US stocks headed higher and analysts warned of a lack of \"conviction\" among BTC buyers.",
-      "link": "https://cointelegraph.com/markets/bitcoin-fails-60k-reclaim-as-us-stocks-rebound-on-new-iran-peace-hopes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T17:44:49+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1511,20 +1614,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Strategy’s MSTR, STRC shares recover after brutal week as Saylor unveils new buyback plans",
-      "summary": "Strategy outlined a new capital framework as bitcoin steadied after last week's sharp MSTR and STRC selloff.",
-      "link": "https://www.theblock.co/post/406568/strategy-mstr-strc-shares-recover-after-brutal-week-saylor-unveils-new-buyback-plans?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-29T16:40:09+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1538,32 +1627,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "White House to speak with law enforcement groups to push Crypto's Clarity Act",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/06/29/white-house-to-speak-with-law-enforcement-groups-to-push-crypto-s-clarity-act",
-      "published": "2026-06-29T15:23:51+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "JPMorgan broadens blockchain settlement network as banks modernize cross-border payments",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/29/j-p-morgan-broadens-blockchain-settlement-network-as-banks-modernize-cross-border-payments",
-      "published": "2026-06-29T15:23:36+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1573,19 +1636,6 @@
       "summary": "BitMine Immersion Technologies continued adding to its Ethereum stockpile, even as its Bitcoin counterpart Strategy stood pat.",
       "link": "https://decrypt.co/372294/tom-lee-bitmine-43-million-ethereum-strategy-halts-bitcoin-buys",
       "published": "2026-06-29T15:13:16+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/06/29/crypto-analytics-firm-chainalysis-proposes-standards-for-blockchain-tracing",
-      "published": "2026-06-29T15:07:49+00:00",
       "relevance_score": 0
     },
     {
@@ -1703,43 +1753,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Senators Demand Answers From CFTC Over Alleged Polymarket Deceptive Advertising",
-      "summary": "Senators are seeking answers from the CFTC about recent allegations of deceptive marketing from Polymarket.",
-      "link": "https://decrypt.co/372239/senators-demand-answers-cftc-polymarket-deceptive-advertising",
-      "published": "2026-06-26T19:18:41+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Canton Network Tops Blockchain Fee Rankings With $60M in 30 Days",
-      "summary": "Canton Network, the privacy-enabled institutional blockchain built by Digital Asset, generated $60.2 million in fees over the trailing 30 days, outpacing Tron's $27.6 million and Ethereum's $11.3 million by a wide margin, according to DefiLlama data.",
-      "link": "https://thedefiant.io/converge/blockchains/canton-network-tops-blockchain-fee-rankings-60m-30-days",
-      "published": "2026-06-26T19:07:41+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "OpenAI Rolls Out GPT-5.6—But Only for Some Users Due to Trump Admin",
-      "summary": "OpenAI introduced the GPT-5.6 family of AI models on Friday, but only limited users can access them for now thanks to the U.S. government.",
-      "link": "https://decrypt.co/372238/openai-rolls-out-gpt-5-6-limited-access-trump-admin",
-      "published": "2026-06-26T19:06:06+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1789,19 +1802,6 @@
       "summary": "Summary Type: DeFi Timeline: 2026-03-18 → 2026-03-31 Languages: Cairo Findings Total issues: 11 (6 resolved) Critical: 0 (0 resolved) · High: 0 (0 resolved) · Medium: 2 (2 resolved) · Low: 5 (1 resolved) Notes &amp; Additional Information 4 notes raised (2 resolved) Client Reported Issues 0 reported issues (0 resolved)",
       "link": "https://www.openzeppelin.com/news/privacy-contracts-audit",
       "published": "2026-06-23T15:21:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Coin Center",
-      "tier": 5,
-      "topics": [
-        "regulation",
-        "policy"
-      ],
-      "title": "Congress must understand: Block rewards are newly created property, not income.",
-      "summary": "Some proposals merely defer income tax treatment for miners and stakers without doing anything about the underlying misconception The post Congress must understand: Block rewards are newly created property, not income. appeared first on Coin Center .",
-      "link": "https://coincenter.org/congress-must-understand-block-rewards-are-newly-created-property-not-income/",
-      "published": "2026-06-22T17:19:06+00:00",
       "relevance_score": 0
     }
   ]
