@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-30T11:14:49.265944+00:00",
+  "generated_at": "2026-06-30T14:31:53.392254+00:00",
   "lookback_days": 8,
-  "total_items": 132,
+  "total_items": 133,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 19
+      "kept": 20
     },
     {
       "name": "Decrypt",
@@ -81,6 +81,19 @@
   ],
   "items": [
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Spiko links EU regulated T-bill funds to Coinbase stablecoin rails",
+      "summary": "Spiko integrated Coinbase Payments into two EU regulated UCITS Treasury funds, enabling USDC and EURC subscriptions and redemption payments through Base.",
+      "link": "https://cointelegraph.com/news/spiko-coinbase-stablecoin-payments-treasury-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T12:21:03+00:00",
+      "relevance_score": 3
+    },
+    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -108,17 +121,55 @@
       "relevance_score": 3
     },
     {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Crypto Wallet MetaMask Launches Yield-Paying Money Accounts on Monad",
+      "summary": "MetaMask is packaging stablecoin yield, payments, and trading into a single self-custody account as crypto firms compete to make digital dollars more useful.",
+      "link": "https://decrypt.co/372298/crypto-wallet-metamask-yield-paying-money-accounts-monad",
+      "published": "2026-06-30T14:01:03+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Tokenized securities need competition, not gatekeepers",
+      "summary": "",
+      "link": "https://www.coindesk.com/opinion/2026/06/29/tokenized-securities-need-competition-not-gatekeepers",
+      "published": "2026-06-30T13:25:52+00:00",
+      "relevance_score": 2
+    },
+    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
         "breaking",
         "global"
       ],
-      "title": "Breez launches Bitcoin-to-stablecoin payments across more than 30 blockchains",
-      "summary": "The new SDK feature lets developers route payments from Bitcoin balances to recipients in USDC and USDT without requiring users to hold stablecoins.",
-      "link": "https://cointelegraph.com/news/breez-bitcoin-wallets-send-usdc-usdt-without-holding-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T13:00:00+00:00",
-      "relevance_score": 3
+      "title": "Theo becomes first crypto-native investor in Fidelity tokenized fund",
+      "summary": "The onchain capital markets platform allocated $20 million to Fidelity International's tokenized liquidity fund as tokenized Treasury products continue to attract institutional capital.",
+      "link": "https://cointelegraph.com/news/fidelity-tokenized-fund-first-crypto-native-investor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T13:00:00+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "AVAX treasury company tells the SEC it might not survive the year",
+      "summary": "Avalanche treasury stock, which wanted to amass $1B in AVAX, crashed 93% and told the SEC it might not survive the year. The post AVAX treasury company tells the SEC it might not survive the year appeared first on Protos .",
+      "link": "https://protos.com/avax-treasury-company-tells-the-sec-it-might-not-survive-the-year/",
+      "published": "2026-06-30T12:44:16+00:00",
+      "relevance_score": 2
     },
     {
       "source": "CoinDesk",
@@ -144,32 +195,6 @@
       "summary": "The world's largest asset manager will list the USDe synthetic dollar as an approved asset on its institutional risk platform, while its BUIDL fund becomes the primary backing for Ethena's whitelabel stablecoins.",
       "link": "https://thedefiant.io/news/defi/blackrock-adds-ethena-s-synthetic-dollar-to-its-usd20t-aladdin-risk-management-platform",
       "published": "2026-06-29T16:20:08+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "BNY adds USDC minting and redemption to institutional custody platform",
-      "summary": "The move deepens BNY's partnership with Circle and builds on the bank's role as the primary custodian of USDC reserves.",
-      "link": "https://cointelegraph.com/news/bny-adds-usdc-minting-and-redemption-to-institutional-custody-platform?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T16:10:09+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
-      "published": "2026-06-29T14:46:33+00:00",
       "relevance_score": 2
     },
     {
@@ -235,6 +260,58 @@
       "link": "https://protos.com/mystery-deepens-over-cardano-wallets-18-5m-white-hat-hacker/",
       "published": "2026-06-26T15:08:35+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/06/30/metamask-launches-money-account-with-stablecoin-yield-and-spending-in-one-wallet",
+      "published": "2026-06-30T14:00:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "MetaMask launches stablecoin yield account with card spending",
+      "summary": "MetaMask launches Money Account it says offers up to 4% variable APY on mUSD stablecoin balances and card spending, with DeFi-powered yield via vaults, excluding the UK and EU.",
+      "link": "https://cointelegraph.com/news/metamask-money-account-musd-stablecoin-yield?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T14:00:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Morning Minute: A Change of Strategy",
+      "summary": "Michael Saylor's Strategy is rolling out some major changes to how it handles Bitcoin going forward. And so far, the market likes it.",
+      "link": "https://decrypt.co/372411/morning-minute-a-change-of-strategy",
+      "published": "2026-06-30T12:13:27+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "New York Life Investment Management makes first tokenized move partnering with Centrifuge on high-yield corporate bond strategy",
+      "summary": "The tokenized fund will enable eligible investors to access NYLIM’s established institutional high-yield strategy.",
+      "link": "https://www.theblock.co/post/406696/new-york-life-first-tokenized-centrifuge-high-yield-corporate-bond-strategy?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T12:00:00+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinTelegraph",
@@ -392,7 +469,7 @@
       "title": "Coinbase, Kraken and OKX move to swoop up EU users affected by MiCA restrictions",
       "summary": "Several exchanges that have already been authorized by EU regulators are attempting to bring in users from companies unlicensed under the Markets in Crypto-Assets rules, offering transfer bonuses and prizes.",
       "link": "https://cointelegraph.com/news/coinbase-okx-kraken-eu-users-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T17:42:39+00:00",
+      "published": "2026-06-29T17:50:00+00:00",
       "relevance_score": 1
     },
     {
@@ -474,32 +551,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Ripple wants institutions to borrow against tokenized assets on XRPL",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/06/29/emb-3-pm-utc-ripple-wants-institutions-to-borrow-against-tokenized-assets-on-xrpl",
-      "published": "2026-06-29T15:00:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Can AI drain DeFi? Separating Claude Mythos hype from reality",
-      "summary": "Claude Mythos has raised concerns about AI-driven attacks on DeFi protocols. However, the same AI tools are also available to security teams, not just attackers.",
-      "link": "https://cointelegraph.com/learn/claude-mythos-defi-hacks-ai-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T15:00:00+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -524,20 +575,6 @@
       "summary": "Two companies have remotely frozen 3.7B stablecoins, exposing the kill switch hiding inside crypto’s most popular asset class. The post Crypto censorship tracker shows 3.7B frozen stablecoins and counting appeared first on Protos .",
       "link": "https://protos.com/crypto-censorship-tracker-shows-3-7b-frozen-stablecoins-and-counting/",
       "published": "2026-06-29T13:11:42+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "BlackRock’s Aladdin platform adds deeper support for Ethena’s stablecoin products",
-      "summary": "The move makes USDe more accessible to investment professionals wishing to take advantage of 'digital dollar exposure.'",
-      "link": "https://www.theblock.co/post/405670/blackrock-ethena-partnership-usde?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-29T13:00:00+00:00",
       "relevance_score": 1
     },
     {
@@ -654,30 +691,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Spanish Regulator Says No Extensions for EU Crypto Deadline as Binance Remains Unlicensed",
-      "summary": "Crypto firms operating in the European Union will be forced to cease operations if they do not obtain a MiCA license by July 1.",
-      "link": "https://decrypt.co/372230/spanish-regulator-no-extensions-eu-crypto-deadline-binance",
-      "published": "2026-06-26T18:02:22+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "This AI Agent Survived 6,000 Hack Attempts—Here’s How",
-      "summary": "Fernando Irarrázaval posted his OpenClaw assistant's inbox to Hacker News and watched Claude Opus 4.6 hold off thousands of attackers.",
-      "link": "https://decrypt.co/372221/ai-agent-openclaw-6000-hack-attempts",
-      "published": "2026-06-26T18:01:47+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Ledger Insights",
       "tier": 1,
       "topics": [
@@ -689,6 +702,192 @@
       "link": "https://www.ledgerinsights.com/tokenized-deposits-the-threat-and-the-fix-you-probably-missed/",
       "published": "2026-06-26T09:45:09+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "MetaMask unveils all-in-one Money Account offerings users up to 4% APY on mUSD holdings",
+      "summary": "Consensys tapped Monad as Money Account's “home chain,\" and will initially use Morpho vaults to generate yield.",
+      "link": "https://www.theblock.co/post/406570/metamask-all-in-one-money-account-offerings-users-4-apy-musd-holdings?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T14:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Sharplink buys 10,000 ETH, repurchases 2.13 million SBET shares in latest buyback",
+      "summary": "Sharplink bought 10,000 ETH and repurchased 2.13 million SBET shares after completing a $75 million capital raise.",
+      "link": "https://www.theblock.co/post/406721/sharplink-buys-10000-eth-repurchases-2-13-million-shares-latest-buyback?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T13:59:18+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Netflix director sentenced for blowing sci-fi series funds on dogecoin",
+      "summary": "Carl Rinsch has been sentenced to 30 months in prison after misusing $11M from Netflix to trade dogecoin and buy luxury cars. The post Netflix director sentenced for blowing sci-fi series funds on dogecoin appeared first on Protos .",
+      "link": "https://protos.com/netflix-director-sentenced-for-blowing-sci-fi-series-funds-on-dogecoin/",
+      "published": "2026-06-30T13:44:42+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "OKX launches AI marketplace for autonomous agent economy",
+      "summary": "OKX launched a beta marketplace for the agentic economy, enabling AI agents to autonomously find work and collaborate with other agents.",
+      "link": "https://cointelegraph.com/news/okx-ai-marketplace-autonomous-agent-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T13:39:39+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Strategy's new plan divides industry observers even as MSTR, STRC climb",
+      "summary": "Strategy’s new Bitcoin capital framework draws Wall Street backing from Benchmark with a $570 per share target even as traders question long-term demand risk.",
+      "link": "https://cointelegraph.com/news/strategy-new-plan-split-community-mstr-strc-climb?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T13:14:47+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Nasdaq expands distribution of its market data into blockchain infrastructure",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/30/nasdaq-expands-distribution-of-its-market-data-into-blockchain-infrastructure",
+      "published": "2026-06-30T13:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Swan's Cory Klippsten sees record Bitcoin holder supply revealing early bottom",
+      "summary": "The record Bitcoin supply held by long-term holders may suggest that the crypto market bottom will come early, according to Swan’s Cory Klippsten.",
+      "link": "https://cointelegraph.com/news/record-bitcoin-holder-supply-early-bottom-swan-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T12:44:21+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "TD Cowen slashes Strategy target to $260 on bitcoin outlook, calls new capital framework ‘constructive’",
+      "summary": "TD Cowen cut its Strategy price target to $260 from $400 on a lower bitcoin forecast, while calling its new capital framework \"constructive.\"",
+      "link": "https://www.theblock.co/post/406710/td-cowen-slashes-strategy-target-to-260-on-bitcoin-outlook-calls-new-capital-framework-constructive?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T12:31:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "StarkWare unveils Starknet post-quantum roadmap, calling it crypto’s ‘strongest’ to date",
+      "summary": "StarkWare debuted a three-phase roadmap to make Starknet quantum-ready within months, according to the company.",
+      "link": "https://www.theblock.co/post/406677/starkware-unveils-starknet-post-quantum-roadmap-calling-it-cryptos-strongest-to-date?utm_source=rss&utm_medium=rss",
+      "published": "2026-06-30T12:30:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "StarkWare unveils Starknet quantum roadmap, says industry has no excuse",
+      "summary": "“The crypto industry shouldn’t need wake-up calls from the White House or anyone else,” said StarkWare CEO Eli Ben-Sasson.",
+      "link": "https://cointelegraph.com/news/starkware-ceo-blasts-crypto-complacency-in-quantum-threat-elliptic-illusion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-06-30T12:30:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "World’s biggest clearinghouse didn’t need to XRP to go round the clock",
+      "summary": "Crypto and blockchain have not been particularly helpful for clearinghouse giants like DTCC expanding to 24 hour service. The post World&#8217;s biggest clearinghouse didn&#8217;t need to XRP to go round the clock appeared first on Protos .",
+      "link": "https://protos.com/worlds-biggest-clearinghouse-didnt-need-to-xrp-to-go-round-the-clock/",
+      "published": "2026-06-30T11:58:49+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin’s quiet $59,000-$60,000 range is starting to look dangerous",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/06/30/bitcoin-s-quiet-usd59-000-usd60-000-range-is-starting-to-look-dangerous",
+      "published": "2026-06-30T11:55:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "New York Life's $800 billion asset manager makes tokenization debut with Centrifuge fund",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/06/29/new-york-life-makes-tokenization-debut-with-onchain-high-yield-bond-fund-with-centrifuge",
+      "published": "2026-06-30T11:20:30+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
+      "summary": "",
+      "link": "https://www.coindesk.com/daybook-us/2026/06/30/bitcoin-usd4-4-billion-supply-overhang-emerges-as-institutional-demand-wilts",
+      "published": "2026-06-30T11:18:34+00:00",
+      "relevance_score": 0
     },
     {
       "source": "CoinTelegraph",
@@ -749,7 +948,7 @@
         "general",
         "policy"
       ],
-      "title": "Strategy heads for eleventh losing month in twelve as bitcoin weakness continues",
+      "title": "Strategy heads for 11th losing month in 12 as bitcoin weakness continues",
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/06/30/strategy-heads-for-eleventh-losing-month-in-twelve-as-bitcoin-weakness-continues",
       "published": "2026-06-30T10:33:48+00:00",
@@ -841,7 +1040,7 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: BlackRock's IBIT sheds $300 million as bitcoin demand dwindles",
+      "title": "Live updates: bitcoin falls back below $59,000 as demand dwindles",
       "summary": "",
       "link": "https://www.coindesk.com/tech/2026/06/30/live-updates-blackrock-s-ibit-sheds-usd300-million-as-bitcoin-demand-dwindles",
       "published": "2026-06-30T07:01:09+00:00",
@@ -1358,7 +1557,7 @@
         "general",
         "policy"
       ],
-      "title": "J.P. Morgan broadens blockchain settlement network as banks modernize cross-border payments",
+      "title": "JPMorgan broadens blockchain settlement network as banks modernize cross-border payments",
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/06/29/j-p-morgan-broadens-blockchain-settlement-network-as-banks-modernize-cross-border-payments",
       "published": "2026-06-29T15:23:36+00:00",
@@ -1390,126 +1589,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Strategy opens door to selling billions of bitcoin under new capital plan. Here's what it means",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/06/29/strategy-opens-the-door-to-selling-bitcoin-under-new-capital-plan-here-s-what-it-means",
-      "published": "2026-06-29T14:11:01+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Ukraine transfers $8.3 million in seized crypto amid potential plans for strategic reserve",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/29/ukraine-transfers-usd8-3-million-in-seized-crypto-amid-potential-plans-for-strategic-reserve",
-      "published": "2026-06-29T14:03:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "BlackRock pushes deeper into DeFi with Ethena integration, sending ENA up 8%",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/29/blackrock-pushes-deeper-into-defi-with-ethena-integration-sending-ena-up-8",
-      "published": "2026-06-29T14:02:10+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "From Bitcoin critics to blockchain believers: The 5 biggest crypto backflips",
-      "summary": "If you can't beat 'em, join 'em. Here are five crypto skeptics who have reluctantly embraced the opportunity of making loads of money with blockchain.",
-      "link": "https://cointelegraph.com/features/from-bitcoin-critics-to-blockchain-believers-the-5-biggest-crypto-backflips?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T13:30:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bernstein says prediction-market infrastructure rush could spark wave of M&A across consumer platforms",
-      "summary": "Bernstein said DraftKings' DKeX launch keeps prediction-market revenue in-house as consolidation reshapes trading and betting platforms.",
-      "link": "https://www.theblock.co/post/406520/bernstein-says-prediction-market-infrastructure-rush-could-spark-wave-of-ma-across-consumer-platforms?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-29T13:29:48+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Strategy unveils capital framework to preserve Bitcoin exposure, pay dividends",
-      "summary": "Michael Saylor’s Strategy unveiled a capital framework allowing Bitcoin sales to fund dividends, a $2.55 billion reserve and buybacks while raising STRC payout to 12%.",
-      "link": "https://cointelegraph.com/news/strategy-capital-framework-preserve-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T13:12:23+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Kalshi and Polymarket could become M&A targets as prediction markets consolidate: Bernstein",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/06/29/kalshi-and-polymarket-could-become-m-and-a-targets-as-prediction-markets-consolidate-bernstein",
-      "published": "2026-06-29T12:56:42+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Strategy pauses bitcoin buys, establishes $1B digital credit repurchase program as USD reserve tops $2.5B",
-      "summary": "Strategy's total holdings remain at 847,363 BTC and account for more than 4% of the 21 million bitcoin supply cap — worth around $51 billion.",
-      "link": "https://www.theblock.co/post/406512/strategy-buys-btc-mstr-strc-collapse-bitcoin-holdings-underwater?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-29T12:45:53+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitcoin clings to key support level as weekly US spot ETF outflows hit $1.8B and Fed rate hike bets mount: analysts",
-      "summary": "Bitcoin floats near $60K as spot ETF weekly outflows hit $1.79B amid Fed rate hike fears and an AI sell-off.",
-      "link": "https://www.theblock.co/post/406516/bitcoin-clings-to-key-support-level-as-weekly-us-spot-etf-outflows-hit-1-8b-and-fed-rate-hike-bets-mount-analysts?utm_source=rss&utm_medium=rss",
-      "published": "2026-06-29T12:00:13+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1519,32 +1598,6 @@
       "summary": "Another $1.79B in ETF outflows last week certainly isn't helping—but if history repeats, there is reason for hope.",
       "link": "https://decrypt.co/372283/morning-minute-bitcoin-headed-for-rare-back-to-back-quarterly-loss",
       "published": "2026-06-29T11:50:53+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Prediction-market operational consolidation could spur M&A wave: Bernstein",
-      "summary": "Bernstein says platforms are bringing exchange, clearing and brokerage infrastructure in-house, setting up potential deals while increasing antitrust and regulatory risks.",
-      "link": "https://cointelegraph.com/news/prediction-market-consolidation-ma-wave-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T11:21:37+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Vitalik Buterin says obfuscation could unlock private onchain crypto voting",
-      "summary": "Vitalik Buterin said indistinguishability obfuscation could eventually support private, collusion-resistant onchain voting without trusted committees, though the technology remains impractical.",
-      "link": "https://cointelegraph.com/news/vitalik-buterin-private-onchain-voting-obfuscation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-06-29T10:53:39+00:00",
       "relevance_score": 0
     },
     {
@@ -1723,45 +1776,6 @@
       "summary": "Brian Armstrong reportedly donated $250k to the RNC and was in attendance at a GOP fundraising event with JD Vance. The post Brian Armstrong supports GOP at fundraising dinner with JD Vance appeared first on Protos .",
       "link": "https://protos.com/brian-armstrong-supports-gop-at-fundraising-dinner-with-jd-vance/",
       "published": "2026-06-26T15:27:35+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Coinbase ‘I was fired’ memes revive on X amid Base outage",
-      "summary": "As the Base chain froze on Thursday, a fake Coinbase firing post pulled 180,000 views before a Community Note exposed it as a recycled meme. The post Coinbase ‘I was fired’ memes revive on X amid Base outage appeared first on Protos .",
-      "link": "https://protos.com/coinbase-i-was-fired-memes-revive-on-x-amid-base-outage/",
-      "published": "2026-06-26T14:00:23+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "STRC crashes as Strategy’s unrealized BTC losses exceed $13 billion",
-      "summary": "STRC traded as low as $73.62 on the Nasdaq today — 26.4% below the $100 price that the stock is meant to hold. The post STRC crashes as Strategy’s unrealized BTC losses exceed $13 billion appeared first on Protos .",
-      "link": "https://protos.com/strc-crashes-as-strategys-unrealized-btc-losses-exceed-13-billion/",
-      "published": "2026-06-25T19:12:56+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Tornado Cash DAO faces ‘malicious’ governance attack, researchers warn",
-      "summary": "The DAO behind notorious privacy protocol Tornado Cash has received a proposal that would replace key addresses with spoofed lookalikes. The post Tornado Cash DAO faces ‘malicious’ governance attack, researchers warn appeared first on Protos .",
-      "link": "https://protos.com/tornado-cash-dao-faces-malicious-governance-attack-researchers-warn/",
-      "published": "2026-06-25T18:02:46+00:00",
       "relevance_score": 0
     },
     {
