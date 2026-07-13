@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T17:59:18.080864+00:00",
+  "generated_at": "2026-07-13T21:02:45.376020+00:00",
   "lookback_days": 8,
-  "total_items": 131,
+  "total_items": 133,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -26,7 +26,7 @@
     {
       "name": "The Defiant",
       "url": "https://thedefiant.io/api/feed",
-      "kept": 24
+      "kept": 25
     },
     {
       "name": "Blockworks",
@@ -41,7 +41,7 @@
     {
       "name": "Protos",
       "url": "https://protos.com/feed/",
-      "kept": 9
+      "kept": 10
     },
     {
       "name": "Fireblocks Blog",
@@ -100,11 +100,11 @@
         "defi",
         "smart-contracts"
       ],
-      "title": "PayPal's PYUSD Goes Native on Polygon, Joins Open Money Stack",
-      "summary": "Paxos, the OCC-regulated issuer of PYUSD, said the stablecoin will now settle directly on Polygon rather than moving there as a bridged token.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/paypal-s-pyusd-goes-native-on-polygon-joins-open-money-stack",
-      "published": "2026-07-09T16:01:45+00:00",
-      "relevance_score": 4
+      "title": "Bonzo Lend Loses $9M on Hedera in Supra Oracle Exploit",
+      "summary": "A single manipulated price feed let an attacker turn 250 SAUCE tokens worth a few dollars into $9.05 million in borrowed USDC and wrapped HBAR in eight seconds.",
+      "link": "https://thedefiant.io/news/hacks/bonzo-lend-loses-9m-on-hedera-in-supra-oracle-exploit",
+      "published": "2026-07-13T19:48:08+00:00",
+      "relevance_score": 3
     },
     {
       "source": "CoinTelegraph",
@@ -172,6 +172,44 @@
       "relevance_score": 3
     },
     {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Cap Cuts Its 'Stabledrop' Airdrop to $4.2M from $12M as Backlash Mounts",
+      "summary": "The stablecoin protocol's founder apologized for committing to a figure 'before the funding to back it was fully secured,' and denied that he steered rewards to a wallet tied to his former employer",
+      "link": "https://thedefiant.io/news/defi/cap-cuts-its-stabledrop-airdrop-to-usd4-2m-from-usd12m-as-backlash-mounts",
+      "published": "2026-07-13T20:31:30+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Bolivia Is Considering Adding Tether's USDT Stablecoin to National Payments System: Report",
+      "summary": "South American nation Bolivia is considering the use of the largest dollar-backed stablecoin, USDT, per a local report.",
+      "link": "https://decrypt.co/373410/bolivia-considering-tether-usdt-stablecoin-national-payments-system",
+      "published": "2026-07-13T18:57:19+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Strategy Sells $467M in MSTR Shares, Bitcoin Stack Steady",
+      "summary": "The bitcoin treasury company's cash reserve climbed to $3 billion even as its 843,775 BTC holdings stayed frozen for a second straight week.",
+      "link": "https://thedefiant.io/news/cefi/strategy-sells-467m-in-mstr-shares-bitcoin-stack-steady",
+      "published": "2026-07-13T17:25:00+00:00",
+      "relevance_score": 2
+    },
+    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -223,20 +261,6 @@
       "relevance_score": 2
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Hedera lending protocol Bonzo Lend hit for $9 million after Supra verifier accepts manipulated price update",
-      "summary": "A second wallet borrowed another roughly $1 million but identified itself as a white hat hacker and said the funds would be returned.",
-      "link": "https://www.theblock.co/post/407960/hedera-lending-protocol-bonzo-lend-hit-for-9-million-after-supra-verifier-accepts-manipulated-price-update?utm_source=rss&utm_medium=rss",
-      "published": "2026-07-11T19:19:32+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -246,7 +270,7 @@
       "title": "eToro Takes Strategic Stake in Onchain Derivatives Exchange Extended, Plans Zengo Tie-Up",
       "summary": "eToro has become a strategic investor in Extended, an onchain perpetual futures exchange, and said the round begins a partnership with Zengo, the self-custody wallet eToro acquired earlier this year. Neither company disclosed the investment size.",
       "link": "https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo",
-      "published": "2026-07-13T17:59:14+00:00",
+      "published": "2026-07-13T21:02:42+00:00",
       "relevance_score": 1
     },
     {
@@ -259,7 +283,7 @@
       "title": "BitMine Adds $73 Million in ETH, Pushing Holdings to 4.8% of Supply",
       "summary": "BitMine Immersion Technologies (NYSE: BMNR), the Ethereum treasury company chaired by Fundstrat's Tom Lee, bought 42,197 ETH worth roughly $73 million over the past week, according to the company's own holdings update posted Monday. The purchase lifts BitMine's total to 5,742,237 ETH, about 4.8% of…",
       "link": "https://thedefiant.io/news/tradfi-and-fintech/bitmine-adds-73-million-in-eth-pushing-holdings-to-4-8-of-supply",
-      "published": "2026-07-13T17:59:14+00:00",
+      "published": "2026-07-13T21:02:42+00:00",
       "relevance_score": 1
     },
     {
@@ -272,7 +296,7 @@
       "title": "Tether's Former CIO Heathcote Plans to Sell Equity Stake",
       "summary": "Richard Heathcote, who until earlier this year served as Tether Holdings SA's chief investment officer, is planning to sell a small stake in the stablecoin issuer, Bloomberg reported Monday, citing people familiar with the matter. Heathcote is working with investment bank PJT Partners to sell part…",
       "link": "https://thedefiant.io/converge/cefi/tether-s-former-cio-heathcote-plans-to-sell-equity-stake",
-      "published": "2026-07-13T17:59:14+00:00",
+      "published": "2026-07-13T21:02:42+00:00",
       "relevance_score": 1
     },
     {
@@ -542,20 +566,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Michael Saylor posts cryptic Strategy chart after $216 million bitcoin sale: ‘Orange dots tell only part of the story’",
-      "summary": "Strategy holds 843,775 BTC at an average cost of $75,476, leaving the position roughly $9.7 billion underwater with bitcoin trading near $64,000.",
-      "link": "https://www.theblock.co/post/407965/michael-saylor-posts-cryptic-strategy-chart-after-216-million-bitcoin-sale-orange-dots-tell-only-part-of-the-story?utm_source=rss&utm_medium=rss",
-      "published": "2026-07-12T18:43:15+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -669,30 +679,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "AI Agents Could Be Turned Into Botnets Through Hallucinations, Researchers Warn",
-      "summary": "Researchers warn AI agents could be tricked into downloading malicious code by exploiting the same hallucinations that cause chatbots to make mistakes.",
-      "link": "https://decrypt.co/373196/ai-agents-botnets-hallucinations-researchers-warn",
-      "published": "2026-07-09T21:45:01+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Avalanche Treasury Firm AVAX One Reclaims Nasdaq Compliance After Reverse Stock Split",
-      "summary": "AVAX One, which stockpiles the native token of the Avalanche crypto network, is back in Nasdaq's good graces after a reverse stock split.",
-      "link": "https://decrypt.co/373193/avalanche-treasury-firm-avax-one-reclaims-nasdaq-compliance",
-      "published": "2026-07-09T20:57:49+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -732,19 +718,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Aave Labs Launches Stable Vaults for Fintech Stablecoin Yield",
-      "summary": "The vaults convert Aave's variable lending rates into fixed yields that wallets, exchanges and payment apps can offer their own users.",
-      "link": "https://thedefiant.io/news/defi/aave-labs-launches-stable-vaults-for-fintech-stablecoin-yield",
-      "published": "2026-07-09T16:06:34+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -780,7 +753,7 @@
       "title": "NEAR Governance Votes to Scrap Developer Gas Rebate",
       "summary": "NEAR's on-chain governance body, House of Stake, passed proposal HSP-027 to eliminate the protocol's developer gas rebate, a change that will send all network gas fees to be burned rather than partly rebated to smart-contract owners. NEAR co-founder Illia Polosukhin confirmed the outcome Monday,…",
       "link": "https://thedefiant.io/news/blockchains/near-governance-votes-to-scrap-developer-gas-rebate",
-      "published": "2026-07-13T17:59:14+00:00",
+      "published": "2026-07-13T21:02:42+00:00",
       "relevance_score": 0
     },
     {
@@ -793,7 +766,189 @@
       "title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
       "summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund…",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
-      "published": "2026-07-13T17:59:14+00:00",
+      "published": "2026-07-13T21:02:42+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "New Hampshire Follows Bitcoin Reserve With 'Blockchain Basic Laws' Signing",
+      "summary": "New Hampshire's newly-signed crypto law introduces protections for users, miners, and stakers within its boundaries.",
+      "link": "https://decrypt.co/373424/new-hampshire-bitcoin-reserve-blockchain-basic-laws-signing",
+      "published": "2026-07-13T20:57:09+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Claude's Personality Changes Depending on the Model—And the Language You Speak",
+      "summary": "According to new Anthropic research, Claude consistently expresses different values across models and languages.",
+      "link": "https://decrypt.co/373422/anthropic-claude-personality-changes-model-language",
+      "published": "2026-07-13T20:39:53+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Hyperliquid’s HIP-3 markets surge to nearly 50% of perp volume as onchain stock trading grows",
+      "summary": "HIP-3's share of total Hyperliquid perp volume has climbed from roughly 2% at the start of the year to around 50% now.",
+      "link": "https://www.theblock.co/post/408064/hyperliquid-hip-3-markets-surge-50-perp-volume-onchain-stock-trading-grows?utm_source=rss&utm_medium=rss",
+      "published": "2026-07-13T20:33:47+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Binance.US CEO says exchange is rebuilding, eyes return to 20% U.S. market share",
+      "summary": "",
+      "link": "https://www.coindesk.com/coindesk-news/2026/07/13/binance-us-ceo-says-exchange-is-rebuilding-eyes-return-to-20-u-s-market-share",
+      "published": "2026-07-13T20:27:47+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Franklin Crypto CIO says crypto prices are disconnected from fundamentals",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/13/franklin-crypto-cio-says-crypto-prices-are-disconnected-from-fundamentals",
+      "published": "2026-07-13T20:15:29+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Democratic Opposition to Clarity Act Grows in Crypto Bill's Do-or-Die Final Weeks",
+      "summary": "Democrats are mounting a final case against the Clarity Act centered on its lack of language restricting Trump's sprawling crypto fortune.",
+      "link": "https://decrypt.co/373419/democratic-opposition-clarity-act-grows-crypto-bill-final-weeks",
+      "published": "2026-07-13T20:15:24+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "TeraWulf CEO: 'Not All Megawatts Are Created Equally' in AI Race",
+      "summary": "",
+      "link": "https://www.coindesk.com/coindesk-news/2026/07/13/terawulf-ceo-not-all-megawatts-are-created-equally-in-ai-race",
+      "published": "2026-07-13T19:43:03+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Gondor v1 to let users borrow against their entire Polymarket portfolio",
+      "summary": "Expected to launch in September, v1 will enable users to margin their entire Polymarket portfolios to place additional leveraged bets.",
+      "link": "https://www.theblock.co/post/408129/gondor-v1-let-users-borrow-against-entire-polymarket-portfolio?utm_source=rss&utm_medium=rss",
+      "published": "2026-07-13T19:37:49+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Sablier Labs Enters Maintenance Mode, Halts Development",
+      "summary": "The token-streaming protocol's smart contracts, used by over 345,000 Ethereum addresses, will keep running onchain even as the company behind them steps back.",
+      "link": "https://thedefiant.io/news/defi/sablier-labs-enters-maintenance-mode-halts-development",
+      "published": "2026-07-13T19:25:13+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "SpaceX slips below $140 per share, wiping $1T from peak valuation",
+      "summary": "SpaceX slipped below $140 per share on Monday, wiping out $1T from the peak market capitalization of Elon Musk’s IPO. The post SpaceX slips below $140 per share, wiping $1T from peak valuation appeared first on Protos .",
+      "link": "https://protos.com/elon-musks-spacex-has-already-given-back-1-trillion/",
+      "published": "2026-07-13T19:20:25+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Uniswap Auctions Go Live on Robinhood Chain",
+      "summary": "Robinhood Chain auction listings will now surface directly in the Uniswap Web App, where users can launch, browse, bid and claim tokens in one place.",
+      "link": "https://thedefiant.io/news/defi/uniswap-auctions-go-live-on-robinhood-chain",
+      "published": "2026-07-13T19:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Strategy’s no-bitcoin-buy week shows ‘greater balance-sheet discipline,’ analysts say",
+      "summary": "Analysts from Benchmark and TD Cowen maintained Buy ratings and price targets of $570 and $260, respectively.",
+      "link": "https://www.theblock.co/post/408069/strategy-no-bitcoin-buy-week-shows-balance-sheet-discipline-analysts-say?utm_source=rss&utm_medium=rss",
+      "published": "2026-07-13T18:50:23+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-07-13T18:37:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "No amount of cash can fix STRC’s trust problem",
+      "summary": "Michael Saylor keeps raising cash for STRC holders who've watched him shift his promises, so the discount below par is persisting. The post No amount of cash can fix STRC’s trust problem appeared first on Protos .",
+      "link": "https://protos.com/no-amount-of-cash-can-fix-strcs-trust-problem/",
+      "published": "2026-07-13T18:17:11+00:00",
       "relevance_score": 0
     },
     {
@@ -960,19 +1115,6 @@
       "summary": "Strategy went another week without buying Bitcoin, focusing instead on lifting its cash reserves to $3 billion via common stock proceeds.",
       "link": "https://decrypt.co/373381/strategy-pads-cash-reserves-3-billion-skipping-bitcoin-buy-third-week",
       "published": "2026-07-13T14:09:38+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-07-13T14:07:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1331,45 +1473,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/12/bitcoin-ether-little-changed-as-u-s-launches-fresh-iran-strikes",
-      "published": "2026-07-12T06:18:15+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Ripple once weighed shutting down and handing XRP to shareholders, CEO says",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/12/ripple-once-weighed-shutting-down-and-handing-xrp-to-shareholders-ceo-says",
-      "published": "2026-07-12T06:09:49+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin’s BIP 110 fork deadline nears with miner support at zero",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/07/12/bitcoin-s-bip-110-fork-deadline-nears-with-miner-support-at-zero",
-      "published": "2026-07-12T05:49:52+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1380,20 +1483,6 @@
       "summary": "The ongoing debate over a proposed temporary fork comes despite a broad downturn in Ordinals transaction activity over the last two years.",
       "link": "https://cointelegraph.com/news/bitcoin-leaders-michael-saylor-and-adam-back-rebuff-bip-110-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-07-12T04:28:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitcoin, ether ETFs snap eight-week outflow streaks with $282 million combined inflow",
-      "summary": "The preceding eight weeks drained a combined $9.46 billion from the two groups, meaning this week’s rebound recovered only about 3% of those outflows.",
-      "link": "https://www.theblock.co/post/407957/bitcoin-ether-etfs-snap-eight-week-outflow-streaks-with-282-million-combined-inflow?utm_source=rss&utm_medium=rss",
-      "published": "2026-07-11T15:19:15+00:00",
       "relevance_score": 0
     },
     {
@@ -1611,30 +1700,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Perplexity Fine-Tuned a Chinese AI Model to Match Claude Opus 4.8 at One-Third the Cost",
-      "summary": "The company's post-trained GLM 5.2 preview pairs a cheaper open-source base with a frontier advisor—and it's already live in production.",
-      "link": "https://decrypt.co/373184/perplexity-fine-tuned-chinese-ai-model-claude-opus-4-8",
-      "published": "2026-07-09T20:40:28+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Anthropic AI Oversight Board Adds Ben Bernanke, Who Oversaw 2008 Financial Crisis at Fed",
-      "summary": "Former Fed Chair Ben Bernanke will have the power to appoint Anthropic board members as part of company's Long-Term Benefit Trust.",
-      "link": "https://decrypt.co/373181/anthropic-ai-oversight-board-ben-bernanke-2008-federal-crisis-fed",
-      "published": "2026-07-09T20:22:29+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1700,32 +1765,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "MARA Buys Texas Site From HIF in $600M Bitcoin, AI Deal",
-      "summary": "The 1,200-acre Matagorda County site was previously slated for a $7 billion HIF Global e-fuels plant backed by Texas Gov. Greg Abbott before HIF pivoted to power computing instead.",
-      "link": "https://thedefiant.io/news/tradfi-and-fintech/mara-buys-texas-site-from-hif-in-600m-bitcoin-ai-deal",
-      "published": "2026-07-09T16:00:08+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Zapper to Shut Down Aug. 3 After Nearly Seven Years",
-      "summary": "The DeFi portfolio tracker once handled $13 billion in transaction volume and 2 million monthly users before deciding an orderly wind-down was its best option.",
-      "link": "https://thedefiant.io/news/defi/zapper-to-shut-down-aug-3-after-nearly-seven-years",
-      "published": "2026-07-09T15:59:45+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -1749,19 +1788,6 @@
       "summary": "Nicholas Woodman became a billionaire from GoPro. Now, with the stock down 99% from its peak, it took financing from him to survive. The post GoPro founder lends company $20M after 99% stock collapse appeared first on Protos .",
       "link": "https://protos.com/gopro-founder-lends-company-20m-after-99-stock-collapse/",
       "published": "2026-07-09T11:30:06+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Sadot Group crashed 72%, halted five times today after short-seller report",
-      "summary": "Sadot Group halted five times and crashed 72% after short-seller Fugazi Research alleged the company isn't generating revenue. The post Sadot Group crashed 72%, halted five times today after short-seller report appeared first on Protos .",
-      "link": "https://protos.com/sadot-group-crashed-72-halted-five-times-today-after-short-seller-report/",
-      "published": "2026-07-08T18:19:28+00:00",
       "relevance_score": 0
     },
     {
