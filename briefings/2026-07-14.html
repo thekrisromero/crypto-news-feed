@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Crypto Custody &amp; Treasury Briefing — Week of 2026-07-14</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of 2026-07-14 · covering July 7–14</div>
+  </div>
+
+  <!-- Audio player block -->
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-07-14.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Circle became a federally chartered trust bank — the first stablecoin issuer to custody its own reserves under direct OCC supervision.</strong> — <em style="color:#57534e;">So what: a qualified-custodian charter is now table stakes for anyone touching USDC reserves, and the bar for institutional custody just moved from "SOC 2 + insurance" to "federal banking oversight." We should re-check where our roadmap sits against that bar.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Corporate treasury adoption went from talk to production this week — Hyundai settled a live cross-border transfer in USDT and Japan's SBI is launching regulated yen-stablecoin lending.</strong> — <em style="color:#57534e;">So what: enterprise treasurers are now the buyer, not just crypto-natives. Treasury-management features (multi-entity settlement, yield on idle stablecoins, FX routing) are becoming the competitive frontier for our platform.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Two DeFi exploits and a fresh Tornado Cash laundering trail collided with a global regulatory push to treat mixer use as evidence of crime.</strong> — <em style="color:#57534e;">So what: oracle-manipulation and post-hack fund-flow tracing are back on the front burner. Our compliance and key-management stories need to speak to both attack prevention and traceability, because regulators are now codifying the latter.</em></div>
+    </div>
+  </div>
+
+  <!-- THEME: Custody -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Direct competitor moves, MPC/HSM tech, qualified-custodian licensing, key-management.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Circle wins final OCC approval for a national trust bank</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Circle received a charter for First National Digital Currency Bank, letting it custody digital assets and eventually hold USDC reserves under direct federal supervision. Shares rose more than 10%.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/cefi/circle-wins-final-occ-approval-for-national-trust-bank" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The largest stablecoin issuer is vertically integrating into custody. Enterprise buyers will increasingly ask whether their custody provider has (or is pursuing) a federal charter — worth deciding if we compete on regulatory posture or on being the neutral custodian across issuers.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Circle's refusal to "burn and reissue" stolen USDC angers prosecutors</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Prosecutors in Wisconsin and New York are frustrated that Circle repeatedly declined to freeze and reissue stolen USDC, hindering fund-recovery efforts.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://protos.com/circles-refusal-to-burn-and-reissue-stolen-usdc-angers-prosecutors-report/" style="color:#0284c7;text-decoration:none;">Protos</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Freeze/seize policy is becoming a custody product question, not just an issuer one. Clients will want documented handling for law-enforcement requests and stolen-asset events; we should make our freeze/hold and legal-process workflow explicit in our custody docs.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">eToro takes a strategic stake in Extended and plans a Zengo self-custody tie-up</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>eToro invested in onchain perps exchange Extended and is opening a partnership with Zengo, the MPC self-custody wallet it acquired earlier this year.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A retail broker is stitching MPC self-custody directly into a trading front end. The "wallet + venue" bundle is the pattern to watch; our custody APIs should be easy to embed behind someone else's UX, not just live in our own app.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">OpenZeppelin: the security standards behind "agentic payments"</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A primer on the emerging security model for AI agents that authorize and execute payments autonomously — a shift away from every transfer requiring a human decision.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.openzeppelin.com/news/what-are-agentic-payments" style="color:#0284c7;text-decoration:none;">OpenZeppelin Blog</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Agent-initiated transfers break the "one human, one approval" assumption our policy engine is built on. Worth scoping how spending limits, allow-lists, and time-boxed keys would work for a non-human signer before customers ask.</div>
+    </div>
+  </div>
+
+  <!-- THEME: Stablecoins -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Issuance, cross-border settlement, merchant rails, yield, FX routing.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Hyundai completes a USDT treasury settlement pilot between the US and Mexico</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Hyundai ran a proof-of-concept using USDT to settle a cross-border treasury transfer between its US and Mexican subsidiaries.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/hyundai-completes-usdt-treasury-settlement-pilot-between-us-and-mexico" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is exactly our ICP — a multinational moving money between its own entities. Intercompany settlement, entity-level wallets, and reconciliation exports should be first-class in our treasury product, not add-ons.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Japan advances stablecoin payments with a Lawson trial and Netstars launch</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Convenience-store chain Lawson will test yen-stablecoin payments in Tokyo while Netstars launches a merchant service supporting USDC, USDT and JPYC.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/japan-lawson-netstars-stablecoin-payments" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Multi-stablecoin merchant acceptance is normalizing in a G7 market. Our platform should treat multi-asset (USDC/USDT/local) support and clean settlement into fiat as expected, especially for APAC-facing clients.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">SBI to launch yen-stablecoin lending at 3% yield</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>SBI VC Trade opens JPYSC lending applications July 16, offering an initial 3% annual rate on a 12-week term — notably without deposit insurance.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/sbi-stablecoin-lending-service-3-yield-japan" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Yield on treasury stablecoin balances is becoming a headline feature. If we can surface vetted yield options (with clear "not deposit insured" disclosures) inside the treasury dashboard, that's a differentiator — but the uninsured angle is a real risk-comms burden.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">South Korea's super-app Toss to run a won-stablecoin pilot on the OP Stack</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Toss becomes the fourth regulated financial institution in a year to choose the OP Stack, after Bitpanda, Kraken and Mitsui.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/blockchains/south-korea-super-app-toss-to-run-won-stablecoin-pilot-on-op-stack" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Regulated issuers are standardizing on OP Stack L2s. Our custody/treasury support should confirm coverage for OP Stack chains and local-currency stablecoins, since that's where the next wave of regulated issuance is landing.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bolivia weighs recognizing USDT as a payment currency amid a dollar shortage</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>With FX reserves under pressure, Bolivia is considering a framework letting USDT be used for payments, savings and trade.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/bolivia-weighs-usdt-payment-currency-amid-dollar-shortage" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Sovereign-level USDT adoption expands the addressable market for dollar-stablecoin treasury tooling in emerging markets — but also raises the compliance bar for jurisdictions with thin AML frameworks. A market to watch, cautiously.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Mizuho: Circle's bank approval doesn't solve USDC growth or competition risk</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Mizuho analysts argue the charter is a governance win but doesn't address USDC's slower growth or intensifying stablecoin competition.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/07/13/mizuho-says-circle-bank-approval-doesn-t-solve-usdc-growth-stablecoin-competition-risks" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Reinforces our neutral-custodian thesis: don't over-index on any single issuer. A multi-issuer stablecoin strategy (USDC, USDT, RLUSD, regional coins) hedges us against shifting market share.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Explainer: RLUSD, Ripple's XRP-native regulated stablecoin</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>RLUSD is a regulated, one-to-one dollar-backed stablecoin (cash + short-term Treasuries) redeemable by approved participants.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/learn/408170/what-is-rlusd" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> RLUSD is maturing into a credible third dollar-stablecoin. Add it to our support-prioritization backlog and confirm our reserve-attestation display handles its cash + T-bill model.</div>
+    </div>
+  </div>
+
+  <!-- THEME: Treasury / RWA -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Corporate BTC/ETH treasuries, tokenized securities, RWA infra, capital markets.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Japan's largest security-token platform moves nearly $3B to Avalanche</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Progmat — which accounts for 64.6% of Japan's security-token issuance value — is migrating roughly $3B of tokenized securities to Avalanche.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/408036/japans-largest-security-token-platform-moves-nearly-3-billion-to-avalanche-blockchain" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Real institutional RWA volume is consolidating onto specific L1s. Our custody chain-support roadmap should treat Avalanche and Solana (below) as tier-1 for tokenized securities, not experimental.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">SBI's blockchain initiative pivots to Solana for tokenization and stablecoin issuance</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>SBI is steering its tokenization and stablecoin-issuance efforts toward Solana.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/07/13/sbi-holdings-blockchain-initiative-pivots-to-solana-for-tokenization-stablecoin-issuance" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A major APAC institution is doubling down on Solana. Combined with the Progmat/Avalanche move, the RWA settlement layer is fragmenting across a few chains — our multi-chain custody depth is a genuine moat if we invest in it.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">UK lays out a tokenized-finance roadmap projecting a £33B annual boost</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The UK roadmap stresses that payment infrastructure must evolve alongside tokenized assets to enable real-time settlement.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/408046/uk-lays-out-tokenized-finance-roadmap-projected-33-billion-annual-boost" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Government-endorsed tailwind for tokenization + stablecoin settlement in a key market. Strengthens the case for a UK/EU-ready compliance posture in our roadmap.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Gauntlet raises a $125M Series C from SBI Holdings</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>SBI was the sole investor; Gauntlet says the round funds expansion into stablecoins, tokenization and traditional capital-markets infrastructure.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/defi/gauntlet-raises-125m-series-c-from-sbi-holdings" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Risk-management infra is drawing large institutional capital. As we add yield/lending features, partnering with risk-modeling providers like Gauntlet could de-risk our product faster than building in-house.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Strategy sells $467M in MSTR shares while its Bitcoin stack stays steady</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Strategy's cash reserve climbed to $3B even as its 843,775 BTC holdings stayed unchanged for a second straight week.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/cefi/strategy-sells-467m-in-mstr-shares-bitcoin-stack-steady" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The bellwether corporate BTC treasury is pausing accumulation and building cash — a signal that treasury clients may want more flexible rebalancing and liquidity tooling, not just cold storage.</div>
+    </div>
+  </div>
+
+  <!-- THEME: Regulation -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Stablecoin legislation, licensing, AML enforcement, CBDCs.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">US banking groups urge the Senate to strengthen stablecoin provisions in the CLARITY Act</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The groups warn the current bill could let stablecoins substitute for bank deposits and increase deposit-flight risk from community banks.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/408144/us-banking-groups-urge-stablecoin-provisions-clarity-act" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The US stablecoin framework is still in flux and bank lobbying could reshape reserve/yield rules. Keep our compliance roadmap loosely coupled so we can adapt if the final bill restricts stablecoin yield or reserve models.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">South Korea to test tokenized government bonds linked to a wholesale CBDC in 2027</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The pilot ties tokenized govt bonds to the Bank of Korea's wholesale CBDC as token-securities rules take effect.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/south-korea-tokenized-government-bonds-cbdc-pilot-2027" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Wholesale CBDC + tokenized sovereign debt is the institutional settlement stack of the future. Long lead time, but our RWA custody roadmap should anticipate CBDC-settled instruments.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bank of Thailand flags abnormal stablecoin trades in a "grey economy" crackdown</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Analytics flagged stablecoin transfers designed to evade scrutiny; the central bank handed findings to the securities regulator.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/373380/bank-of-thailand-flags-abnormal-stablecoin-trades-in-grey-economy-crackdown" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Regulators are getting analytically sophisticated about stablecoin flows. Our transaction-monitoring and travel-rule tooling needs to be demonstrably strong for any APAC expansion.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Chinese prosecutors float treating mixer / privacy-coin use as a sign of money laundering</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A top-prosecutors' paper urges new blockchain evidence rules, presumptions of intent, and a state platform to sell seized coins.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/373374/chinese-prosecutors-float-treating-crypto-mixer-privacy-coin-use-as-sign-of-money-laundering" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Mixer interaction is increasingly a red flag globally. Our screening should flag mixer-adjacent deposits/withdrawals and document the rationale — clients will expect this by default.</div>
+    </div>
+  </div>
+
+  <!-- THEME: Smart Contracts / Infra -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚙️ Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Exploits, oracle risk, L2 economics, protocol changes.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bonzo Lend loses $9M on Hedera in a Supra oracle exploit</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A single manipulated price feed let an attacker turn ~250 SAUCE tokens worth a few dollars into $9.05M in borrowed USDC and wrapped HBAR in eight seconds.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/bonzo-lend-loses-9m-on-hedera-in-supra-oracle-exploit" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Oracle manipulation remains the cheapest, fastest way to drain a protocol. If we surface yield or DeFi integrations, oracle-risk assessment must be part of our provider due-diligence checklist.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Summer.fi hacker moves $1.35M into Tornado Cash</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Summer.fi's post-mortem confirms the attacker began laundering a $6M haul through the mixer, signaling "limited intent to return the funds."</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/summer-fi-hacker-moves-1-35m-into-tornado-cash" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Real-time fund-flow tracing (and mixer-destination alerts) is now expected incident-response tooling. Pairs directly with the Chinese-prosecutor item above — traceability is both a security and a compliance feature.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Arbitrum to capture 10% of fees from Robinhood Chain</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Every Arbitrum-based L2 — not just Arbitrum One — will now route a fee cut back to the ARB treasury, as Robinhood Chain draws $3B+ in weekly DEX volume.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/tokens/arbitrum-to-capture-10-of-fees-from-robinhood-chain" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Brokerage-owned L2s are becoming real settlement venues. As tokenized-stock and DEX volume concentrates on chains like Robinhood Chain, our custody support for emerging L2s affects which client flows we can serve.</div>
+    </div>
+  </div>
+
+  <!-- Watch list -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;letter-spacing:-0.005em;">👀 Watch List</h2>
+    <div style="font-size:13.5px;color:#44403c;">
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>CLARITY Act Senate markup</strong> — bank-lobby amendments could reshape stablecoin reserve/yield rules; watch for the next committee action.</div>
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>Circle's trust-bank operationalization</strong> — how fast it actually moves USDC reserves under the charter, and whether Tether/Paxos pursue similar structures.</div>
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>SBI JPYSC lending launch (July 16)</strong> — uptake of uninsured 3% stablecoin yield is a live test of appetite for on-platform yield.</div>
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>RWA chain concentration</strong> — Avalanche (Progmat) vs. Solana (SBI) as the institutional settlement layer; affects our multi-chain custody priorities.</div>
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>Agentic payments standards</strong> — early but fast-moving; could force a rethink of policy engines built around human approval.</div>
+    </div>
+  </div>
+
+  <!-- By the numbers -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;letter-spacing:-0.005em;">📊 By the Numbers</h2>
+    <div style="font-size:13.5px;color:#44403c;">
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>133</strong> — items scanned across 8 sources this week (129 tier-1).</div>
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>$3B</strong> — tokenized securities Progmat is migrating to Avalanche.</div>
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>$9.05M</strong> — drained from Bonzo Lend via a single oracle price feed, in 8 seconds.</div>
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>£33B</strong> — projected annual boost from the UK's tokenized-finance roadmap.</div>
+      <div style="padding:6px 0;border-top:1px solid #f5f5f4;"><strong>843,775 BTC</strong> — Strategy's holdings, frozen for a second straight week as cash hit $3B.</div>
+    </div>
+  </div>
+
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation · Feed generated 2026-07-14T10:04 UTC · All 8 sources reporting.</footer>
+
+</div></body></html>
