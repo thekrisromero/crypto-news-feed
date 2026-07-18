@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T13:27:15.379859+00:00",
+  "generated_at": "2026-07-18T17:02:20.679703+00:00",
   "lookback_days": 8,
-  "total_items": 131,
+  "total_items": 129,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -26,7 +26,7 @@
     {
       "name": "The Defiant",
       "url": "https://thedefiant.io/api/feed",
-      "kept": 24
+      "kept": 23
     },
     {
       "name": "Blockworks",
@@ -71,7 +71,7 @@
     {
       "name": "OpenZeppelin Blog",
       "url": "https://blog.openzeppelin.com/rss.xml",
-      "kept": 4
+      "kept": 3
     },
     {
       "name": "Rekt News",
@@ -245,7 +245,7 @@
       "title": "SummerFi to Wind Down After Seven Years, Citing Exploit",
       "summary": "Aave founder Stani Kulechov called the DeFi access point 'an OG' as its team said it would sunset the UI.",
       "link": "https://thedefiant.io/news/defi/summerfi-to-wind-down-after-seven-years-citing-exploit",
-      "published": "2026-07-18T13:27:11+00:00",
+      "published": "2026-07-18T17:02:17+00:00",
       "relevance_score": 1
     },
     {
@@ -258,7 +258,7 @@
       "title": "eToro Takes Strategic Stake in Onchain Derivatives Exchange Extended, Plans Zengo Tie-Up",
       "summary": "eToro has become a strategic investor in Extended, an onchain perpetual futures exchange, and said the round begins a partnership with Zengo, the self-custody wallet eToro acquired earlier this year. Neither company disclosed the investment size.",
       "link": "https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo",
-      "published": "2026-07-18T13:27:11+00:00",
+      "published": "2026-07-18T17:02:17+00:00",
       "relevance_score": 1
     },
     {
@@ -271,7 +271,7 @@
       "title": "BitMine Adds $73 Million in ETH, Pushing Holdings to 4.8% of Supply",
       "summary": "BitMine Immersion Technologies (NYSE: BMNR), the Ethereum treasury company chaired by Fundstrat's Tom Lee, bought 42,197 ETH worth roughly $73 million over the past week, according to the company's own holdings update posted Monday. The purchase lifts BitMine's total to 5,742,237 ETH, about 4.8% of…",
       "link": "https://thedefiant.io/news/tradfi-and-fintech/bitmine-adds-73-million-in-eth-pushing-holdings-to-4-8-of-supply",
-      "published": "2026-07-18T13:27:11+00:00",
+      "published": "2026-07-18T17:02:17+00:00",
       "relevance_score": 1
     },
     {
@@ -284,7 +284,20 @@
       "title": "Tether's Former CIO Heathcote Plans to Sell Equity Stake",
       "summary": "Richard Heathcote, who until earlier this year served as Tether Holdings SA's chief investment officer, is planning to sell a small stake in the stablecoin issuer, Bloomberg reported Monday, citing people familiar with the matter. Heathcote is working with investment bank PJT Partners to sell part…",
       "link": "https://thedefiant.io/converge/cefi/tether-s-former-cio-heathcote-plans-to-sell-equity-stake",
-      "published": "2026-07-18T13:27:11+00:00",
+      "published": "2026-07-18T17:02:17+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Trump targets Brazil's payments system while dollar stablecoins are quietly overtaking country's payments",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments",
+      "published": "2026-07-18T16:09:59+00:00",
       "relevance_score": 1
     },
     {
@@ -561,19 +574,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto brokerage firm Alpaca raises $135 million for tokenized stock infrastructure",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/07/16/crypto-brokerage-firm-alpaca-raises-usd135-million-for-tokenized-stock-infrastructure",
-      "published": "2026-07-16T14:19:32+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -587,19 +587,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Galaxy targets institutional stablecoin yield with new DeFi vaults",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/07/16/galaxy-targets-institutional-stablecoin-yield-with-new-defi-vaults",
-      "published": "2026-07-16T12:00:00+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -610,18 +597,6 @@
       "summary": "The latest in a spate of oracle manipulation attacks has seen around $20 million drained from Ostium’s OLP vault. The post More oracle exploits as Ostium loses over $20M appeared first on Protos .",
       "link": "https://protos.com/more-oracle-exploits-as-ostium-loses-over-20m/",
       "published": "2026-07-15T18:05:28+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "BlackRock, Goldman, and JP Morgan Will Give Tokenized Stocks a Try",
-      "summary": "The Depository Trust &#038; Clearing Corporation is working with nearly 40 financial firms in a pilot to test tokenized stocks and U.S. treasuries.",
-      "link": "https://decrypt.co/373571/blackrock-goldman-sachs-jp-morgan-dtcc-tokenized-stocks",
-      "published": "2026-07-15T18:02:06+00:00",
       "relevance_score": 1
     },
     {
@@ -673,7 +648,7 @@
       "title": "NEAR Governance Votes to Scrap Developer Gas Rebate",
       "summary": "NEAR's on-chain governance body, House of Stake, passed proposal HSP-027 to eliminate the protocol's developer gas rebate, a change that will send all network gas fees to be burned rather than partly rebated to smart-contract owners. NEAR co-founder Illia Polosukhin confirmed the outcome Monday,…",
       "link": "https://thedefiant.io/news/blockchains/near-governance-votes-to-scrap-developer-gas-rebate",
-      "published": "2026-07-18T13:27:11+00:00",
+      "published": "2026-07-18T17:02:17+00:00",
       "relevance_score": 0
     },
     {
@@ -686,7 +661,85 @@
       "title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
       "summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund…",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
-      "published": "2026-07-18T13:27:11+00:00",
+      "published": "2026-07-18T17:02:17+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "DOG Mode explains Bitcoin's next governance fight",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/07/18/dog-mode-explains-bitcoin-s-next-governance-fight",
+      "published": "2026-07-18T17:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Here is why a massive $1.6 billion in crypto liquidity is sitting idle and wasting away",
+      "summary": "",
+      "link": "https://www.coindesk.com/web3/2026/07/18/here-is-why-a-massive-usd1-6-billion-in-crypto-liquidity-is-sitting-idle-and-wasting-away",
+      "published": "2026-07-18T15:50:31+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "GPT-5.6 vs Fable 5 Review: Which One You Pick Depends on These Factors",
+      "summary": "OpenAI's GPT-5.6 Sol or Anthropic's Claude Fable 5: Which one is right for you? The answer depends on your needs. Here's our review.",
+      "link": "https://decrypt.co/373770/openai-gpt-5-6-vs-anthropic-fable-5-review",
+      "published": "2026-07-18T15:21:03+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Massive bitcoin call spreads target $72,000 by month end, right when the Fed meets",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/18/massive-bitcoin-call-spreads-target-usd72-000-by-month-end-right-when-the-fed-meets",
+      "published": "2026-07-18T14:15:15+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "UNI burn poised to grow as Uniswap governance votes on v4 fees and Robinhood Chain expansion",
+      "summary": "Both proposals route new fees into the UNI burn system created under December's \"UNIfication\" overhaul, with voting open from July 19 through July 26.",
+      "link": "https://www.theblock.co/post/408836/uni-burn-poised-to-grow-as-uniswap-governance-votes-on-v4-fees-and-robinhood-chain-expansion?utm_source=rss&utm_medium=rss",
+      "published": "2026-07-18T14:04:54+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Tokenization has become a strategic priority for 84% of financial firms",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/16/tokenization-has-become-a-strategic-priority-for-84-of-financial-firms",
+      "published": "2026-07-18T14:00:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1489,20 +1542,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Multicoin Capital makes first Hyperliquid ecosystem investment in Trasia, an Asia-focused trading platform",
-      "summary": "Built on Hyperliquid, Trasia was co-founded by former Multicoin Capital partner Mable Jiang and aims to serve Asian traders.",
-      "link": "https://www.theblock.co/post/408670/multicoin-capital-hyperliquid-ecosystem-investment-trasia?utm_source=rss&utm_medium=rss",
-      "published": "2026-07-16T16:00:02+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1551,19 +1590,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/opinion/2026/07/16/the-clarity-act-is-the-most-important-consumer-protection-effort-in-years",
       "published": "2026-07-16T15:07:30+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto for Advisors: Strengthening defenses against AI fraud",
-      "summary": "",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/07/16/crypto-for-advisors-strengthening-defenses-against-ai-fraud",
-      "published": "2026-07-16T14:54:11+00:00",
       "relevance_score": 0
     },
     {
@@ -1616,32 +1642,6 @@
       "summary": "Nikita Bier shipped a modest X algorithm improvement and let Crypto Twitter influencers turn it into a full-blown resurrection story. The post Crypto Twitter is back appeared first on Protos .",
       "link": "https://protos.com/crypto-twitter-is-back/",
       "published": "2026-07-16T14:03:27+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Ledger wants AI agents to manage crypto without holding your keys",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/07/15/ledger-wants-ai-agents-to-manage-crypto-without-holding-your-keys",
-      "published": "2026-07-16T13:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "The most popular bitcoin call option has slipped by $10,000",
-      "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/07/16/the-most-popular-bitcoin-call-option-has-slipped-by-usd10-000",
-      "published": "2026-07-16T11:27:53+00:00",
       "relevance_score": 0
     },
     {
@@ -1752,32 +1752,6 @@
       "summary": "The venue's HIP-3 markets for stocks, commodities and indices first topped its native crypto volume on July 8 and have led on several trading days since — though they fade on weekends, and single-name stocks alone still trail crypto",
       "link": "https://thedefiant.io/news/defi/builder-deployed-markets-overtake-crypto-on-hyperliquid",
       "published": "2026-07-14T17:49:13+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Coinbase Matches Robinhood's 7% Yield With a Different Design",
-      "summary": "Robinhood pays only the gap between organic yield and a 7% target for a year; Coinbase pays market rate plus token rewards with no ceiling and no end date.",
-      "link": "https://thedefiant.io/news/cefi/coinbase-matches-robinhood-s-7-yield-with-a-different-design",
-      "published": "2026-07-14T15:40:01+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "OpenZeppelin Blog",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "security"
-      ],
-      "title": "Lombard LBTC Rate Limits Audit",
-      "summary": "Summary",
-      "link": "https://www.openzeppelin.com/news/lombard-lbtc-rate-limits-audit",
-      "published": "2026-07-10T15:58:48+00:00",
       "relevance_score": 0
     }
   ]
