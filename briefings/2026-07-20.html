@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Crypto Custody &amp; Treasury Briefing — Week of 2026-07-20</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of 2026-07-20</div>
+  </div>
+
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-07-20.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Payments incumbents are consolidating the stablecoin stack.</strong> — <em style="color:#57534e;">So what: Stripe&#x27;s $53B bid for PayPal would put Bridge and PYUSD under one roof while Visa launched a bank-facing stablecoin platform — the issuance and treasury rails are being absorbed by giants, so we should position as neutral, multi-issuer custody infrastructure rather than betting on any single stablecoin.</em></div>
+    </div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Oracle and bridge exploits keep draining the automated infra DeFi relies on.</strong> — <em style="color:#57534e;">So what: Allbridge, Ostium and Supra all suffered price-feed or bridge attacks this week — this is a direct selling point for institutional custody with controls, and it should push our transaction-screening, oracle-risk and withdrawal-whitelisting features up the roadmap.</em></div>
+    </div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Regulatory clarity is slipping in the US while MiCA forces the pace in Europe.</strong> — <em style="color:#57534e;">So what: US agencies blew the GENIUS Act&#x27;s one-year deadline, issuing only proposed rules, even as MiCA already drives EU users off USDT and onto USDC — we should build a MiCA-first, multi-jurisdiction compliance posture and not wait on final US stablecoin rules.</em></div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody & Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Direct competitor moves, MPC/HSM tech, qualified-custodian licensing, key-management.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bridging digital-asset custody with legacy bank systems is harder than institutions expect</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>OpenZeppelin argues that reconciling batch settlement, centralized ledgers and deterministic finality with on-chain custody is more substantial technical work than most banks anticipate.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.openzeppelin.com/news/integrating-digital-asset-custody-with-legacy-systems" style="color:#0284c7;text-decoration:none;">OpenZeppelin Blog</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is exactly the integration pain our enterprise prospects hit — worth turning into sales collateral and validating that our reconciliation/settlement adapters cover the gaps they describe.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">eToro takes a strategic stake in on-chain derivatives venue Extended, with a Zengo self-custody tie-up</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>eToro became a strategic investor in perpetuals exchange Extended and is beginning a partnership with Zengo, the self-custody wallet it acquired earlier this year.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A broker bolting self-custody (Zengo) onto a trading venue is the bundled model we compete with — watch whether Zengo&#x27;s MPC key-management becomes a reference architecture retail-facing rivals copy.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitcoin &#x27;Q-Day&#x27; recovery proposal aims to let users prove ownership after a quantum attack</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Project Eleven says a new post-quantum cryptographic proof could help Bitcoin holders recover wallets after &#x27;Q-Day&#x27; by verifying ownership.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/373666/bitcoin-q-day-recovery-proposal-prove-ownership-quantum-attack" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Post-quantum key management is a long-horizon custody risk our clients will start asking about — worth a position paper and tracking whether standards emerge we&#x27;d need to support in our signing stack.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins & Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Issuer moves, on/off-ramps, network launches, cross-border and CBDC developments.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Stripe&#x27;s $53B PayPal bid would put Bridge and PYUSD under one owner</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The unsolicited Stripe/Advent offer, if accepted, would consolidate two of mainstream payments&#x27; stablecoin operations — Stripe&#x27;s Bridge and PayPal&#x27;s PYUSD.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/stripe-s-usd53b-paypal-bid-would-combine-bridge-and-pyusd-under-one-owner" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If a single owner controls both Bridge orchestration and PYUSD issuance, our treasury product needs to stay issuer-neutral and avoid deep coupling to any one stablecoin&#x27;s rails.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Visa unveils a stablecoin platform for banks and fintechs</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Visa Stablecoin Platform lets financial institutions plug stablecoin payments and treasury operations into Visa&#x27;s existing network.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/373668/visa-stablecoin-platform-banks-fintech-open-usd" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Visa is moving into the treasury-operations layer we serve — evaluate whether we integrate as a custody back-end to Visa&#x27;s platform or defend the direct-to-institution relationship.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">OKX Europe lets users convert USDT to MiCA-compliant USDC</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>OKX added a voluntary path for European customers to move out of Tether&#x27;s USDT into USDC as MiCA reshapes the region&#x27;s stablecoin market.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/okx-europe-lets-users-convert-usdt-to-mica-compliant-usdc" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Confirms MiCA is actively pushing EU balances toward USDC — our custody and treasury flows should default to compliant stablecoins per jurisdiction and make conversion frictionless.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Amazon Japan supplier AZ-Com Maruwa to adopt yen stablecoin JPYC for payments</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A logistics supplier to Amazon Japan will use the yen-pegged JPYC stablecoin for payments, part of a push to address labor-cost pressure.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/07/20/amazon-japan-supplier-az-com-maruwa-to-adopt-yen-stablecoin-jpyc-for-payments" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Non-USD stablecoin adoption in real corporate payments is accelerating — validates multi-currency stablecoin support (JPY, EUR) on our treasury roadmap, not just USD.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">South Korea eyes a September launch for phase two of its CBDC pilot</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Bank of Korea&#x27;s next pilot adds two regional banks, new payment features and tests of government subsidy payments using tokenized bank deposits.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/south-korea-september-second-phase-cbdc-pilot" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Tokenized bank deposits sit adjacent to our custody scope — track whether CBDC/deposit-token rails become an asset class institutional clients ask us to hold and move.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA & Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenization, corporate crypto treasuries, ETFs and institutional balance-sheet moves.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">DTCC starts live tokenized-securities trades with more than two dozen firms</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The company that settles most US stock trades is running its first production tokenized real-world-asset trades, with a full service launch set for October.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/dtcc-starts-live-tokenized-securities-trades-with-more-than-two-dozen-firms" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> DTCC going live on tokenized securities is a major RWA custody demand signal — we should confirm our platform can custody tokenized securities and engage on the October launch timeline.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">BitMine adds $73M in ETH, pushing holdings to 4.8% of supply</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Tom Lee-chaired BitMine bought 42,197 ETH (~$73M) in a week, lifting its treasury to ~5.74M ETH, about 4.8% of Ethereum&#x27;s supply.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/tradfi-and-fintech/bitmine-adds-73-million-in-eth-pushing-holdings-to-4-8-of-supply" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Concentrated ETH treasury companies are a high-value custody/staking segment — make sure our institutional staking and reporting handle balance-sheet-scale ETH positions.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Capital B approves a 10-for-1 reverse stock split to broaden its investor base</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Europe&#x27;s second-biggest Bitcoin treasury company will do a September reverse split to attract more institutional investors to the French firm.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/capital-b-reverse-stock-split-investor-base" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The Bitcoin-treasury-company model is maturing in Europe — these are prime custody customers, and their institutional push aligns with our qualified-custodian positioning.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitcoin ETF inflows extend to a second week but recovery lacks momentum</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>US spot Bitcoin ETFs took $75.7M in net inflows for a second straight week, though analysts say demand is still short of fueling a sustained uptrend.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/bitcoin-etf-inflows-second-but-recovery-lacks-momentum" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> ETF flows remain the tone-setter for institutional custody demand — soft-but-positive flows argue for steady, not aggressive, capacity planning this quarter.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bank of America names new leaders to bridge crypto, AI and traditional finance</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>BofA named Sonali Theisen head of its global digital assets platform and Kevin Milsom head of AI transformation.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/408830/bank-america-taps-new-leaders-bridge-crypto-ai-traditional-finance" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A top-four US bank formalizing a digital-assets platform lead signals near-term institutional custody RFP activity — worth mapping which banks are building in-house vs. buying.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation & Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Licensing, stablecoin rules, enforcement and cross-border policy shifts.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">US agencies miss the GENIUS Act deadline for final stablecoin rules</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Regulators failed to finalize implementing regulations by the GENIUS Act&#x27;s one-year deadline, issuing 10 proposed rules instead.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/federal-agencies-miss-genius-act-deadline" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Final US stablecoin custody/reserve rules are still moving targets — keep compliance flexible and don&#x27;t hard-code requirements against proposed-only rules.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">The GENIUS Act turns one: State of Crypto</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>CoinDesk marks the first anniversary of the GENIUS Act with a status check on US stablecoin policy implementation.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/policy/2026/07/19/the-genius-act-turns-1-state-of-crypto" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Useful primer for internal stakeholders on where US stablecoin law actually stands — good source for the compliance section of our next board update.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Upbit parent Dunamu faces South Korean regulator sanctions after a $30M hack</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Dunamu faces a sanction process nearly eight months after a $30M hack, amid broader Korean scrutiny that probed 40 market-manipulation cases over two years.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/408830" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Post-hack regulatory sanctions on an exchange reinforce that custody security failures now carry direct licensing risk — a strong argument for our controls and insurance story in APAC.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔗 Smart Contracts & Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Protocol exploits, oracle and bridge risk, L2s and privacy infrastructure.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Allbridge Core pauses after a $1.65M flash-loan exploit</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>PeckShield and CertiK flagged that an attacker bridged stolen funds from Solana to Ethereum, prompting Allbridge to pause the protocol.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/post/408855/allbridge-core-exploit" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Another cross-chain bridge failure — reinforces why we should gate or risk-score bridge interactions and surface bridge exposure in client risk dashboards.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ostium halts trading after an oracle exploit drains up to $18M</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Blockaid says an attacker used a registered price-feed forwarder and future-dated oracle reports to book fake profits and drain the vault.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/ostium-halts-trading-after-oracle-exploit-drains-up-to-usd18m-from-vault" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Oracle manipulation via future-dated reports is a subtle attack class — feed it into our threat model and any DeFi-access or collateral features we expose to clients.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Supra had patched its oracle on 11 other chains before a $9M Hedera exploit</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Supra&#x27;s faulty oracle accepted the attacker&#x27;s price update, draining Bonzo Lend of $9M on Hedera, despite prior patches elsewhere.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://protos.com/supra-patched-oracle-on-11-other-chains-before-9m-hedera-exploit/" style="color:#0284c7;text-decoration:none;">Protos</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Shows even &#x27;patched&#x27; oracle providers carry chain-specific risk — diligence on oracle dependencies should be per-chain, not vendor-wide, in any integration we approve.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Inside Zcash&#x27;s new node targeting Visa-scale privacy at 50,000 transactions per second</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>CoinDesk details a new Zcash node designed to push shielded-transaction throughput toward Visa-scale performance.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/tech/2026/07/16/inside-zcash-s-new-node-that-targets-visa-scale-privacy-at-50-000-transactions-per-second" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> High-throughput privacy tech raises both a product opportunity (private institutional settlement) and a compliance flag (travel-rule/AML) we&#x27;d need to reconcile before supporting shielded assets.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 14px;letter-spacing:-0.005em;">👀 Watch List</h2>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;">GENIUS Act final rulemaking — 10 proposed rules are out; watch for finalization timelines and reserve/custody specifics.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;">DTCC tokenized-securities full launch scheduled for October — a concrete RWA custody milestone.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;">Stripe/PayPal bid outcome — decides whether Bridge and PYUSD consolidate under one owner.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;">MiCA-driven USDT→USDC migration across EU venues — default-stablecoin logic implications.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;">Continued oracle/bridge exploit pattern — Allbridge, Ostium, Supra; monitor for a systemic infra provider hit.</div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 14px;letter-spacing:-0.005em;">📊 By the Numbers</h2>
+    <div style="display:flex;gap:14px;align-items:baseline;padding:8px 0;border-top:1px solid #f5f5f4;">
+      <div style="flex-shrink:0;font-size:18px;font-weight:700;color:#0a2540;min-width:88px;">128</div>
+      <div style="font-size:13.5px;color:#44403c;">news items scanned across 15 sources over the trailing 8 days</div>
+    </div>
+    <div style="display:flex;gap:14px;align-items:baseline;padding:8px 0;border-top:1px solid #f5f5f4;">
+      <div style="flex-shrink:0;font-size:18px;font-weight:700;color:#0a2540;min-width:88px;">$18M</div>
+      <div style="font-size:13.5px;color:#44403c;">drained from Ostium in this week&#x27;s largest single DeFi exploit</div>
+    </div>
+    <div style="display:flex;gap:14px;align-items:baseline;padding:8px 0;border-top:1px solid #f5f5f4;">
+      <div style="flex-shrink:0;font-size:18px;font-weight:700;color:#0a2540;min-width:88px;">4.8%</div>
+      <div style="font-size:13.5px;color:#44403c;">of total ETH supply now held by BitMine&#x27;s treasury</div>
+    </div>
+    <div style="display:flex;gap:14px;align-items:baseline;padding:8px 0;border-top:1px solid #f5f5f4;">
+      <div style="flex-shrink:0;font-size:18px;font-weight:700;color:#0a2540;min-width:88px;">$75.7M</div>
+      <div style="font-size:13.5px;color:#44403c;">net inflows into US spot Bitcoin ETFs, a second straight positive week</div>
+    </div>
+    <div style="display:flex;gap:14px;align-items:baseline;padding:8px 0;border-top:1px solid #f5f5f4;">
+      <div style="flex-shrink:0;font-size:18px;font-weight:700;color:#0a2540;min-width:88px;">10</div>
+      <div style="font-size:13.5px;color:#44403c;">proposed (not final) rules issued as the GENIUS Act deadline lapsed</div>
+    </div>
+  </div>
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation.</footer>
+
+</div></body></html>
