@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Crypto Custody &amp; Treasury Briefing — Week of 2026-07-27</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of 2026-07-27 · Covering July 20–27, 2026</div>
+  </div>
+
+  <!-- Audio player block -->
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-07-27.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Security was the loudest signal of the week — ~$70M lost across bridges, DeFi and payment treasuries.</strong> — <em style="color:#57534e;">So what: the $24M AFX bridge drain, a $35M single-day DeFi loss, Triple-A's $11.8M treasury-wallet breach and Garden Finance's solver-database exploit all point at the same buyer question we'll face — "how do you stop this?" We should lead with our monitoring/drain-detection and key-management story, not bury it.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Stablecoin regulatory rails are hardening — charters are the moat, and USDC is reaching consumer wallets.</strong> — <em style="color:#57534e;">So what: the OCC denying Wise's trust charter while approving others, Wise refiling under the GENIUS Act, Samsung Wallet adding USDC, and Goldman's CEO backing the Clarity Act all say the same thing — licensed custody/payments is where value accrues. Our qualified-custodian path and native USDC support should be first-tier roadmap items.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Tokenized RWAs are scaling onto real balance sheets — but the SEC just reminded builders they can be securities.</strong> — <em style="color:#57534e;">So what: tokenized stocks hit $2.3B, Ondo got US clearance under SEC/FINRA, and permissioned/allowlisted assets are arriving in Uniswap v4 — treasury clients will soon want to custody these. We should build allowlist-aware, ERC-7540-vault-ready custody now, while treating Commissioner Peirce's warning as our compliance guardrail.</em></div>
+    </div>
+  </div>
+
+  <!-- ===== Custody & Wallet Infrastructure ===== -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Direct competitor moves, MPC/HSM tech, qualified-custodian licensing, key management, wallet distribution.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Triple-A treasury-wallet breach climbs to $11.8M</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Stablecoin payments firm Triple-A confirmed a breach of its treasury (hot) wallet, with losses reaching $11.8M as attackers kept sweeping funds from a reused deposit address. The company says client funds were unaffected and it will absorb the hit from treasury reserves.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/triple-a-treasury-wallet-breach-11-8-million-loss" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A payments peer losing $11.8M from a hot wallet with address reuse is a near-perfect sales narrative for us — segregated deposit addresses, sweep policies, and MPC/HSM-backed treasury wallets are exactly the controls that would have blunted this. Worth turning into a competitive teardown.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Binance red-teams its own staff every month</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Binance disclosed it runs monthly internal social-engineering tests against employees, citing social engineering as a growing source of industry breaches rather than protocol-level flaws.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/binance-red-teams-own-staff-every-month-to-keep-hackers-out" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Most recent custody losses trace back to people, not cryptography. Enterprise buyers increasingly ask about our operational-security program (SOC 2, red-teaming, insider-threat controls) — we should be able to show ours is as mature as our signing tech.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Samsung Wallet to add stablecoin support, including USDC</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>At Galaxy Unpacked, Samsung showed a wallet mockup holding Circle's USDC, signaling stablecoin support is coming to a mainstream consumer wallet on hundreds of millions of devices. Details remain thin.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/374324/samsung-wallet-stablecoin-support-usdc" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If USDC lands in consumer wallets by default, the demand shifts to the B2B infrastructure behind them — issuance, treasury, off-ramp, and custody. That's our lane; we should map where a device-maker or its payment partners would need institutional custody rails.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">eToro takes stake in Extended, plans Zengo self-custody tie-up</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>eToro became a strategic investor in onchain perps exchange Extended and said the deal kicks off a partnership with Zengo, the MPC self-custody wallet eToro acquired earlier this year. Terms undisclosed.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A broker bundling MPC self-custody with onchain trading is the "custody + venue" convergence we track. It validates embedding custody into a trading flow — a partnership pattern we could offer to brokers rather than compete against.</div>
+    </div>
+  </div>
+
+  <!-- ===== Stablecoins & Payments ===== -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Issuer moves, GENIUS Act licensing, peg mechanics, payment rails, reserve management.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">OCC denies Wise's trust bank charter; Wise to refile under GENIUS Act</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>In a rare rejection amid a wave of approvals, the OCC denied Wise's national trust bank charter over money-laundering-risk concerns. Wise plans to resubmit under the GENIUS Act framework, which has produced several conditional stablecoin-charter approvals since December.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/occ-denies-wise-s-us-national-trust-bank-charter" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://www.theblock.co/post/409631/wise-plans-resubmit-national-trust-bank-application-under-genius-act-framework" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The GENIUS Act charter is becoming the credential for regulated stablecoin custody/payments, and the OCC is willing to say no on AML grounds. Our licensing and compliance posture is a durable moat — we should track which peers clear the bar and factor charter status into partner due diligence.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Primer: how stablecoins maintain their peg</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Block published an explainer on the two peg-holding mechanisms — reserves/collateral backing each token, and arbitrage that pulls market price back to the $1 target.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/learn/409577/how-do-stablecoins-maintain-their-peg" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Useful framing for our treasury-product messaging: reserve transparency and instant redemption/arbitrage are the trust anchors customers care about. Good source material for buyer education and for our own reserve-attestation feature narrative.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tether's former CIO plans to sell equity stake</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Richard Heathcote, until recently Tether Holdings' chief investment officer, is working with PJT Partners to sell a small stake in the stablecoin issuer, per Bloomberg — a rare glimpse into private-market valuation of the largest issuer.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/cefi/tether-s-former-cio-heathcote-plans-to-sell-equity-stake" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Secondary interest in issuer equity signals how much institutional money now values stablecoin rails. Reinforces that stablecoin custody/treasury is a strategically important surface — not a side feature — for our platform.</div>
+    </div>
+  </div>
+
+  <!-- ===== Treasury, RWA & Corporate Adoption ===== -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenized real-world assets, corporate treasuries, onchain funds, institutional balance-sheet moves.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tokenized stocks hit records across every major venue — sector reaches $2.3B</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ondo, Backed Finance and Robinhood Chain all set all-time highs in tokenized equity holdings this week, and dYdX's new Arcus exchange posted record perps volume — the onchain-stocks market is scaling on multiple fronts at once.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/tokenized-stocks-hit-records-across-every-major-venue-as-sector-reaches-usd2-3b" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Tokenized equities are past pilot stage. Treasury clients will want to hold, transfer, and reconcile these alongside crypto and stablecoins — we should scope custody support for tokenized-equity standards and corporate-action handling on our roadmap.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ondo's Oasis Pro cleared to offer tokenized stocks to US investors</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ondo's broker-dealer subsidiary Oasis Pro Markets can now sell tokenized equities, ETFs and funds to American investors under SEC and FINRA oversight — a rare fully-regulated US on-ramp for tokenized securities.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/ondo-s-oasis-pro-markets-cleared-to-offer-tokenized-stocks-in-us" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A regulated US venue for tokenized securities means our US treasury customers may hold registered tokenized assets soon. We should confirm our custody can meet broker-dealer/transfer-agent expectations and explore Ondo/Oasis as an integration partner.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">KAIO tokenizes Mubadala Capital fund across Base, Solana and Sui</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>KAIO launched a tokenized private-markets offering tied to a Mubadala Capital fund, live across three chains with ~$75M in onchain value at launch; Coinbase will add exposure.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/kaio-tokenizes-mubadala-capital-fund-across-base-solana-and-sui" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Sovereign-wealth private-markets money going onchain — and multi-chain by default — reinforces that our custody must be chain-agnostic across Base, Solana and Sui, and able to hold permissioned private-fund tokens with their transfer restrictions intact.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitcoin treasury companies sell down, repay debt, pivot to AI</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>As share prices collapse, several bitcoin-treasury companies are selling holdings, repaying debt, and pivoting toward AI — a cooling of the leveraged "buy BTC with equity/debt" playbook.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/markets/2026/07/24/bitcoin-treasury-companies-sell-up-repay-debt-pivot-to-ai-as-share-prices-collapse" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The corporate-BTC-treasury cohort is a real segment for us, and it's under stress. We should stress-test assumptions about their custody-AUM stability and make sure our product supports fast, auditable liquidation and debt-collateral workflows — not just accumulation.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Brazilian farmers tokenize dairy cows to access loans</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Brazilian dairy farmers are tokenizing cattle as collateral to obtain loans, bypassing traditional bank lending limits — a grassroots RWA use case that's reportedly working in the field.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits" style="color:#0284c7;text-decoration:none;">CoinDesk</a> · <a href="https://decrypt.co/374298/brazilian-farmers-tokenizing-cows-farm-loans" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> RWA collateral is broadening far beyond equities into physical assets in emerging markets. The custody and title/attestation challenges for non-financial RWAs are distinct — a signal to watch demand for lifecycle and proof-of-reserve tooling beyond pure crypto assets.</div>
+    </div>
+  </div>
+
+  <!-- ===== Regulation & Policy ===== -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">US market-structure bills, SEC/CFTC/OCC signals, securities-law scope for onchain products.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">SEC's Peirce: onchain vaults and lending can trigger securities laws</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Commissioner Hester Peirce ("Crypto Mom") warned that onchain vaults and lending products can fall under securities law, framing it as an invitation to engage — but cautioning builders who "twist the law" that they "will have a painful fall."</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/regulation/sec-s-peirce-says-onchain-vaults-lending-can-trigger-securities-laws" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If we offer or custody yield-bearing vaults, this defines our compliance perimeter. We should map which of our (or partners') treasury/yield features could be deemed securities and design disclosures and permissioning accordingly before launching.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Goldman Sachs CEO backs the Crypto Clarity Act, splitting with Wall Street</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Goldman's David Solomon endorsed the Clarity Act, breaking with JPMorgan's Jamie Dimon and banking trade groups who warn the bill's stablecoin-yield provisions could pull deposits away from traditional banks.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/374186/goldman-sachs-ceo-breaks-wall-street-crypto-clarity-act" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A top-tier bank publicly supporting market-structure legislation improves the odds our institutional customers get regulatory certainty — and can accelerate their crypto-treasury adoption. Worth flagging to sales as a tailwind narrative.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Clarity Act clock: two weeks left, hopes fading</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>CoinDesk's policy roundup flags roughly two weeks left in the current legislative window for the CLARITY market-structure bill, with sentiment cooling on near-term passage.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/policy/2026/07/26/2-weeks-left-for-clarity-state-of-crypto" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Market-structure timing directly shapes our US roadmap sequencing. If CLARITY slips, we should plan for continued reliance on existing charter/OCC pathways rather than betting roadmap items on new legislation this cycle.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">CFTC issues second warning to prediction markets on self-certifications</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>For the second time this year, the CFTC told prediction markets to stop filing overly broad, template-style self-certifications of events contracts.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/cftc-issues-second-warning-to-prediction-markets-on-cookie-cutter-self-certifications" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A reminder that regulators are actively policing "check-the-box" compliance shortcuts. Our attestations and product certifications should be specific and defensible — a cautionary data point for any self-certification path we consider.</div>
+    </div>
+  </div>
+
+  <!-- ===== Smart Contracts & Infrastructure ===== -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🛠️ Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Exploits, token standards, protocol upgrades, and the plumbing custody depends on.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Attacker drains $24M in USDC from AFX bridge on Arbitrum</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>An exploit on a bridge run by derivatives exchange AFX emptied nearly all the USDC locked in the contract, per Blockaid. Arbitrum co-founder Steven Goldfeder stressed the network's native bridge was not affected — this was AFX's own bridge.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/attacker-drains-usd24m-in-usdc-from-afx-bridge-on-arbitrum" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Bridges remain the single biggest honeypot in crypto. Any cross-chain movement we facilitate should minimize bridge exposure, prefer native/canonical routes, and integrate real-time exploit monitoring — and we should be explicit with clients about bridge risk in our custody flows.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">DeFi loses $35M in a day — and "bounties" may be inviting more hacks</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Protos tallied ~$35M lost across DeFi in a single day and questioned whether post-hack "whitehat bounty" offers (Verus offered 25%, AFX 7.2%) are normalizing exploits by giving attackers a negotiated payout.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://protos.com/defi-loses-35m-in-a-day-are-bounties-inviting-more-hacks/" style="color:#0284c7;text-decoration:none;">Protos</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If DeFi counterparty risk is this elevated, treasury clients earning DeFi yield need our platform to model and gate that exposure. Consider risk scoring per protocol and clear policies for incident response and fund-recovery negotiations.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">OpenZeppelin brings ERC-7540 asynchronous vaults to onchain funds</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Tokenized Vault Foundation and OpenZeppelin released tooling for ERC-7540, an async-deposit/redemption vault standard suited to onchain funds where settlement isn't instant (e.g., RWAs and private markets).</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.openzeppelin.com/news/tokenized-vault-foundation-and-openzeppelin-bring-erc-7540-asynchronous-vaults-to-onchain-funds" style="color:#0284c7;text-decoration:none;">OpenZeppelin</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> ERC-7540 is becoming the standard for tokenized funds with delayed settlement — exactly the RWAs treasury clients want. Our custody should recognize and correctly account for async vault positions (pending deposits/redemptions), not just spot balances.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Uniswap adds permissioned pools to bring regulated assets to v4</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A new Uniswap v4 hook enforces issuer allowlists onchain at the protocol level, letting regulated assets trade with compliance built in. Launch partners include Superstate, Securitize and Dowgo.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/defi/uniswap-adds-permissioned-pools-to-bring-regulated-assets-to-v4" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Onchain allowlists mean custody must be "allowlist-aware" — our clients' wallets need to be recognized/whitelisted by issuers to hold and trade these assets. We should design an issuer-attestation and address-allowlisting workflow into the product.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">BlackRock, Coinbase and Strategy pledge $15M to quantum-proof Bitcoin</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Nine major institutional Bitcoin names formed a consortium and pledged $15M to fund developers working to keep the network secure against future quantum-computing threats.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/374145/blackrock-coinbase-strategy-15m-quantum-proof-bitcoin" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Quantum resistance is moving from thought-experiment to funded roadmap among the institutions we sell to. It's early, but we should start tracking post-quantum signing schemes so our key-management story is future-proof when RFPs start asking.</div>
+    </div>
+  </div>
+
+  <!-- ===== Watch List ===== -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;letter-spacing:-0.005em;">👀 Watch List</h2>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">CLARITY Act countdown</strong> — ~2 weeks left in the window; passage or slippage resets US market-structure planning for the whole sector.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">GENIUS Act charter approvals</strong> — watch which stablecoin/payment firms clear the OCC bar after Wise's rejection; the approved list is the new competitive map.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Bridge &amp; DeFi exploit tempo</strong> — ~$70M in losses this week alone; a sustained run will push security to the top of every custody RFP.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Samsung Wallet USDC rollout</strong> — details are thin; if it ships, consumer-scale stablecoin distribution reshapes B2B custody demand.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">ERC-7540 adoption</strong> — the async-vault standard is the plumbing for tokenized funds; track which issuers and custodians adopt it.</div>
+  </div>
+
+  <!-- ===== By the Numbers ===== -->
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;letter-spacing:-0.005em;">📊 By the Numbers</h2>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">~$300B</strong> — total stablecoin market cap, per The Block's stablecoin ranking. <a href="https://www.theblock.co/learn/409203/largest-stablecoins-ranked" style="color:#0284c7;text-decoration:none;">(source)</a></div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">$2.3B</strong> — size of the tokenized-stocks sector after this week's record highs.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">$24M</strong> — USDC drained from the AFX bridge on Arbitrum, the week's single largest exploit.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">$11.8M</strong> — losses in the Triple-A treasury-wallet breach.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">$15M</strong> — institutional pledge to quantum-proof Bitcoin (BlackRock, Coinbase, Strategy + 6 others).</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">130</strong> — news items scanned this week across 15 sources; 21 selected for this briefing.</div>
+  </div>
+
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation · Week of 2026-07-27 · Sources: CoinDesk, The Block, Decrypt, CoinTelegraph, The Defiant, Protos, OpenZeppelin.</footer>
+
+</div></body></html>
