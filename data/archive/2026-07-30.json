@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T06:32:36.716618+00:00",
+  "generated_at": "2026-07-30T10:29:52.603578+00:00",
   "lookback_days": 8,
-  "total_items": 131,
+  "total_items": 132,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -71,7 +71,7 @@
     {
       "name": "OpenZeppelin Blog",
       "url": "https://blog.openzeppelin.com/rss.xml",
-      "kept": 4
+      "kept": 5
     },
     {
       "name": "Rekt News",
@@ -80,6 +80,19 @@
     }
   ],
   "items": [
+    {
+      "source": "OpenZeppelin Blog",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "security"
+      ],
+      "title": "Introducing OpenZeppelin Contracts 5.7: Account Abstraction Paymasters, Crosschain Token Bridges, and New Deployment Primitives",
+      "summary": "OpenZeppelin Contracts 5.7 is now available. This release expands the library in three directions that reflect where onchain development is heading: sponsored transactions through a full suite of ERC-4337 paymasters, crosschain movement of non-fungible and multi-token assets, and a set of new utilities for deterministic deployment and safer contract interaction.",
+      "link": "https://www.openzeppelin.com/news/introducing-openzeppelin-contract-5-7",
+      "published": "2026-07-30T10:28:19+00:00",
+      "relevance_score": 3
+    },
     {
       "source": "The Block",
       "tier": 1,
@@ -130,7 +143,7 @@
       "title": "SummerFi to Wind Down After Seven Years, Citing Exploit",
       "summary": "Aave founder Stani Kulechov called the DeFi access point 'an OG' as its team said it would sunset the UI.",
       "link": "https://thedefiant.io/news/defi/summerfi-to-wind-down-after-seven-years-citing-exploit",
-      "published": "2026-07-30T06:32:33+00:00",
+      "published": "2026-07-30T10:29:49+00:00",
       "relevance_score": 1
     },
     {
@@ -143,7 +156,7 @@
       "title": "eToro Takes Strategic Stake in Onchain Derivatives Exchange Extended, Plans Zengo Tie-Up",
       "summary": "eToro has become a strategic investor in Extended, an onchain perpetual futures exchange, and said the round begins a partnership with Zengo, the self-custody wallet eToro acquired earlier this year. Neither company disclosed the investment size.",
       "link": "https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo",
-      "published": "2026-07-30T06:32:33+00:00",
+      "published": "2026-07-30T10:29:49+00:00",
       "relevance_score": 1
     },
     {
@@ -156,7 +169,7 @@
       "title": "BitMine Adds $73 Million in ETH, Pushing Holdings to 4.8% of Supply",
       "summary": "BitMine Immersion Technologies (NYSE: BMNR), the Ethereum treasury company chaired by Fundstrat's Tom Lee, bought 42,197 ETH worth roughly $73 million over the past week, according to the company's own holdings update posted Monday. The purchase lifts BitMine's total to 5,742,237 ETH, about 4.8% of…",
       "link": "https://thedefiant.io/news/tradfi-and-fintech/bitmine-adds-73-million-in-eth-pushing-holdings-to-4-8-of-supply",
-      "published": "2026-07-30T06:32:33+00:00",
+      "published": "2026-07-30T10:29:49+00:00",
       "relevance_score": 1
     },
     {
@@ -169,7 +182,7 @@
       "title": "Tether's Former CIO Heathcote Plans to Sell Equity Stake",
       "summary": "Richard Heathcote, who until earlier this year served as Tether Holdings SA's chief investment officer, is planning to sell a small stake in the stablecoin issuer, Bloomberg reported Monday, citing people familiar with the matter. Heathcote is working with investment bank PJT Partners to sell part…",
       "link": "https://thedefiant.io/converge/cefi/tether-s-former-cio-heathcote-plans-to-sell-equity-stake",
-      "published": "2026-07-30T06:32:33+00:00",
+      "published": "2026-07-30T10:29:49+00:00",
       "relevance_score": 1
     },
     {
@@ -234,7 +247,7 @@
       ],
       "title": "Robinhood posts record quarter as crypto revenue slides 38%",
       "summary": "The online brokerage continued expanding its digital asset business with Robinhood Chain, tokenized stocks and decentralized lending even as cryptocurrency transaction revenue declined.",
-      "link": "https://cointelegraph.com/news/robinhood-record-quarter-crypto-revenue-slides?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/robinhood-record-quarter-crypto-revenue-slides?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-07-29T21:53:35+00:00",
       "relevance_score": 1
     },
@@ -424,32 +437,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "UK policy sprint finds cross-border payments are stablecoins’ top use case",
-      "summary": "Industry participants said stablecoins offer the biggest near-term benefits for cross-border payments, while domestic UK retail adoption is likely to remain limited.",
-      "link": "https://cointelegraph.com/news/uk-policy-cross-border-payments-stablecoins-use-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-07-29T07:11:27+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Citadel Securities bets on a Fed rate hike Wednesday as bitcoin analysts call a hold. Someone will be wrong.",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/29/citadel-bets-on-a-fed-rate-hike-wednesday-as-bitcoin-analysts-call-a-hold-someone-will-be-wrong",
-      "published": "2026-07-29T05:37:38+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -536,7 +523,7 @@
       "title": "NEAR Governance Votes to Scrap Developer Gas Rebate",
       "summary": "NEAR's on-chain governance body, House of Stake, passed proposal HSP-027 to eliminate the protocol's developer gas rebate, a change that will send all network gas fees to be burned rather than partly rebated to smart-contract owners. NEAR co-founder Illia Polosukhin confirmed the outcome Monday,…",
       "link": "https://thedefiant.io/news/blockchains/near-governance-votes-to-scrap-developer-gas-rebate",
-      "published": "2026-07-30T06:32:33+00:00",
+      "published": "2026-07-30T10:29:49+00:00",
       "relevance_score": 0
     },
     {
@@ -549,7 +536,7 @@
       "title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
       "summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund…",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
-      "published": "2026-07-30T06:32:33+00:00",
+      "published": "2026-07-30T10:29:49+00:00",
       "relevance_score": 0
     },
     {
@@ -559,7 +546,151 @@
         "general",
         "policy"
       ],
-      "title": "Bitcoin analysts agree the Fed's hold was hawkish. They don't agree on what happens next.",
+      "title": "BitRiver founder charged in Russia with $12.5 million fraud",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/07/30/bitriver-founder-charged-in-russia-with-usd12-5-million-fraud",
+      "published": "2026-07-30T10:02:33+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Crypto exchange Luno cuts 20% of staff amid automation push and retail trading slumps",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/07/30/crypto-exchange-luno-cuts-20-of-staff-amid-automation-push-and-retail-trading-slumps",
+      "published": "2026-07-30T09:54:18+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Fake Flare Network Staking Site Drained $8.5M in XRP: Seoul Police",
+      "summary": "The ring copied Flare Network and its FXRP token, and planted Wikipedia entries, blog posts and YouTube videos to look legitimate.",
+      "link": "https://decrypt.co/374696/fake-flare-network-staking-site-drained-8-5m-in-xrp-seoul-police",
+      "published": "2026-07-30T09:50:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Live updates: Bitcoin holds near $64,000 as Microsoft's AI payoff lifts stocks",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/07/30/live-updates-bitcoin-holds-near-usd64-000-as-microsoft-s-ai-payoff-lifts-stocks",
+      "published": "2026-07-30T09:01:13+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin and ether markets are ruled by perps. SpaceX showed how far their influence can go",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/30/bitcoin-and-ether-markets-are-ruled-by-perps-spacex-showed-how-far-their-influence-can-go",
+      "published": "2026-07-30T09:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Australia sues Telegram over alleged failures to remove terror content",
+      "summary": "Telegram faces Australian court proceedings after eSafety alleged the platform failed to detect and remove extremist material shared by users.",
+      "link": "https://cointelegraph.com/news/australia-telegram-alleged-failures-terror-content?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-07-30T08:49:40+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Cathie Wood’s Ark Invest sells Bitmine, Bullish, Block shares as crypto stocks dip",
+      "summary": "Meanwhile, the investment firm purchased 128,932 shares of Elon Musk's SpaceX, worth roughly $14.5 million.",
+      "link": "https://www.theblock.co/post/410131/ark-invest-sells-bitmine-bullish-block?utm_source=rss&utm_medium=rss",
+      "published": "2026-07-30T08:47:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Aave proposes reserve deprecations affecting $98 million in supplied assets",
+      "summary": "Aave proposed deprecating 75 reserves and six deployments, affecting $98.1 million in supplied assets and $15.6 million in debt.",
+      "link": "https://www.theblock.co/post/410127/aave-proposes-reserve-deprecations-affecting-98-million-in-supplied-assets?utm_source=rss&utm_medium=rss",
+      "published": "2026-07-30T08:40:10+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Chinese newspaper warns of Bitcoin extortion scam using its name",
+      "summary": "China Business Journal says fraudsters impersonated the publication, demanding Bitcoin to suppress purported investigative reports about targeted companies.",
+      "link": "https://cointelegraph.com/news/chinese-newspaper-bitcoin-extortion-scam-name?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-07-30T07:28:57+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin ETF inflows return as Ether funds slip into outflows",
+      "summary": "US spot Bitcoin ETFs recorded $32.1 million in inflows on Wednesday despite Bitcoin dipping below $64,000, ending a four-session outflow streak.",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-return-ether-funds-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-07-30T07:05:23+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin, ether whipsaw wipes out $286 million in leveraged bets",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/07/30/bitcoin-ether-whipsaw-wipes-out-usd280-million-even-as-prices-remain-flat-over-24-hours",
+      "published": "2026-07-30T06:59:10+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin analysts agree the Fed's hold was hawkish. They are split on what happens next.",
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/07/30/bitcoin-analysts-agree-the-fed-s-hold-was-hawkish-they-don-t-agree-on-what-happens-next",
       "published": "2026-07-30T06:28:58+00:00",
@@ -1356,19 +1487,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Russia charges Telegram founder Pavel Durov with aiding terrorism",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/07/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism",
-      "published": "2026-07-29T09:10:54+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1380,85 +1498,6 @@
       "summary": "The group of AGs sent a letter to the CFTC, urging the agency to draft new rules consistent with the Commodity Exchange Act.",
       "link": "https://www.theblock.co/post/410013/state-attorneys-general-cftc-letter-prediction-markets?utm_source=rss&utm_medium=rss",
       "published": "2026-07-29T08:21:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Trump teleprompter operator accused over Kalshi bets leaves government: AP",
-      "summary": "Gabriel Perez, who was accused of profiting from Kalshi bets tied to President Donald Trump’s speeches, is no longer employed by the federal government.",
-      "link": "https://cointelegraph.com/news/trump-teleprompter-kalshi-bets-government-ap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-07-29T08:12:11+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "SpaceX is a battleground Solana must win",
-      "summary": "",
-      "link": "https://www.coindesk.com/opinion/2026/07/29/spacex-is-a-battleground-solana-must-win",
-      "published": "2026-07-29T08:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Ark Invest buys $12 million in SpaceX as it trims Block, Bullish and Robinhood holdings",
-      "summary": "The firm sold $2.3 million worth of Block Inc. shares, $1.6 million worth of Bullish, and $4 million worth of Robinhood.",
-      "link": "https://www.theblock.co/post/410002/ark-invest-buys-spacex-trims-block-bullish-robinhood?utm_source=rss&utm_medium=rss",
-      "published": "2026-07-29T07:28:37+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin ETFs extend outflow streak as BTC fails to hold $65K",
-      "summary": "US spot Bitcoin ETFs recorded four straight sessions of outflows totaling $526 million as Bitcoin faced renewed selling pressure after failing to hold $65,000.",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-extend-outflow-streak-btc-slips-below-65k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-07-29T07:16:47+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Live updates: Bitcoin edges above $64,000 as Fed holds policy steady",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/07/29/live-updates-bitcoin-clears-usd64-000-in-asia-hours-ahead-of-fed-decision",
-      "published": "2026-07-29T06:25:21+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/29/company-behind-ai-trade-that-caused-usd60-million-crypto-liquidations-to-cover-all-losses",
-      "published": "2026-07-29T06:03:28+00:00",
       "relevance_score": 0
     },
     {
@@ -1483,20 +1522,6 @@
       "summary": "Anthropic’s locked model found a new attack on a post-quantum signature scheme headed for U.S. federal standardization.",
       "link": "https://decrypt.co/374600/claude-mythos-cracked-post-quantum-cryptography",
       "published": "2026-07-28T20:45:38+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Ionic Digital jumps 25% in Nasdaq debut after expanding Celsius bitcoin mining assets into AI infrastructure",
-      "summary": "Ionic Digital was formed from Celsius Mining’s assets and later took direct control of its sites from Hut 8.",
-      "link": "https://www.theblock.co/post/409945/ionic-digital-jumps-22-nasdaq-debut-celsius-bitcoin-mining-assets-ai-infrastructure?utm_source=rss&utm_medium=rss",
-      "published": "2026-07-28T20:20:12+00:00",
       "relevance_score": 0
     },
     {
@@ -1595,18 +1620,6 @@
       "summary": "Summary Type: DeFi Timeline: 2026-01-12 → 2026-02-02 Languages: Solidity",
       "link": "https://www.openzeppelin.com/news/1inch-aqua-and-swapvm-mvp-v1.0-audit",
       "published": "2026-07-28T16:55:52+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "First ChatGPT, Now Claude: Frontier AI Models Are Escaping Their Sandboxes",
-      "summary": "A week after OpenAI disclosed a frontier AI sandbox escape, researchers found Anthropic's Claude Cowork could break out of its own virtual machine.",
-      "link": "https://decrypt.co/374557/chatgpt-claude-ai-models-escaping-sandboxes-cowork",
-      "published": "2026-07-28T16:54:11+00:00",
       "relevance_score": 0
     },
     {
