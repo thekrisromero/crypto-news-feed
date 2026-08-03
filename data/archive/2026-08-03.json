@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T17:56:19.877247+00:00",
+  "generated_at": "2026-08-03T21:10:11.222438+00:00",
   "lookback_days": 8,
-  "total_items": 131,
+  "total_items": 132,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 19
+      "kept": 20
     },
     {
       "name": "Decrypt",
@@ -81,6 +81,18 @@
   ],
   "items": [
     {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "What Is an Air-Gapped Bitcoin Wallet? Why the Coldcard Exploit Changes the Conversation About Offline Security",
+      "summary": "Air-gapped wallets keep private keys completely offline, reducing exposure to hackers—but they're not immune from threats.",
+      "link": "https://decrypt.co/374868/what-is-air-gapped-bitcoin-wallet-coldcard-exploit-security",
+      "published": "2026-08-03T20:39:33+00:00",
+      "relevance_score": 3
+    },
+    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -105,6 +117,31 @@
       "link": "https://www.openzeppelin.com/news/introducing-openzeppelin-contract-5-7",
       "published": "2026-07-30T10:28:19+00:00",
       "relevance_score": 3
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
+      "summary": "BlackRock launched a tokenized money market fund for stablecoin reserves that uses Solana alongside Ethereum.",
+      "link": "https://decrypt.co/374865/blackrock-tokenized-money-market-funds-solana-ethereum",
+      "published": "2026-08-03T19:17:37+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Tornado Cash Logs 968 Deposits in Busiest Day of 2026, L2Beat Says",
+      "summary": "The July 23 spike — worth about $57 million in ETH — was driven largely by the Drift exploiter, who pushed $44 million through the mixer in under two hours.",
+      "link": "https://thedefiant.io/news/defi/tornado-cash-logs-968-deposits-in-busiest-day-of-2026-l2beat-says",
+      "published": "2026-08-03T18:52:38+00:00",
+      "relevance_score": 2
     },
     {
       "source": "The Block",
@@ -233,7 +270,7 @@
       "title": "SummerFi to Wind Down After Seven Years, Citing Exploit",
       "summary": "Aave founder Stani Kulechov called the DeFi access point 'an OG' as its team said it would sunset the UI.",
       "link": "https://thedefiant.io/news/defi/summerfi-to-wind-down-after-seven-years-citing-exploit",
-      "published": "2026-08-03T17:56:16+00:00",
+      "published": "2026-08-03T21:10:08+00:00",
       "relevance_score": 1
     },
     {
@@ -246,7 +283,7 @@
       "title": "eToro Takes Strategic Stake in Onchain Derivatives Exchange Extended, Plans Zengo Tie-Up",
       "summary": "eToro has become a strategic investor in Extended, an onchain perpetual futures exchange, and said the round begins a partnership with Zengo, the self-custody wallet eToro acquired earlier this year. Neither company disclosed the investment size.",
       "link": "https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo",
-      "published": "2026-08-03T17:56:16+00:00",
+      "published": "2026-08-03T21:10:08+00:00",
       "relevance_score": 1
     },
     {
@@ -259,7 +296,7 @@
       "title": "BitMine Adds $73 Million in ETH, Pushing Holdings to 4.8% of Supply",
       "summary": "BitMine Immersion Technologies (NYSE: BMNR), the Ethereum treasury company chaired by Fundstrat's Tom Lee, bought 42,197 ETH worth roughly $73 million over the past week, according to the company's own holdings update posted Monday. The purchase lifts BitMine's total to 5,742,237 ETH, about 4.8% of…",
       "link": "https://thedefiant.io/news/tradfi-and-fintech/bitmine-adds-73-million-in-eth-pushing-holdings-to-4-8-of-supply",
-      "published": "2026-08-03T17:56:16+00:00",
+      "published": "2026-08-03T21:10:08+00:00",
       "relevance_score": 1
     },
     {
@@ -272,7 +309,85 @@
       "title": "Tether's Former CIO Heathcote Plans to Sell Equity Stake",
       "summary": "Richard Heathcote, who until earlier this year served as Tether Holdings SA's chief investment officer, is planning to sell a small stake in the stablecoin issuer, Bloomberg reported Monday, citing people familiar with the matter. Heathcote is working with investment bank PJT Partners to sell part…",
       "link": "https://thedefiant.io/converge/cefi/tether-s-former-cio-heathcote-plans-to-sell-equity-stake",
-      "published": "2026-08-03T17:56:16+00:00",
+      "published": "2026-08-03T21:10:08+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Robinhood's Second Venture Fund Targets Y Combinator Startups in $200 Million IPO",
+      "summary": "Retail investors can request RVII shares at an expected $25 apiece through Aug. 12, ahead of an NYSE listing set for Aug. 13 — five months after Robinhood's first venture fund raised $658.4 million to buy into companies like OpenAI and Stripe.",
+      "link": "https://thedefiant.io/news/tradfi-and-fintech/robinhood-s-second-venture-fund-targets-y-combinator-startups-in-usd200-million-ipo",
+      "published": "2026-08-03T20:30:30+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bessent’s top crypto adviser Tyler Williams exits US Treasury: Report",
+      "summary": "A key architect of the Trump administration’s digital asset agenda is leaving the Treasury Department as Congress struggles to advance landmark crypto legislation.",
+      "link": "https://cointelegraph.com/news/bessent-top-crypto-adviser-tyler-williams-leaves-us-treasury-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-03T20:29:47+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Bitcoin Bridge Boltz Halts Swaps Indefinitely, Citing AI-Assisted Attacks",
+      "summary": "The non-custodial swap service said attackers now iterate faster than its team can patch, leaving wallets including Aqua and Bull Bitcoin racing to restore Lightning and Liquid swaps.",
+      "link": "https://thedefiant.io/news/defi/bitcoin-bridge-boltz-halts-swaps-indefinitely-citing-ai-assisted-attacks",
+      "published": "2026-08-03T19:09:03+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Flap Overtakes Pump.fun in Daily Revenue With $1.18 Million",
+      "summary": "The BNB Chain launchpad's fees grew 40x in two weeks, making it the second BNB Chain platform to flip the Solana incumbent.",
+      "link": "https://thedefiant.io/news/defi/flap-overtakes-pump-fun-in-daily-revenue-with-1-18-million",
+      "published": "2026-08-03T18:38:54+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "RWAs Topped Half of Hyperliquid's Volume for Two Straight Weeks in July",
+      "summary": "Perpetual futures tied to stocks, indexes and commodities out-traded crypto pairs on the largest perps DEX for the first time, less than a year after builder-deployed markets went live.",
+      "link": "https://thedefiant.io/news/markets/rwas-topped-half-of-hyperliquid-s-volume-for-two-straight-weeks-in-july",
+      "published": "2026-08-03T18:32:39+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Crypto Card Volume Hits $748.7M in July, a Fifth Straight Monthly Gain: Paymentscan",
+      "summary": "Spending on crypto payment cards jumped 19% to a monthly record, with RedotPay handling more than half the volume as flows into stablecoin neobanks crossed $1 billion for the first time.",
+      "link": "https://thedefiant.io/news/tradfi-and-fintech/crypto-card-volume-hits-748-7m-in-july-a-fifth-straight-monthly-gain-paymentscan",
+      "published": "2026-08-03T18:28:04+00:00",
       "relevance_score": 1
     },
     {
@@ -627,32 +742,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Coldcard hack sparks biggest sub-1 BTC move since FTX: CryptoQuant",
-      "summary": "Bitcoin users moved 39,600 BTC in small transactions as the Coldcard hack continued, with researchers warning that the attack remained active.",
-      "link": "https://cointelegraph.com/news/coldcard-biggest-sub-1-btc-transfer-ftx-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-02T08:07:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Onchain, in court: What happened in crypto legal news this week",
-      "summary": "A case tied to defunct crypto exchange FTX moves forward, a soldier seeks to dismiss over a Polymarket bet and a former congressman was ordered to pay $35,000 for manipulative trading.",
-      "link": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-01T21:19:00+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -740,32 +829,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "US Sanctions Iranian Marine Insurers Taking Bitcoin for Strait of Hormuz Passage",
-      "summary": "Treasury says HormuzSafe, developed by Iran's Ministry of Economy, accepted digital assets to fund an IRGC-backed 'extortion' scheme targeting commercial shipping.",
-      "link": "https://thedefiant.io/converge/regulation/us-sanctions-iranian-marine-insurers-taking-bitcoin-for-strait-of-hormuz-passage",
-      "published": "2026-07-30T16:49:27+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Aave Moves to Retire 50 Low-Adoption Assets, Wind Down Six Chains",
-      "summary": "Kulechov says the $98 million cleanup 'should not be interpreted as a view on any L1 or L2' as the lending giant narrows its focus to high-value markets.",
-      "link": "https://thedefiant.io/news/defi/aave-moves-to-retire-50-low-adoption-assets-wind-down-six-chains",
-      "published": "2026-07-30T16:15:44+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -788,7 +851,7 @@
       "title": "NEAR Governance Votes to Scrap Developer Gas Rebate",
       "summary": "NEAR's on-chain governance body, House of Stake, passed proposal HSP-027 to eliminate the protocol's developer gas rebate, a change that will send all network gas fees to be burned rather than partly rebated to smart-contract owners. NEAR co-founder Illia Polosukhin confirmed the outcome Monday,…",
       "link": "https://thedefiant.io/news/blockchains/near-governance-votes-to-scrap-developer-gas-rebate",
-      "published": "2026-08-03T17:56:16+00:00",
+      "published": "2026-08-03T21:10:08+00:00",
       "relevance_score": 0
     },
     {
@@ -801,7 +864,128 @@
       "title": "EDX Markets Closes $76M Series C Led by SBI Holdings",
       "summary": "EDX Markets, an institutional-only crypto trading venue with its own central clearinghouse, closed a $76 million Series C funding round led by SBI Holdings, the firm said in a press release. The Tokyo-listed financial group becomes a strategic investor in the U.S. exchange. The capital will fund…",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
-      "published": "2026-08-03T17:56:16+00:00",
+      "published": "2026-08-03T21:10:08+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "DEXs capture record 24% of spot crypto trading as CEX volumes sink",
+      "summary": "Spot exchange volume is on track to set a new 12-month low at $670 million, down from its annual high of $2.23 trillion.",
+      "link": "https://www.theblock.co/post/410476/dexs-capture-record-spot-crypto-trading-as-cex-volumes-sink?utm_source=rss&utm_medium=rss",
+      "published": "2026-08-03T20:46:31+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-03T19:52:11+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "FalconX cuts 10% of workforce amid prolonged crypto market slump: Report",
+      "summary": "According to Bloomberg, the digital asset prime broker is refocusing its Singapore strategy and withdrawing its local license application as crypto companies continue to trim costs.",
+      "link": "https://cointelegraph.com/news/falconx-workforce-reduction-amid-crypto-market-slump-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-03T19:44:48+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "FBI agent accused of stealing $1 million in crypto, allegedly turned to ChatGPT for vacation plans",
+      "summary": "An FBI agent was arrested after allegedly stealing about $1 million in cryptocurrency from \"adversarial cryptocurrency accounts.\"",
+      "link": "https://www.theblock.co/post/410491/fbi-agent-stealing-1-million-crypto-turned-to-chatgpt-vacation-plans?utm_source=rss&utm_medium=rss",
+      "published": "2026-08-03T18:48:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Amazon gained the market cap SpaceX lost in six weeks",
+      "summary": "On June 16, Amazon and SpaceX had the same market capitalization: $2.65T. Today, Amazon is twice as valuable as SpaceX. The post Amazon gained the market cap SpaceX lost in six weeks appeared first on Protos .",
+      "link": "https://protos.com/amazon-gained-the-market-cap-spacex-lost-in-six-weeks/",
+      "published": "2026-08-03T18:46:43+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Kalshi CEO invokes Nasdaq, Uber and Airbnb in defense against New York lawsuit",
+      "summary": "\"You could copy and paste that lawsuit and file it against Nasdaq,” Kalshi CEO Tarek Mansour said during an interview with CNBC.",
+      "link": "https://www.theblock.co/post/410481/kalshi-ceo-invokes-nasdaq-uber-airbnb-defense-new-york-lawsuit?utm_source=rss&utm_medium=rss",
+      "published": "2026-08-03T18:44:48+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Proof of Attendance Protocol is shutting down after 5+ years",
+      "summary": "Some 46,210 issuers like Coinbase and American Express used POAP to create onchain mementos that users could mint.",
+      "link": "https://www.theblock.co/post/410482/proof-of-attendance-protocol-is-shutting-down-after-5-years?utm_source=rss&utm_medium=rss",
+      "published": "2026-08-03T18:40:12+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Billionaire Brock Pierce did an interview with a Pro-Putin cult",
+      "summary": "Brock Pierce interviewer AllatRa is a pro-Putin, anti-Ukraine doomsday cult that pushes mass amounts of generative AI disinformation. The post Billionaire Brock Pierce did an interview with a Pro-Putin cult appeared first on Protos .",
+      "link": "https://protos.com/billionaire-brock-pierce-did-an-interview-with-a-pro-putin-cult/",
+      "published": "2026-08-03T18:33:35+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "DEX Spot Volume Hit a Record 24% of CEX Volume in July",
+      "summary": "Decentralized exchanges took their largest share of spot trading since tracking began in 2019 — in a month when overall volumes sank to a two-year low.",
+      "link": "https://thedefiant.io/news/defi/dex-spot-volume-hit-a-record-24-of-cex-volume-in-july",
+      "published": "2026-08-03T18:33:21+00:00",
       "relevance_score": 0
     },
     {
@@ -1025,19 +1209,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-03T13:17:41+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1161,7 +1332,7 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: Bitcoin rises above $63,000 as stocks surge to start August",
+      "title": "Live updates: Bitcoin flirts with $64,000 as stocks start strong in August",
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/08/03/live-updates-traders-say-bitcoin-sell-off-from-usd65-000-points-to-thin-volume-not-panic-selling",
       "published": "2026-08-03T10:29:23+00:00",
@@ -1432,20 +1603,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Russian decree bans crypto mining across Moscow region through 2032",
-      "summary": "Regional energy officials had estimated that mining consumes 1 GW of power and could contribute to future electricity shortages.",
-      "link": "https://www.theblock.co/post/410345/russian-decree-bans-crypto-mining-across-moscow-region-through-2032?utm_source=rss&utm_medium=rss",
-      "published": "2026-08-01T16:09:15+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1480,34 +1637,6 @@
       "summary": "The Nano Banana tool let users generate fake satellite scenes from a text prompt, alarming investigators who rely on Google Earth to verify breaking news and atrocities.",
       "link": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears",
       "published": "2026-07-31T20:32:50+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Former Rep. George Santos agrees to pay $35,000 in CFTC settlement over Kalshi SOTU bet",
-      "summary": "Former expelled U.S. Rep. George Santos settled with CFTC over trades made on Kalshi about the State of the Union.",
-      "link": "https://www.theblock.co/post/410338/george-santos-to-pay-35000-cftc-settlement-kalshi-sotu-bet?utm_source=rss&utm_medium=rss",
-      "published": "2026-07-31T20:25:30+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitcoin losses linked to Coldcard vulnerability grow to $70 million, Galaxy Research says",
-      "summary": "Galaxy said nearly 1,200 addresses were drained of more than 1,000 BTC worth roughly $70 million tied to a Coldcard vulnerability.",
-      "link": "https://www.theblock.co/post/410332/bitcoin-losses-linked-coldcard-vulnerability-70-million-galaxy-research?utm_source=rss&utm_medium=rss",
-      "published": "2026-07-31T20:20:52+00:00",
       "relevance_score": 0
     },
     {
@@ -1598,30 +1727,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Crypto Kiosk Scams Cost Texans $57M as Lawmakers Weigh a Ban",
-      "summary": "Three states have already outlawed Bitcoin ATMs, and a committee chair says Texas will go further than regulating them.",
-      "link": "https://decrypt.co/374778/crypto-kiosk-scams-cost-texans-57m-as-lawmakers-weigh-a-ban",
-      "published": "2026-07-31T11:13:58+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "New York AG Seeks $36B From Kalshi Over 'Illegal Gambling'",
-      "summary": "The CFTC asked a court to stop New York enforcing against the prediction market the day before the state filed.",
-      "link": "https://decrypt.co/374775/new-york-ag-seeks-36b-from-kalshi-over-illegal-gambling",
-      "published": "2026-07-31T10:12:16+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1658,97 +1763,6 @@
       "summary": "Self-custodial wallet says user funds are untouched as the collapse of a shared card issuer knocks out Ready, Solflare and other crypto card programs overnight.",
       "link": "https://thedefiant.io/converge/cefi/ready-shuts-card-program-after-issuer-winds-down",
       "published": "2026-07-30T19:03:01+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Former FTX member Leopold Aschenbrenner’s $20B AI fund blows up",
-      "summary": "The AI hedge fund of ex-FTX Future Fund worker Leopold Aschenbrenner is asking investors for more capital to meet margin calls. The post Former FTX member Leopold Aschenbrenner&#8217;s $20B AI fund blows up appeared first on Protos .",
-      "link": "https://protos.com/former-ftx-member-leopold-aschenbrenners-20b-ai-fund-blows-up/",
-      "published": "2026-07-30T17:59:23+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Banco Santander Discloses Spot Bitcoin ETF Stake in 13F Filing",
-      "summary": "The Spanish lender's Q2 2026 filing lists a position in BlackRock's iShares Bitcoin Trust, the largest spot Bitcoin ETF.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/banco-santander-discloses-spot-bitcoin-etf-stake-in-13f-filing",
-      "published": "2026-07-30T16:51:31+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "US sanctions firms behind Iran’s Strait of Hormuz BTC insurance scheme",
-      "summary": "Iran's BTC insurance scheme would reportedly generate over $10B in revenue for the country and help it maintain control over the Strait. The post US sanctions firms behind Iran&#8217;s Strait of Hormuz BTC insurance scheme appeared first on Protos .",
-      "link": "https://protos.com/us-sanctions-firms-behind-irans-strait-of-hormuz-btc-insurance-scheme/",
-      "published": "2026-07-30T14:35:57+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Lightning Labs Launches Site for L402 Bitcoin Agent Payments",
-      "summary": "The protocol, which lets AI agents pay Lightning invoices to access API endpoints, already runs inside Lightning Loop; the new site is the launch.",
-      "link": "https://thedefiant.io/news/infrastructure/lightning-labs-launches-site-for-l402-bitcoin-agent-payments",
-      "published": "2026-07-30T14:13:45+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Bitcoin Slips Below $64K After Warsh Says \"No Soft Inflation Target\"",
-      "summary": "Crypto's relief pop after the Fed's 9-3 hold faded within the hour as the new chair's hawkish press conference dragged risk assets lower.",
-      "link": "https://thedefiant.io/news/markets/bitcoin-slips-below-usd64k-after-warsh-says-no-soft-inflation-target",
-      "published": "2026-07-29T18:48:43+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Active Crypto VC Firms Fall to 150, Lowest Since 2020",
-      "summary": "The July count sits far below the 1,177 unique investors CryptoRank recorded at the March 2022 peak, pointing to a smaller, more selective pool of backers.",
-      "link": "https://thedefiant.io/news/tradfi-and-fintech/active-crypto-vc-firms-fall-to-150-lowest-since-2020",
-      "published": "2026-07-29T16:32:14+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Morgan Stanley Launches Spot Ether, Solana ETPs on NYSE Arca",
-      "summary": "The MSSE and MSOL trusts each charge a 0.14% expense ratio and will stake a portion of holdings, passing rewards to investors.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/morgan-stanley-launches-spot-ether-solana-etps-on-nyse-arca",
-      "published": "2026-07-29T16:19:02+00:00",
       "relevance_score": 0
     },
     {
