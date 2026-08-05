@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T17:46:07.075355+00:00",
+  "generated_at": "2026-08-05T21:17:24.092763+00:00",
   "lookback_days": 8,
-  "total_items": 134,
+  "total_items": 135,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -16,7 +16,7 @@
     {
       "name": "Decrypt",
       "url": "https://decrypt.co/feed",
-      "kept": 24
+      "kept": 25
     },
     {
       "name": "CoinTelegraph",
@@ -107,18 +107,6 @@
       "relevance_score": 3
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "What Is an Air-Gapped Bitcoin Wallet? Why the Coldcard Exploit Changes the Conversation About Offline Security",
-      "summary": "Air-gapped wallets keep private keys completely offline, reducing exposure to hackers—but they're not immune from threats.",
-      "link": "https://decrypt.co/374868/what-is-air-gapped-bitcoin-wallet-coldcard-exploit-security",
-      "published": "2026-08-03T20:39:33+00:00",
-      "relevance_score": 3
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -130,6 +118,31 @@
       "link": "https://www.openzeppelin.com/news/introducing-openzeppelin-contract-5-7",
       "published": "2026-07-30T10:28:19+00:00",
       "relevance_score": 3
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "OpenAI and Anthropic's Rogue Models Hacked Real Companies. The Law Has No Answer",
+      "summary": "Two AI labs say unreleased models broke into live systems to game benchmarks. Prosecuting a line of code is harder than it looks.",
+      "link": "https://decrypt.co/374991/openai-anthropic-rogue-ai-models-hacked-law",
+      "published": "2026-08-05T19:11:23+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Dinari Opens 724 Tokenized US Stocks to Eligible US Investors",
+      "summary": "Dividends on Dinari's dShares now pay out natively in USDC, while 24/7 trading and T+0 settlement remain future capabilities the company says depend on regulatory requirements.",
+      "link": "https://thedefiant.io/news/tradfi-and-fintech/dinari-opens-724-tokenized-us-stocks-to-eligible-us-investors",
+      "published": "2026-08-05T17:56:52+00:00",
+      "relevance_score": 2
     },
     {
       "source": "Protos",
@@ -196,18 +209,6 @@
       "relevance_score": 2
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
-      "summary": "BlackRock launched a tokenized money market fund for stablecoin reserves that uses Solana alongside Ethereum.",
-      "link": "https://decrypt.co/374865/blackrock-tokenized-money-market-funds-solana-ethereum",
-      "published": "2026-08-03T19:17:37+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -232,6 +233,55 @@
       "link": "https://thedefiant.io/news/hacks/i-did-everything-right-coldcard-victims-recount-losing-life-savings",
       "published": "2026-08-03T15:55:47+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Perplexity Wins Appeal Against Amazon in AI Agent Shopping Lawsuit",
+      "summary": "A U.S. appeals court ruled Amazon is unlikely to prove Perplexity violated federal hacking law, marking the first appellate decision on whether AI agents can legally act on users' behalf online.",
+      "link": "https://decrypt.co/374996/perplexity-amazon-ai-agent-lawsuit",
+      "published": "2026-08-05T20:16:03+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Visa Widens Stablecoin Payouts via Zerohash Rails",
+      "summary": "Eligible Visa Direct clients can now prefund accounts and send payouts in stablecoins, expanding Visa's latest push to bring blockchain-based payments into its global network.",
+      "link": "https://decrypt.co/374994/visa-stablecoin-payouts-zerohash",
+      "published": "2026-08-05T19:42:48+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Did Bitcoin bridge Boltz silently warn of a government takeover?",
+      "summary": "Critics flagged a stale warrant canary as a duress signal for BTC swap service Boltz. A defender said the team simply forgot. The post Did Bitcoin bridge Boltz silently warn of a government takeover? appeared first on Protos .",
+      "link": "https://protos.com/did-bitcoin-bridge-boltz-silently-warn-of-a-government-takeover/",
+      "published": "2026-08-05T19:21:27+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Feds Say an NFT Founder Raised $10 Million Only to Blow It All on Gambling, Trading, and a DJ Hobby",
+      "summary": "Prosecutors say the founder of NFT marketplace Few and Far promised investors their money would build a Web3 platform before diverting it to personal expenses.",
+      "link": "https://decrypt.co/374986/nft-founder-10-million-fraud-gambling-dj-hobby",
+      "published": "2026-08-05T18:43:47+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinTelegraph",
@@ -590,19 +640,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bybit’s EU payments arm secures Austrian e-money license",
-      "summary": "Bybit’s Austrian payments subsidiary gained regulatory approval to develop card, merchant, open-banking and person-to-person payment services.",
-      "link": "https://cointelegraph.com/news/bybit-austria-electronic-money-license-europe-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-05T04:03:16+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -768,18 +805,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Former FBI Agent Charged With Stealing Nearly $1 Million in Crypto and Using ChatGPT for Investment Advice",
-      "summary": "Prosecutors say the former counterintelligence supervisor stole cryptocurrency from wallets tied to FBI investigations before asking ChatGPT how to invest the money and relocate to Europe.",
-      "link": "https://decrypt.co/374871/former-fbi-agent-charged-stealing-crypto-using-chatgpt-advice",
-      "published": "2026-08-03T21:17:06+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -845,45 +870,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "100,000 UK police officers caught in hacker group’s ransomware debut",
-      "summary": "UK Police have confirmed that the fresh-faced ransomware group ExfilSquad has stolen its data, making its previously doubted threats real. The post 100,000 UK police officers caught in hacker group&#8217;s ransomware debut appeared first on Protos .",
-      "link": "https://protos.com/100000-uk-police-officers-caught-in-hacker-groups-ransomware-debut/",
-      "published": "2026-08-03T15:18:56+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Metronome Discloses $15.7 Million Synth Shortfall, Blames Oracle Lag in Swap Module",
-      "summary": "MetronomeDAO says 6,367 msETH and 4.57 million msUSD lack backing after years of \"unbacked float\" accumulated through Chainlink price-feed latency; the treasury has staged $34 million in defensive positions to close the gap.",
-      "link": "https://thedefiant.io/news/defi/metronome-discloses-usd15-7-million-synth-shortfall-blames-oracle-lag-in-swap-module",
-      "published": "2026-07-31T20:30:56+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Coinbase Says Revenue From Its Base Layer 2 Fell Despite Record Volume",
-      "summary": "Coinbase's Q2 filings show sequencer revenue from Base declined even as stablecoin transaction volume on the network grew sevenfold year-over-year.",
-      "link": "https://thedefiant.io/news/cefi/coinbase-says-revenue-from-its-base-layer-2-fell-despite-record-volume",
-      "published": "2026-07-31T16:06:01+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -895,6 +881,162 @@
       "link": "https://www.openzeppelin.com/news/privacy-in-onchain-finance",
       "published": "2026-07-29T12:38:13+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Block’s bitcoin gross profit falls 31% after Cash App fee cuts as shares reverse initial gains",
+      "summary": "Block raised its 2026 gross profit forecast to $12.51 billion after posting record adjusted operating income.",
+      "link": "https://www.theblock.co/post/410923/blocks-bitcoin-gross-profit-falls-31-cash-app-fee-cuts-shares-reverse-initial-gains?utm_source=rss&utm_medium=rss",
+      "published": "2026-08-05T20:47:25+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Cloudflare OS: Here’s What’s Inside the Open-Source AI Agent Platform",
+      "summary": "The release targets developers building autonomous apps and workflows on Cloudflare's edge—a clear bet on agent infrastructure.",
+      "link": "https://decrypt.co/374997/cloudflare-os-inside-open-source-ai-agent-platform",
+      "published": "2026-08-05T20:46:03+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Aave And ether.fi Founders Lead Opposition To Ethereum's Staking Yield Burn",
+      "summary": "Stani Kulechov and Mike Silagadze headline two days of opposition to the tapered issuance burn, now renumbered EIP-8363. Ethereum core devs decide Thursday whether to consider it for Hegotá.",
+      "link": "https://thedefiant.io/news/blockchains/eip-8363-staking-issuance-burn-reaction-kulechov-silagadze",
+      "published": "2026-08-05T19:54:41+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Senator Lummis still pushing for CLARITY vote before August recess",
+      "summary": "US lawmakers have only a few days to hold a vote on a crypto market structure bill before a recess begins that could push consideration into the 2026 election season or beyond.",
+      "link": "https://cointelegraph.com/news/senator-lummis-clarity-vote-movement-calendar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-05T19:18:24+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Traders Push CLARITY Act Odds Into 2027 After Thune Skips Cloture Filing",
+      "summary": "Kalshi's Sept. 1 contract now trades at 2 cents, while the price on enactment before Jan. 1, 2028 ticked up, moving the implied probability out of this year and into the next.",
+      "link": "https://thedefiant.io/news/regulation/traders-push-clarity-act-odds-into-2027-after-thune-skips-cloture-filing",
+      "published": "2026-08-05T19:11:51+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-05T19:11:41+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "CryptoQuant says bitcoin, ether and XRP whales are accumulating, signaling a ‘late-stage bear market’",
+      "summary": "Large crypto holders are accumulating bitcoin, ether, and XRP as prices remain under pressure, CryptoQuant said.",
+      "link": "https://www.theblock.co/post/410920/cryptoquant-bitcoin-ether-xrp-whales-accumulating-late-stage-bear-market?utm_source=rss&utm_medium=rss",
+      "published": "2026-08-05T19:09:26+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Marex invests in Digital Prime to expand institutional crypto lending",
+      "summary": "The undisclosed investment will support the development of Tokenet, a digital asset lending platform, as institutional demand for crypto infrastructure continues to grow.",
+      "link": "https://cointelegraph.com/news/marex-digital-prime-tokenet-institutional-crypto-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-05T18:53:47+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Bitcoin Tests Market’s Patience as Zcash Gives Holders Hope: Analysis",
+      "summary": "Will Bitcoin breakout of its death cross? Can Zcash continue to make holders forget about that mid-June crash? Here’s what the charts say.",
+      "link": "https://decrypt.co/374975/bitcoin-price-test-zcash-holds-golden-cross",
+      "published": "2026-08-05T18:33:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Bitcoiners are worried that Coinkite’s Blockclock could be spying on them",
+      "summary": "Paranoid Bitcoiners are worried that the Blockclock, created by Coinkite, the firm behind Coldcard, could be spying on them. The post Bitcoiners are worried that Coinkite&#8217;s Blockclock could be spying on them appeared first on Protos .",
+      "link": "https://protos.com/bitcoiners-are-worried-that-coinkites-blockclock-could-be-spying-on-them/",
+      "published": "2026-08-05T18:31:32+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow",
+      "published": "2026-08-05T18:15:21+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Circle Names BlackRock, Visa, ICE and DTCC Among 11 Founding Arc Validators",
+      "summary": "Circle's own disclaimer says Arc will be \"operated by a permissioned validator set\" and has not been reviewed by the New York State Department of Financial Services or any other regulator.",
+      "link": "https://thedefiant.io/converge/blockchains/circle-names-blackrock-visa-ice-and-dtcc-among-11-founding-arc-validators",
+      "published": "2026-08-05T17:45:14+00:00",
+      "relevance_score": 0
     },
     {
       "source": "The Block",
@@ -1092,19 +1234,6 @@
       "summary": "Galaxy Digital reported an $85 million net loss driven by falling digital asset prices and $8.7 billion in revenue that missed Wall Street estimates.",
       "link": "https://cointelegraph.com/news/galaxy-85m-loss-q2-crypto-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-08-05T13:20:58+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-05T13:20:01+00:00",
       "relevance_score": 0
     },
     {
@@ -1449,19 +1578,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Ethereum researchers want to rein in staking; critics say it could backfire",
-      "summary": "EIP-8363 is a newly published draft proposal that would cut net consensus-layer rewards as the Ethereum staking ratio heads toward 50%.",
-      "link": "https://cointelegraph.com/news/ethereum-researchers-want-to-rein-in-staking-critics-say-it-could-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-05T02:30:07+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1485,20 +1601,6 @@
       "summary": "Senators and tribal gaming regulators are pushing to keep sports betting under state jurisdiction, resisting efforts by a federal regulator.",
       "link": "https://www.theblock.co/post/410668/tribal-gaming-regulators-senators-make-renewed-push-add-prediction-markets-provision-clarity-act?utm_source=rss&utm_medium=rss",
       "published": "2026-08-04T22:15:26+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "BlackRock’s spot Ethereum ETF to undergo 1-for-3 reverse share split in October",
-      "summary": "The split will consolidate every three ETHA shares into one, increasing the fund’s per-share net asset value.",
-      "link": "https://www.theblock.co/post/410663/blackrocks-spot-ethereum-etf-to-undergo-1-for-3-reverse-share-split-in-october?utm_source=rss&utm_medium=rss",
-      "published": "2026-08-04T21:34:47+00:00",
       "relevance_score": 0
     },
     {
@@ -1536,20 +1638,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/08/04/spacex-tops-wall-street-revenue-forecast-posts-usd540-million-decline-on-bitcoin-holding-value",
       "published": "2026-08-04T20:26:21+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Ethereum researchers propose burning validator rewards to cap staking at 50%",
-      "summary": "EIP-8361 would gradually burn a rising share of validator rewards as the staking ratio climbs.",
-      "link": "https://www.theblock.co/post/410643/ethereum-researchers-propose-burning-validator-rewards-cap-staking-50?utm_source=rss&utm_medium=rss",
-      "published": "2026-08-04T19:49:58+00:00",
       "relevance_score": 0
     },
     {
@@ -1615,19 +1703,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street’s settlement rails",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments",
-      "published": "2026-08-04T15:47:05+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1675,30 +1750,6 @@
       "summary": "Europe's largest cash management platform is now issuing tokens on Ethereum, in a launch restricted to professional investors.",
       "link": "https://decrypt.co/374894/blackrock-tokenizes-311b-of-european-money-market-funds-with-jp-morgans-kinexys",
       "published": "2026-08-04T11:40:44+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Hardware Wallet Firms Warn of Phishing Surge as Coldcard Losses Near $130M",
-      "summary": "Fake \"coordinated hardware audit\" emails are steering holders to a cloned Coldcard site that installs remote-access software.",
-      "link": "https://decrypt.co/374891/hardware-wallet-firms-warn-of-phishing-surge-as-coldcard-losses-near-130m",
-      "published": "2026-08-04T10:52:57+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Five Convicted of Imprisoning Crypto Millionaires in London 'Torture' Ordeal",
-      "summary": "Two of the five were also convicted of conspiracy to blackmail, in a case police won without either victim testifying.",
-      "link": "https://decrypt.co/374889/five-convicted-of-imprisoning-crypto-millionaires-in-london-torture-ordeal",
-      "published": "2026-08-04T09:46:24+00:00",
       "relevance_score": 0
     },
     {
@@ -1754,19 +1805,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Former FBI agent indicted for stealing crypto from FBI",
-      "summary": "Patrick Steven Yaroch, a former FBI agent, has been indicted for stealing crypto from the FBI and sending the funds to Suilend and Kraken. The post Former FBI agent indicted for stealing crypto from FBI appeared first on Protos .",
-      "link": "https://protos.com/former-fbi-agent-indicted-for-stealing-crypto-from-fbi/",
-      "published": "2026-08-03T17:25:39+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1790,32 +1828,6 @@
       "summary": "DTCC holds $114 trillion in assets. On July 15th, it showed the world how those assets can be converted into digital tokens, traded in real production conditions, and converted back — without disrupting anything.",
       "link": "https://thedefiant.io/podcasts-and-videos/podcast/the-usd114-trillion-question-how-dtcc-is-tokenizing-the-entire-u-s-market",
       "published": "2026-08-03T15:08:10+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Coldcard Thefts Near $114 Million as Fourth Attack Wave Hits",
-      "summary": "A firmware bug that shipped in 2021 made Coldcard seeds guessable, and attackers have drained more than 1,800 BTC since Thursday. The latest sweep can still be outbid in the mempool, giving some victims a window to rescue their coins.",
-      "link": "https://thedefiant.io/news/security/coldcard-thefts-near-usd114-million-as-fourth-attack-wave-hits",
-      "published": "2026-08-03T15:02:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "YGG Play Shuts Down Services as Yield Guild Pivots to AI Data",
-      "summary": "Yield Guild's own sunset document retires the YGGPlay.fun site, Launchpad and questing platform by August 1, while GIGACHADBAT and Ragnarok Breaker continue under Delabs Games and Planetarium Labs.",
-      "link": "https://thedefiant.io/news/nfts-and-web3/ygg-play-shuts-down-services-as-yield-guild-pivots-to-ai-data",
-      "published": "2026-07-31T21:02:31+00:00",
       "relevance_score": 0
     }
   ]
