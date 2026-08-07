@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07T09:05:15.977400+00:00",
+  "generated_at": "2026-08-07T13:15:52.055328+00:00",
   "lookback_days": 8,
-  "total_items": 134,
+  "total_items": 133,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -71,7 +71,7 @@
     {
       "name": "OpenZeppelin Blog",
       "url": "https://blog.openzeppelin.com/rss.xml",
-      "kept": 4
+      "kept": 3
     },
     {
       "name": "Rekt News",
@@ -107,17 +107,30 @@
       "relevance_score": 3
     },
     {
-      "source": "OpenZeppelin Blog",
-      "tier": 6,
+      "source": "CoinTelegraph",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "security"
+        "breaking",
+        "global"
       ],
-      "title": "Introducing OpenZeppelin Contracts 5.7: Account Abstraction Paymasters, Crosschain Token Bridges, and New Deployment Primitives",
-      "summary": "OpenZeppelin Contracts 5.7 is now available. This release expands the library in three directions that reflect where onchain development is heading: sponsored transactions through a full suite of ERC-4337 paymasters, crosschain movement of non-fungible and multi-token assets, and a set of new utilities for deterministic deployment and safer contract interaction.",
-      "link": "https://www.openzeppelin.com/news/introducing-openzeppelin-contract-5-7",
-      "published": "2026-07-30T10:28:19+00:00",
-      "relevance_score": 3
+      "title": "Bitcoiners turn to dice throws as self-custody setups are re-evaluated",
+      "summary": "Dice entropy may become the new gold standard after the Coldcard hack",
+      "link": "https://cointelegraph.com/features/bitcoiners-turn-to-dice-throws-as-self-custody-setups-are-re-evaluated?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-07T13:00:01+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Stripe-owned Bridge joins EU MiCA register after Luxembourg approval",
+      "summary": "Stripe-owned Bridge has entered the EU MiCA register following Luxembourg approval, joining regulated providers under the bloc’s crypto framework.",
+      "link": "https://cointelegraph.com/news/bridge-mica-stablecoin-issuer-esma-register?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-07T09:14:17+00:00",
+      "relevance_score": 2
     },
     {
       "source": "CoinTelegraph",
@@ -222,19 +235,6 @@
       "relevance_score": 2
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Coldcard hackers transfer 64 BTC and 200 ETH to cryptocurrency mixers",
-      "summary": "Hackers behind the Coldcard exploit transferred millions in digital assets to cryptocurrency mixers, while most stolen funds remained traceable in attacker-controlled wallets.",
-      "link": "https://cointelegraph.com/news/coldcard-hackers-64-btc-200-eth-cryptocurrency-mixers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-06T11:26:00+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -311,6 +311,19 @@
       "link": "https://thedefiant.io/news/defi/tornado-cash-logs-968-deposits-in-busiest-day-of-2026-l2beat-says",
       "published": "2026-08-03T18:52:38+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Coldcard co-founder is deleting X posts as losses top $130M",
+      "summary": "Coldcard’s NVK is scrubbing posts from X as hacking losses surpass 2,055 BTC and irate customers demand answers. The post Coldcard co-founder is deleting X posts as losses top $130M appeared first on Protos .",
+      "link": "https://protos.com/coldcard-co-founder-is-deleting-x-posts-as-losses-top-130m/",
+      "published": "2026-08-07T11:52:46+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinDesk",
@@ -441,19 +454,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin treasury trade ‘breaking’ and fund holdings drop 10%: Analysis",
-      "summary": "Doubts emerge over the Bitcoin corporate treasury model as institutional BTC investment vehicles cut holdings.",
-      "link": "https://cointelegraph.com/markets/bitcoin-treasury-trade-breaking-and-fund-holdings-drop-10-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-06T11:48:37+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -543,18 +543,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Circle Taps Visa, Mastercard and BlackRock as Validators for September Arc Launch",
-      "summary": "Circle's USDC distribution deal with Coinbase has been renewed on existing terms, and Arc's testnet has processed half a billion transactions.",
-      "link": "https://decrypt.co/374961/circle-taps-visa-mastercard-and-blackrock-as-validators-for-september-arc-launch",
-      "published": "2026-08-05T15:38:09+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -578,18 +566,6 @@
       "summary": "The payments infrastructure underpinning agentic finance is being built on smart contracts. For financial institutions, that means the security properties of that infrastructure are a risk management consideration.",
       "link": "https://www.openzeppelin.com/news/the-security-risk-hiding-in-agentic-payments-infrastructure",
       "published": "2026-08-05T12:56:21+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Anthropic's Claude Mythos 5 'Targeted Real People' in UK Cyber Tests: AISI",
-      "summary": "Anthropic's LLM and OpenAI's GPT-5.6 Sol took \"unsanctioned action\" on the live internet, the UK's AI Security Institute said.",
-      "link": "https://decrypt.co/374948/anthropics-claude-mythos-5-targeted-real-people-in-uk-cyber-tests-aisi",
-      "published": "2026-08-05T12:47:57+00:00",
       "relevance_score": 1
     },
     {
@@ -684,6 +660,212 @@
       "relevance_score": 1
     },
     {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "China’s Kimi K3 Broke Out of Its Sandbox to Look Up Test Answers",
+      "summary": "Unlike the recent breakouts at OpenAI and Anthropic, this involved a model anyone can download, running its default safeguards.",
+      "link": "https://decrypt.co/375096/chinas-kimi-k3-broke-out-of-its-sandbox-to-look-up-test-answers",
+      "published": "2026-08-07T12:37:14+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "U.S. unexpectedly shed 23,000 jobs in July, putting Fed rate hikes in question",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
+      "published": "2026-08-07T12:31:51+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Russia cracks down on 9 crypto exchanges in Moscow City",
+      "summary": "Russia has shut down nine unregistered crypto exchanges in Moscow, with the FSB alleging they helped move scam proceeds abroad through Ukrainian call centers.",
+      "link": "https://cointelegraph.com/news/russia-shuts-down-crypto-exchanges-moscow-city?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-07T12:28:41+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "CEX perpetual futures volume falls to $4T, lowest since late 2023",
+      "summary": "Perpetual futures trading volume on crypto exchanges fell to its lowest level in 31 months, while perpetual trading on decentralized platforms neared a one-year low.",
+      "link": "https://cointelegraph.com/news/cex-futures-volume-falls-4t-july-lowest-level-2023?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-07T12:13:40+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Morning Minute: MetaMask Hands AI Agents a Wallet",
+      "summary": "MetaMask's Agent Wallet lets AI agents trade crypto on their own. Plus, Bitcoin reclaims $65k despite the Clarity Act facing a new delay.",
+      "link": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet",
+      "published": "2026-08-07T12:00:35+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "After a Clarity Act funeral, the crypto world would keep turning",
+      "summary": "",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/06/after-a-clarity-act-funeral-the-crypto-world-would-keep-turning",
+      "published": "2026-08-07T12:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Bernstein favors CleanSpark on AI execution as MARA awaits first commercial contract",
+      "summary": "Bernstein rates CleanSpark Outperform at $24 on AI lease progress, while keeping MARA at $17 as it awaits its first commercial AI contract.",
+      "link": "https://www.theblock.co/post/411136/bernstein-favors-cleanspark-on-ai-execution-as-mara-awaits-first-commercial-contract?utm_source=rss&utm_medium=rss",
+      "published": "2026-08-07T11:51:21+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support",
+      "published": "2026-08-07T11:45:49+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin’s volatility has nearly disappeared. The risk hasn’t.",
+      "summary": "",
+      "link": "https://www.coindesk.com/daybook-us/2026/08/07/bitcoin-s-volatility-has-nearly-disappeared-the-risk-hasn-t",
+      "published": "2026-08-07T11:42:20+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Binance Bitcoin volume ratio hits record as futures outweigh spot eight times over",
+      "summary": "Binance saw a record divergence between daily spot and futures trading volumes, with the latter reaching nearly $58 billion.",
+      "link": "https://cointelegraph.com/markets/binance-bitcoin-volume-ratio-hits-record-as-futures-outweigh-spot-eight-times-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-07T11:05:01+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "MyTrade Founder Fined $10K Over Bots That Wash Traded 60 Cryptocurrencies",
+      "summary": "Liu Zhou told undercover agents the objective was to make other buyers lose money, according to the Justice Department.",
+      "link": "https://decrypt.co/375085/mytrade-founder-fined-10k-over-bots-that-wash-traded-60-cryptocurrencies",
+      "published": "2026-08-07T10:37:41+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/08/07/cmt",
+      "published": "2026-08-07T10:36:14+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Senate Punts Clarity Act Vote to September as Democrats Hold Out",
+      "summary": "Senate Majority Leader Thune says the bill will be queued up when lawmakers return, leaving weeks to find 60 votes before midterms take over.",
+      "link": "https://decrypt.co/375082/senate-punts-clarity-act-vote-to-september-as-democrats-hold-out",
+      "published": "2026-08-07T09:26:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "CleanSpark misses Wall Street revenue estimates as shares sink",
+      "summary": "CleanSpark’s shares fell 5.5% on Thursday after the Bitcoin miner reported $138 million in quarterly revenue, narrowly missing Wall Street’s consensus estimate.",
+      "link": "https://cointelegraph.com/news/cleanspark-wall-street-revenue-estimates-shares-sink?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-07T09:25:56+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
+      "published": "2026-08-07T09:24:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "‘Applesauce’: Michigan judge denies Coinbase bid to block state enforcement of sports event contracts",
+      "summary": "\"Coinbase's averments are, in a word, applesauce,\" U.S. District Judge Shalina Kumar wrote in Thursday's ruling.",
+      "link": "https://www.theblock.co/post/411128/michigan-judge-denies-coinbase-bid-prediction-markets?utm_source=rss&utm_medium=rss",
+      "published": "2026-08-07T09:06:56+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -716,7 +898,7 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: Bitcoin flat at $64,300 before US jobs report, with oil back as a headwind",
+      "title": "Live updates: Bitcoin holding near $65,000 as U.S. lost jobs last month",
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/08/07/live-updates-bitcoin-flat-at-usd64-300-before-us-jobs-report-with-oil-back-as-a-headwind",
       "published": "2026-08-07T07:44:57+00:00",
@@ -1311,19 +1493,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Zeus Wallet taken offline after cyberattack, says no customer funds at risk",
-      "summary": "The self-custodial Bitcoin Lightning Network wallet disabled infrastructure after an incident and founder Evan Kaloudis said no customer funds were lost and no Lightning vulnerability was found.",
-      "link": "https://cointelegraph.com/news/zeus-offline-cyberattack-says-no-funds-at-risk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-06T12:11:49+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1360,19 +1529,6 @@
       "title": "More than $30 million stolen in violent crypto attacks in 2026 as France emerges as ‘wrench attack’ hotspot: Chainalysis",
       "summary": "Chainalysis says more than $30M was stolen in violent crypto attacks in 2026 through mid-year, with France the top hotspot.",
       "link": "https://www.theblock.co/post/410984/more-than-30-million-stolen-in-violent-crypto-attacks-in-2026-as-france-emerges-as-wrench-attack-hotspot-chainalysis?utm_source=rss&utm_medium=rss",
-      "published": "2026-08-06T12:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Crypto wrench attacks steal more than $30M so far in 2026: Chainalysis",
-      "summary": "While only 12 of 46 documented attempts resulted in payment, data leaks and attacks on relatives are widening the physical risks facing crypto holders.",
-      "link": "https://cointelegraph.com/news/crypto-wrench-attacks-steal-30-million-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-08-06T12:00:00+00:00",
       "relevance_score": 0
     },
@@ -1456,32 +1612,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Situational Awareness returns with $400M investment after nearly collapsing: Report",
-      "summary": "Situational Awareness reportedly made a $400 million investment in an undisclosed company, days after the hedge fund nearly collapsed following July’s AI stock crash.",
-      "link": "https://cointelegraph.com/markets/situational-awareness-400m-investment-nearly-collapsing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-06T10:41:49+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Russian president signs crypto law, core rules take effect in 2026",
-      "summary": "Russian President Vladimir Putin signed a crypto law establishing market rules for exchanges, custodians and investors, with core provisions taking effect in September 2026.",
-      "link": "https://cointelegraph.com/news/putin-signs-crypto-law-core-rules-take-effect-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-06T09:38:54+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1505,112 +1635,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/tech/2026/08/06/live-updates-bitcoin-nears-usd65-000-as-oil-inflation-hopes-keep-macro-bid-alive",
       "published": "2026-08-06T07:26:23+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin developers flag 85 critical bugs in an \"extremely bad\" situation",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/08/06/bitcoin-developers-flag-85-critical-bugs-in-an-extremely-bad-situation",
-      "published": "2026-08-06T07:14:11+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "S&P 500 added all of crypto's $2 trillion market cap in a month while bitcoin barely moved. Here's why",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/06/s-and-p-500-has-added-crypto-s-usd2-trillion-market-cap-this-month-bitcoin-is-not-impressed-here-s-why",
-      "published": "2026-08-06T06:10:43+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin steadies above $64,000 as traders watch $100 billion SpaceX unlock",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/06/bitcoin-steadies-above-usd64-000-as-traders-watch-usd100-billion-spacex-unlock",
-      "published": "2026-08-06T04:59:11+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "XRP whales keep buying the dip, but ether shows deeper capitulation",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/06/xrp-whales-keep-buying-the-dip-but-ether-shows-deeper-capitulation",
-      "published": "2026-08-06T04:46:17+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "CASHCAT jumps 120% in a week as Robinhood Chain hits $774 million of value locked",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/05/cashcat-jumps-120-in-a-week-as-robinhood-chain-tvl-hits-usd774-million",
-      "published": "2026-08-06T04:31:41+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Here are the possible outcomes for Clarity right now",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/08/05/here-are-the-possible-outcomes-for-clarity-right-now",
-      "published": "2026-08-06T03:49:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Cathie Wood’s Ark Invest scoops up $17 million in Circle, $20 million in SpaceX shares following Q2 results",
-      "summary": "SpaceX plunged as investors grew concerned about the firm's $18.4 billion in capital expenditure during Q2, despite revenue growth.",
-      "link": "https://www.theblock.co/post/410948/cathie-wood-ark-invest-circle-spacex-q2?utm_source=rss&utm_medium=rss",
-      "published": "2026-08-06T02:22:22+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Putin signs landmark crypto law allowing regulated retail trading in Russia",
-      "summary": "The law continues to ban the use of crypto to pay for goods and services within Russia, while allowing use for cross-border settlements.",
-      "link": "https://www.theblock.co/post/410951/putin-signs-russia-crypto-law?utm_source=rss&utm_medium=rss",
-      "published": "2026-08-06T02:11:16+00:00",
       "relevance_score": 0
     },
     {
@@ -1661,18 +1685,6 @@
       "summary": "Kalshi's Sept. 1 contract now trades at 2 cents, while the price on enactment before Jan. 1, 2028 ticked up, moving the implied probability out of this year and into the next.",
       "link": "https://thedefiant.io/news/regulation/traders-push-clarity-act-odds-into-2027-after-thune-skips-cloture-filing",
       "published": "2026-08-05T19:11:51+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Bitcoin Tests Market’s Patience as Zcash Gives Holders Hope: Analysis",
-      "summary": "Will Bitcoin breakout of its death cross? Can Zcash continue to make holders forget about that mid-June crash? Here’s what the charts say.",
-      "link": "https://decrypt.co/374975/bitcoin-price-test-zcash-holds-golden-cross",
-      "published": "2026-08-05T18:33:34+00:00",
       "relevance_score": 0
     },
     {
@@ -1728,18 +1740,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Eliza Founder Declares AI Token 'Dead,' Shuts Down Foundation After Lawsuit Settlement",
-      "summary": "Shaw Walters says Eliza's token is no more after a class-action settlement drained the project's remaining funds.",
-      "link": "https://decrypt.co/374958/eliza-ai-token-dead-shuts-down-foundation-lawsuit",
-      "published": "2026-08-05T15:24:38+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1763,19 +1763,6 @@
       "summary": "A man organizing legal actions for Coldcard victims was previously removed as a bankruptcy receiver by Delaware’s Chancery court. The post Disgraced FTX claims broker is now soliciting Coldcard victims appeared first on Protos .",
       "link": "https://protos.com/disgraced-ftx-claims-broker-is-now-soliciting-coldcard-victims/",
       "published": "2026-08-05T12:58:56+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "15 attackers now draining vulnerable Coldcard wallets, report",
-      "summary": "Coldcard’s hardware wallet bug has attracted at least 15 attackers who who've stolen BTC from thousands of victims. The post 15 attackers now draining vulnerable Coldcard wallets, report appeared first on Protos .",
-      "link": "https://protos.com/15-attackers-now-draining-vulnerable-coldcard-wallets-report/",
-      "published": "2026-08-04T17:49:34+00:00",
       "relevance_score": 0
     },
     {
