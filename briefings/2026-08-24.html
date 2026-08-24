@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Crypto Custody &amp; Treasury Briefing — Week of 2026-08-24</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of 2026-08-24 · covering Aug 17–24</div>
+  </div>
+
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-08-24.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Treasury's GENIUS Act proposal extends stablecoin due diligence past the issuers to the platforms that list them.</strong> — <em style="color:#57534e;">So what: our per-asset onboarding review stops being an internal risk memo and becomes a regulatory artifact we have to be able to produce on demand. Worth scoping a standing issuer file for every stablecoin we support before the comment period closes.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">"Know your agent" showed up as real custody product this week, not a conference panel.</strong> — <em style="color:#57534e;">So what: Anchorage shipped an agentic banking platform with agent-level identity, and stablecoin rails are being pitched as the payment layer for AI agents. Our permission model assumes a human principal behind every approval. That assumption needs a design review.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Three different failure classes hit in one week: seed generation, bridge mint authority, and vault governance.</strong> — <em style="color:#57534e;">So what: none of them were a stolen private key. Our control set is heavy on key protection and light on provenance and authority monitoring. Good week to argue for entropy-source attestation and mint-authority alerting on the roadmap.</em></div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Direct competitor moves, MPC/HSM tech, qualified-custodian licensing, key-management.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Coldcard ships firmware fix after $130M bitcoin exploit, now requires user-supplied entropy</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Coinkite's latest firmware makes users add their own randomness when generating wallet seeds, and patches further issues found during a three-week review. CoinDesk reports the vendor used AI-assisted review to surface additional bugs.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit" style="color:#0284c7;text-decoration:none;">Decrypt</a> · <a href="https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is an entropy-quality failure, not a key-theft failure, and our diligence questionnaire for hardware signers does not currently ask how seeds are generated or whether the RNG is attestable. Add an entropy-provenance question to vendor review, and check whether any customer-held signing devices in our supported set share the affected generation path.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Anchorage launches agentic banking platform with a "know your agent" setup</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Anchorage's CEO says AI agents need their own bank accounts, and the firm has built a platform with agent-level identity checks to support machine-initiated transactions.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/business/2026-08-21-anchorage-ceo-ai-the-jetsons-412427" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A federally chartered competitor just staked a claim on non-human account holders. Our roles-and-approvals model has no principal type for a service identity with its own spend limits and revocation path, and retrofitting that into the policy engine is a quarter of work, not a sprint. Start the design doc now.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">OpenZeppelin: institutions are building their own onchain identity and access-control layer</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A protocol sees every address as a string with a balance. There is no native field for verified investor or sanctioned entity, so institutions working with tokenized assets are building that layer in contract logic instead.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.openzeppelin.com/news/identity-access-control-and-institutional-participation" style="color:#0284c7;text-decoration:none;">OpenZeppelin</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If tokenized assets increasingly enforce allowlists at the contract level, a custody wallet that is not on the allowlist cannot receive the asset at all. We should be able to register client wallet addresses with issuer identity registries as part of onboarding, and surface allowlist status in the asset support matrix.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Arbitrum activates Elara, giving chain owners optional compliance screening</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>On dedicated Arbitrum chains, the chain owner rather than ArbitrumDAO controls transaction screening. Priority fees stay off on Arbitrum One pending a separate vote.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/blockchains/arbitrum-activates-elara-with-optional-compliance-filters-for-dedicated-chains" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Compliance-filtered app chains are a live deployment target for bank clients, which means "which chain is this asset on" becomes a control question rather than an integration detail. Our chain-support docs should note screening policy per network so sales can answer it without escalating.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">TRM Labs: AI use in crypto crime up 40% year over year</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Attackers are using AI to find overlooked vulnerabilities and to infiltrate IT service firms, per TRM's latest report.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/web3/2026-08-21-ai-adoption-in-crypto-crime-trm-412297" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The IT-vendor infiltration angle is the one that touches us directly: it is a supply-chain and social-engineering path into approval workflows, not a cryptography problem. Push for out-of-band verification on any approver-detail change, and get this into the next security review.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Issuance, licensing, settlement rails, card and payout flows.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Treasury proposes GENIUS Act licensing rules with a due-diligence duty on listing venues</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Treasury's proposal would require exchanges that list stablecoins to run due diligence on them, extending obligation past the issuer to the distribution layer.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com/read/news/treasury-proposes-rules-for-how-genius-act-stablecoin-licensing-works" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The highest-signal item this week. We are not an exchange, but "platform that makes a stablecoin available to clients" is close enough that counsel should read this and tell us where we land. If it applies, we need a documented, versioned diligence record per supported stablecoin and a UI surface that shows clients which assets carry issuer attestations.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Deel takes its DLUSD stablecoin wallet to 80+ countries</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The payroll platform's dollar balance is issued via Stripe's Bridge and settles on Tempo, now live across Latin America, Africa, the Middle East and Asia-Pacific. The US, UK, EU and Australia are excluded.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/deel-dlusd-stablecoin-wallet-80-countries" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A branded, single-purpose dollar token settling on a rail we may not support. Expect treasury clients with international contractors to ask us to hold and reconcile balances like this. The product question is whether we support long-tail issuer tokens generically or maintain a curated list, and that decision is easier to make now than after the first customer request.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Crypto card spending passes $1 billion</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>CoinDesk reports crypto-linked card volume crossing the $1B mark, with stablecoins moving into ordinary purchases rather than trading-adjacent use.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Card spend means many small debits from a corporate balance, which is a different traffic shape than the large scheduled transfers our approval flows are tuned for. If we want to sit behind a spend program we need policy tiers that auto-approve under a threshold, plus reporting that rolls thousands of small outflows into something a controller can reconcile.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">AI agents pitched as the next wave of stablecoin users</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>CoinDesk argues the next billion crypto users may be software agents paying each other in stablecoins. Related moves this week: Binance opened trading to AI agents with user-set controls, and Ramp added x402 agent payments.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Pairs with the Anchorage item as the same signal from two directions. The concrete near-term ask is scoped API credentials with their own velocity limits and an audit trail that records which agent acted under which human's delegated authority. That is a tractable feature, and it is the entry point to the larger agentic story.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Circle targets Sept 16 for Arc public mainnet</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Official materials name Circle plus 11 founding validators; Arc documentation describes roughly 20 validators at launch.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/blockchains/circle-targets-sept-16-for-arc-public-mainnet-launch" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A hard date three weeks out on a chain built by the USDC issuer, so client demand for Arc support is a question of when. Get an engineering estimate for Arc integration into next planning, and note the validator-count discrepancy as a decentralization question for our chain risk assessment.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenized deposits and funds, corporate balance sheets, institutional settlement.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">HSBC and Standard Chartered complete first live tokenized deposit transfer on Swift's blockchain ledger</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Most tokenized deposits today run on single-bank chains and only work between customers of that bank. Swift's ledger matched and netted obligations recorded on the two banks' separate platforms, though final settlement still went through existing systems.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.ledgerinsights.com/hsbc-standard-chartered-make-first-live-tokenized-deposit-tranfer-via-swift-blockchain/" style="color:#0284c7;text-decoration:none;">Ledger Insights</a> · <a href="https://thedefiant.io/converge/tradfi-and-fintech/hsbc-and-standard-chartered-complete-first-live-transaction-on-swift-blockchain-ledger" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Tokenized bank deposits are the most credible competitor to stablecoins for corporate treasury, and Swift interoperability removes their biggest limitation. A treasury dashboard that only shows public-chain assets will look incomplete to a CFO holding both. Worth a discovery conversation about whether we aggregate tokenized deposit positions read-only before anyone asks.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Shinhan partners with Solana Foundation, Etherfuse and Orca on a won-denominated tokenized fund</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The agreement covers a proof-of-concept for issuing and distributing a Korean won tokenized fund.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/regulation/2026-08-21-south-korea-shinhan-partners-solana-412420" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Non-dollar tokenized money-market instruments are showing up from major banks, which stresses our asset model in a specific way: multi-currency NAV, yield accrual, and redemption windows rather than simple token balances. If our data model treats every holding as a spot token, tokenized funds will not report correctly.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tokenized equities push forward, with a warning about settlement plumbing</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Robinhood's Vlad Tenev published a case for US equity tokenization, five days after the SEC shelved its innovation exemption for a second time. Fairmint's CEO separately warned that tokenized stocks risk repeating Wall Street's 1960s paper crisis if record-keeping does not keep up.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/vlad-tenev-pushes-for-tokenized-stocks-in-america" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The paper-crisis framing is the useful part for us. If tokenized equities arrive with ambiguous beneficial-ownership records, custody providers who can produce a clean, auditable holder record become the fix rather than another layer of the problem. That is a positioning argument for our reporting and attestation work, and cheap to add to the narrative now.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Digital Asset and the Paul Ryan foundation plan a Canton pilot for US state benefits</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The RISE program would use the Canton Network to combine and distribute state-administered benefits across three US states starting in 2027.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/paul-ryan-foundation-digital-asset-plan-blockchain-based-benefits-pilot-on-canton" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Public-sector disbursement on a permissioned chain points at a segment with real custody requirements and procurement cycles that start years early. Not a 2026 revenue line, but if government treasury is on our long-term map, Canton support and the audit posture that comes with public money belong in the strategy doc.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">US rulemaking, MiCA, APAC licensing, enforcement posture.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">SEC proposes a "Regulation Crypto Assets" framework with a $75M exemption</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The proposal pairs two registration exemptions with a conditional safe harbor that would remove the investment-contract label from a token, and preempts state securities law. All three sitting commissioners backed it in a vote held outside a public meeting.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/regulation/sec-proposes-token-offering-rules-75-million-exemption" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://www.bankless.com/read/news/sec-proposes-regulation-crypto-assets-framework" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A safe harbor that strips the investment-contract label changes which assets we can list without a securities analysis for each one. If it lands roughly as proposed, our asset-listing pipeline gets faster and the bottleneck moves from legal review to engineering integration. Ask counsel for a read on how the safe-harbor conditions map to our current listing checklist.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">CFTC chair says the agency will act on crypto rules if the CLARITY Act fails</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Michael Selig told the Innovation Advisory Committee he has directed staff to explore developer protections and other crypto policies without waiting on Congress.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/cftc-chair-crypto-regulation-without-clarity-act-congress" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Reduces the odds our compliance roadmap stalls waiting for legislation, and raises the odds of two overlapping regimes to satisfy. Practical implication: keep the compliance backlog structured around specific obligations rather than around which bill passes.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Brussels weighs whether crypto lending falls under MiCA</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>EU regulators are reviewing crypto lending, but DeFi lending vaults make it hard to identify who the regulated party even is.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult" style="color:#0284c7;text-decoration:none;">CoinTelegraph Magazine</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Any yield or staking feature we offer EU clients could get pulled into a lending definition, and the way we present it in the UI is part of how that gets judged. If yield is on the roadmap for EU entities, get the product framing reviewed before build, not after.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Nomura-backed Laser Digital wins Japan's first crypto exchange approval in four years</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Laser Digital Japan registered to provide domestic liquidity, with institutional trading to follow.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/nomuras-laser-digital-japans-first-crypto-exchange-4-years" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Japan reopening the licensing pipeline after a four-year gap, with a bank-affiliated firm first through the door, is a signal about sequencing if APAC expansion is on our map. Bank-affiliated institutional venues tend to need a qualified custodian, so this is a partnership lead as much as a market-entry datapoint.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⛓️ Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Chain-level changes, bridge and governance failures, audits.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">The Sandbox contains bridge exploit that minted unbacked SAND on Base and BSC</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Upbit and Bithumb froze SAND transfers under South Korea's user-protection law. Upbit halted deposits and withdrawals on Ethereum, the chain the studio says was not affected.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/the-sandbox-says-it-contained-bridge-exploit-that-minted-unbacked-sand-on-base-and-bsc" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Two lessons. First, a client holding a bridged asset can be holding an unbacked token while our balance display shows it as fine, so supply-invariant monitoring on bridged assets is a real gap. Second, the exchanges froze the unaffected chain too, which means our runbook should assume conservative blanket freezes and tell clients what is actually withdrawable during an incident.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">MANTRA halts its chain and points at the Cosmos EVM module</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Dubai-licensed RWA Layer 1 has been frozen since Thursday evening. MANTRA says the incident touched two wallets it controls and no user funds were taken, and has not said whether anything left those wallets.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/blockchains/mantra-halts-chain-blames-cosmos-evm-module" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://www.theblock.co/news/defi/2026-08-21-mantra-freezes-network-412416" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A licensed RWA chain going dark is the tail risk clients ask about when we pitch tokenized assets, and a shared Cosmos EVM module means the blast radius may extend past one chain. Our chain risk tiering should account for shared-dependency correlation, and we need a defined client-facing status for assets on a halted network. "Balance shown, transfers unavailable, indefinite" is not currently a state our UI can express.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Term Finance loses about $8.5M in a vault governance exploit</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Term permanently closed its Meta Vaults after an attack reportedly removed nearly all of their Ethereum deposits.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a> · <a href="https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Governance was the attack surface, not the contract math, which is exactly the failure mode audits miss. Any protocol we expose through a yield or DeFi feature needs governance-parameter review in the integration checklist: who can change vault config, over what timelock, and do we alert clients when those params move.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Solana cuts mainnet slot time to 350ms, targeting 200ms</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Faster confirmations, though the change is not designed to raise overall network throughput.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/ecosystems/2026-08-22-solana-cuts-mainnet-slot-time-to-350-milliseconds-in-first-step-toward-200ms-goal-412521" style="color:#0284c7;text-decoration:none;">The Block</a> · <a href="https://thedefiant.io/news/blockchains/solana-activates-350-millisecond-slots-on-mainnet" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Our Solana confirmation depth is probably specified in slots, so a shorter slot means less wall-clock finality for the same setting. Worth an engineering check that our confirmation policy is time-based or was re-derived after this change, and the same review applies to any indexer assuming fixed slot timing.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;letter-spacing:-0.005em;">👀 Watch List</h2>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>Sept 16 — Circle Arc public mainnet.</strong> Decide before then whether we commit to an integration estimate or hold.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>GENIUS Act comment period.</strong> Counsel read on whether the listing-venue diligence duty reaches a custody platform, and whether we file a comment.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>CLARITY Act in the Senate, and CFTC's fallback rulemaking.</strong> Either path creates obligations; track both rather than betting on one.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>SEC Regulation Crypto Assets comment window.</strong> Map the safe-harbor conditions against our asset-listing checklist.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>MANTRA restart and post-mortem.</strong> If the root cause is genuinely in the shared Cosmos EVM module, other chains we support may be exposed.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>EU crypto-lending review under MiCA.</strong> Gates how we can present yield features to EU clients.</div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;letter-spacing:-0.005em;">📊 By the Numbers</h2>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>$130M</strong> — bitcoin lost in the exploit behind Coldcard's seed-generation fix (reported as $114M by CoinDesk).</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>$8.5M</strong> — drained from Term Finance's Meta Vaults via governance.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>$1B+</strong> — crypto-linked card spending volume.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>80+</strong> — countries where Deel's DLUSD wallet is now live.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>$75M</strong> — proposed SEC exemption ceiling for token raises without full registration.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>350ms</strong> — Solana's new mainnet slot time, down from 400ms, targeting 200ms.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>40%</strong> — year-over-year rise in AI use by crypto criminals, per TRM Labs.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:8px 0;border-top:1px solid #f5f5f4;"><strong>157</strong> — items in this week's feed across 15 sources; 21 selected here.</div>
+  </div>
+
+  <div style="background:#fafaf9;border:1px dashed #d6d3d1;border-radius:10px;padding:14px 20px;margin-bottom:18px;font-size:12.5px;color:#78716c;">
+    <strong style="color:#57534e;">Feed coverage note:</strong> 157 items pulled Aug 24 from 15 sources. Six feeds returned nothing this cycle, including Fireblocks, Anchorage Digital, Circle's blog, Coin Center, Blockworks and Rekt News. That is a real gap: primary-source custody vendor blogs and exploit post-mortems are underrepresented, so competitor product announcements this week came via secondary reporting only.
+  </div>
+
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation.</footer>
+
+</div></body></html>
