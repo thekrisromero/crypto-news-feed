@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:56:36.349449+00:00",
+  "generated_at": "2026-08-25T16:43:04.403785+00:00",
   "lookback_days": 8,
   "total_items": 156,
   "feed_status": [
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 20
+      "kept": 19
     },
     {
       "name": "Decrypt",
@@ -26,7 +26,7 @@
     {
       "name": "The Defiant",
       "url": "https://thedefiant.io/api/feed",
-      "kept": 24
+      "kept": 25
     },
     {
       "name": "Blockworks",
@@ -106,6 +106,44 @@
       "link": "https://www.bankless.com/read/news/treasury-proposes-rules-for-how-genius-act-stablecoin-licensing-works",
       "published": "2026-08-17T19:07:21+00:00",
       "relevance_score": 3
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Crypto Group Warns Regulators Against Expanding Stablecoin KYC",
+      "summary": "The crypto trade group warned that forcing issuers to verify identities for peer-to-peer wallet transfers would “cripple the industry” as regulators implement the GENIUS Act.",
+      "link": "https://decrypt.co/376445/crypto-group-regulators-stablecoin-identity-checks",
+      "published": "2026-08-25T16:28:59+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Crypto custody firm Copper has potential buyers. But offers are way below its $500 million asking price",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/08/25/crypto-custody-firm-copper-has-potential-buyers-but-offers-are-way-below-its-usd500-million-asking-price",
+      "published": "2026-08-25T13:48:50+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Hugging Face hack exposes the open-weight AI cybersecurity paradox",
+      "summary": "Hugging Face relies on open weight Chinese models to defend itself from rogue AI agents. But a lack of safety guardrails makes those models potentially dangerous too.",
+      "link": "https://cointelegraph.com/features/hugging-face-hack-exposes-the-open-weight-ai-cybersecurity-paradox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-25T13:30:00+00:00",
+      "relevance_score": 2
     },
     {
       "source": "Decrypt",
@@ -234,18 +272,6 @@
       "relevance_score": 2
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
-      "summary": "Coinkite's latest firmware requires users to add their own randomness when generating wallet seeds and fixes additional security issues uncovered during a three-week review.",
-      "link": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
-      "published": "2026-08-21T21:31:05+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -285,17 +311,96 @@
       "relevance_score": 2
     },
     {
-      "source": "The Defiant",
+      "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
-        "defi",
-        "smart-contracts"
+        "breaking",
+        "global"
       ],
-      "title": "Deel Takes Its DLUSD Stablecoin Wallet to More Than 80 Countries",
-      "summary": "The payroll platform's dollar balance, issued through Stripe's Bridge and settled on Tempo, is now live across Latin America, Africa, the Middle East and Asia-Pacific. The US, UK, EU and Australia remain excluded.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/deel-dlusd-stablecoin-wallet-80-countries",
-      "published": "2026-08-17T21:00:23+00:00",
-      "relevance_score": 2
+      "title": "Bitwise launches self-custodied tokenized stock portfolios with Coinbase",
+      "summary": "Bitwise’s new portfolios automatically rebalance Coinbase tokenized stocks while allowing eligible non-US investors to keep the assets in their own wallets.",
+      "link": "https://cointelegraph.com/news/bitwise-launches-self-custodied-tokenized-stock-portfolios-with-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-25T16:32:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/08/25/layerzero-unveils-trading-infrastructure-for-crypto-and-tokenized-markets-zro-surges",
+      "published": "2026-08-25T16:22:47+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitwise turns Coinbase's tokenized stocks into automated AI, robotics and tech portfolios",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/08/25/bitwise-turns-coinbase-s-tokenized-stocks-into-automated-ai-robotics-and-tech-portfolios",
+      "published": "2026-08-25T14:50:22+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Bitwise launches automated tokenized stock portfolios for Mag 7, AI and robotics themes",
+      "summary": "The portfolios, powered by Coinbase and implemented through Glider, will initially target themes including the Mag 7 and AI.",
+      "link": "https://www.theblock.co/news/business/2026-08-25-bitwise-launches-automated-tokenized-stock-portfolios-for-mag-7-ai-and-robotics-themes-412706",
+      "published": "2026-08-25T14:16:26+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Arcus launches tokenized perp positions on Robinhood Chain",
+      "summary": "Arcus introduced transferable ERC-20 tokens for perpetual positions and lets tokenized stocks back leveraged trades without requiring users to sell their holdings.",
+      "link": "https://cointelegraph.com/news/arcus-tokenized-perp-positions-robinhood-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-25T14:00:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "MiCA revolutionised European crypto, and left Poland licking its wounds",
+      "summary": "",
+      "link": "https://www.coindesk.com/opinion/2026/08/24/mica-revolutionised-european-crypto-and-left-poland-licking-its-wounds",
+      "published": "2026-08-25T13:00:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Chainalysis-run sting targets child exploitation networks with aid of Binance, Coinbase",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/08/24/chainalysis-run-sting-targets-child-exploitation-networks-with-aid-of-binance-coinbase",
+      "published": "2026-08-25T13:00:00+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinTelegraph",
@@ -546,19 +651,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Zondacrypto boss seeks leniency for testimony on political ties: Report",
-      "summary": "Przemysław Kral reportedly faces a fraud charge and is cooperating with Polish prosecutors as estimated customer losses reach $650 million.",
-      "link": "https://cointelegraph.com/news/zondacrypto-ceo-seeks-leniency-testimony-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-24T14:00:51+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -569,32 +661,6 @@
       "summary": "The co-founder of the FOMO iOS app has rebutted Solana wallet-draining claims circulating on social media. The post Crypto trading platform FOMO denies hack of its iOS app appeared first on Protos .",
       "link": "https://protos.com/crypto-trading-platform-fomo-denies-hack-of-its-ios-app/",
       "published": "2026-08-24T12:08:53+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
-      "published": "2026-08-24T11:36:55+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Japan’s SBI leads $68M Fasset round at $1B valuation",
-      "summary": "Fasset raised $68 million in a Series C led by SBI Group as the companies plan a digital bank in Malaysia and to expand stablecoin payments.",
-      "link": "https://cointelegraph.com/news/sbi-fasset-round-1b-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-24T11:25:26+00:00",
       "relevance_score": 1
     },
     {
@@ -609,20 +675,6 @@
       "summary": "Fasset raised $68 million in Series C funding at a $1 billion valuation, expanding its cross-border stablecoin infrastructure.",
       "link": "https://www.theblock.co/news/business/2026-08-24-fasset-68-million-raise-sbi-group-412563",
       "published": "2026-08-24T07:56:44+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "DeFi lending protocol Term Finance loses an estimated $8.5 million to governance exploit",
-      "summary": "Term vault proposals face a seven-day delay and can be vetoed by liquidity providers, yet those controls apparently did not stop the exploit.",
-      "link": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543",
-      "published": "2026-08-23T20:50:45+00:00",
       "relevance_score": 1
     },
     {
@@ -834,6 +886,162 @@
       "relevance_score": 1
     },
     {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "LayerZero Unveils ATLAS Exchange Engine",
+      "summary": "The headless exchange routes 75% of post-venue trading fees into ZRO buybacks and burns, and pays trading venues rebates of up to 65%.",
+      "link": "https://thedefiant.io/news/blockchains/layerzero-unveils-atlas-exchange-engine",
+      "published": "2026-08-25T16:28:16+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Pendle Oracle Move Liquidates $36 Million",
+      "summary": "A wallet bought yield tokens in a $9 million Pendle pool, pushing the principal token price down 2.8% and clearing out looped positions on a Morpho market carrying $52 million in borrows. No bad debt was incurred.",
+      "link": "https://thedefiant.io/news/defi/pendle-oracle-move-liquidates-usd36-million",
+      "published": "2026-08-25T16:19:44+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Ex-X Product Chief Says Trade Buttons Coming",
+      "summary": "Nikita Bier left the role on Aug. 5. No X corporate account has ever announced a trading feature, and Bier said in February that the company is not handling trade execution.",
+      "link": "https://thedefiant.io/news/tradfi-and-fintech/ex-x-product-chief-says-trade-buttons-coming",
+      "published": "2026-08-25T16:10:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Galaxy expands retail crypto lending with new BTC, ETH and SOL-backed credit line",
+      "summary": "The crypto-backed portfolio line of credit lets eligible GalaxyOne clients borrow cash against BTC, ETH &amp; SOL without selling their holdings.",
+      "link": "https://www.theblock.co/news/business/2026-08-25-galaxy-expands-retail-crypto-lending-new-btc-eth-sol-backed-credit-line-412718",
+      "published": "2026-08-25T16:03:42+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "DGrid AI token jumps 93% after launch as decentralized AI network goes live",
+      "summary": "DGAI nearly doubled in its first day of trading as DGrid expands its distributed AI inference network and rolls out hardware for its personal AI agent.",
+      "link": "https://cointelegraph.com/news/dgrid-ai-token-jumps-96-after-launch-as-decentralized-ai-network-goes-live?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-25T15:53:05+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bitcoin slips from $80K as gold cools with falling US bond yields",
+      "summary": "Bitcoin bulls battled for control of the $80,000 zone as gold came off its highest levels since mid-May on falling US bond yields.",
+      "link": "https://cointelegraph.com/markets/bitcoin-slips-from-80k-as-gold-cools-with-falling-us-bond-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-25T15:15:35+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Crypto Fund Founder Convicted of Fraud Over Fake Trading Bot",
+      "summary": "Japheth Dillman told investors that Block Bits Capital's \"Autotrader\" software was finished and running, and took nearly $1 million.",
+      "link": "https://decrypt.co/376441/crypto-fund-founder-convicted-of-fraud-over-fake-trading-bot",
+      "published": "2026-08-25T14:56:10+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Cosmos Labs under fire over disclosure of bug affecting four blockchains",
+      "summary": "Developers who quietly patched a bug in a widely-used Cosmos EVM module are facing criticism for not informing downstream networks in time. The post Cosmos Labs under fire over disclosure of bug affecting four blockchains appeared first on Protos .",
+      "link": "https://protos.com/cosmos-labs-under-fire-over-disclosure-of-bug-affecting-four-blockchains/",
+      "published": "2026-08-25T14:30:09+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Dozens of Fake Firefox Wallet Extensions Linked to Crypto-Stealing Malware",
+      "summary": "Forty are confirmed malicious, impersonating OKX, Rabby and TronLink to harvest recovery phrases from anyone who types one in.",
+      "link": "https://decrypt.co/376432/dozens-of-fake-firefox-wallet-extensions-linked-to-crypto-stealing-malware",
+      "published": "2026-08-25T14:10:05+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Robinhood Chain DEX Arcus launches pTokens to turn perp accounts into transferable ERC-20s",
+      "summary": "Each pToken represents a pro-rata ownership stake in an underlying Arcus perpetuals account at a fixed market and leverage level.",
+      "link": "https://www.theblock.co/news/defi/2026-08-25-robinhood-chain-dex-arcus-ptokens-perps-erc-20s-412696",
+      "published": "2026-08-25T14:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-25T13:19:39+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Chainalysis-led operation flags 7,700 accounts in child abuse probe",
+      "summary": "Operation Lighthouse generated 14,300 investigative leads across 11 crypto exchanges and payment services and flagged over 7,700 suspect accounts.",
+      "link": "https://cointelegraph.com/news/chainalysis-operation-lighthouse-flags-7700-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-25T13:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -938,6 +1146,19 @@
       "relevance_score": 0
     },
     {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "BTC RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
+      "summary": "Bitcoin price analysis eyes the potential end of its current macro downtrend based on weekly RSI signals.",
+      "link": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-draws-2022-comparisons-as-analysis-weighs-new-price-trend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-08-25T10:51:00+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -947,19 +1168,6 @@
       "summary": "Brent Kovar told at least 400 investors a supercomputer was mining crypto for them, and that their money was insured by the FDIC.",
       "link": "https://decrypt.co/376427/jury-convicts-las-vegas-man-of-24m-ai-crypto-mining-ponzi-scheme",
       "published": "2026-08-25T10:50:23+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
-      "summary": "Bitcoin price analysis eyes the potential end of its current macro downtrend based on weekly RSI signals.",
-      "link": "https://cointelegraph.com/markets/bitcoin-rsi-bullish-divergence-draws-2022-comparisons-as-analysis-weighs-new-price-trend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-25T10:49:43+00:00",
       "relevance_score": 0
     },
     {
@@ -1022,7 +1230,7 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: Bitcoin rejected at $81,000 as 50-week moving average caps rally",
+      "title": "Live updates: Bitcoin settles in under $80,000, with interest rates headed lower on Tuesday",
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000",
       "published": "2026-08-25T07:40:11+00:00",
@@ -1079,19 +1287,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/08/25/bitcoin-traders-place-usd2-9-million-bet-on-a-rapid-price-jump-above-usd82-000",
       "published": "2026-08-25T05:51:52+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-25T05:48:17+00:00",
       "relevance_score": 0
     },
     {
@@ -1352,19 +1547,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Crypto advocacy groups oppose Illinois digital asset tax in court",
-      "summary": "Following a similar lawsuit filed by the Digital Chamber in July, two digital asset advocacy groups challenged Illinois’ 0.2% crypto tax on constitutional and due process grounds.",
-      "link": "https://cointelegraph.com/news/cryptocurrency-organizations-oppose-illinois-digital-asset-tax-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-24T16:05:48+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1405,19 +1587,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitmine extends 14-month ETH buying pace as Ether breaks above $2.5K",
-      "summary": "Ether’s breakout above $2,500 has put the spotlight back on corporate ETH treasuries, with Bitmine now nearing its long-stated accumulation target.",
-      "link": "https://cointelegraph.com/news/bitmine-eth-holdings-5-percent-ether-price-breakout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-24T15:29:26+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -1442,19 +1611,6 @@
       "summary": "Bitmine's total crypto, cash, and other investments currently stand at $14.9 billion, and it owns over 4.8% of Ethereum's circulating supply.",
       "link": "https://www.theblock.co/news/business/2026-08-24-upside-move-eth-was-overdue-tom-lee-says-bitmine-buys-more-ether-412589",
       "published": "2026-08-24T13:36:31+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
-      "summary": "Bitget CEO Gracy Chen doesn’t believe the current Bitcoin rally is sustainable, and she aims to buy more BTC around the $50K mark later in 2026 or early next year.",
-      "link": "https://cointelegraph.com/magazine/bitget-ceo-isnt-buying-the-bitcoin-rally-waiting-for-50k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-24T13:30:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1521,32 +1677,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Strategy launches $1.6B cash pool after $2B common shares raise, maintains hold on BTC buys",
-      "summary": "Strategy held off on new Bitcoin buying, maintaining holdings at 840,447 BTC as it launched a $1.59 billion cash pool after raising $2 billion from MSTR stock sales.",
-      "link": "https://cointelegraph.com/news/strategy-2-billion-raise-strc-136-million-bitcoin-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-24T12:45:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Strategy raises $2 billion through MSTR sales and creates new USD Cash pool",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/24/strategy-raises-usd2-billion-through-mstr-sales-and-creates-new-usd-cash-pool",
-      "published": "2026-08-24T12:24:58+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1573,32 +1703,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Pakistan kicks off crypto licensing regime with Sept. 5 registration deadline",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/08/24/pakistan-kicks-off-crypto-licensing-regime-with-sept-5-registration-deadline",
-      "published": "2026-08-24T11:19:16+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Financial repression: The new buzzword for bitcoin bulls",
-      "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/24/financial-repression-the-new-buzzword-for-bitcoin-bulls",
-      "published": "2026-08-24T11:15:00+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1610,19 +1714,6 @@
       "summary": "Under the alliance, brokerages that offer crypto event contracts through Apex will use Gemini for execution and clearing, the firms said.",
       "link": "https://www.theblock.co/news/web3/2026-08-24-gemini-crypto-prediction-market-apex-412557",
       "published": "2026-08-24T11:01:02+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Gemini strikes Apex deal to widen prediction markets reach",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/08/24/gemini-strikes-apex-deal-to-widen-prediction-markets-reach",
-      "published": "2026-08-24T10:55:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1648,34 +1739,6 @@
       "summary": "Every milestone in Tesla’s Solar Roof story, from a $2.6B acquisition to its under-the-radar discontinuation in 2026. The post Timeline: The rise and fall of Tesla’s Solar Roof appeared first on Protos .",
       "link": "https://protos.com/timeline-the-rise-and-fall-of-teslas-solar-roof/",
       "published": "2026-08-24T10:43:48+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitcoin records largest weekly dollar gain in history; Strive CEO predicts ‘strongest’ cycle ever",
-      "summary": "Strive CEO said the next bitcoin cycle will be the strongest ever, citing its strong performance against both the dollar and gold.",
-      "link": "https://www.theblock.co/news/markets/2026-08-23-bitcoin-record-weekly-dollar-gain-412547",
-      "published": "2026-08-24T03:52:31+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Tether’s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
-      "summary": "UTE cut power to Tether's mining sites in July 2025 after Tether representatives did not attend the signing of a revised contract, per the report.",
-      "link": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536",
-      "published": "2026-08-23T17:02:20+00:00",
       "relevance_score": 0
     },
     {
@@ -1716,20 +1779,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitcoin and ether ETFs draw $2.6 billion in strongest inflow week since October, tripling volume",
-      "summary": "Combined ETF weekly trading volume more than tripled to $29 billion as bitcoin and ether prices rallied, though both categories are negative on the year.",
-      "link": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531",
-      "published": "2026-08-22T19:31:35+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1739,18 +1788,6 @@
       "summary": "A group of 20-odd developers is scanning the Bitcoin ecosystem for AI-discoverable flaws, warning that cheap, powerful models have handed attackers unprecedented reach.",
       "link": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
       "published": "2026-08-22T15:31:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds",
-      "summary": "Pew Research scanned nearly half a million webpages with an AI detector and found the fingerprints concentrated on .com domains—and multiplying fast.",
-      "link": "https://decrypt.co/376271/chatgpt-web-ai-written-pew",
-      "published": "2026-08-22T13:31:03+00:00",
       "relevance_score": 0
     },
     {
@@ -1764,18 +1801,6 @@
       "summary": "Bitcoin gained 22.6% over seven days, its largest advance over any seven-day window since November 2024, after the president told crypto executives at the White House that Congress needs to pass market structure legislation.",
       "link": "https://thedefiant.io/news/markets/bitcoin-reaches-79-500-as-2-75-billion-liquidation-claim-lacks-detail",
       "published": "2026-08-21T21:56:35+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
-      "summary": "Institutional buying, improving macro conditions and a friendlier regulatory outlook are supporting Bitcoin's rally, while billions in short liquidations have accelerated the move.",
-      "link": "https://decrypt.co/376244/wall-street-washington-bitcoin-rally",
-      "published": "2026-08-21T20:07:05+00:00",
       "relevance_score": 0
     },
     {
@@ -1854,19 +1879,6 @@
       "summary": "Justin Sun's individual claims will be heard in open court, and the two sides must negotiate which of the claims brought by his corporate plaintiffs go to a private arbitrator. No written order had been entered on the docket as of Thursday afternoon.",
       "link": "https://thedefiant.io/news/defi/judge-keeps-justin-sun-world-liberty-claims-in-court",
       "published": "2026-08-21T14:31:55+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "Bitcoin short-seller staged a $6 million liquidation",
-      "summary": "An influencer staged a $6 million bitcoin short liquidation amidst a crypto bull run before they were exposed as a pretender. The post Bitcoin short-seller staged a $6 million liquidation appeared first on Protos .",
-      "link": "https://protos.com/bitcoin-short-seller-staged-a-6-million-liquidation/",
-      "published": "2026-08-21T13:53:10+00:00",
       "relevance_score": 0
     },
     {
@@ -2062,19 +2074,6 @@
       "summary": "Bankless MCP wires AI workspaces like Claude, ChatGPT, and Cursor into the full Bankless content archive.",
       "link": "https://www.bankless.com/read/getting-started-with-bankless-mcp",
       "published": "2026-08-18T16:22:35+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Omnichain Launchpad Printr Shuts Down, Cancels Token Launch And Airdrop",
-      "summary": "Printr said it will cease all operations by Aug. 31 and will not hold the token generation event or airdrop it had promised. The launchpad raised $4.5 million last October and collected 84% of its lifetime fees in a single month.",
-      "link": "https://thedefiant.io/news/defi/printr-launchpad-wind-down-cancels-tge-airdrop",
-      "published": "2026-08-17T22:13:41+00:00",
       "relevance_score": 0
     },
     {
