@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T19:18:49.178787+00:00",
+  "generated_at": "2026-09-01T22:30:14.883086+00:00",
   "lookback_days": 8,
-  "total_items": 148,
+  "total_items": 146,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 18
+      "kept": 17
     },
     {
       "name": "Decrypt",
@@ -61,12 +61,12 @@
     {
       "name": "Coin Center",
       "url": "https://www.coincenter.org/feed/",
-      "kept": 0
+      "kept": 1
     },
     {
       "name": "Bankless",
       "url": "https://www.bankless.com/rss",
-      "kept": 22
+      "kept": 20
     },
     {
       "name": "OpenZeppelin Blog",
@@ -116,7 +116,19 @@
       "title": "SEC Crypto Custody Rewrite Enters White House Review",
       "summary": "The planned rule would cover advisers and investment companies and clarify digital-asset custody, following the withdrawal of a separate 2023 proposal.",
       "link": "https://thedefiant.io/converge/regulation/sec-crypto-custody-rewrite-enters-white-house-review",
-      "published": "2026-09-01T19:18:45+00:00",
+      "published": "2026-09-01T22:30:11+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Dropbox Security Breach: Hackers Access Accounts Through Authentication Flaw",
+      "summary": "Attackers reportedly registered Lenovo IDs using victims’ email addresses, allowing them to sign into existing Dropbox accounts without their passwords.",
+      "link": "https://decrypt.co/377099/dropbox-security-breach",
+      "published": "2026-09-01T20:01:05+00:00",
       "relevance_score": 2
     },
     {
@@ -181,20 +193,6 @@
       "summary": "Bitcoin price action saw sharp moves within its local range as US Treasury Secretary Scott Bessent addressed US bond yields.",
       "link": "https://cointelegraph.com/markets/bitcoin-begins-volatile-monthly-close-as-us-bond-yields-eye-new-20-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-08-31T16:38:51+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "NYSE parent ICE partners with tZERO on infrastructure for tokenized securities",
-      "summary": "tZERO will be a design partner for ICE’s upcoming tokenized securities platform, and ICE will also invest in tZERO’s latest financing round.",
-      "link": "https://www.theblock.co/news/markets/2026-08-31-nyse-parent-ice-partners-with-tzero-infrastructure-tokenized-securities-413111",
-      "published": "2026-08-31T15:04:14+00:00",
       "relevance_score": 2
     },
     {
@@ -272,7 +270,19 @@
       "title": "Revolut Starts EURR Rollout With Bridge as Regulated Issuer",
       "summary": "Revolut opens EURR to selected customers in three countries; Bridge reported €374 outstanding, compared with €394.5 million of Circle’s EURC.",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/revolut-starts-eurr-rollout-with-bridge-as-regulated-issuer",
-      "published": "2026-09-01T19:18:45+00:00",
+      "published": "2026-09-01T22:30:11+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Robinhood Chain DEX Volume Jumps to $1.6 billion",
+      "summary": "Trading on the Ethereum Layer 2 climbed 61% in a matter of days as DeFi deposits and stablecoin holdings approached $800 million.",
+      "link": "https://decrypt.co/377126/robinhood-chain-dex-volume-jumps",
+      "published": "2026-09-01T21:01:04+00:00",
       "relevance_score": 1
     },
     {
@@ -629,43 +639,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Japanese regulator requests tax filing exemption for trust-type stablecoins in 2027 reform",
-      "summary": "Japan’s FSA requested to exempt trust-type stablecoins from mandatory tax filings starting in fiscal year 2027, arguing that it would improve their use as transaction tools.",
-      "link": "https://cointelegraph.com/news/japanese-regulator-tax-exemption-trust-type-stablecoins-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-31T13:20:05+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Morning Minute: Robinhood Chain Flips Ethereum and Base in Fees",
-      "summary": "Vlad Tenev’s new blockchain is soaring in all metrics as memes paired with tokenized stocks start to take off.",
-      "link": "https://decrypt.co/376923/morning-minute-robinhood-chain-flips-ethereum-and-base-in-fees",
-      "published": "2026-08-31T12:37:44+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Crypto.com's Cronos Halts Entire Blockchain After $75M Tectonic Exploit",
-      "summary": "Some $6 million reached Ethereum before validators froze the chain, stranding the rest on a network that still is not producing blocks.",
-      "link": "https://decrypt.co/376913/crypto-coms-cronos-halts-entire-blockchain-after-75m-tectonic-exploit",
-      "published": "2026-08-31T09:41:27+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -744,30 +717,117 @@
       "relevance_score": 1
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "Decrypt",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "general"
       ],
-      "title": "Coinbase Enters the Tokenized Stock Wars",
-      "summary": "Coinbase Tokenized Stocks just went live on Base, running on the new B20 standard. Here's what to expect.",
-      "link": "https://www.bankless.com/read/coinbase-enters-the-tokenized-stock-wars",
-      "published": "2026-08-24T20:25:42+00:00",
-      "relevance_score": 1
+      "title": "OpenClaw 2.0 Is Here: What Changed, Why It Took Two Months, and How It Stacks Up Against Hermes",
+      "summary": "The open-source agent framework that started the \"autonomous AI\" hype cycle just shipped its biggest update ever, almost by accident, and it's coming for the enterprise now.",
+      "link": "https://decrypt.co/377135/openclaw-2-0-is-here-whats-new",
+      "published": "2026-09-01T22:16:04+00:00",
+      "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "Decrypt",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "general"
       ],
-      "title": "Kinetiq Unveils Elysium L2 for Hyperliquid",
-      "summary": "Kinetiq unveiled Elysium, a Hyperliquid L2 built to improve HyperEVM performance, revive spot trading, and create a new KNTQ buyback engine.",
-      "link": "https://www.bankless.com/read/news/kinetiq-unveils-elysium-l2-for-hyperliquid",
-      "published": "2026-08-24T20:22:15+00:00",
-      "relevance_score": 1
+      "title": "Nvidia Invests $3.5 Billion in MediaTek to Expand Beyond GPUs",
+      "summary": "The deal, part of MediaTek's record $3.9 billion bond offering, ties Nvidia's chip ecosystem to a Taiwanese rival building its own AI accelerator business.",
+      "link": "https://decrypt.co/377128/nvidia-invests-3-5-billion-mediatek",
+      "published": "2026-09-01T21:31:04+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Crypto-backed PAC scales back ad spending in Massachusetts primary",
+      "summary": "The $189,000 in media spending to support Representative Jake Auchincloss marked Fairshake’s latest attempt to influence the 2026 elections with funds from the crypto industry.",
+      "link": "https://cointelegraph.com/news/crypto-pac-protect-progress-spending-massachusetts-primary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-01T21:25:27+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Binance expands TradFi push with options on 1,000 US stocks, ETFs",
+      "summary": "The launch gives eligible non-US users access to physically settled options on more than 1,000 US stocks and ETFs through a single Binance account.",
+      "link": "https://cointelegraph.com/news/binance-adds-options-on-1000-us-stocks-and-etfs-in-tradfi-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-01T20:42:29+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "What Is 'Red September'? Bitcoin's Curse, and Why Wall Street Has the Same One",
+      "summary": "Bitcoin has lost ground in eight of the last 13 Septembers. The stock market's had the same problem since 1928. Here's the case for the curse, what broke it last year, and what's coming in the next round.",
+      "link": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse",
+      "published": "2026-09-01T20:31:05+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "UK crime agency froze $13.5M amid probe into Premier League crypto sponsor",
+      "summary": "UK authorities froze $13.5 million in cash following a January 2025 order from the Westminster Magistrates’ Court as part of an investigation into Sorare.",
+      "link": "https://cointelegraph.com/news/uk-crime-agency-froze-premier-league-crypto-partner-sorare?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-01T20:14:12+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-01T20:00:17+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Coin Center",
+      "tier": 5,
+      "topics": [
+        "regulation",
+        "policy"
+      ],
+      "title": "Congress wants answers on agency surveillance of Americans’ bank accounts",
+      "summary": "On August 10, 2026, Senator Ron Wyden (D-OR) and Representatives Warren Davidson (R-OH), Pramila Jayapal (D-WA), and Andy Biggs (R-AZ) wrote a letter to the Acting Comptroller General for the U.S. Government Accountability Office (GAO), Orice W. Brown, requesting “a comprehensive review of federal agencies’ surveillance of Americans’ bank accounts and financial records” and identification [&#8230;] The post Congress wants answers on agency surveillance of Americans&#8217; bank accounts appeared first on Coin Center .",
+      "link": "https://coincenter.org/congress-wants-answers-on-agency-surveillance-of-americans-bank-accounts/",
+      "published": "2026-09-01T19:29:40+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Anthropic Ships Claude Fable 5.1, More Than Doubling Its Predecessor on Key Benchmark",
+      "summary": "Fable 5.1 and its restricted sibling Mythos 5.1 arrive three months after export controls forced Anthropic to pull Fable 5 offline for 18 days",
+      "link": "https://decrypt.co/377078/anthropic-claude-fable-5-1",
+      "published": "2026-09-01T19:29:12+00:00",
+      "relevance_score": 0
     },
     {
       "source": "Protos",
@@ -1276,19 +1336,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-01T06:01:00+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1638,19 +1685,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
-      "summary": "Regulated cryptocurrency exchanges may see more than $46 billion in crypto trading volume during the first year after legalization, according to estimates from the country’s largest bank.",
-      "link": "https://cointelegraph.com/news/russian-crypto-trading-bring-46b-regulated-exchanges-legalization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-31T14:50:58+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1674,31 +1708,6 @@
       "summary": "The 10-asset emerging benchmark is free-float market-cap weighted, with real-time pricing and London, New York and Asia-Pacific settlement variants.",
       "link": "https://thedefiant.io/converge/markets/cme-launches-crypto-index-that-excludes-bitcoin-and-ether",
       "published": "2026-08-31T14:42:21+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "South Korea Will Give Every Citizen Free AI Access With Unlimited Tokens",
-      "summary": "Three consortia will run the service, sharing up to 512 Nvidia B200 chips supplied by the state, with beta testing due in September.",
-      "link": "https://decrypt.co/376929/south-korea-will-give-every-citizen-free-ai-access-with-unlimited-tokens",
-      "published": "2026-08-31T14:03:39+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Mystery surrounds why an OG burned $1M in Bitcoin",
-      "summary": "The million dollar question is what prompted a Bitcoin OG to send 20 BTC to a custodian, retrieve it back, and then deliberately burn it?",
-      "link": "https://cointelegraph.com/magazine/mystery-surrounds-why-an-og-burned-1m-in-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-08-31T13:30:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1728,18 +1737,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Strategy Buys $370M of Bitcoin in First Purchase Since June",
-      "summary": "The 4,603 BTC cost an average of $80,318, some 29% above what the company took for the coins it sold this summer.",
-      "link": "https://decrypt.co/376924/strategy-buys-370m-of-bitcoin-in-first-purchase-since-june",
-      "published": "2026-08-31T12:27:01+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1750,30 +1747,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/08/31/strategy-returns-to-bitcoin-buys-adding-usd370-million-worth-last-week",
       "published": "2026-08-31T12:11:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Ireland Bars Crypto From State Savings Scheme Targeting $203B in Deposits",
-      "summary": "Shares, bonds, funds, ETFs and insurance products will qualify for the tax-advantaged accounts, which open next year.",
-      "link": "https://decrypt.co/376916/ireland-bars-crypto-from-state-savings-scheme-targeting-203b-in-deposits",
-      "published": "2026-08-31T11:10:44+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
-      "summary": "Gabriel Perez used his access to Trump's speeches before delivery to bet on \"presidential mention market\" contracts, profiting more than $107,500 before the CFTC caught up with him.",
-      "link": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading",
-      "published": "2026-08-30T23:31:03+00:00",
       "relevance_score": 0
     },
     {
