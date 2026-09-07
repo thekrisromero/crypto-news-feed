@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Crypto Custody &amp; Treasury Briefing — Week of 2026-09-07</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of 2026-09-07 · covering Aug 31 – Sep 7</div>
+  </div>
+
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">&#127911;</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-09-07.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">The SEC's digital-asset custody rewrite reached White House review — the rulebook we build against is about to change.</strong> — <em style="color:#57534e;">So what: qualified-custodian definitions and adviser obligations get redrawn in one stroke. We should have our control narrative pre-mapped to the likely rule shape and a comment position drafted before text publishes, not after.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Three separate custody failures landed in seven days: a $320M drain of the Liquid federation wallet, a $7M segregation gap that killed Orionx, and a widening hardware-wallet data breach.</strong> — <em style="color:#57534e;">So what: proof-of-reserve attestation and quorum governance stop being differentiators and become RFP table stakes. Expect every enterprise deal this quarter to ask how our threshold policy prevents a single-address sweep.</em></div>
+    </div>
+
+    <div style="display:flex;gap:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Twenty-one global banks committed to a joint dollar stablecoin the same week Revolut and OpenReserve cleared preliminary OCC bank approvals.</strong> — <em style="color:#57534e;">So what: the issuer layer is being re-intermediated by regulated banks. Our treasury product needs a multi-issuer abstraction and a bank-rail settlement path, not a USDC-or-USDT binary hardcoded into the ledger.</em></div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">&#128272; Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Direct competitor moves, MPC/HSM tech, qualified-custodian licensing, key-management.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">SEC crypto custody rewrite enters White House review</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The planned rule covers investment advisers and investment companies and clarifies digital-asset custody, following the withdrawal of the separate 2023 safeguarding proposal.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> OMB review means text is weeks, not quarters, away. This is the moment to inventory which of our controls map to a plausible "qualified custodian" test — segregation, insolvency remoteness, independent verification — and flag any gap as a roadmap P0 rather than discovering it during a client's compliance review.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Liquid sidechain paused after 3,998 BTC left the federation wallet</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Blockstream disabled Liquid's bridge nodes after almost the entire bitcoin reserve backing L-BTC — roughly $320M — was withdrawn to a single address whose owner wrote "we are whitehats" into a transaction. Exchanges suspended L-BTC deposits and withdrawals.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news" style="color:#0284c7;text-decoration:none;">The Block</a> · <a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A functioning federation multisig still allowed a full sweep to one destination — the failure was policy, not cryptography. Worth auditing whether our withdrawal policy engine can express "no single destination above X% of AUC in one window" and whether we alert on destination-concentration, not just amount.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tether-backed Orionx shuts down after audit flags $7M custody gap</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Latin American exchange is closing permanently after an audit found more than $7 million in customer assets had moved to wallets outside its custody.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Segregation failures are still being caught by annual audit rather than continuous reconciliation. A continuously-attested customer-liability-vs-onchain-assets view is the clearest product story we can tell against exchange-run custody — and a strong candidate for a customer-visible dashboard, not just an internal control.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Trezor breach widens by 67,000 customers; Ledger sued for $500M over its own breaches</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Trezor disclosed that its shipping partner ShipMonk retained records from 2019–2021 — names, emails, phone numbers, shipping addresses — well beyond the 90-day retention its partners had agreed to. Separately, Ledger faces a $500M suit over a string of data breaches.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://protos.com" style="color:#0284c7;text-decoration:none;">Protos</a> · <a href="https://decrypt.co" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Both incidents are third-party data-retention failures, not key compromises — which is exactly the risk shape our own vendor chain carries. Worth a concrete ask to security this quarter: enumerate every subprocessor holding client identity or shipping data and verify retention is enforced technically, not contractually.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">G7 warns quantum threat demands action; QuFi ships post-quantum verification on Bitcoin testnet</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The G7 urged organizations to adopt post-quantum security before capable computers can compromise current encryption and digital signatures. QuFi launched a platform that verifies digital-asset transactions with post-quantum cryptography without requiring changes to existing settlement networks.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co" style="color:#0284c7;text-decoration:none;">Decrypt</a> · <a href="https://cointelegraph.com" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Institutional RFPs will start asking for a written PQC migration position within two or three quarters. A one-page statement — which key material is at risk, what our rotation path looks like, where we depend on HSM vendor roadmaps — is cheap now and expensive to improvise later.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">&#128176; Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Issuance, reserves, bank rails, cross-border settlement, freeze and seizure mechanics.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">21 financial institutions commit to a joint dollar stablecoin venture</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Bank of America, Citi, Goldman Sachs, UBS, Deutsche Bank and sixteen other firms said they will incorporate a company in the second half of 2026 to issue a dollar stablecoin, with market launch to follow.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A bank consortium coin will arrive with counterparties our institutional clients already face, which makes it a default rather than an option. If our asset-onboarding path is a manual engineering task per issuer, that's the constraint to fix before the venture incorporates — not after it launches.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Revolut starts EURR rollout with Bridge as regulated issuer</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Revolut opened EURR to selected customers in three countries, using Bridge as the regulated issuer. Reported outstanding supply is tiny against Circle's EURC, which sits near €394.5 million.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The distributor-plus-licensed-issuer split is becoming the standard European structure. Our reserve-attestation and issuer-risk model needs to represent two distinct entities per token — who redeems and who is regulated are no longer the same answer.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Wyoming puts state stablecoin reserves onchain with Chainlink Proof of Reserve</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Wyoming Stable Token Commission adopted Chainlink Proof of Reserve for the Frontier Stable Token on Sept 2. FRNT supply stands at 967,948 tokens, roughly 0.2% of the 508.7 million the Commission has projected.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A US state issuer choosing machine-readable proof of reserve sets the reference standard clients will point at. Consuming PoR feeds as a first-class signal in our reserve-health view — rather than PDF attestations — is a small build with a disproportionate trust story.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tether sued over $42.4M frozen three months before a seizure warrant</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Two Thai businessmen are suing Tether in Manhattan federal court over 42,417,785.62 USDT blacklisted across ten Ethereum addresses. Onchain records show all ten were frozen inside a single two-and-a-half-minute window, months ahead of the warrant.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Issuer freeze authority is now being litigated as a standalone risk, separate from reserve quality. Clients holding operating balances in a single stablecoin need us to surface freeze exposure explicitly — per-issuer concentration in the treasury dashboard, with an automated rebalance suggestion.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bank of Korea study: dollar stablecoins can push local currencies lower</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A Bank of Korea study finds that dollar-backed stablecoin adoption exerts downward pressure on local currencies, arriving as Korea builds its tokenized securities framework.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Expect non-USD jurisdictions to push local-currency stablecoins for domestic settlement. Multi-currency treasury support is a market-access requirement in APAC and EMEA, not a nice-to-have for later.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">&#127974; Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenized securities, corporate balance sheets, ETF flows, digital-asset treasury companies.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">South Korea to tokenize "all types" of securities in three stages from 2027</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Korea's financial regulator published a three-phase roadmap, targeting February 2027 for the country's first tokenized securities framework, and ultimately aims to let participants settle tokenized securities onchain using stablecoins.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/regulation/2026-09-04-south-korea-to-start-tokenizing-all-types-of-securities-in-three-stages-from-2027-413523" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The stablecoin settlement leg is the detail that matters for us: it makes custody of the cash leg and the security leg a single product problem. Worth a roadmap placeholder for atomic DvP support against a regulated Korean venue with an 18-month lead time.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">London Stock Exchange to support xStocks tokenized trading in Payward deal</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Payward, Kraken's parent, is partnering with the LSE to bring UK equities onchain, issuing tokens for the 100 largest London-listed companies in the coming weeks.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.ledgerinsights.com" style="color:#0284c7;text-decoration:none;">Ledger Insights</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> An incumbent exchange lending its name to tokenized equities changes the diligence conversation from "is this legitimate" to "who holds it." That is a custody question, and we should have a clear answer on corporate actions and dividend handling for tokenized equities before clients ask.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">AMC vs Robinhood turns into an industry fight over which tokenized-stock model wins</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>AMC's CEO called Robinhood's stock tokens unregulated and put outside securities counsel on it; Robinhood's chief legal officer told him to send lawyers. Uniswap's Hayden Adams compared Robinhood's and Ondo's tokens to early stablecoins, while Dinari's co-founder called the same instruments materially worse. AMC shares jumped 21% overnight.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://decrypt.co" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The unresolved question is whether a stock token is a claim on a custodied share or a synthetic exposure — and only the first is custodiable in the conventional sense. Our asset-listing policy should require issuer-level backing disclosure before any tokenized equity is supported, or we inherit someone else's legal argument.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Spot bitcoin ETFs pull $987M in a week; best three-week stretch of 2026</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Spot bitcoin ETFs drew $3.52 billion in net August inflows, their largest positive month since September 2025, with a $731 million single day — the biggest since January — as bitcoin moved between $77,000 and $81,000 on shifting Fed expectations.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news" style="color:#0284c7;text-decoration:none;">The Block</a> · <a href="https://cointelegraph.com" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Sustained ETF creation means more authorized-participant flow and more institutional cold-storage volume upstream. If our onboarding SLA for large first deposits is measured in days rather than hours, that is the operational bottleneck this flow will expose.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Digital-asset treasury companies keep levering up: HyperStrat to $2.5B, Strategy resumes buying</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>HyperStrat expanded its equity facility from $1B to $2.5B to keep accumulating HYPE. Strategy ended its bitcoin pause and Bitmine continued its ETH streak; the two now hold more than 4% of bitcoin and ether supply respectively.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Treasury companies are a distinct customer archetype: highly concentrated, publicly scrutinized, and needing auditor-ready attestation on a reporting calendar. A packaged "proof of holdings for your 10-Q" export is an obvious wedge if we don't already have one.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">&#9878;&#65039; Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Charters and licensing, market-structure legislation, enforcement, financial-crime posture.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Revolut and a16z-backed OpenReserve win preliminary OCC national bank approvals</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>OpenReserve Holdings received preliminary OCC approval for a national bank focused on onchain settlement after a $25 million seed, choosing a full charter over the trust-bank route most crypto firms take. Revolut still needs FDIC, Federal Reserve and final OCC clearances before a planned 2027 launch.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news" style="color:#0284c7;text-decoration:none;">The Block</a> · <a href="https://decrypt.co" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Full national charters bring insured deposits and lending alongside stablecoin issuance — a bundle a pure custodian cannot match. Our competitive positioning should lean harder on independence and multi-venue neutrality, since we will increasingly be compared against a bank rather than a wallet.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Coinbase files SEC notices to bring single-stock perpetuals to the US</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Coinbase is seeking to list equity perpetuals, expanding beyond thematic stock indexes, with CFTC product approval as the stated next step. Separately the CFTC moved to dismiss CME's lawsuit over crypto perpetual futures.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news" style="color:#0284c7;text-decoration:none;">The Block</a> · <a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Regulated US perps mean institutional clients will want collateral to sit in custody and be pledged to a venue without leaving it. Off-exchange settlement and tri-party collateral mirroring move up the priority list if this clears.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">FinCEN ties ~$13B to crypto scams run from non-US compounds; US and UK launch joint alliance</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>FinCEN attributed roughly $12.7–13 billion in reported scam losses to transnational criminal organizations operating from Southeast Asian compounds, with monthly reported sums up 18% on average and the model spreading beyond the region. The US and UK announced parallel investigations, information sharing, and a private-sector disruption operation in London in October.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a> · <a href="https://decrypt.co" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A private-sector disruption operation implies information-sharing asks landing on custodians. Being ready to respond to structured law-enforcement requests without ad-hoc engineering is worth scoping now — and clean travel-rule and counterparty-screening coverage is the prerequisite.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Sheriffs' association goes neutral on the CLARITY Act; crypto firms push SEC on ETF review speed</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The National Sheriffs' Association dropped its consumer-protection opposition to the CLARITY Act and will let the legislative process proceed. Separately, crypto firms urged the SEC to speed ETF reviews and allow confidential draft filings, while Jane Street and Charles Schwab warned about rushed launches and reduced market scrutiny.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com" style="color:#0284c7;text-decoration:none;">CoinDesk</a> · <a href="https://www.theblock.co/news" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A cleared opposition lane raises the odds of US market-structure legislation actually moving this session, which would settle the custody-versus-broker boundary we currently hedge on. Worth tracking as a trigger for revisiting our licensing roadmap assumptions.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">&#9881;&#65039; Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Protocol changes, chain reliability, account abstraction, privacy primitives.</div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">EIP-7906 would let Ethereum accounts inspect and veto a transaction's actual result</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The proposal would let accounts check what a transaction actually did and, if the outcome is malicious, reject it — a post-execution condition check rather than a pre-signature guess.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is the most directly relevant protocol item of the week for us: it turns policy enforcement we currently do in our own simulation layer into a chain-native guarantee. Worth an engineering spike on what our policy engine could delegate if this ships, and where our simulation stays differentiated.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ethereum blob usage hits an all-time high; Robinhood Chain data went missing for 14 minutes</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Rollups pushed Ethereum blob demand to a record. In the same window, Robinhood Chain kept producing blocks every 101 milliseconds but its transaction data failed to reach Ethereum for exactly 14 minutes across two gaps; Arbitrum pointed at Ethereum's blob market. Robinhood Chain gas fees also rose 82-fold in eleven days, topping $4.45 million in a single day.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://www.bankless.com" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Blob contention is now a live L2 availability risk, and a chain that looks healthy at the sequencer can be unfinalized underneath. Our confirmation policy for L2 assets should key off data availability on L1, not sequencer block height — and blob-market congestion belongs on the ops dashboard.</div>
+    </div>
+
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">World open-sources ProveKit for private identity proofs</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>World released ProveKit as open source, letting users prove identity claims such as age or nationality without exposing the underlying personal data.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Set against this week's two data-retention breaches, selective-disclosure proofs are the structural answer to holding less client PII in the first place. Early to build on, but the right frame for how we talk about identity in our next compliance-roadmap review.</div>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 14px;letter-spacing:-0.005em;">&#128064; Watch List</h2>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">SEC custody rule text</strong> — publication timing and scope once OMB review clears. The single highest-leverage regulatory input on our roadmap.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Liquid post-mortem</strong> — whether the 3,998 BTC is returned, and what Blockstream discloses about federation quorum and signing policy.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Bank stablecoin consortium</strong> — incorporation in H2 2026: which entity issues, which chain, and who custodies the reserve.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">CLARITY Act floor timing</strong> — now that organized law-enforcement opposition has stepped back.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Coinbase equity perpetuals</strong> — CFTC product approval would open a US off-exchange collateral use case.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">EIP-7906</strong> — whether it gains inclusion momentum; would reshape where transaction policy is enforced.</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#1c1917;">Post-quantum guidance</strong> — G7 follow-through and whether HSM vendors publish migration timelines.</div>
+  </div>
+
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 14px;letter-spacing:-0.005em;">&#128202; By the Numbers</h2>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">$320M</strong> — bitcoin value (3,998 BTC) withdrawn from the Liquid federation wallet</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">21</strong> — global financial institutions committing to a joint dollar stablecoin venture</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">$3.52B</strong> — August net inflows into spot bitcoin ETFs, largest month since September 2025</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">~$13B</strong> — crypto scam losses FinCEN ties to non-US criminal compounds</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">67,000</strong> — additional Trezor customers exposed in the ShipMonk shipping-partner breach</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">$42.4M</strong> — USDT Tether froze across ten addresses, three months before a seizure warrant</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">Feb 2027</strong> — South Korea's target for its first tokenized securities framework</div>
+    <div style="font-size:13.5px;color:#44403c;padding:7px 0;border-top:1px solid #f5f5f4;"><strong style="color:#0a2540;">145</strong> — stories scanned across 9 feeds to produce this briefing</div>
+  </div>
+
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation.</footer>
+
+</div></body></html>
