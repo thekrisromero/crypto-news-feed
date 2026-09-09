@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T19:11:11.728652+00:00",
+  "generated_at": "2026-09-09T22:23:49.518148+00:00",
   "lookback_days": 8,
-  "total_items": 139,
+  "total_items": 140,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -26,7 +26,7 @@
     {
       "name": "The Defiant",
       "url": "https://thedefiant.io/api/feed",
-      "kept": 24
+      "kept": 25
     },
     {
       "name": "Blockworks",
@@ -61,12 +61,12 @@
     {
       "name": "Coin Center",
       "url": "https://www.coincenter.org/feed/",
-      "kept": 1
+      "kept": 0
     },
     {
       "name": "Bankless",
       "url": "https://www.bankless.com/rss",
-      "kept": 16
+      "kept": 17
     },
     {
       "name": "OpenZeppelin Blog",
@@ -116,7 +116,20 @@
       "title": "SEC Crypto Custody Rewrite Enters White House Review",
       "summary": "The planned rule would cover advisers and investment companies and clarify digital-asset custody, following the withdrawal of a separate 2023 proposal.",
       "link": "https://thedefiant.io/converge/regulation/sec-crypto-custody-rewrite-enters-white-house-review",
-      "published": "2026-09-09T19:11:08+00:00",
+      "published": "2026-09-09T22:23:46+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Pump.fun Lets Creators Launch Coins Priced In Tokenized Stocks",
+      "summary": "Pump.fun opened token launches to quote assets beyond SOL and USDC on Wednesday afternoon, putting the count at 93 pairs including tokenized Nvidia, Tesla and the S&amp;P 500. Half the revenue from the new pairs goes to the PUMP buyback-and-burn contract. The deepest of the new quote assets holds $3.07",
+      "link": "https://thedefiant.io/news/defi/pump-fun-lets-creators-launch-coins-priced-in-tokenized-stocks",
+      "published": "2026-09-09T21:15:45+00:00",
       "relevance_score": 2
     },
     {
@@ -207,7 +220,20 @@
       "title": "Revolut Starts EURR Rollout With Bridge as Regulated Issuer",
       "summary": "Revolut opens EURR to selected customers in three countries; Bridge reported €374 outstanding, compared with €394.5 million of Circle’s EURC.",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/revolut-starts-eurr-rollout-with-bridge-as-regulated-issuer",
-      "published": "2026-09-09T19:11:08+00:00",
+      "published": "2026-09-09T22:23:46+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Tenev Says Robinhood Stock Tokens Should Not Automatically Require Issuer Consent",
+      "summary": "The Robinhood CEO acknowledged that token holders lack voting rights, reflecting a structure that provides economic exposure through Jersey-issued debt securities rather than share ownership.",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/tenev-says-robinhood-stock-tokens-should-not-automatically-require-issuer-consent",
+      "published": "2026-09-09T20:36:11+00:00",
       "relevance_score": 1
     },
     {
@@ -360,7 +386,7 @@
         "general",
         "policy"
       ],
-      "title": "Live updates: Bitcoin gives up gains as yields head higher following Treasury buyback announcement",
+      "title": "Live updates: Bitcoin slips as yields head higher following Treasury buyback announcement",
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
       "published": "2026-09-09T07:20:51+00:00",
@@ -482,19 +508,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Visa brings onchain credit to its growing stablecoin card business",
-      "summary": "Visa is combining VisaNet settlement data with blockchain lending as stablecoin payment volume on its network jumps nearly 200% year over year.",
-      "link": "https://cointelegraph.com/news/visa-stablecoin-blockchain-lending-payment-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-08T16:11:53+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -571,19 +584,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Router Protocol Plans Sept. 30 Shutdown and 303 Million ROUTE Burn",
-      "summary": "DefiLlama shows $9,879.92 locked and no bridge volume over 30 completed days; Router’s notice only instructs centralized-exchange holders to withdraw by venue deadlines.",
-      "link": "https://thedefiant.io/news/defi/router-protocol-plans-sept-30-shutdown-and-303-million-route-burn",
-      "published": "2026-09-07T15:48:49+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -594,32 +594,6 @@
       "summary": "BTC's 90-day correlation with gold has reached a multi-year high as the US Treasury’s QE Lite announcement reunited debasement traders. The post Bitcoin’s 90-day correlation with gold hits nine-year high appeared first on Protos .",
       "link": "https://protos.com/bitcoins-90-day-correlation-with-gold-hits-nine-year-high/",
       "published": "2026-09-07T13:30:04+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Protos",
-      "tier": 1,
-      "topics": [
-        "investigative",
-        "business"
-      ],
-      "title": "How 4,000 BTC walked out of Blockstream’s Liquid Network",
-      "summary": "Roughly 4,000 BTC, worth about $320M at the time of the hack, left Blockstream’s Liquid Federation wallet on Sunday afternoon. The post How 4,000 BTC walked out of Blockstream’s Liquid Network appeared first on Protos .",
-      "link": "https://protos.com/how-4000-btc-walked-out-of-blockstreams-liquid-network/",
-      "published": "2026-09-07T12:20:26+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Liquid Sidechain Paused After 3,998 BTC Leaves Federation Wallet",
-      "summary": "Blockstream's Liquid disabled its bridge nodes on Sunday after almost the entire bitcoin reserve backing L-BTC was withdrawn to a single address, whose owner wrote “we are whitehats” into a bitcoin transaction.",
-      "link": "https://thedefiant.io/news/security/liquid-sidechain-paused-after-3998-btc-leaves-federation-wallet",
-      "published": "2026-09-06T23:15:09+00:00",
       "relevance_score": 1
     },
     {
@@ -673,6 +647,96 @@
       "link": "https://www.bankless.com/read/news/hyperstrat-expands-hype-buying-power-to-2-5b",
       "published": "2026-09-02T17:55:39+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-09T21:30:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Zora Co-Founder Dee Goens Replaces Jacob Horne as CEO",
+      "summary": "Goens said Zora is now under 10 people after a headcount reduction this year and named ZORA buybacks among his first priorities. Fees from the protocol’s Base deployment are down 99% from a year ago.",
+      "link": "https://thedefiant.io/news/defi/zora-co-founder-dee-goens-replaces-jacob-horne-as-ceo",
+      "published": "2026-09-09T20:38:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+      "summary": "The Fields medalist points to a real race between OpenAI and Anthropic as proof: AI can now flatten a hard problem the moment someone starts working on it.",
+      "link": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
+      "published": "2026-09-09T20:31:29+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "DoubleZero adds Kalshi election market data ahead of US midterms",
+      "summary": "The expansion gives institutional and automated traders real-time access to Kalshi’s political markets as election betting activity continues to grow.",
+      "link": "https://cointelegraph.com/news/doublezero-adds-kalshi-election-market-data-ahead-of-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-09T20:08:09+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Bankless",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "defi"
+      ],
+      "title": "🏴 Longing Inference Markets",
+      "summary": "Why Venice and onchain inference markets may benefit from growing distrust around frontier AI labs.",
+      "link": "https://www.bankless.com/read/longing-inference-markets",
+      "published": "2026-09-09T19:26:21+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Report Links $2.08M in LAPTOP Sales to Wintermute-Tagged Wallet",
+      "summary": "Lookonchain traced a 2.5 million-token team allocation to the address; separately, one trader reported nearly empty launch pools and a 98% early drop.",
+      "link": "https://thedefiant.io/news/markets/report-links-2-08m-in-laptop-sales-to-wintermute-tagged-wallet",
+      "published": "2026-09-09T19:24:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Protos",
+      "tier": 1,
+      "topics": [
+        "investigative",
+        "business"
+      ],
+      "title": "Donald Trump has a gas problem",
+      "summary": "Two years of Donald Trump gasoline forecasts, from \"$2 a gallon\" on his campaign trail to a record $4.15 gas price on Labor Day. The post Donald Trump has a gas problem appeared first on Protos .",
+      "link": "https://protos.com/donald-trump-has-a-gas-problem/",
+      "published": "2026-09-09T19:20:31+00:00",
+      "relevance_score": 0
     },
     {
       "source": "Decrypt",
@@ -874,7 +938,7 @@
         "general",
         "policy"
       ],
-      "title": "Robinhood’s CEO Vlad Tenev fires back at AMC CEO in escalating fight over stock tokens",
+      "title": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
       "published": "2026-09-09T16:11:07+00:00",
@@ -1432,19 +1496,6 @@
         "breaking",
         "global"
       ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-09T05:51:21+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
       "title": "Gemini receives Singapore payment license for crypto services",
       "summary": "Gemini’s local entity is authorized to provide digital payment token and cross-border money transfer services without standard transaction-volume limits.",
       "link": "https://cointelegraph.com/news/gemini-singapore-mpi-license-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -1725,18 +1776,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Morning Minute: The Trenches Just Had Their Biggest Week Since TRUMP",
-      "summary": "Is it a warning sign for a local top? Or is the onchain party just getting started?",
-      "link": "https://decrypt.co/377661/morning-minute-the-trenches-just-had-their-biggest-week-since-trump",
-      "published": "2026-09-08T13:06:33+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1786,19 +1825,6 @@
       "summary": "The transaction pays 3,400 BTC back to the Liquid federation wallet and 598.50 BTC to the attacker’s own address. It is unconfirmed and flagged replaceable, and neither side has published anything about the split.",
       "link": "https://thedefiant.io/news/security/liquid-attacker-broadcasts-return-of-3400-btc-keeps-598",
       "published": "2026-09-07T16:06:06+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Arkham Links Wintermute to $2.4 Million PONS Position",
-      "summary": "Arkham said Wintermute appeared to be buying PONS gradually; its dashboard separately listed 3.43 million tokens worth $2.4 million.",
-      "link": "https://thedefiant.io/news/markets/arkham-links-wintermute-to-2-4-million-pons-position",
-      "published": "2026-09-07T15:49:45+00:00",
       "relevance_score": 0
     },
     {
@@ -1864,19 +1890,6 @@
       "summary": "World open-sources ProveKit, letting users prove identity claims like age or nationality without exposing their personal data.",
       "link": "https://www.bankless.com/read/news/world-open-sources-provekit-for-private-identity-proofs",
       "published": "2026-09-02T18:06:40+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Coin Center",
-      "tier": 5,
-      "topics": [
-        "regulation",
-        "policy"
-      ],
-      "title": "Congress wants answers on agency surveillance of Americans’ bank accounts",
-      "summary": "On August 10, 2026, Senator Ron Wyden (D-OR) and Representatives Warren Davidson (R-OH), Pramila Jayapal (D-WA), and Andy Biggs (R-AZ) wrote a letter to the Acting Comptroller General for the U.S. Government Accountability Office (GAO), Orice W. Brown, requesting “a comprehensive review of federal agencies’ surveillance of Americans’ bank accounts and financial records” and identification [&#8230;] The post Congress wants answers on agency surveillance of Americans&#8217; bank accounts appeared first on Coin Center .",
-      "link": "https://coincenter.org/congress-wants-answers-on-agency-surveillance-of-americans-bank-accounts/",
-      "published": "2026-09-01T19:29:40+00:00",
       "relevance_score": 0
     }
   ]
