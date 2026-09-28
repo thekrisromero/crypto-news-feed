@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Crypto Custody &amp; Treasury Briefing — Week of 2026-09-28</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+<div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+<h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody &amp; Treasury Weekly Briefing</h1>
+<div style="font-size:13px;opacity:0.8;">Week of September 28, 2026 · covering Sep 21–28</div>
+</div>
+<div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+<div style="display:flex;align-items:center;gap:12px;"><span style="font-size:22px;">🎧</span><div><strong>Audio version:</strong>
+<a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-09-28.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+<span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span></div></div></div>
+<div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+<div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+<div style="display:flex;gap:14px;margin-bottom:14px;"><div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div><div style="font-size:14px;"><strong style="color:#0a2540;">Bitget lost $387.5M without losing a single key.</strong> — <em style="color:#57534e;">So what: The CEO says the attacker faked internal transfer requests to drain hot and warm wallets. That puts the weak point in transaction authorization, the layer we sell. We should be able to show clients exactly how an internal rebalance request gets authenticated, and what stops a forged one.</em></div></div>
+<div style="display:flex;gap:14px;margin-bottom:14px;"><div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div><div style="font-size:14px;"><strong style="color:#0a2540;">With the Clarity Act dead, the agencies are writing the rules instead.</strong> — <em style="color:#57534e;">So what: The Fed opened GENIUS Act proposals on reserves, capital and two-day redemption, and SEC staff put out FAQs on buybacks and liquid staking within days. Our compliance roadmap now runs on comment periods and rule text, and a future commission can undo any of it.</em></div></div>
+<div style="display:flex;gap:14px;margin-bottom:14px;"><div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div><div style="font-size:14px;"><strong style="color:#0a2540;">Tokenized stocks are now being pledged as collateral, not just held.</strong> — <em style="color:#57534e;">So what: Aave takes Coinbase stock tokens for USDC loans, Ethena uses bStocks in the USDe basis trade, and NYSE is bringing tokenized equities to Blockchain.com. Treasury clients will ask us to hold these, pledge them and track the lien. Asset support alone won&#x27;t cover it.</em></div></div>
+</div>
+<div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+<h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody &amp; wallet infrastructure</h2>
+<div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Direct competitor moves, MPC/HSM tech, qualified-custodian licensing, key-management.</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitget hack hits $387.5M via spoofed internal transfers, not stolen keys</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>An attacker faked internal transfer requests and drained Bitget&#x27;s hot and warm wallets across several chains in under an hour. CEO Gracy Chen says private keys were not compromised and the fingerprints point to North Korea&#x27;s Lazarus Group. Withdrawals are paused and the User Protection Fund (over $464M) will cover losses.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Good MPC doesn&#x27;t help much if the policy engine signs whatever a trusted internal service asks for. Worth a tabletop this sprint: can a compromised internal service in our stack originate a hot-to-warm or warm-to-external move, and which approval would catch it?</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Circle and Tether freeze $318K of Bitget loot; THORChain refuses to blacklist</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The issuers froze about $318K in USDC and USDT, but the attacker had already swapped most funds into ETH. Another $83M moved as XRP that Ripple can&#x27;t freeze, and THORChain declined Bitget&#x27;s request to block hacker addresses. One flagged address finished an XRP-to-BTC swap after the request went in.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/379365/circle-tether-freeze-stablecoins-bitget-hack" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Issuer freezes recovered less than 0.1% of the loss. Incident response can&#x27;t depend on third parties. Our screening needs to catch counterparty addresses tied to fresh exploits within hours, including destinations reached through cross-chain swaps.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Legacy Magic Eden approvals exploited; whitehats rescue 23,155 NFTs</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A flaw in Limit Break&#x27;s Payment Processor V2 exposed old Magic Eden Ethereum listings. Whitehats secured more than $5.7M in NFTs, and holders still need to revoke the vulnerable approvals.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/web3/2026-09-25-magic-eden-legacy-approvals-leave-5-7-million-in-nfts-exposed-to-exploit-before-rescue-416874" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Stale approvals are a custody risk that nobody sees. An approvals inventory per vault, with one-click revoke, would be a cheap feature to ship, and clients could show it to their auditors.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitcoin&#x27;s quantum problem moves from theory to logistics</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A StarkWare, Yukon Research and Eigen Labs contest cut the estimated cost of a quantum-safe Bitcoin transaction from about $320 to $67. The same week brought a new privacy design and a custody playbook for migrating exposed coins.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/379400/bitcoins-quantum-problem-three-ways-researchers-are-trying-to-fix-it" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Institutional clients will start asking how we&#x27;d migrate BTC out of exposed address types. We should draft a position paper and track which of our address formats reveal public keys.</div>
+</div>
+</div>
+<div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+<h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins &amp; payments</h2>
+<div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Issuer moves, reserve rules, payment rails and settlement.</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Fed proposes GENIUS Act rules: reserves, capital and bank applications</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Federal Reserve opened two proposals for comment. Issuers it supervises must fully back tokens with safe assets, face reserve-asset limits and standardized capital charges, and generally have two business days to redeem. Bank applications to issue follow the Act&#x27;s 120-day decision clock.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/379274/federal-reserve-unveils-stablecoin-rules-on-reserves-and-capital" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A two-day redemption window is an ops requirement for any issuer client, and it lands on us too if we custody reserves or handle mint/burn. Legal should put this docket on its calendar, and product should check whether our redemption flows can meet T+2 at month-end volumes.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Binance takes $100M stake in Circle and expands its USDC deal</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Circle sold Binance $100M in discounted CRCL shares as the two widened their USDC partnership. Analysts read it as a lift for Circle against Tether.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com/read/news/binance-commits-100m-stake-in-circle-with-new-usdc-pact" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> USDC liquidity on the biggest offshore venue gets deeper. If our clients treat USDC as the default treasury stablecoin, this strengthens that. Check our Binance settlement routes and the fees on them.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ethena extends USDe backing into Binance bStocks and equity perps</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ethena began an equity-basis rollout that pairs Binance bStocks with short equity perpetuals. Hedged accounts get lower auto-deleveraging priority.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/deals/2026-09-25-ethena-expands-usde-backing-strategy-into-bstocks-and-equity-perpetuals-on-binance-416367" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> USDe&#x27;s risk profile now includes equity markets and single-venue exposure. If clients hold USDe in treasury, our risk disclosures and asset-review notes need updating.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Block adds Bitcoin Lightning to the x402 agent-payments standard</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Lightning payment spec has been merged into x402&#x27;s repo. A Python implementation is still waiting on review and real-node testing. Separately, BlackRock published research arguing AI agents could drive stablecoin payments.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/infrastructure/block-adds-bitcoin-lightning-to-x402-standard" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Agent-initiated payments are getting real specs. That makes machine-caller policy controls (spend caps, allowlists, per-agent keys) a roadmap question, not a thought experiment.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Prosecutors seek $84.2M tied to bank that holds some Tether assets</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Federal prosecutors are going after a Montana payments firm and Caribbean lender EQIBank, accused of moving money without a license. Tether says its exposure is below 0.034% of group assets.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/379380/us-prosecutors-84-million-bank-tether-and-bitfinex" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Small number, real pattern: issuer banking counterparties are a diligence item. Our stablecoin risk reviews should list where reserves actually sit.</div>
+</div>
+</div>
+<div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+<h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA &amp; corporate adoption</h2>
+<div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenized funds and securities, corporate treasuries, institutional products.</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Aave V4 on Base accepts Coinbase tokenized stocks as USDC collateral</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Apple, Nvidia, Tesla and four other stock tokens back USDC loans in a dedicated V4 market with a 21M USDC borrow cap. Access is limited to eligible non-US users.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/defi/2026-09-25-aave-v4-on-base-adds-coinbase-tokenized-stocks-as-collateral-for-usdc-loans-416372" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is the pledge use case in production. If we want treasury clients borrowing against tokenized securities, we need collateral-lock states and lien tracking in the vault model.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">NYSE and Blockchain.com partner on tokenized US stocks and ETFs</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Blockchain.com will offer tokenized US equities and ETFs to global users through NYSE&#x27;s planned 24/7 onchain trading venue.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com/read/news/nyse-blockchain-com-partner-on-tokenized-stocks" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A 24/7 exchange-backed venue means settlement at any hour. Our approval and settlement windows assume business hours in places, and that assumption is getting old.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">ARK brings its $1.3B venture fund onchain through Securitize</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>ARK Venture Fund (ARKVX), which holds OpenAI, Anthropic and Stripe, is being tokenized on Ethereum via Securitize.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Private-market fund tokens bring transfer restrictions and allowlists with them. Supporting Securitize-issued assets properly means honoring issuer-side controls, and that&#x27;s a partnership conversation more than an engineering one.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ondo launches portfolio tokens built on BlackRock model strategies</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ondo released three onchain portfolio tokens based on BlackRock-developed model portfolios.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/markets/2026-09-24-ondo-launches-onchain-portfolio-tokens-based-blackrock-developed-strategies-416260" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Model portfolios as a single token make it easy to hand corporate treasuries a diversified allocation. Worth adding to our RWA asset-support shortlist next to BUIDL and USYC.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tokenized-stock holder count reaches 4.3 million</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Token Terminal counts 4.3M holders, led by BNB Chain, with Robinhood Chain second at 1.3M and Solana at 997K. The metric counts token balances, not distinct investors.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/converge/tradfi-and-fintech/tokenized-stock-holder-count-reaches-4-3-million-led-by-bnb-chain" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Demand is spread across chains we don&#x27;t all support. BNB Chain and Robinhood Chain coverage should come up in the next chain-prioritization review.</div>
+</div>
+</div>
+<div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+<h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation &amp; policy</h2>
+<div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">SEC/CFTC/Fed actions, MiCA and EU rules, enforcement.</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">SEC staff FAQ: token buybacks and liquid staking receipts aren&#x27;t securities by default</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>New staff guidance says announcing a buyback on a functional network doesn&#x27;t create an expectation of profit, and qualifying staking receipts fall into non-security categories. One attorney said it makes securities laws look opt-in.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/regulation/2026-09-25-sec-crypto-faq-addresses-token-buybacks-network-upgrades-promises-profit-416914" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Liquid staking tokens get easier for US institutions to hold. It&#x27;s staff guidance, not a rule, so expansion plans for liquid staking support should carry a reversal risk note.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Crypto stopped waiting for Congress after the Clarity Act failed</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Within days of the Senate failure, the SEC, CFTC and Fed started writing crypto rules themselves. Blockchain Association CEO Summer Mersinger is also stepping down.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators" style="color:#0284c7;text-decoration:none;">Decrypt</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Rules written by agencies move faster, and the next administration can reverse them just as fast. Plan features that depend on them so they can be flagged off.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">EBA floats stablecoin lending limits and rules for DeFi gateways</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The European Banking Authority wants the EU to look at rules for DeFi gateways, with leverage caps and certification of lending protocols among the options.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/regulation/eba-floats-stablecoin-lending-restrictions-for-eu-crypto-firms" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> For EU clients, any DeFi access we broker (Aave, Morpho vaults) could need certified-protocol allowlists. Building the allowlist as a policy object now is cheap insurance.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">If you&#x27;re regulated under MiCA, you&#x27;re also regulated under DORA</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>OpenZeppelin points out that CASP authorization under MiCA automatically pulls firms into DORA&#x27;s ICT risk, incident reporting and third-party oversight regime.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.openzeppelin.com/news/if-youre-regulated-under-mica-youre-also-regulated-under-dora" style="color:#0284c7;text-decoration:none;">OpenZeppelin</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Our EU CASP clients will send us DORA third-party questionnaires. A ready DORA pack (incident SLAs, exit plans, subcontractor list) shortens sales cycles.</div>
+</div>
+</div>
+<div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+<h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🧩 Smart contracts &amp; infrastructure</h2>
+<div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Protocol upgrades, bridges, standards and security.</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">KelpDAO sues LayerZero over the $292M rsETH bridge exploit</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>KelpDAO&#x27;s developer says LayerZero endorsed the single-verifier setup in writing several times before the April 18 exploit. CEO Bryan Pellegrino calls the suit meritless.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/regulation/2026-09-25-kelpdao-sues-layerzero-claims-it-endorsed-setup-used-in-292-million-rseth-exploit-416361" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Bridge configuration is now a liability question. Any bridged asset we support should have its verifier setup documented in our asset-review file.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ethereum draft adds compliance controls to confidential RWA tokens</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A draft standard keeps amounts confidential while preserving issuer enforcement powers such as freeze and forced transfer, aimed at institutions that now use permissioned networks.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/infrastructure/ethereum-draft-proposes-compliance-controls-for-confidential-rwa-tokens" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Confidential balances would break balance reporting and reconciliation that read public chain state. If this gets traction, we&#x27;ll need view-key handling in the ledger.</div>
+</div>
+<div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+<h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Solana&#x27;s Alpenglow goes live on devnet ahead of mainnet</h3>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Anza wants app developers to test integrations as the upgrade moves validator voting offchain, targeting roughly 150ms settlement. Mainnet activation is still pending.</div>
+<div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/blockchains/solana-s-alpenglow-goes-live-on-devnet-ahead-of-mainnet-migration" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+<div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Finality semantics are changing. Our Solana confirmation thresholds and indexer should be tested on devnet before mainnet flips.</div>
+</div>
+</div>
+<div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);"><h2 style="font-size:17px;font-weight:600;margin:0 0 12px;letter-spacing:-0.005em;">👀 Watch list</h2>
+<div style="display:flex;gap:12px;padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><span style="flex-shrink:0;width:52px;font-weight:600;color:#0a2540;">Oct 2</span><span>Hester Peirce leaves the SEC. Watch who leads the Crypto Task Force afterwards.</span></div>
+<div style="display:flex;gap:12px;padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><span style="flex-shrink:0;width:52px;font-weight:600;color:#0a2540;">Oct 9</span><span>XRP Ledger Batch amendment activation date, pushed back after validator support reset.</span></div>
+<div style="display:flex;gap:12px;padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><span style="flex-shrink:0;width:52px;font-weight:600;color:#0a2540;">Open</span><span>Fed GENIUS Act comment period. Decide whether we file or join an industry letter.</span></div>
+<div style="display:flex;gap:12px;padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><span style="flex-shrink:0;width:52px;font-weight:600;color:#0a2540;">Open</span><span>Bitget post-mortem and withdrawal resumption. The details on how the forged requests got through matter most.</span></div>
+<div style="display:flex;gap:12px;padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><span style="flex-shrink:0;width:52px;font-weight:600;color:#0a2540;">Open</span><span>Solana Alpenglow mainnet date; KelpDAO v. LayerZero in British Columbia court.</span></div>
+</div>
+<div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);"><h2 style="font-size:17px;font-weight:600;margin:0 0 12px;letter-spacing:-0.005em;">📊 By the numbers</h2><div style="display:flex;flex-wrap:wrap;gap:10px;">
+<div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">$387.5M</div><div style="font-size:12.5px;color:#57534e;">Bitget hot and warm wallet losses</div></div>
+<div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">$318K</div><div style="font-size:12.5px;color:#57534e;">Frozen by Circle and Tether</div></div>
+<div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">2 days</div><div style="font-size:12.5px;color:#57534e;">Proposed Fed redemption window</div></div>
+<div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">4.3M</div><div style="font-size:12.5px;color:#57534e;">Tokenized-stock holders</div></div>
+<div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">$2.4B</div><div style="font-size:12.5px;color:#57534e;">BTC ETF inflow, best week since Oct</div></div>
+<div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">$67</div><div style="font-size:12.5px;color:#57534e;">Quantum-safe BTC tx cost, down from ~$320</div></div>
+</div></div>
+<div style="font-size:12px;color:#78716c;margin-top:8px;">Feed: 151 items from 9 active sources (CoinDesk, The Block, Decrypt, CoinTelegraph, The Defiant, Protos, Bankless, OpenZeppelin, Coin Center). Blockworks, Ledger Insights, Fireblocks, Anchorage, Circle and Rekt returned nothing this week.</div>
+<footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation.</footer>
+</div></body></html>

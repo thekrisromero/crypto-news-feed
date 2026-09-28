@@ -1,0 +1,81 @@
+Welcome to your weekly Crypto Custody and Treasury briefing for the week of September twenty-eighth, twenty twenty-six. This one covers September twenty-first through today. The feed pulled one hundred fifty-one stories from nine active sources, and I kept twenty-one of them.
+
+If you only remember one thing from this week, make it this. The biggest exchange hack of the month happened without anyone stealing a private key. We'll start there, because it lands right on the thing we build.
+
+Here are the top three takeaways.
+
+First takeaway. Bitget lost about three hundred eighty-seven and a half million dollars, and according to its C E O, Gracy Chen, the keys were never compromised. The attacker faked internal transfer requests. The system trusted those requests, signed them, and the hot and warm wallets were drained across several chains in under an hour. North Korea's Lazarus Group is the main suspect. So what for us: this is an authorization failure. The key storage held up fine. It shows the gap between good key management and good transaction policy. If one of our own internal services got compromised, could it originate a hot to warm rebalance, or a warm to external withdrawal, and which approval step would stop it? We should be able to answer that with a diagram, not a shrug. I'd like to run that tabletop this sprint.
+
+Second takeaway. With the Clarity Act dead in the Senate, the agencies have picked up the pen. This week the Federal Reserve opened two proposals to implement the GENIUS Act for stablecoins, and S E C staff published a new F A Q on token buybacks and liquid staking. So what for us: our compliance planning now runs on comment periods and rule text, not a bill. That means faster timelines. It also means anything we build on top of these rules can be reversed by the next commission or the next Fed board, so features that depend on them should be easy to switch off.
+
+Third takeaway. Tokenized stocks are moving from something you hold to something you borrow against. Aave now accepts Coinbase stock tokens as collateral for U S D C loans. Ethena is using Binance stock tokens in the trade that backs U S D e. And the New York Stock Exchange is bringing tokenized equities to Blockchain dot com users. So what for us: treasury clients are going to ask us to hold these assets, pledge them, and keep track of the lien. Listing the asset won't be enough. We need collateral lock states in the vault model.
+
+Now let's go section by section.
+
+Custody and wallet infrastructure.
+
+The Bitget story first, with a bit more detail. The breach hit hot and warm wallets. Cold storage was untouched. Withdrawals are paused, and Bitget says its user protection fund, which holds more than four hundred sixty-four million dollars, will cover the losses. The estimate kept moving all week. It started around three hundred fifty-two million and climbed to three hundred eighty-seven and a half as the team added Zcash and Tron assets to the count. What bugs me is how ordinary the method was. Nobody broke the cryptography. Someone persuaded the system that a request was legitimate, and the system believed it. So what: good M P C does not protect you if the policy engine signs whatever a trusted internal caller sends it. The question for our architecture review is where request origin gets authenticated, and whether that check is independent of the service making the request.
+
+Second, the recovery side of the same hack. Circle and Tether froze a wallet labeled Bitget Exploiter Eight, locking about three hundred eighteen thousand dollars in U S D C and U S D T. That's less than a tenth of one percent of the loss. The attacker had already swapped most of the stablecoins into E T H, which can't be frozen. Another eighty-three million moved as X R P, which Ripple can't freeze either. Then THORChain declined Bitget's request to blacklist the hacker's addresses, and one flagged address finished an X R P to bitcoin swap after the request went in. So what: issuer freezes are not an incident response plan. Our screening has to catch counterparty addresses tied to a fresh exploit within hours, and that includes destinations reached through cross-chain swaps.
+
+Third, a smaller one that's easy to skip but shouldn't be. Old Magic Eden listings on Ethereum were exposed through a flaw in Limit Break's Payment Processor version two. Whitehats rescued twenty-three thousand one hundred fifty-five N F Ts, worth more than five point seven million dollars. Holders still have to revoke the vulnerable approvals themselves. So what: stale token approvals are a custody risk that nobody looks at. An approvals inventory per vault, with a one-click revoke, is a cheap feature, and clients could hand it straight to their auditors.
+
+Fourth, quantum. Decrypt wrote up three developments this week that together move bitcoin's quantum problem from theory toward logistics. A contest run by StarkWare, Yukon Research and Eigen Labs cut the estimated cost of a quantum-safe bitcoin transaction from about three hundred twenty dollars to about sixty-seven. There's also a new privacy design and a custody playbook for migrating exposed coins. Q-Day is still hypothetical. So what: institutional clients will start asking how we'd move their bitcoin out of address types that expose public keys. We should have a short position paper ready before someone on a due diligence call asks.
+
+Stablecoins and payments.
+
+The big one is the Fed. It opened two proposals for comment under the GENIUS Act. Issuers it supervises would have to fully back their tokens with safe assets, stay within limits on which reserve assets count, and hold standardized capital. Covered issuers would generally have two business days to redeem. And banks that want to issue stablecoins would go through an application process on the Act's one hundred twenty day decision clock. So what: a two-day redemption window is an operations requirement. It hits any issuer client directly, and it hits us if we custody reserves or run mint and burn flows. Legal should have this docket on the calendar, and product should check whether our redemption path meets two business days at month-end volume.
+
+Next, Binance put one hundred million dollars into Circle, buying discounted C R C L shares as the two companies widened their U S D C deal. Analysts at CoinDesk read it as a boost for Circle in its race with Tether. So what: U S D C liquidity on the biggest offshore venue gets deeper. If our clients treat U S D C as their default treasury stablecoin, this helps. It's a good time to review our Binance settlement routes and what they cost.
+
+Third, Ethena. It started rolling out an equity basis strategy for U S D e with Binance, pairing Binance stock tokens with short positions in equity perpetuals. Hedged accounts get a lower priority for auto deleveraging. So what: U S D e now carries equity market risk and more single-venue risk than before. If any client holds U S D e in treasury, our risk disclosures need an update.
+
+Fourth, agent payments. Block got a Bitcoin Lightning payment spec merged into the x four oh two standard, which is the protocol for AI agents paying for things over H T T P. A Python implementation still needs review and real node testing. On the same theme, BlackRock published research saying AI agents could end up driving a lot of stablecoin payments. So what: agent-initiated payments now have real specs behind them. Controls for machine callers, like spend caps, allowlists and per-agent keys, belong on the roadmap now.
+
+Last in this section, a counterparty story. U S prosecutors are seeking eighty-four point two million dollars from a Montana payments firm and a Caribbean bank called EQIBank, accused of moving money without a license. Tether holds some assets at EQIBank and says its exposure is below point zero three four percent of group assets. So what: the number is small, but where an issuer banks is part of diligence. Our stablecoin risk reviews should say where reserves actually sit.
+
+Treasury, R W A, and corporate adoption.
+
+We covered Aave in the takeaways, so here's the detail. Aave version four on Base added Apple, Nvidia, Tesla and four other Coinbase stock tokens as collateral for U S D C loans. It's a dedicated market with a twenty-one million U S D C borrowing cap, open only to eligible non U S users. So what: this is the pledge use case running in production. If we want treasury clients borrowing against tokenized securities, the vault model needs collateral lock states and lien tracking.
+
+Second, the New York Stock Exchange and Blockchain dot com announced a partnership. Blockchain dot com will offer tokenized U S stocks and E T Fs to its global users through the exchange's planned twenty-four seven onchain trading venue. So what: an exchange-backed venue that never closes means settlement at any hour. Some of our approval and settlement windows still assume business hours, and that's getting harder to defend.
+
+Third, ARK Invest is bringing its one point three billion dollar venture fund onchain through Securitize, on Ethereum. The fund holds stakes in OpenAI, Anthropic and Stripe. So what: tokenized private-market funds come with transfer restrictions and allowlists. Supporting Securitize-issued assets properly means respecting issuer-side controls, and that starts with a partnership conversation.
+
+Fourth, Ondo launched three onchain portfolio tokens based on model portfolios built by BlackRock. So what: one token that holds a whole model portfolio is an easy way to give a corporate treasury a diversified allocation. It belongs on our R W A shortlist next to the tokenized money market funds we already track.
+
+Fifth, a data point. Token Terminal counts four point three million tokenized stock holders. BNB Chain leads, Robinhood Chain is second at one point three million, and Solana is third at just under a million. The metric counts token balances, not distinct people. So what: demand is spread across chains we don't all support. BNB Chain and Robinhood Chain should come up in our next chain prioritization review.
+
+Regulation and policy.
+
+S E C staff published a new F A Q. It says announcing a token buyback on a functional network doesn't, by itself, turn the token into a security. It also says qualifying liquid staking receipts fall into non-security categories. One attorney told Decrypt it makes securities law look opt-in. So what: liquid staking tokens get easier for U S institutions to hold. But this is staff guidance, not a rule, so any plan to expand liquid staking support should carry a note about reversal risk.
+
+Second, the bigger picture. Decrypt's analysis this week lays out how, within days of the Clarity Act failing in the Senate, the S E C, the C F T C, and the Fed all started writing crypto rules themselves. In a related move, Blockchain Association C E O Summer Mersinger is stepping down, with Kristin Smith returning as interim C E O. So what: rules from agencies arrive faster, and they can be reversed faster. Build features that depend on them so they can be flagged off.
+
+Third, Europe. The European Banking Authority floated restrictions on stablecoin lending for E U crypto firms and wants the E U to look at rules for DeFi gateways. Leverage caps and certification of lending protocols are among the options. So what: for E U clients, any DeFi access we broker could end up limited to certified protocols. Building protocol allowlists as a policy object now is cheap insurance.
+
+Fourth, a reminder from OpenZeppelin. If you're authorized as a crypto asset service provider under MiCA, you're automatically inside DORA, the E U's digital operational resilience rules. That means I C T risk management, incident reporting, and third-party oversight. So what: our E U clients will send us DORA third-party questionnaires. A ready-made DORA pack with incident S L As, exit plans, and a subcontractor list would shorten sales cycles.
+
+Smart contracts and infrastructure.
+
+KelpDAO's developer, Evercrest, sued LayerZero and its C E O Bryan Pellegrino in British Columbia over the April rsETH exploit, which cost about two hundred ninety-two million dollars. The claim is that LayerZero approved the single-verifier setup in writing several times. Pellegrino calls the suit meritless. So what: bridge configuration is now a liability question. For every bridged asset we support, our asset review file should record the verifier setup.
+
+Second, a draft Ethereum standard proposes compliance controls for confidential R W A tokens. Amounts stay hidden, but the issuer keeps enforcement powers like freezing and forced transfers. It's aimed at institutions that have been choosing permissioned networks. So what: confidential balances would break any reporting or reconciliation that reads public chain state. If this gets traction, our ledger will need to handle view keys.
+
+Third, Solana's Alpenglow upgrade is live on devnet, and a related upgrade targeting about one hundred fifty millisecond settlement reached a second public test network. Alpenglow moves validator voting offchain. Anza is asking app developers to test their integrations now. Mainnet activation is still pending. So what: finality works differently after this. Our Solana confirmation thresholds and indexer should be tested on devnet before mainnet switches over.
+
+Now the watch list for the week ahead.
+
+October second, Hester Peirce leaves the S E C. Watch who ends up leading the Crypto Task Force.
+
+October ninth, the X R P Ledger Batch amendment is now scheduled to activate, after a reset in validator support pushed it back.
+
+Still open: the Fed's GENIUS Act comment period. We should decide soon whether we file our own comment or sign on to an industry letter.
+
+Also open: Bitget's post-mortem and when withdrawals come back. What I most want to know is how the forged requests got past their controls.
+
+And keep an eye on the Solana Alpenglow mainnet date, and on the KelpDAO versus LayerZero case in British Columbia.
+
+A quick note on coverage. Blockworks, Ledger Insights, the Fireblocks and Anchorage blogs, Circle's blog, and Rekt returned nothing this week, so we have no direct competitor news from custody providers. If a Fireblocks or Anchorage announcement matters to you, check their sites directly.
+
+That's the briefing. Take a hard look at internal authorization this week, since that's how Bitget got hit. See you next Monday.
