@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T00:17:21.400243+00:00",
+  "generated_at": "2026-09-29T10:32:37.617516+00:00",
   "lookback_days": 8,
-  "total_items": 151,
+  "total_items": 130,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -21,7 +21,7 @@
     {
       "name": "CoinTelegraph",
       "url": "https://cointelegraph.com/rss",
-      "kept": 24
+      "kept": 25
     },
     {
       "name": "The Defiant",
@@ -66,7 +66,7 @@
     {
       "name": "Bankless",
       "url": "https://www.bankless.com/rss",
-      "kept": 22
+      "kept": 0
     },
     {
       "name": "OpenZeppelin Blog",
@@ -80,18 +80,6 @@
     }
   ],
   "items": [
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Circle and Tether Freeze Stablecoins Tied to Bitget Hack—But Most Funds Slip Away",
-      "summary": "The two stablecoin issuers blacklisted a wallet labeled \"Bitget Exploiter 8,\" locking about $318,000 in USDC and USDT—but the attacker swapped most funds into unfreezable ETH before they could act.",
-      "link": "https://decrypt.co/379365/circle-tether-freeze-stablecoins-bitget-hack",
-      "published": "2026-09-25T18:42:51+00:00",
-      "relevance_score": 5
-    },
     {
       "source": "CoinTelegraph",
       "tier": 1,
@@ -285,6 +273,96 @@
       "link": "https://www.openzeppelin.com/news/if-youre-regulated-under-mica-youre-also-regulated-under-dora",
       "published": "2026-09-23T11:44:18+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Greece gets first MiCA entrants as watchdog denies Binance-Lagarde claim",
+      "summary": "Greece joined the EU MiCA register with four providers as HCMC expanded its denial of remarks attributed to officials in a report on Binance.",
+      "link": "https://cointelegraph.com/news/greece-first-mica-entrants-hcmc-binance-lagarde?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T09:50:22+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Coinbase Now Owns Every Layer of Its Derivatives Stack After CFTC Approval",
+      "summary": "Coinbase Clearing will take USDC as collateral and settle around the clock, though margined products stay with partners.",
+      "link": "https://decrypt.co/379516/coinbase-now-owns-every-layer-of-its-derivatives-stack-after-cftc-approval",
+      "published": "2026-09-29T09:38:57+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Analysts see 10-year Treasury yield hitting 6%. Bitcoin bulls shouldn't panic",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/29/analysts-see-10-year-treasury-yield-hitting-6-bitcoin-bulls-shouldn-t-panic",
+      "published": "2026-09-29T09:06:11+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Ethlabs Says CCIP 2.0 Cuts Ethereum Confirmation Wait to Seconds",
+      "summary": "Faster transfers require opt-in settings, while Ethereum’s full-finality guarantees and CCIP’s default wait remain unchanged.",
+      "link": "https://thedefiant.io/news/infrastructure/ethlabs-says-ccip-2-0-cuts-ethereum-confirmation-wait-to-seconds",
+      "published": "2026-09-29T06:26:21+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Near Intents blocks $50 million in Bitget hacker swaps, here's what happened",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/09/29/usd50-million-in-bitget-hacker-swaps-puts-near-intents-permissionless-claim-to-the-test",
+      "published": "2026-09-29T06:23:47+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Tether says it helped freeze $550M in Iran-linked USDT this year",
+      "summary": "The disclosure came as Senate Democratic investigators alleged USDT had become a key part of Iran’s shadow banking network.",
+      "link": "https://cointelegraph.com/news/tether-says-it-helped-freeze-550m-in-iran-linked-usdt-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T05:29:28+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "NEAR Intents says it blocked $50M tied to Bitget hackers",
+      "summary": "The cross-chain protocol said it actively prevents stolen funds from being laundered, drawing a contrast with THORChain’s position that it does not selectively censor transactions.",
+      "link": "https://cointelegraph.com/news/near-intents-says-it-blocked-50m-tied-to-bitget-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T01:17:49+00:00",
+      "relevance_score": 1
     },
     {
       "source": "Decrypt",
@@ -558,32 +636,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Zano rolls blockchain back a month after Gateway Address exploit",
-      "summary": "The Zano blockchain has been restarted at the block height that came immediately before Hard Fork 6, which introduced Gateway Addresses.",
-      "link": "https://cointelegraph.com/news/zano-rolls-blockchain-back-a-month-after-gateway-address-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-28T01:09:22+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
-      "summary": "THORChain refuses to blacklist addresses linked to the Bitget hack. Vitalik Buterin says Ethereum is evolving from being a mere blockchain, into a world cryptographic computer.",
-      "link": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-27T23:43:18+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -621,19 +673,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Australia asks OpenAI, Anthropic chiefs to Senate inquiry on rogue hack: Report",
-      "summary": "A rogue OpenAI research agent bypassed blocks on the Australian government health-data portal, accessing non-public files in June.",
-      "link": "https://cointelegraph.com/news/australia-summons-openai-anthropic-chiefs-to-senate-inquiry-on-health-data-hack-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-27T12:46:28+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -643,58 +682,6 @@
       "summary": "After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?",
       "link": "https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators",
       "published": "2026-09-26T16:06:03+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
-      "published": "2026-09-26T13:00:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitget hacker moves $83 million in stolen XRP beyond reach of freeze controls",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/26/bitget-hacker-moves-usd83-million-in-stolen-xrp-that-ripple-cannot-freeze",
-      "published": "2026-09-26T12:56:41+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
-      "published": "2026-09-26T05:00:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
-      "published": "2026-09-25T22:17:38+00:00",
       "relevance_score": 1
     },
     {
@@ -750,19 +737,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "SEC Staff Clarifies Token Buybacks and Liquid Staking in New FAQs",
-      "summary": "Qualifying staking receipts fall into non-security categories, while the FAQs reaffirm an earlier position on maintenance and development funding.",
-      "link": "https://thedefiant.io/news/regulation/sec-staff-clarifies-token-buybacks-and-liquid-staking-in-new-faqs",
-      "published": "2026-09-25T20:14:02+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -802,19 +776,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Bitget Hacked for $351.6M",
-      "summary": "A backend wallet breach drained $351.6M as hackers consolidate funds into ETH and investigators probe a DPRK link.",
-      "link": "https://www.bankless.com/read/news/bitget-hacked-for-351-6m",
-      "published": "2026-09-25T12:58:35+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "OpenZeppelin Blog",
       "tier": 6,
       "topics": [
@@ -828,82 +789,174 @@
       "relevance_score": 1
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "CoinTelegraph",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "breaking",
+        "global"
       ],
-      "title": "BlackRock Maps Crypto’s Role in the AI Economy",
-      "summary": "BlackRock says AI agents could drive stablecoin payments and help create new markets for trading and financing compute.",
-      "link": "https://www.bankless.com/read/blackrock-maps-crypto-s-role-in-the-ai-economy",
-      "published": "2026-09-23T17:50:24+00:00",
-      "relevance_score": 1
+      "title": "US crypto ETF inflows cool after $3.3B week but streaks hold",
+      "summary": "US spot crypto ETF inflows fell about 80% from Friday as Bitcoin, Ether, Solana and XRP funds attracted $64.8 million combined on Monday.",
+      "link": "https://cointelegraph.com/markets/us-crypto-etf-inflows-cool-bitcoin-ether-solana-xrp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T10:15:19+00:00",
+      "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "CoinDesk",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "general",
+        "policy"
       ],
-      "title": "NYSE, Blockchain.com Partner on Tokenized Stocks",
-      "summary": "Blockchain.com and the NYSE are teaming up to bring tokenized U.S. stocks and ETFs to Blockchain.com’s global users through the exchange’s planned 24/7 onchain trading venue. What’s the Scoop? NYSE taps Blockchain.com: T…",
-      "link": "https://www.bankless.com/read/news/nyse-blockchain-com-partner-on-tokenized-stocks",
-      "published": "2026-09-23T17:17:44+00:00",
-      "relevance_score": 1
+      "title": "Live updates: Bitcoin rebounds above $84,000 as ETFs draw in $30 million",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/29/live-updates-bitcoin-rebounds-above-usd84-000-as-treasury-yields-steady",
+      "published": "2026-09-29T10:14:41+00:00",
+      "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "CoinDesk",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "general",
+        "policy"
       ],
-      "title": "Coinbase Rolls Out Fixed-Rate Bitcoin Loans via Morpho Midnight",
-      "summary": "Coinbase launches fixed-rate, bitcoin-backed USDC loans powered by Morpho Midnight on Base.",
-      "link": "https://www.bankless.com/read/news/coinbase-rolls-out-fixed-rate-bitcoin-loans-via-morpho-midnight",
-      "published": "2026-09-22T18:36:14+00:00",
-      "relevance_score": 1
+      "title": "Blockchain.com targets $500 million IPO at up to $6 billion valuation",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/09/29/blockchain-com-targets-usd500-million-ipo-at-up-to-usd6-billion-valuation",
+      "published": "2026-09-29T10:13:40+00:00",
+      "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "CoinTelegraph",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "breaking",
+        "global"
       ],
-      "title": "Binance Commits $100M Stake in Circle With New USDC Pact",
-      "summary": "Circle sells Binance $100M in discounted CRCL shares as the pair expand their USDC deal.",
-      "link": "https://www.bankless.com/read/news/binance-commits-100m-stake-in-circle-with-new-usdc-pact",
-      "published": "2026-09-22T17:40:26+00:00",
-      "relevance_score": 1
+      "title": "Bitcoin bounces to $84K after US 30-year bond yield sets 24-year high",
+      "summary": "Bitcoin price action consolidated after early-week losses while protecting a “trend-defining” support zone.",
+      "link": "https://cointelegraph.com/markets/bitcoin-bounces-to-84k-after-us-30-year-bond-yield-sets-24-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T10:04:42+00:00",
+      "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "CoinDesk",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "general",
+        "policy"
       ],
-      "title": "🏴 Robinhood's Onchain Endgame",
-      "summary": "Robinhood sees blockchains upgrading markets, with tokenized assets, perps, and AI agents at the center of its next phase.",
-      "link": "https://www.bankless.com/read/robinhood-s-onchain-endgame",
-      "published": "2026-09-21T19:13:51+00:00",
-      "relevance_score": 1
+      "title": "Bitcoin is on track to shatter a major decade-long streak as September gains surge",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/29/bitcoin-is-on-track-to-shatter-a-major-decade-long-streak-as-september-gains-surge",
+      "published": "2026-09-29T09:45:31+00:00",
+      "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "CoinTelegraph",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "breaking",
+        "global"
       ],
-      "title": "Inside Robinhood's Onchain Endgame",
-      "summary": "Robinhood sees blockchains upgrading markets, with tokenized assets, perps, and AI agents at the center of its next phase.",
-      "link": "https://www.bankless.com/read/inside-robinhood-s-onchain-endgame",
-      "published": "2026-09-21T18:10:21+00:00",
-      "relevance_score": 1
+      "title": "BitMine could hit its 5% Ether supply target within weeks — then what?",
+      "summary": "BitMine could reach 5% of Ether’s supply by early November, while Tom Lee has left open whether it would continue buying beyond that level.",
+      "link": "https://cointelegraph.com/news/bitmine-ether-supply-target-early-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T08:51:25+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T05:37:56+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Anthropic plans to spend $518 billion on AI infrastructure. Pre-IPO perps barely blink.",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/29/anthropic-plans-to-spend-usd518-billion-on-ai-infrastructure-pre-ipo-perps-barely-blink",
+      "published": "2026-09-29T05:31:44+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin holds $83,000 as ZEC drops 12% and oil climbs again",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/09/29/bitcoin-holds-usd83-000-as-zec-drops-12-and-oil-climbs-again",
+      "published": "2026-09-29T04:17:20+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Coinbase gets CFTC approval for US derivatives clearinghouse",
+      "summary": "Coinbase joins Kraken in bringing US derivatives infrastructure in-house, after Kraken’s parent acquired Bitnomial and its CFTC-regulated exchange, clearinghouse and brokerage in May.",
+      "link": "https://cointelegraph.com/news/coinbase-gets-cftc-approval-for-us-derivatives-clearinghouse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T04:02:29+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Nvidia unveils AI safety platform to rein in ‘rogue’ AI agents",
+      "summary": "The launch comes after several AI agents breached their testing environments this year, adding to calls for companies to slow the development of autonomous AI systems.",
+      "link": "https://cointelegraph.com/news/nvidia-unveils-ai-safety-platform-to-rein-in-rogue-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-09-29T02:32:36+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Coinbase receives DCO approval from CFTC, completing full derivatives stack",
+      "summary": "This completes Coinbase's derivatives infrastructure, allowing it to list, broker, and clear fully collateralized products in-house.",
+      "link": "https://www.theblock.co/news/business/2026-09-28-coinbase-dco-approval-417105",
+      "published": "2026-09-29T02:02:36+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Coinbase Wins CFTC Approval for In-House Derivatives Clearing",
+      "summary": "The new clearinghouse can handle fully collateralized contracts; Coinbase will keep outside partners for margined futures and planned single-stock perpetuals.",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/coinbase-wins-cftc-approval-for-in-house-derivatives-clearing",
+      "published": "2026-09-29T01:23:54+00:00",
+      "relevance_score": 0
     },
     {
       "source": "Decrypt",
@@ -969,32 +1022,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "🏴 Shifting Sands for Kalshi",
-      "summary": "Federal courts are increasingly backing state gaming laws over prediction markets as the fight heads toward the Supreme Court.",
-      "link": "https://www.bankless.com/read/shifting-sands-for-kalshi",
-      "published": "2026-09-28T19:14:59+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-28T19:02:45+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1033,19 +1060,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "States Pull Ahead in Prediction Market Fight",
-      "summary": "Federal courts are increasingly backing state gaming laws over prediction markets as the fight heads toward the Supreme Court.",
-      "link": "https://www.bankless.com/read/states-pull-ahead-in-prediction-market-fight",
-      "published": "2026-09-28T18:06:32+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Defiant",
       "tier": 1,
       "topics": [
@@ -1066,7 +1080,7 @@
         "smart-contracts"
       ],
       "title": "Compound Foundation Denies V2 Reserve Misuse Allegation",
-      "summary": "Records show 344,780 COMP increased the Foundation’s voting power before a $52 million V4 budget vote. The proposal had enough support to pass without those tokens.",
+      "summary": "Records show 344,780 COMP took the proposal’s supporters from 45.1% to 50.1% of delegated voting power before the $52 million V4 budget vote. No one voted against it.",
       "link": "https://thedefiant.io/news/defi/compound-foundation-denies-v2-reserve-misuse-allegation",
       "published": "2026-09-28T18:00:52+00:00",
       "relevance_score": 0
@@ -1475,19 +1489,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
-      "summary": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”",
-      "link": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-28T04:44:15+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1563,32 +1564,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/news-analysis/2026/09/27/how-months-of-work-on-the-clarity-act-all-fell-apart",
       "published": "2026-09-27T12:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Riot Platforms repays $200M credit facility, releases collateral",
-      "summary": "The Bitcoin miner has continued to expand its data-center business as well.",
-      "link": "https://cointelegraph.com/news/riot-platforms-repays-200m-credit-facility-releases-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-27T09:57:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Saylor outlines ‘bill of digital rights’ to help build prosperity in future economy",
-      "summary": "Our ambition should be to “enable 10 million new companies to raise capital,” Strategy’s executive chairman Michael Saylor wrote in an essay.",
-      "link": "https://cointelegraph.com/news/saylor-outlines-bill-of-digital-rights-to-help-build-prosperity-in-future-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-27T07:18:42+00:00",
       "relevance_score": 0
     },
     {
@@ -1696,32 +1671,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange",
-      "published": "2026-09-26T14:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Kalshi loses appeal, setting up potential Supreme Court case",
-      "summary": "The 6th US Circuit Court of Appeals ruled against prediction market Kalshi, siding with Ohio and Tennessee on regulating sports-event contracts under state laws.",
-      "link": "https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-09-26T13:21:12+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1731,32 +1680,6 @@
       "summary": "Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls.",
       "link": "https://decrypt.co/379353/google-free-1080p-ai-video-generation",
       "published": "2026-09-26T13:01:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
-      "published": "2026-09-26T12:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets",
-      "published": "2026-09-26T04:30:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1770,45 +1693,6 @@
       "summary": "New deposits and loans are disabled, while Slush users are told to exit four strategies with immediate withdrawals.",
       "link": "https://thedefiant.io/news/defi/alphafi-winds-down-after-oracle-error-with-sui-foundation-support",
       "published": "2026-09-26T00:27:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "🏴 Ethereum's New AI Swarm",
-      "summary": "Digging into IMD, the rising AI experiment that has the potential to become a new kind of prolific workforce.",
-      "link": "https://www.bankless.com/read/ethereum-s-new-ai-swarm",
-      "published": "2026-09-25T21:46:36+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Inside IMD, Ethereum's New AI Swarm Experiment",
-      "summary": "A new kind of AI workforce is ascending in the Ethereum ecosystem, replete with experimental tokenomics. Here's why it matters, and how you might consider the trade.",
-      "link": "https://www.bankless.com/read/inside-imd-ethereum-s-new-ai-swarm-experiment",
-      "published": "2026-09-25T20:24:29+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Circle CFO Jeremy Fox-Geen to Step Down by Year-End",
-      "summary": "Circle has begun a replacement search, while Fox-Geen’s exit agreement includes $1.05 million in conditional cash payments.",
-      "link": "https://thedefiant.io/converge/people/circle-cfo-jeremy-fox-geen-to-step-down-by-year-end",
-      "published": "2026-09-25T20:16:15+00:00",
       "relevance_score": 0
     },
     {
@@ -1853,19 +1737,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Ethena Expands USDe Backing Into Equity Perpetuals",
-      "summary": "Expanding its USDe basis trade to Binance equity perps means Ethena, in theory, opens itself up to a $150T+ market of real-world assets.",
-      "link": "https://www.bankless.com/read/news/ethena-expands-usde-backing-into-equity-perpetuals",
-      "published": "2026-09-25T13:51:23+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1880,98 +1751,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Strategy Proposes Daily Dividends for Preferred Stocks",
-      "summary": "The daily dividends would apply to all preferred stocks: STRC, STRF, STRK, and STRD, aiming to improve price stability, liquidity, and investor trust.",
-      "link": "https://www.bankless.com/read/news/strategy-proposes-daily-dividends-for-preferred-stocks",
-      "published": "2026-09-25T12:51:34+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Ethena expands USDe backing strategy into bStocks and equity perpetuals on Binance",
-      "summary": "Ethena is adding Binance bStocks and equity perpetuals to the basis trade used for USDe's backing strategy.",
-      "link": "https://www.theblock.co/news/deals/2026-09-25-ethena-expands-usde-backing-strategy-into-bstocks-and-equity-perpetuals-on-binance-416367",
-      "published": "2026-09-25T11:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "New York Sues Polymarket Over Alleged Illegal Gambling",
-      "summary": "New York alleged Polymarket operates as gambling and is seeking to block the platform in the state.",
-      "link": "https://www.bankless.com/read/news/new-york-sues-polymarket-over-alleged-illegal-gambling",
-      "published": "2026-09-24T18:58:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Alloc Init Proposes Zcash-Style Privacy for Bitcoin",
-      "summary": "The proposed Shielded Bitcoin metaprotocol would use Zcash-style private notes to hide BTC transfers without changing Bitcoin consensus.",
-      "link": "https://www.bankless.com/read/news/alloc-init-proposes-zcash-style-privacy-for-bitcoin",
-      "published": "2026-09-24T18:46:27+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Tempo Launches Mercator Tool Router for AI Agents",
-      "summary": "Mercator lets agents discover, pay for, and combine use outside tools, improving their performance on domain specific tasks along the way.",
-      "link": "https://www.bankless.com/read/news/tempo-launches-mercator-tool-router-for-ai-agents",
-      "published": "2026-09-24T18:07:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "CFTC Warns Prediction Markets Over Mention Contracts",
-      "summary": "CFTC staff warns mention markets carry elevated manipulation risks after cases involving George Santos, White House staff and others.",
-      "link": "https://www.bankless.com/read/news/cftc-warns-prediction-markets-over-mention-contracts",
-      "published": "2026-09-23T17:09:52+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "ZEC and NEAR Are Eating the Blue Chips' Bid",
-      "summary": "BTC:ETH::ZEC:NEAR! How Zcash and NEAR are drawing capital away from Bitcoin and Ethereum.",
-      "link": "https://www.bankless.com/read/zec-and-near-are-eating-the-blue-chips-bid",
-      "published": "2026-09-23T16:57:28+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Coin Center",
       "tier": 5,
       "topics": [
@@ -1982,58 +1761,6 @@
       "summary": "Lewellen argues that DOJ enforcement discretion cannot replace clear legal protection for non-custodial developers The post A thin DOJ policy memo is no substitute for legal protection appeared first on Coin Center .",
       "link": "https://coincenter.org/a-thin-doj-policy-memo-is-no-substitute-for-legal-protection/",
       "published": "2026-09-23T15:09:56+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "🏴 Will BTC Underperform?",
-      "summary": "Last cycle mainstreamed Bitcoin. This one may belong to Zcash and alts with real revenue, buybacks, and newly opening U.S. markets.",
-      "link": "https://www.bankless.com/read/will-btc-underperform",
-      "published": "2026-09-22T21:59:46+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "This is Not Bitcoin’s Cycle",
-      "summary": "Last cycle mainstreamed Bitcoin. This one may belong to Zcash and alts with real revenue, buybacks, and newly opening U.S. markets.",
-      "link": "https://www.bankless.com/read/this-is-not-bitcoin-s-cycle",
-      "published": "2026-09-22T21:49:20+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Prediction Market Trueo Is Leaping from Base to Ethereum",
-      "summary": "Prediction market Trueo is migrating from Base to Ethereum mainnet, earning praise from Vitalik Buterin.",
-      "link": "https://www.bankless.com/read/news/prediction-market-trueo-is-leaping-from-base-to-ethereum",
-      "published": "2026-09-22T18:03:29+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Lighter Set to Add Binary Options Support to Its ZK Prover",
-      "summary": "Lighter's prover repository just got a \"Binary options support\" commit.",
-      "link": "https://www.bankless.com/read/news/lighter-set-to-add-binary-options-support-to-its-zk-prover",
-      "published": "2026-09-21T18:28:56+00:00",
       "relevance_score": 0
     }
   ]
