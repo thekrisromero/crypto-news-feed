@@ -1,0 +1,84 @@
+name: Promote briefing to main
+
+# The cloud routine pushes each week's briefing to a claude/briefing-YYYY-MM-DD branch.
+# This workflow copies the briefing HTML and podcast script onto main, then starts the
+# email and audio workflows. (Pushes made with GITHUB_TOKEN don't trigger other workflows,
+# so we dispatch them explicitly.)
+
+on:
+  push:
+    branches: ['claude/briefing-**']
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: promote-briefing
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Copy briefing files from the routine branch
+        id: copy
+        env:
+          SRC_BRANCH: ${{ github.ref_name }}
+        run: |
+          git fetch origin "$SRC_BRANCH"
+          BASE=$(git merge-base origin/main "origin/$SRC_BRANCH")
+          FILES=$(git diff --name-only --diff-filter=AM "$BASE" "origin/$SRC_BRANCH" -- 'briefings/*.html' 'podcasts/*.txt')
+          if [[ -z "$FILES" ]]; then
+            echo "::error::No briefing or podcast files found on $SRC_BRANCH"
+            exit 1
+          fi
+          echo "Files: $FILES"
+          git checkout "origin/$SRC_BRANCH" -- $FILES
+          HTML=$(echo "$FILES" | grep '^briefings/.*\.html$' | sort | tail -1 || true)
+          TXT=$(echo "$FILES" | grep '^podcasts/.*\.txt$' | sort | tail -1 || true)
+          echo "html=$HTML" >> "$GITHUB_OUTPUT"
+          echo "txt=$TXT" >> "$GITHUB_OUTPUT"
+
+      - name: Commit to main
+        env:
+          SRC_BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "Crypto Briefing Bot"
+          git config user.email "briefing-bot@users.noreply.github.com"
+          git add briefings/ podcasts/
+          if git diff --cached --quiet; then
+            echo "Files already on main; nothing to commit."
+          else
+            git commit -m "Add briefing from $SRC_BRANCH"
+            # fetch-news may have pushed in the meantime; rebase and retry a few times
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              sleep 5
+            done
+          fi
+
+      - name: Trigger email and audio
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HTML: ${{ steps.copy.outputs.html }}
+          TXT: ${{ steps.copy.outputs.txt }}
+        run: |
+          if [[ -n "$HTML" ]]; then
+            gh workflow run send-email.yml --ref main -f briefing_path="$HTML"
+          fi
+          if [[ -n "$TXT" ]]; then
+            gh workflow run generate-audio.yml --ref main -f script_path="$TXT"
+          fi
+
+      - name: Delete the routine branch
+        env:
+          SRC_BRANCH: ${{ github.ref_name }}
+        run: git push origin --delete "$SRC_BRANCH" || true
