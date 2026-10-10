@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T14:22:40.558870+00:00",
+  "generated_at": "2026-10-10T19:55:16.882076+00:00",
   "lookback_days": 8,
-  "total_items": 150,
+  "total_items": 147,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -66,7 +66,7 @@
     {
       "name": "Bankless",
       "url": "https://www.bankless.com/rss",
-      "kept": 15
+      "kept": 12
     },
     {
       "name": "OpenZeppelin Blog",
@@ -200,17 +200,18 @@
       "relevance_score": 2
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "The Block",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "institutional",
+        "policy",
+        "research"
       ],
-      "title": "SEC Proposes New Crypto Custody Framework for Advisers and Funds",
-      "summary": "The SEC's new proposal would let advisers and funds use state trust companies, and in limited cases self-custody, to hold crypto.",
-      "link": "https://www.bankless.com/read/news/sec-proposes-new-crypto-custody-framework-for-advisers-and-funds",
-      "published": "2026-10-02T17:56:02+00:00",
-      "relevance_score": 2
+      "title": "Kalshi is investigating bets on Trump’s press secretary pick placed before announcement: WSJ",
+      "summary": "Three bets totaling about $173 were placed before news outlets reported Zacharia's pick and are expected to pay out roughly $9,600 combined.",
+      "link": "https://www.theblock.co/news/regulation/2026-10-10-kalshi-is-investigating-bets-on-trumps-press-secretary-pick-placed-before-announcement-wsj-418222",
+      "published": "2026-10-10T18:35:25+00:00",
+      "relevance_score": 1
     },
     {
       "source": "The Defiant",
@@ -613,19 +614,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Solana Schedules Final Cut to 200-Millisecond Slots",
-      "summary": "Per-block computing limits shrink to preserve overall capacity, while validators face more frequent voting and shorter production windows.",
-      "link": "https://thedefiant.io/news/blockchains/solana-schedules-final-cut-to-200-millisecond-slots",
-      "published": "2026-10-09T04:52:51+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -679,18 +667,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "US Government Moves $1 Billion in Bitcoin Seized From Bitfinex Hacker",
-      "summary": "A government wallet holding Bitcoin seized from the Bitfinex hacker sent 12,267 BTC to a new, unlabeled address, according to Arkham data.",
-      "link": "https://decrypt.co/380504/us-government-moves-1-billion-bitcoin-bitfinex",
-      "published": "2026-10-08T16:44:20+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -702,20 +678,6 @@
       "summary": "The bank said the service would extend its existing crypto custody footprint in the UAE, Luxembourg, and Hong Kong.",
       "link": "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017",
       "published": "2026-10-08T07:55:14+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
-      "summary": "The South Korean tech giant said the feature is built into Samsung Wallet, with fiat on- and off-ramps, rather than a separate crypto app.",
-      "link": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
-      "published": "2026-10-08T02:50:01+00:00",
       "relevance_score": 1
     },
     {
@@ -732,17 +694,106 @@
       "relevance_score": 1
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "The Defiant",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "defi",
+        "smart-contracts"
       ],
-      "title": "Blast L2 Winds Down, Sets Oct. 26th Withdrawal Deadline",
-      "summary": "Blast is sunsetting its Ethereum L2 after costs outran revenue.",
-      "link": "https://www.bankless.com/read/news/blast-l2-winds-down-sets-oct-26th-withdrawal-deadline",
-      "published": "2026-10-02T17:41:50+00:00",
-      "relevance_score": 1
+      "title": "Papertrade Traders Lose $18.2 Million as Staking Rewards Reach $12.6 Million",
+      "summary": "Reported staking rewards equaled about 69% of net trading losses, but the payouts redistribute money to PAPER stakers rather than reimburse each losing trader.",
+      "link": "https://thedefiant.io/news/defi/papertrade-traders-lose-18-2-million-as-staking-rewards-reach-12-6-million",
+      "published": "2026-10-10T17:38:07+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Ledger Says Affected User’s Device Contained Hardware Implant",
+      "summary": "CryptoBilis has stopped selling all hardware wallet inventory pending the investigation, according to Ledger, widening an earlier pause request limited to Ledger devices.",
+      "link": "https://thedefiant.io/news/hacks/ledger-says-affected-user-s-device-contained-hardware-implant",
+      "published": "2026-10-10T17:15:58+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "CFTC Draws the Line Between Prediction Markets and Gambling in New Rules",
+      "summary": "A proposed rule would expressly fold event contracts tied to sports, politics, culture and weather into the “swap” definition, while an interim rule excludes casino-style gambling—sharpening the agency’s claim to exclusive jurisdiction.",
+      "link": "https://decrypt.co/380635/cftc-draws-line-prediction-markets-and-gambling-new-rules",
+      "published": "2026-10-10T17:01:03+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Papertrade Shows $10.3 Million in Staker Rewards Hours After Launch",
+      "summary": "The 1000x-leverage venue’s dashboard showed roughly $5 million in its house pool and no queued payout debt as trading losses funded PAPER rewards.",
+      "link": "https://thedefiant.io/news/defi/papertrade-shows-10-3-million-in-staker-rewards-hours-after-launch",
+      "published": "2026-10-10T16:43:44+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "This Sam Altman-Backed Life Insurer Runs Entirely on Bitcoin, and Just Raised $37.5 Million",
+      "summary": "The Bermuda-based insurer, which runs entirely on Bitcoin, drew the funding from existing backers led by Bain Capital Crypto after a record year driven by demand from wealthy families in Asia, Europe and the Middle East.",
+      "link": "https://decrypt.co/380633/sam-altman-backed-life-insurer-bitcoin-raise",
+      "published": "2026-10-10T16:01:04+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Ether ETFs extend outflow streak to nine days as Solana funds snap record 14-week inflow run",
+      "summary": "Spot bitcoin, solana, and ether ETFs all logged weekly outflows following last week's trading, a notable shift for some of the funds.",
+      "link": "https://www.theblock.co/news/markets/2026-10-10-ether-etfs-extend-outflow-streak-to-nine-days-as-solana-funds-snap-record-14-week-inflow-run-418215",
+      "published": "2026-10-10T15:10:37+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Here’s a Way to Predict When AI Chatbots Will Turn Bad",
+      "summary": "Physicists at George Washington University say a formula can estimate when an AI chatbot will flip from good answers to bad ones, and early tests on small models back it up.",
+      "link": "https://decrypt.co/380624/formula-predicts-when-ai-chatbot-turn-bad",
+      "published": "2026-10-10T15:01:03+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Papertrade Draws Reported $3 Billion in Positions in First Hour",
+      "summary": "DefiLlama tracked $137.1 million in trader balances and house liquidity combined. Those funds are not all available to pay winning trades.",
+      "link": "https://thedefiant.io/news/defi/papertrade-draws-reported-3-billion-in-positions-in-first-hour",
+      "published": "2026-10-10T14:57:16+00:00",
+      "relevance_score": 0
     },
     {
       "source": "CoinTelegraph",
@@ -1534,32 +1585,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "DTC Seeks to Cut Share-Registration Transfers From Days to Minutes",
-      "summary": "The proposed DRS overhaul would replace batch processing with APIs and automate a transfer step, while still requiring transfer-agent approval.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/dtc-seeks-to-cut-share-registration-transfers-from-days-to-minutes",
-      "published": "2026-10-09T02:17:51+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Coinbase Cryptographer Calls Drake's 'Bunker Mode' Warning 'The Very Definition of FUD'",
-      "summary": "Vitalik Buterin said the risk from AI-accelerated math is real but pointed it at lattices rather than elliptic curves. A former Ethereum Foundation researcher said bunker mode would not help if the curves actually broke",
-      "link": "https://thedefiant.io/news/security/coinbase-cryptographer-calls-drake-bunker-mode-warning-definition-of-fud",
-      "published": "2026-10-08T23:34:05+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1569,19 +1594,6 @@
       "summary": "Manus built a self-driving AI assistant before the hype, sold itself to Meta, then watched Beijing unwind the deal. Its first fresh money since: more than $500 million.",
       "link": "https://decrypt.co/380546/maus-ai-startup-raises-500m-meta-acquisition-china",
       "published": "2026-10-08T21:46:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Netflix’s FTX Love Story Trailer Draws Mockery on Crypto X",
-      "summary": "Netflix’s synopsis for “The Altruists” calls it “a toxic love story inspired by a real fraud.” The trailer drew 4.2 million views in seven hours, and the most-shared replies from crypto accounts went at the casting and the accuracy.",
-      "link": "https://thedefiant.io/news/people/netflix-ftx-love-story-trailer-draws-mockery-on-crypto-x",
-      "published": "2026-10-08T21:25:20+00:00",
       "relevance_score": 0
     },
     {
@@ -1816,30 +1828,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
-      "summary": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
-      "link": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
-      "published": "2026-10-08T16:14:46+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Decrypt Money Accounts on Solana to Power The Information Exchange",
-      "summary": "One self-custodial platform to power Earn, Swaps, Predictions and Perps on Decrypt, as it builds out its financial and intelligence market.",
-      "link": "https://decrypt.co/380436/decrypt-money-accounts-on-solana-to-power-the-information-exchange",
-      "published": "2026-10-08T15:42:16+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1934,20 +1922,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Solana’s Orca merges with Loopscale in push to finance AI, robotics and defense",
-      "summary": "Orca and Loopscale unite as Formation, targeting financing for AI, energy, robotics and defense.",
-      "link": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
-      "published": "2026-10-07T22:01:02+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
@@ -2010,19 +1984,6 @@
       "summary": "CryptoPunks sales are surging, and the collection's grails are selling for millions again. Here's everything you need to know.",
       "link": "https://www.bankless.com/read/cryptopunks-are-heating-back-up",
       "published": "2026-10-02T20:55:10+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Ethereum Foundation Launches zkAPI for Private AI Payments",
-      "summary": "The EF and Open Anonymity's new zkAPI lets you prepay for AI and other APIs on Ethereum, then spend with ZK proofs so usage isn't tied back to you.",
-      "link": "https://www.bankless.com/read/news/ethereum-foundation-launches-zkapi-for-private-ai-payments",
-      "published": "2026-10-02T17:08:53+00:00",
       "relevance_score": 0
     }
   ]
