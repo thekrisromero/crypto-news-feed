@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Crypto Custody & Treasury Briefing — Week of 2026-10-12</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px;">
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody & Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of 2026-10-12 · covers Oct 5 to Oct 12, 2026</div>
+  </div>
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div>
+        <strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-10-12.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span>
+      </div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">A tampered-hardware attack hit Ledger buyers through one Southeast Asian reseller, with losses now estimated above $86M</strong> — <em style="color:#57534e;">So what: device provenance is a custody control. Our onboarding and key-ceremony checklists should require hardware bought direct from the vendor, and we should say so plainly to clients who hold their own keys.</em></div>
+    </div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Stablecoin freezes cut both ways this week: Tether froze and unfroze THORChain vaults with no explanation, and Ledger thieves swapped USDT into USDD to get out of Tether&#x27;s reach</strong> — <em style="color:#57534e;">So what: issuer freeze risk needs to be a per-asset attribute in our policy engine, with alerts when a client address is frozen, and nobody should treat issuer freezes as a recovery plan.</em></div>
+    </div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Tokenized money market funds are reaching regulated balance sheets (Crédit Agricole&#x27;s €100M into Amundi&#x27;s fund) while ESMA and the IMF ask how liquid these assets really are under stress</strong> — <em style="color:#57534e;">So what: if we support tokenized MMFs as treasury assets or collateral, we need redemption-path and liquidity data in the UI, not only a balance.</em></div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Direct competitor moves, MPC/HSM tech, qualified-custodian licensing, key-management.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ledger confirms hardware implant in reseller-sold devices; losses may exceed $86M</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ledger says all confirmed draining cases involve devices sold by CryptoBilis, a reseller in Southeast Asia, and at least one affected device contained an unauthorized hardware implant. Ledger&#x27;s direct sales channels are unaffected. CryptoBilis has paused all hardware wallet sales, and Ledger reminded resellers never to restock returned products.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/ledger-confirms-unauthorized-hardware-implant-losses-may-exceed-86m" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a> · <a href="https://thedefiant.io/news/hacks/ledger-says-all-confirmed-draining-cases-involve-cryptobilis-sold-devices" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Clients will ask whether this touches us. Prepare a short note on where our signing hardware comes from (vendor-direct, tamper-evident chain of custody), and add device-sourcing questions to the security questionnaire we send clients who self-custody alongside us.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">DWF Labs subsidiaries sue BitGo for $141M over alleged token lock-up breach</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Two DWF Labs subsidiaries filed suit against BitGo for $141M, alleging BitGo breached a token lock-up arrangement tied to early token sales.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/policy/2026/10/09/dwf-labs-subsidiaries-sue-bitgo-for-usd141-million-over-alleged-token-lock-up-breach" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Lock-ups and vesting schedules enforced by a custodian are a liability surface, not just a feature. If we offer time-locked or restricted balances, check that the contract terms, the policy rules and the audit trail all say the same thing.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Coldcard investigates phishing link posted from its official X account</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Coldcard told users not to click a phishing link that appeared on its X account and said it is investigating how it got there.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/coldcard-says-its-investigating-how-phishing-link-appeared-on-its-x-account" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Second wallet-brand trust hit in a week. Our incident comms runbook should cover a compromised social account, including a verified status page clients can check before acting on anything we post.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Liquid Bitcoin redemptions stay frozen with 85.8% reserve coverage</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Peg-outs on Liquid remain halted. The reserve gap is about 603 BTC, and Liquid says redemptions need full backing and completed security reviews before restarting.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/security/liquid-bitcoin-redemptions-remain-frozen-with-85-8-reserve-coverage" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Wrapped and federated BTC can stop redeeming. If we hold or display L-BTC or similar, show the redemption status and reserve ratio next to the balance, and consider haircuts in any treasury valuation.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Stablecoin issuance, issuer controls, payment rails and settlement.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">THORChain developer says Tether froze, then unfroze, USDT vaults without explanation</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Chad Barraford, THORChain&#x27;s technical co-founder, said USDT held in the protocol&#x27;s vaults was frozen and then released, with no reason given by Tether.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/thorchain-tether-freezing-usdt-addresses" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Freezes can hit addresses that aren&#x27;t the bad actor. We should monitor our omnibus and client deposit addresses against issuer freeze events and have a client-facing playbook for when one lands.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ledger theft funds move into USDD, outside Tether&#x27;s freeze controls</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Tron records show 2M USDT converted through USDD&#x27;s stability module. Bitquery estimates Tether froze about $10M across the wider theft cluster.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/ledger-theft-funds-shift-into-usdd-beyond-tether-s-freeze-controls" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Attackers route around issuer controls fast. Our travel-rule and AML screening should flag inbound funds that recently passed through swap modules tied to known theft clusters.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">HSBC and Ant Digital test AI-agent payments with tokenized deposits</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A technical trial showed AI agents discovering services and making micropayments using HSBC&#x27;s tokenized deposits, with real-time settlement and risk checks.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/hsbc-ant-digital-test-ai-agent-payments-using-tokenized-deposits" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Agent-initiated payments are moving from demo to bank pilot. Worth scoping what policy controls (spend caps, allow-lists, per-agent keys) a treasury client would need before letting an agent move funds from their vault.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Visa survey: nearly half of APAC consumers open to stablecoins by 2031</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A Visa survey finds close to half of consumers in Asia-Pacific say they are open to using stablecoins by 2031.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/10/05/1-2-billion-apac-consumers-could-adopt-stablecoins-by-2031-according-to-visa" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Survey intent isn&#x27;t adoption, but it supports APAC payout and settlement use cases for corporate treasury clients. Useful context for regional roadmap conversations.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Tokenized funds, RWAs, corporate balance sheets and institutional flows.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Crédit Agricole&#x27;s insurance arm puts €100M into tokenized Amundi money market fund</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Crédit Agricole Assurances invested €100M in tokenized shares of the Amundi Funds Cash EUR money market fund. CACEIS, the group&#x27;s securities services arm, is tokenization and transfer agent.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.ledgerinsights.com/credit-agricole-insurance-arm-invests-e100m-in-tokenized-amundi-money-market-fund/" style="color:#0284c7;text-decoration:none;">Ledger Insights</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> EUR-denominated tokenized MMFs now have a large regulated buyer. If our clients ask for yield on idle EUR stablecoin balances, this is the product category to evaluate, and the transfer agent model matters for how we&#x27;d integrate.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">IMF: tokenized stocks show real demand but remain volatile and illiquid</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>An IMF analysis finds demand for tokenized equities but says the market is still volatile and illiquid.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/10/11/imf-finds-demand-for-tokenized-stocks-says-the-market-is-still-volatile-illiquid" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Before we list tokenized equities as custody assets, plan for valuation and liquidity flags. An illiquid asset shown at last trade price will mislead treasury reports.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Base&#x27;s Jesse Pollak says equities and non-dollar stablecoins will lead a &#x27;tokenization supercycle&#x27;</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Pollak said Coinbase&#x27;s tokenized stocks on Base, launched six weeks ago, are doing about $70M to $100M in daily volume.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/defi/2026-10-09-tokenization-supercycle-base-jesse-pollak-418144" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Base support (and non-USD stablecoins on it) keeps coming up. Check our chain and asset coverage against where the volume is actually going.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">JPMorgan estimates $50B has flowed into crypto this year</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>JPMorgan analysts put 2026 inflows to digital assets at around $50B, an annualized pace of $66B, with momentum improving into Q4.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> A useful top-down number for sizing and pipeline decks. Pair it with this week&#x27;s $679M weekly BTC ETF outflow so the story isn&#x27;t one-sided.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Rulemaking, enforcement, tax and sanctions that change what we build.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">US Treasury withdraws &#x27;unhosted wallet&#x27; and mixer reporting rule proposals</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Coin Center reports Treasury has withdrawn the long-pending proposals that would have expanded reporting on transfers to self-hosted wallets and on mixer-related transactions.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://coincenter.org/treasury-just-withdrew-crypto-surveillance-rule-proposals-long-opposed-by-coin-center/" style="color:#0284c7;text-decoration:none;">Coin Center</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Removes a looming US reporting burden on withdrawals to self-hosted addresses. Check whether any backlog items were built to anticipate these rules and can be deprioritized; travel-rule obligations still apply.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">ESMA asks whether tokenized collateral can be cashed out in a crisis</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>ESMA is seeking industry feedback on the legal, liquidity and operational risks of tokenized collateral before deciding whether more EU rules are needed.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/esma-tokenized-collateral-eu-clearinghouses" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If we want tokenized collateral workflows in the EU, this consultation shapes the requirements. Worth a short response or at least tracking with our EU counsel.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Thailand SEC sets bitcoin and ether ETF rules effective Oct 16</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Initial Thai crypto ETFs are limited to BTC and ETH, with new custody, exposure and trading rules taking effect October 16.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/regulation/2026-10-09-thailand-sec-issues-bitcoin-and-ether-etf-rules-set-to-take-effect-oct-16-418132" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Another market where ETF issuers need a custodian that meets local rules. Pull the custody requirements once published and compare against our controls.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">France: committee backs stablecoin swap tax, crypto exit tax and wallet reporting over $112K</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>A National Assembly committee adopted amendments taxing stablecoin swaps and unrealized gains for wealthy households moving abroad, then rejected the budget&#x27;s revenue section. Lawmakers also backed a rule requiring holders to declare wallets over about $112K, with fines up to €10,000.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax" style="color:#0284c7;text-decoration:none;">Decrypt</a> · <a href="https://cointelegraph.com/news/french-lawmakers-back-reporting-rule-for-crypto-wallets-over-112k" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Not law yet, but a stablecoin swap tax would mean per-swap tax reporting for French clients. Keep our transaction export granular enough to support it.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">UK sanctions three crypto exchanges; US moves to seize $1B in Iran-linked crypto</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The UK sanctioned exchanges and payment processors tied to Russian illicit funds, including links to the already-sanctioned HTX. Treasury Secretary Bessent said the US plans to seize about $1B in crypto linked to Iran.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/uk-sanctions-crypto-exchanges-russian-illicit-funds" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a> · <a href="https://cointelegraph.com/news/scott-bessent-us-seize-crypto-iran-sanctions" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Refresh sanctions screening lists and confirm counterparty and address screening pick up the new UK designations promptly.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⛓️ Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Protocol bugs, account abstraction, and the post-quantum debate.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">XRP Ledger patches decade-old bug that could have minted about 18 trillion XRP</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>An overflow bug in the XRPL payment engine could have let an attacker mint roughly 18 trillion spendable XRP in one transaction. It was patched via an emergency fix, which the XRPL community is now defending.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/ecosystems/2026-10-11-xrp-ledger-patches-decade-old-bug-that-could-have-minted-trillions-of-xrp-418230" style="color:#0284c7;text-decoration:none;">The Block</a> · <a href="https://cointelegraph.com/news/xrp-ledger-defends-emergency-patch-for-unlimited-xrp-bug" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Emergency upgrades need node operators to move fast. Confirm our XRPL nodes are on the patched version and that we have a standing process for out-of-band protocol patches.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">$3.55M in unclaimed bridge funds moved via EIP-7702 authorizations</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The transfers used valid account authorizations, but BlockSec says that doesn&#x27;t prove the wallet owner knowingly approved them.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/security/3-55-million-in-unclaimed-bridge-funds-moved-via-eip-7702" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> 7702 delegations are a new signing risk. Our signing UX and policy engine should decode and flag 7702 authorization payloads instead of treating them as ordinary signatures.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Post-quantum moves: Starknet weighs L1 shift, Zcash targets January, Tron PQ on testnet</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>StarkWare called a Starknet L1 shift its &#x27;clearest path forward&#x27; for quantum resistance (still undecided). Zcash developers set a January target for quantum-resistant payments after Justin Drake&#x27;s &#x27;bunker mode&#x27; call. Justin Sun says Tron&#x27;s post-quantum cryptography is live on testnet. Vitalik shared address and multisig tips and warned against rushed wallet moves.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/blockchains/starkware-calls-starknet-l1-shift-its-clearest-path-forward" style="color:#0284c7;text-decoration:none;">The Defiant</a> · <a href="https://www.coindesk.com/tech/2026/10/09/zcash-developers-set-january-target-for-quantum-resistant-payments-after-bunker-mode-scare" style="color:#0284c7;text-decoration:none;">CoinDesk</a> · <a href="https://www.bankless.com/read/news/vitalik-flags-ai-risk-to-crypto-warns-against-rushed-wallet-moves" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Clients will start asking for our PQ roadmap. A one-page position on key types, address reuse and migration readiness would get ahead of RFP questions.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;">👀 Watch List</h2>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#1c1917;">Ledger / CryptoBilis investigation:</strong> Final loss figures and whether any other resellers or regions are affected.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#1c1917;">Thailand crypto ETFs:</strong> Rules take effect Oct 16; watch which custodians the first issuers pick.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#1c1917;">Strategy&#x27;s October purchase disclosure:</strong> Saylor teased new BTC buying after September STRC buybacks; TD Cowen flagged dilution drag.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#1c1917;">CFTC event contracts:</strong> CFTC proposals to fold event contracts into swaps rules while the Supreme Court fight (now with the NFL siding with states) continues.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#1c1917;">US market structure:</strong> CoinDesk argues the Clarity bill&#x27;s failure could speed innovation but shield incumbents. Watch for any revived timeline.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#1c1917;">Zcash PQ payments:</strong> January target; a test of how fast a live chain can ship quantum-resistant spends.</div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;">🔢 By the Numbers</h2>
+    <table style="width:100%;border-collapse:collapse;font-size:13.5px;">
+      <tr><td style="padding:7px 12px 7px 0;border-top:1px solid #f5f5f4;font-weight:700;color:#0a2540;white-space:nowrap;">$86M+</td><td style="padding:7px 0;border-top:1px solid #f5f5f4;color:#44403c;">estimated losses from tampered Ledger devices</td></tr>
+      <tr><td style="padding:7px 12px 7px 0;border-top:1px solid #f5f5f4;font-weight:700;color:#0a2540;white-space:nowrap;">$141M</td><td style="padding:7px 0;border-top:1px solid #f5f5f4;color:#44403c;">DWF Labs claim against BitGo</td></tr>
+      <tr><td style="padding:7px 12px 7px 0;border-top:1px solid #f5f5f4;font-weight:700;color:#0a2540;white-space:nowrap;">€100M</td><td style="padding:7px 0;border-top:1px solid #f5f5f4;color:#44403c;">Crédit Agricole Assurances into tokenized Amundi MMF</td></tr>
+      <tr><td style="padding:7px 12px 7px 0;border-top:1px solid #f5f5f4;font-weight:700;color:#0a2540;white-space:nowrap;">~18T</td><td style="padding:7px 0;border-top:1px solid #f5f5f4;color:#44403c;">XRP mintable via the patched XRPL bug</td></tr>
+      <tr><td style="padding:7px 12px 7px 0;border-top:1px solid #f5f5f4;font-weight:700;color:#0a2540;white-space:nowrap;">85.8%</td><td style="padding:7px 0;border-top:1px solid #f5f5f4;color:#44403c;">Liquid BTC reserve coverage (~603 BTC gap)</td></tr>
+      <tr><td style="padding:7px 12px 7px 0;border-top:1px solid #f5f5f4;font-weight:700;color:#0a2540;white-space:nowrap;">$50B</td><td style="padding:7px 0;border-top:1px solid #f5f5f4;color:#44403c;">JPMorgan estimate of 2026 crypto inflows</td></tr>
+      <tr><td style="padding:7px 12px 7px 0;border-top:1px solid #f5f5f4;font-weight:700;color:#0a2540;white-space:nowrap;">$679M</td><td style="padding:7px 0;border-top:1px solid #f5f5f4;color:#44403c;">weekly outflow from US bitcoin ETFs</td></tr>
+      <tr><td style="padding:7px 12px 7px 0;border-top:1px solid #f5f5f4;font-weight:700;color:#0a2540;white-space:nowrap;">~200M</td><td style="padding:7px 0;border-top:1px solid #f5f5f4;color:#44403c;">Sepolia block gas limit after Glamsterdam (mainnet: 60M)</td></tr>
+    </table>
+  </div>
+  <div style="font-size:12px;color:#78716c;margin-top:8px;">Feed note: 145 items from 15 sources. Blockworks, Fireblocks, Anchorage, Circle and Rekt returned no items this week, so first-party custodian and issuer news is thin.</div>
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation.</footer>
+</div></body></html>

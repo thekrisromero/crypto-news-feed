@@ -1,0 +1,77 @@
+Welcome to your weekly Crypto Custody and Treasury briefing for the week of October twelfth, twenty twenty-six. This one covers October fifth through today.
+
+It was a security-heavy week. The biggest custody story in a while landed on a hardware wallet maker, stablecoin issuer controls got tested from two directions, and tokenized money market funds kept moving onto regulated balance sheets while regulators asked hard questions about what happens to them under stress. Let's start with the top three.
+
+Takeaway number one. Ledger has confirmed that devices sold through a single reseller in Southeast Asia, a company called CryptoBilis, were tampered with. At least one affected device had an unauthorized hardware implant, and estimated losses are now above eighty-six million dollars. Ledger says its direct sales channels are fine, and that every confirmed draining case so far involves CryptoBilis-sold devices. The so what for us: device provenance is a custody control, not a footnote. Our onboarding and key ceremony checklists should require hardware bought direct from the vendor with a documented chain of custody. And for clients who hold some of their own keys alongside us, we should say this plainly rather than assume they know.
+
+Takeaway number two. Stablecoin freezes cut both ways this week. A THORChain co-founder says Tether froze U S D T sitting in the protocol's vaults, then unfroze it, without any explanation. Meanwhile, the people draining those Ledger wallets swapped about two million U S D T into U S D D through its stability module, which put the funds outside Tether's reach. Bitquery estimates Tether froze around ten million dollars across the wider theft cluster, so the freeze tool did something, but not everything. The so what: issuer freeze risk should be a per-asset attribute in our policy engine, with alerts when any client or omnibus address gets frozen. And nobody on our side should describe issuer freezes as a recovery plan.
+
+Takeaway number three. Crédit Agricole's insurance arm put one hundred million euros into tokenized shares of Amundi's euro money market fund. That is a big, regulated, conservative buyer. In the same week, the European Securities and Markets Authority, E S M A, asked industry whether tokenized collateral can actually be cashed out in a crisis, and the I M F published work saying tokenized stocks have real demand but are still volatile and illiquid. The so what: if we support tokenized money market funds as treasury assets or as collateral, the U I needs redemption path and liquidity information, not just a balance.
+
+Now let's go section by section, starting with custody and wallet infrastructure.
+
+The Ledger story deserves a bit more detail. Reports started on October ninth, with Ledger saying it was investigating possible wallet tampering after users reported roughly eighty-six million dollars stolen. By the weekend, Ledger confirmed a hardware implant in at least one device and said CryptoBilis had stopped selling all hardware wallet inventory, not just Ledger devices, while the investigation runs. Ledger also reminded resellers never to restock returned products, which tells you something about how a tampered device might get back onto a shelf. My read is that clients will ask whether any of this touches us. It would be smart to have a short, ready note on where our signing hardware comes from and how it is handled from the vendor to the data center. And it is worth adding device sourcing questions to the security questionnaire we send clients who self-custody part of their holdings.
+
+Next, two subsidiaries of D W F Labs are suing BitGo for one hundred forty-one million dollars. The claim is that BitGo breached a token lock-up arrangement tied to early token sales. We only have the headline-level facts so far, but the lesson for any custodian is clear enough. Lock-ups and vesting schedules enforced by a custodian are a liability surface. If we offer time-locked or restricted balances, the contract terms, the policy rules and the audit trail need to say exactly the same thing.
+
+Third, Coldcard, another hardware wallet brand, had a phishing link appear on its official X account. The company told users not to click it and said it is investigating. That's two wallet-brand trust hits in one week. Our incident communications runbook should cover a compromised social account, and clients should have a verified status page they can check before acting on anything we post.
+
+Fourth, Liquid Bitcoin redemptions are still frozen. Reserve coverage sits at eighty-five point eight percent, which works out to a gap of about six hundred and three bitcoin. Liquid says peg-outs need full backing and completed security reviews before they restart. The takeaway: wrapped and federated bitcoin can stop redeeming. If we hold or display L B T C or anything similar, the redemption status and reserve ratio should sit right next to the balance, and treasury valuations should consider a haircut.
+
+Moving on to stablecoins and payments.
+
+We covered the THORChain freeze in the takeaways. The detail worth adding is that this was a protocol's vaults, not an obvious bad actor, and the funds were released again with no reason given. That is the uncomfortable part. Freezes can land on addresses that did nothing wrong. We should watch our own deposit and omnibus addresses for issuer freeze events and have a client-facing playbook ready for the day one lands.
+
+On the Ledger theft funds moving into U S D D: attackers route around issuer controls quickly. Our travel rule and A M L screening should flag inbound funds that recently passed through swap modules linked to known theft clusters, not only funds coming straight from flagged addresses.
+
+Next, H S B C and Ant Digital ran a technical trial of A I agent payments using H S B C's tokenized deposits. The agents discovered services and made micropayments, with real-time settlement and risk checks. This is a bank, not a startup demo. It is worth scoping what policy controls a treasury client would need before they let an agent move funds from their vault. Think spend caps, allow-lists, and per-agent keys that can be revoked on their own.
+
+And a Visa survey found that nearly half of consumers in Asia-Pacific say they are open to using stablecoins by twenty thirty-one. Survey intent is not adoption, so I would not lean on this too hard. But it does support A P A C payout and settlement use cases for corporate treasury clients, and it is handy context for regional roadmap conversations.
+
+Next up, treasury, real world assets, and corporate adoption.
+
+Back to Crédit Agricole for a moment. The fund is Amundi Funds Cash E U R, and C A C E I S, the group's securities services arm, acts as the tokenization and transfer agent. If our clients ask for yield on idle euro stablecoin balances, this is the product category to look at, and the transfer agent model will shape how any integration works.
+
+The I M F analysis on tokenized stocks found genuine demand but a market that is still volatile and illiquid. Before we list tokenized equities as custody assets, we should plan for valuation and liquidity flags. An illiquid asset shown at its last trade price will mislead a treasury report.
+
+On the more bullish side, Jesse Pollak, who created Base, said equities and non-dollar stablecoins will lead what he calls a tokenization supercycle. He said Coinbase's tokenized stocks on Base, launched about six weeks ago, are doing somewhere between seventy and one hundred million dollars in daily volume. Base keeps coming up in client conversations, so it's worth checking our chain and asset coverage against where volume is actually going.
+
+And J P Morgan analysts estimate about fifty billion dollars has flowed into digital assets this year, an annualized pace of about sixty-six billion, with momentum improving into the fourth quarter. That's a useful top-down number for sizing and pipeline decks. I'd pair it with the other side of the ledger, though. U S bitcoin E T Fs shed about six hundred seventy-nine million dollars last week, so flows are not one-directional.
+
+Now, regulation and policy.
+
+The biggest U S item is that the Treasury Department withdrew its long-pending proposals on so-called unhosted wallet reporting and mixer transactions. Coin Center, which opposed the rules for years, flagged the withdrawal. For us, that removes a looming reporting burden on withdrawals to self-hosted addresses. It's worth checking whether any backlog items were built in anticipation of those rules and can now drop down the list. Travel rule obligations still apply, of course.
+
+In Europe, E S M A is asking for industry feedback on the legal, liquidity and operational risks of tokenized collateral before deciding whether more rules are needed. If we want tokenized collateral workflows in the E U, this consultation will shape the requirements. At minimum we should track it with our E U counsel, and a short response could be worth the effort.
+
+Thailand's S E C issued rules for bitcoin and ether E T Fs that take effect on October sixteenth. The first products are limited to those two assets, and the rules include new custody, exposure and trading requirements. That is another market where E T F issuers will need a custodian that meets local rules. We should pull the custody requirements once they're published and compare them against our controls.
+
+In France, a National Assembly committee adopted amendments that would tax stablecoin swaps and tax unrealized crypto gains for wealthy households moving abroad, and then rejected the revenue section of the twenty twenty-seven budget. Separately, lawmakers backed a rule requiring holders to declare crypto wallets worth more than about one hundred twelve thousand dollars, with fines up to ten thousand euros. None of this is law yet. But a stablecoin swap tax would mean per-swap tax reporting for French clients, so our transaction exports need to be granular enough to support it.
+
+And on sanctions: the U K sanctioned three crypto exchanges and several payment processors tied to Russian illicit funds, some with links to the already-sanctioned H T X exchange. In the U S, Treasury Secretary Scott Bessent said the government plans to seize about one billion dollars in crypto linked to Iran. The action item is simple. Make sure our sanctions screening picks up the new U K designations promptly, for both counterparties and addresses.
+
+Last section, smart contracts and infrastructure.
+
+The X R P Ledger patched a bug that had been sitting in its payment engine for about a decade. It was an overflow issue that could have let an attacker mint roughly eighteen trillion spendable X R P in a single transaction. The fix went out as an emergency patch, and the X R P Ledger community has been defending how it was handled. For us, emergency upgrades only work if node operators move quickly. Let's confirm our X R P Ledger nodes are on the patched version, and that we have a standing process for out-of-band protocol patches on every chain we support.
+
+Next, about three point five five million dollars in unclaimed bridge funds were moved using E I P seven seven oh two authorizations. The transactions used valid account authorizations, but the security firm BlockSec says that doesn't prove the wallet owner knowingly approved them. Seven seven oh two delegations are a new signing risk. Our signing experience and policy engine should decode and flag these authorization payloads rather than treating them like any other signature.
+
+Finally, the post-quantum conversation got louder. StarkWare called a move to make Starknet its own layer one its clearest path forward on quantum resistance, though the team stressed it's still a question rather than a decision. Zcash developers set a January target for quantum-resistant payments after Justin Drake's call for a so-called bunker mode. Justin Sun says Tron's post-quantum cryptography is live on testnet. And Vitalik Buterin weighed in with practical tips for addresses and multisigs, while warning people not to rush wallet moves. Clients are going to start asking us for a post-quantum roadmap. A one-page position on key types, address reuse and migration readiness would get us ahead of the R F P questions.
+
+Before we wrap, here's the watch list for the coming week.
+
+First, the Ledger and CryptoBilis investigation. Watch for final loss figures and whether any other resellers or regions turn up.
+
+Second, Thailand's crypto E T F rules go live on October sixteenth. Watch which custodians the first issuers choose.
+
+Third, Strategy's October bitcoin purchase disclosure. Michael Saylor teased new buying after September's S T R C buybacks, and T D Cowen has flagged a dilution drag for shareholders.
+
+Fourth, the C F T C's proposal to fold event contracts into swaps rules, while the Supreme Court fight over prediction markets continues, now with the N F L siding with the states.
+
+Fifth, U S market structure. CoinDesk argued that the Clarity bill's failure could speed up innovation while shielding incumbents. Keep an eye out for any revived timeline.
+
+And sixth, Zcash's January target for quantum-resistant payments, which will be a real test of how quickly a live chain can ship this.
+
+One note on coverage. Several sources, including Blockworks, Fireblocks, Anchorage, Circle and Rekt, returned no items this week, so news straight from custodians and stablecoin issuers is thinner than usual.
+
+That's it for this week. If you only do one thing, get a short device provenance note ready before a client asks. Thanks for listening, and see you next Monday.
