@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17T18:19:30.952075+00:00",
+  "generated_at": "2026-10-17T22:05:52.339771+00:00",
   "lookback_days": 8,
-  "total_items": 151,
+  "total_items": 148,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -61,12 +61,12 @@
     {
       "name": "Coin Center",
       "url": "https://www.coincenter.org/feed/",
-      "kept": 2
+      "kept": 1
     },
     {
       "name": "Bankless",
       "url": "https://www.bankless.com/rss",
-      "kept": 18
+      "kept": 16
     },
     {
       "name": "OpenZeppelin Blog",
@@ -156,6 +156,33 @@
       "link": "https://www.ledgerinsights.com/eu-council-wants-only-significant-crypto-firms-supervised-by-esma/",
       "published": "2026-10-13T10:57:00+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "CoreWeave, Broadcom, Verizon among nine companies objecting to tokenized trading of their shares on OKXICE",
+      "summary": "Applied Optoelectronics told the WSJ it objected because it was unsure how tokenization would affect its stock price, liquidity and volatility.",
+      "link": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859",
+      "published": "2026-10-17T19:56:25+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "French Assembly Backs Tax on Crypto-to-Stablecoin Swaps by One Vote",
+      "summary": "The 2027 budget amendment would end tax deferral for swaps into single-currency stablecoins from January 1, but it is not yet law.",
+      "link": "https://thedefiant.io/news/regulation/french-assembly-backs-tax-on-crypto-to-stablecoin-swaps-by-one-vote",
+      "published": "2026-10-17T19:42:21+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinDesk",
@@ -617,20 +644,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Ledger unveils Atom Android device with Solana Mobile integration and new tamper protections amid investigation into modified wallets",
-      "summary": "Ledger unveiled Atom, an Android-based security device with Solana Mobile integration, AI-agent controls, and hardware-tampering protections.",
-      "link": "https://www.theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644",
-      "published": "2026-10-15T12:00:00+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -641,19 +654,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
       "published": "2026-10-15T11:15:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "Coin Center",
-      "tier": 5,
-      "topics": [
-        "regulation",
-        "policy"
-      ],
-      "title": "A tax case every self-custody holder should monitor",
-      "summary": "In a case that has received little attention to-date, the IRS alleges that a bitcoin user who self-custodied his coins owes income taxes on assets created by Bitcoin forks that he never accessed or was even aware of before an IRS audit. The case presents the U.S. Tax Court with a question that matters well [&#8230;] The post A tax case every self-custody holder should monitor appeared first on Coin Center .",
-      "link": "https://coincenter.org/a-tax-case-every-self-custody-holder-should-monitor/",
-      "published": "2026-10-09T19:55:10+00:00",
       "relevance_score": 1
     },
     {
@@ -1364,19 +1364,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Jupiter Says YOLO Hit $1 Billion in Volume in Under 24 Hours",
-      "summary": "The unaudited beta counts leveraged trading exposure, while winners depend on a separate house pool funded by trader losses.",
-      "link": "https://thedefiant.io/news/defi/jupiter-says-yolo-hit-1-billion-in-volume-in-under-24-hours",
-      "published": "2026-10-16T10:32:47+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -2010,32 +1997,6 @@
       "summary": "Blur will shut down its website and halt new NFT loans on November 12, just ten days after sister project Blast announced its closure.",
       "link": "https://www.bankless.com/read/news/blur-to-shut-down-nft-marketplace-after-blast",
       "published": "2026-10-13T16:22:10+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "🏴 Papertrade's Launch Weekend",
-      "summary": "Hyperliquid's 1000x perps experiment opens tomorrow. Here's how it works, who's lining up, and what could go wrong.",
-      "link": "https://www.bankless.com/read/papertrade-s-launch-weekend",
-      "published": "2026-10-09T19:03:12+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "What to Know About Papertrade's Launch",
-      "summary": "Hyperliquid's 1000x perps experiment opens Saturday. Here's how it works, who's lining up, and what could go wrong.",
-      "link": "https://www.bankless.com/read/what-to-know-about-papertrade-s-launch",
-      "published": "2026-10-09T18:26:05+00:00",
       "relevance_score": 0
     }
   ]
