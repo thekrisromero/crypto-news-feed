@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T08:49:00.745323+00:00",
+  "generated_at": "2026-10-24T15:42:01.771614+00:00",
   "lookback_days": 8,
-  "total_items": 155,
+  "total_items": 154,
   "feed_status": [
     {
       "name": "CoinDesk",
       "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-      "kept": 25
+      "kept": 24
     },
     {
       "name": "The Block",
@@ -81,6 +81,19 @@
   ],
   "items": [
     {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "X100 Exploit Nets 4.85 Million USDT After Governance Takeover",
+      "summary": "Two transactions turned treasury tokens and liquidity positions into USDT; Blockaid warned that the Ethereum attack was ongoing.",
+      "link": "https://thedefiant.io/news/hacks/x100-exploit-nets-4-85-million-usdt-after-governance-takeover",
+      "published": "2026-10-24T14:58:09+00:00",
+      "relevance_score": 3
+    },
+    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -131,6 +144,19 @@
       "link": "https://coincenter.org/comment-of-coin-center-to-the-department-of-the-treasury-on-genius-act-regulations-on-payment-stablecoin-issuance-offer-and-sale/",
       "published": "2026-10-20T00:36:06+00:00",
       "relevance_score": 3
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Third X100 Exploit Transaction Pulls 550,000 X From Uniswap Pool",
+      "summary": "A different sender routed about 549,916 X and 1,909 USDT to a new beneficiary, while the affected pool held less than 200 USDT.",
+      "link": "https://thedefiant.io/news/hacks/third-x100-exploit-transaction-pulls-550-000-x-from-uniswap-pool",
+      "published": "2026-10-24T15:17:43+00:00",
+      "relevance_score": 2
     },
     {
       "source": "CoinTelegraph",
@@ -251,19 +277,6 @@
       "relevance_score": 2
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
-      "published": "2026-10-22T14:37:12+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -278,16 +291,55 @@
       "relevance_score": 2
     },
     {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
+      "published": "2026-10-24T15:00:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+      "published": "2026-10-24T14:06:24+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "API Key Rotation: What Revocation and Redeployment Actually Change",
+      "summary": "Scheduled replacement can let two keys overlap. Suspected exposure makes that overlap a security decision, not just a way to avoid downtime.",
+      "link": "https://thedefiant.io/news/security/api-key-rotation-what-revocation-and-redeployment-actually-change",
+      "published": "2026-10-24T13:16:55+00:00",
+      "relevance_score": 1
+    },
+    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
         "general"
       ],
-      "title": "SoFi Launches Tokenized Deposit That Earns 4.4% and Converts to a Stablecoin",
-      "summary": "Each SOFIE token represents $1 on deposit at SoFi Bank, earning 4.40% APY with FDIC insurance—a yield-and-protection combination ordinary stablecoins lack.",
-      "link": "https://decrypt.co/381174/sofi-launches-tokenized-deposit-that-earns-4-4-and-moves-like-a-stablecoin",
-      "published": "2026-10-22T12:01:03+00:00",
-      "relevance_score": 2
+      "title": "Hong Kong’s Biggest Bank Puts a Stablecoin in 3 Million Wallets",
+      "summary": "HSBC switched on its Hong Kong dollar stablecoin inside PayMe on Friday, testing whether a bank-issued token can become everyday money.",
+      "link": "https://decrypt.co/381760/hong-kong-bank-hsbc-stablecoin-3-million-wallets",
+      "published": "2026-10-24T13:01:02+00:00",
+      "relevance_score": 1
     },
     {
       "source": "Decrypt",
@@ -591,32 +643,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Uniswap Swap Costs: What Reduces Your Output and What Is Paid Separately",
-      "summary": "A historical ETH-to-USDC receipt shows how deductions reconcile. UniswapX handles network costs differently from a classic pool swap.",
-      "link": "https://thedefiant.io/news/defi/uniswap-swap-costs-what-reduces-your-output-and-what-is-paid-separately",
-      "published": "2026-10-22T23:18:19+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Robinhood vs. Securitize: Stock Token Access Compared",
-      "summary": "Robinhood’s wallet product advertises 24/7 trading; Securitize advertises 24/5, while its NYSE and OKXICE connections remain planned.",
-      "link": "https://thedefiant.io/news/tradfi-and-fintech/robinhood-vs-securitize-stock-token-access-compared",
-      "published": "2026-10-22T23:14:19+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -798,6 +824,109 @@
       "link": "https://www.bankless.com/read/pearls-ai-twist-on-bitcoin-mining",
       "published": "2026-10-16T20:26:09+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Block's new voice AI sounds eerily human, sparking awe and scam fears",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
+      "published": "2026-10-24T15:21:06+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+      "published": "2026-10-24T15:11:24+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Game Publishers Have Pushed to Cut Discs Since 2007, Infinity Ward Veteran Says",
+      "summary": "Robert Bowling, who spent six years working on Call of Duty, told Decrypt that Activision suggested cutting discs nearly two decades ago.",
+      "link": "https://decrypt.co/381674/game-publishers-have-pushed-to-cut-discs-since-2007-infinity-ward-veteran-says",
+      "published": "2026-10-24T15:01:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Shaw Publishes Daos.fun Reconstruction, Claims Critical Flaw",
+      "summary": "The repository reports matching captured and rebuilt binaries. Daos.fun says it no longer maintains the platform, though existing tokens remain tradable.",
+      "link": "https://thedefiant.io/news/security/shaw-publishes-daos-fun-reconstruction-claims-critical-flaw",
+      "published": "2026-10-24T14:25:37+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Hyperliquid’s Yan and CME’s Duffy Split Over Who Must Bear US Compliance",
+      "summary": "Yan favors oversight of market deployers rather than the blockchain, while Hyperliquid’s interface still bars US-based users and VPN circumvention.",
+      "link": "https://thedefiant.io/news/regulation/hyperliquid-s-yan-and-cme-s-duffy-split-over-who-must-bear-us-compliance",
+      "published": "2026-10-24T14:12:54+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
+      "summary": "",
+      "link": "https://www.coindesk.com/",
+      "published": "2026-10-24T14:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/10/24/u-s-clarity-act-failure-gives-asia-and-middle-east-a-competitive-edge-says-apex-group-ceo",
+      "published": "2026-10-24T12:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "UNI Slides 29% in Four Weeks as Uniswap Liquidity Holds Steady",
+      "summary": "The token has underperformed bitcoin and ether, while Uniswap still holds about $4 billion in liquidity.",
+      "link": "https://thedefiant.io/news/tokens/uni-slides-29-in-four-weeks-as-uniswap-liquidity-holds-steady",
+      "published": "2026-10-24T09:26:24+00:00",
+      "relevance_score": 0
     },
     {
       "source": "The Defiant",
@@ -1392,19 +1521,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Swell Pauses swETH and rswETH Deposits and Withdrawals",
-      "summary": "The protocol says it must correct NAV before reopening, while onchain controls now block withdrawal requests and ETH claims.",
-      "link": "https://thedefiant.io/news/hacks/swell-pauses-sweth-and-rsweth-deposits-and-withdrawals",
-      "published": "2026-10-23T06:50:08+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1415,19 +1531,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/10/23/polymarket-has-reportedly-fired-its-marketing-chief-also-a-close-friend-of-the-ceo",
       "published": "2026-10-23T05:01:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Malaysia and Thailand Join Singapore’s BLOOM Digital-Money Initiative",
-      "summary": "The expanded participant group includes Visa, Mastercard and the World Bank Group, with work focused on cross-border settlement frameworks and interoperability.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/malaysia-and-thailand-join-singapore-s-bloom-digital-money-initiative",
-      "published": "2026-10-23T03:34:21+00:00",
       "relevance_score": 0
     },
     {
@@ -1458,19 +1561,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "UAE-Led Scam Crackdown Identifies Over $39 Billion in Funds and Crypto",
-      "summary": "Operation Confrontation Ghost reported more than 960 arrests and raids on 29 fraud centers; participating countries are working toward asset recovery.",
-      "link": "https://thedefiant.io/news/security/uae-led-scam-crackdown-identifies-over-39-billion-in-funds-and-crypto",
-      "published": "2026-10-23T02:03:09+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1494,19 +1584,6 @@
       "summary": "Hegseth warned that prediction market wagers could expose military operations to adversaries.",
       "link": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-10-22T23:50:42+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Bitcoin and Ethereum Take Different Paths to Post-Quantum Wallets",
-      "summary": "Ethereum contracts can verify alternative signatures today, but protecting existing accounts requires more than adding a new signer. Bitcoin’s P2MR proposal does not itself add post-quantum signatures.",
-      "link": "https://thedefiant.io/news/security/bitcoin-and-ethereum-take-different-paths-to-post-quantum-wallets",
-      "published": "2026-10-22T23:18:52+00:00",
       "relevance_score": 0
     },
     {
@@ -1776,18 +1853,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Trade Where You Read: Decrypt Brings Jupiter-Powered Trading to The Information Exchange",
-      "summary": "Decrypt is building a destination where readers can discover, understand and trade the news, directly where they consume information.",
-      "link": "https://decrypt.co/381593/trade-where-you-read-decrypt-brings-jupiter-powered-trading-to-the-information-exchange",
-      "published": "2026-10-22T14:04:48+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1813,19 +1878,6 @@
       "summary": "Uniswap Labs has launched aggregator hooks, allowing Uniswap v4 to route trades through liquidity held on external platforms.",
       "link": "https://www.theblock.co/news/defi/2026-10-22-uniswaps-aggregator-hooks-go-live-ethereum-base-robinhood-chain-421932",
       "published": "2026-10-22T13:55:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence",
-      "summary": "",
-      "link": "https://www.coindesk.com/news-analysis/2026/10/21/crypto-is-making-a-splash-in-u-s-elections-but-chiefly-in-jabs-about-industry-influence",
-      "published": "2026-10-22T13:00:00+00:00",
       "relevance_score": 0
     },
     {
@@ -1855,19 +1907,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
-      "published": "2026-10-22T12:14:29+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1878,45 +1917,6 @@
       "summary": "Michael Saylor’s Strategy forecasted that it would taper STRC buybacks as the price rose, but then spent $193M on buybacks. The post Strategy spent record cash on STRC buybacks at its worst price yet appeared first on Protos .",
       "link": "https://protos.com/strategy-spent-record-cash-on-strc-buybacks-at-its-worst-price-yet/",
       "published": "2026-10-22T12:00:17+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
-      "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble",
-      "published": "2026-10-22T11:20:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
-      "published": "2026-10-22T10:50:04+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/22/crypto-traders-price-india-telecoms-company-reliance-jio-s-ipo-at-about-usd110-billion",
-      "published": "2026-10-22T10:18:28+00:00",
       "relevance_score": 0
     },
     {
@@ -1931,19 +1931,6 @@
       "summary": "Spot bitcoin ETFs attracted $528 million on Wednesday as BlackRock and Fidelity led a recovery in institutional demand.",
       "link": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
       "published": "2026-10-22T09:56:16+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Live updates: Bitcoin falls back to $81,000, with interest rates tumbling as stocks crack",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
-      "published": "2026-10-22T09:54:26+00:00",
       "relevance_score": 0
     },
     {
