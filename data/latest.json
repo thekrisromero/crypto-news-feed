@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:42:01.771614+00:00",
+  "generated_at": "2026-10-24T18:40:46.085129+00:00",
   "lookback_days": 8,
   "total_items": 154,
   "feed_status": [
@@ -291,6 +291,31 @@
       "relevance_score": 2
     },
     {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Electrum Patches Wallet Flaw Exploited Through Malicious Servers",
+      "summary": "A malicious server can substitute a fake payment, then trick the user into signing it while raising the transaction fee. Developers say one user reported losing money.",
+      "link": "https://thedefiant.io/news/security/electrum-patches-wallet-flaw-exploited-through-malicious-servers",
+      "published": "2026-10-24T17:57:11+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot",
+      "summary": "Sweden's Government Offices will block ChatGPT and Claude on staff computers from Monday, steering civil servants to Microsoft Copilot as the only AI that passed its security review.",
+      "link": "https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude",
+      "published": "2026-10-24T16:01:03+00:00",
+      "relevance_score": 1
+    },
+    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -481,19 +506,6 @@
       "summary": "The Hoodi testnet fork is off after ChainSecurity found gas changes that could let contracts lock in failures, citing 13 real-world cases.",
       "link": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
       "published": "2026-10-23T11:49:37+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Socket Finds 16 Fake Rabby and OKX Wallet Extensions on Firefox",
-      "summary": "Mozilla had unpublished the add-ons by Oct. 5, the security firm says. Removing them does not secure wallets whose recovery phrases were exposed.",
-      "link": "https://thedefiant.io/news/security/socket-finds-16-fake-rabby-and-okx-wallet-extensions-on-firefox",
-      "published": "2026-10-23T10:52:49+00:00",
       "relevance_score": 1
     },
     {
@@ -707,19 +719,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto for Advisors: Stablecoins are ready for prime time",
-      "summary": "",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
-      "published": "2026-10-22T14:58:31+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
@@ -743,20 +742,6 @@
       "title": "Dune launches onchain trading data feeds as tokenized markets expand",
       "summary": "The new real-time market feeds will cover trade data from over 200 onchain venues across 12 blockchain networks.",
       "link": "https://www.theblock.co/news/business/2026-10-22-dune-onchain-trading-data-feeds-421889",
-      "published": "2026-10-22T12:00:00+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
-      "summary": "SoFi has launched SOFIE, a tokenized deposit offering 4.4% APY and FDIC insurance, with the option to convert to SoFiUSD.",
-      "link": "https://www.theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916",
       "published": "2026-10-22T12:00:00+00:00",
       "relevance_score": 1
     },
@@ -824,6 +809,85 @@
       "link": "https://www.bankless.com/read/pearls-ai-twist-on-bitcoin-mining",
       "published": "2026-10-16T20:26:09+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
+      "summary": "Spot bitcoin ETFs lost $773 million on Thursday and Friday after three days of net inflows, per SoSoValue data.",
+      "link": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
+      "published": "2026-10-24T17:44:36+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Google Quietly Updates Privacy Policy to Let Gmail and Photos Data Feed Ads",
+      "summary": "A policy change effective Oct. 16 carves out an exception to Google’s long-standing pledge—letting connected Gmail, Drive, and Photos data personalize ads through its Personal Intelligence AI features.",
+      "link": "https://decrypt.co/381775/google-quietly-updates-privacy-policy-gmail-photos-ads",
+      "published": "2026-10-24T17:01:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "ARB Touches Four-Week Low as Losses Outpace Bitcoin and Ether",
+      "summary": "OP and POL also lost more than a quarter over matched four-week windows, while Arbitrum One's active-address count rose.",
+      "link": "https://thedefiant.io/news/markets/arb-touches-four-week-low-as-losses-outpace-bitcoin-and-ether",
+      "published": "2026-10-24T16:50:46+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no ‘criminally relevant deception’",
+      "summary": "The judge's 60-page ruling concluded Argentine President Javier Milei's post promoting the LIBRA token did not, by itself, establish fraud.",
+      "link": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+      "published": "2026-10-24T16:24:13+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+      "published": "2026-10-24T16:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Ether Falls Below $2,300 as 28-Day Loss Reaches 14.7%",
+      "summary": "ETH lagged bitcoin by 9.15 percentage points over matched nearly four-week windows, while US ether ETFs recorded another outflow on Oct. 22.",
+      "link": "https://thedefiant.io/news/markets/ether-falls-below-2-300-as-28-day-loss-reaches-14-7",
+      "published": "2026-10-24T15:43:40+00:00",
+      "relevance_score": 0
     },
     {
       "source": "CoinDesk",
@@ -898,7 +962,7 @@
       ],
       "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
       "summary": "",
-      "link": "https://www.coindesk.com/",
+      "link": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
       "published": "2026-10-24T14:00:00+00:00",
       "relevance_score": 0
     },
@@ -1470,19 +1534,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Base Active Addresses Jump Another 50% as Transactions and Fees Fall",
-      "summary": "Transactions fell 8.7% and dollar-denominated user fees dropped 20% on Oct. 22 as a GMGN trading competition continued.",
-      "link": "https://thedefiant.io/news/blockchains/base-active-addresses-jump-another-50-as-transactions-and-fees-fall",
-      "published": "2026-10-23T10:08:51+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1505,19 +1556,6 @@
       "summary": "Thursday’s withdrawals ended a three-day inflow streak and left US spot Bitcoin ETFs with $175 million in net outflows for October.",
       "link": "https://cointelegraph.com/markets/bitcoin-etfs-erase-october-gains-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-10-23T07:09:39+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "CoinDCX Acknowledges Wallet-Sweeping Losses After Denying New Breach",
-      "summary": "The exchange says affected deposits were credited, but has not disclosed the size of its losses.",
-      "link": "https://thedefiant.io/news/hacks/coindcx-acknowledges-wallet-sweeping-losses-after-denying-new-breach",
-      "published": "2026-10-23T06:50:59+00:00",
       "relevance_score": 0
     },
     {
@@ -1803,18 +1841,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "What Is a Neocloud? The GPU Clouds Powering the AI Boom",
-      "summary": "Neoclouds like CoreWeave and Nebius rent Nvidia GPUs to AI labs, and several started out mining crypto. Here's how the AI cloud model works.",
-      "link": "https://decrypt.co/resources/what-is-a-neocloud-the-gpu-clouds-powering-the-ai-boom",
-      "published": "2026-10-22T15:45:07+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1825,18 +1851,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures",
       "published": "2026-10-22T15:40:25+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Major Banks Find Rogue AI Agents Inside Customer Accounts—And They’re 'Horrified'",
-      "summary": "Major banks including Morgan Stanley, JPMorgan, Bank of America, and Citi are moving to restrict third-party AI agents that log in with customers’ credentials.",
-      "link": "https://decrypt.co/381602/banks-rogue-ai-agents-inside-customer-accounts",
-      "published": "2026-10-22T15:24:18+00:00",
       "relevance_score": 0
     },
     {
@@ -1917,20 +1931,6 @@
       "summary": "Michael Saylor’s Strategy forecasted that it would taper STRC buybacks as the price rose, but then spent $193M on buybacks. The post Strategy spent record cash on STRC buybacks at its worst price yet appeared first on Protos .",
       "link": "https://protos.com/strategy-spent-record-cash-on-strc-buybacks-at-its-worst-price-yet/",
       "published": "2026-10-22T12:00:17+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitcoin ETFs draw $528 million as ether funds snap five-day outflow streak",
-      "summary": "Spot bitcoin ETFs attracted $528 million on Wednesday as BlackRock and Fidelity led a recovery in institutional demand.",
-      "link": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
-      "published": "2026-10-22T09:56:16+00:00",
       "relevance_score": 0
     },
     {
