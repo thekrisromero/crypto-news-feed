@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T20:57:12.906816+00:00",
+  "generated_at": "2026-10-27T04:31:33.411627+00:00",
   "lookback_days": 8,
-  "total_items": 154,
+  "total_items": 155,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 19
+      "kept": 20
     },
     {
       "name": "Decrypt",
@@ -81,16 +81,56 @@
   ],
   "items": [
     {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Ripple gains final OCC approval to launch national trust bank and bring RLUSD under federal oversight",
+      "summary": "Ripple's structure places reserve management and custody under federal supervision while leaving issuance with the New York-regulated entity.",
+      "link": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810",
+      "published": "2026-10-27T02:28:18+00:00",
+      "relevance_score": 3
+    },
+    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
         "breaking",
         "global"
       ],
-      "title": "Initia halts blockchain after exploit reportedly drains over $2.6M",
-      "summary": "The blockchain suspended its layer-1 network and rollups after security researchers identified unauthorized token minting and millions in assets transferred to Ethereum.",
-      "link": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-23T18:39:02+00:00",
+      "title": "Ripple wins final US approval for national trust bank",
+      "summary": "The approval clears the way for Ripple to manage reserves backing its RLUSD stablecoin and provide digital asset custody.",
+      "link": "https://cointelegraph.com/news/ripple-wins-final-us-approval-for-national-trust-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-27T00:06:41+00:00",
+      "relevance_score": 3
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Ripple Wins Final OCC Trust Bank Approval for RLUSD Reserves and Custody",
+      "summary": "RLUSD will retain its New York-regulated issuer while the national trust bank manages reserves and provides fiduciary digital asset custody.",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/ripple-wins-final-occ-trust-bank-approval-for-rlusd-reserves-and-custody",
+      "published": "2026-10-26T23:37:47+00:00",
+      "relevance_score": 3
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "US OCC calls on community banks to become payment stablecoin issuers",
+      "summary": "The announcement followed the banking regulator finalizing its rules for the GENIUS Act, a stablecoin law to be implemented in January",
+      "link": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-26T21:38:30+00:00",
       "relevance_score": 3
     },
     {
@@ -105,6 +145,20 @@
       "link": "https://coincenter.org/comment-of-coin-center-to-the-department-of-the-treasury-on-genius-act-regulations-on-payment-stablecoin-issuance-offer-and-sale/",
       "published": "2026-10-20T00:36:06+00:00",
       "relevance_score": 3
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "BlackRock joins SBI and Startale to link tokenized MMFs with Japanese yen stablecoins",
+      "summary": "BlackRock, SBI Holdings, and Startale will explore connecting tokenized money market funds with SBI's Japanese yen-pegged stablecoin JPYSC.",
+      "link": "https://www.theblock.co/news/business/2026-10-26-blackrock-sbi-startale-mou-431642",
+      "published": "2026-10-27T01:00:00+00:00",
+      "relevance_score": 2
     },
     {
       "source": "The Defiant",
@@ -262,6 +316,58 @@
       "link": "https://www.ledgerinsights.com/sofi-launches-retail-tokenized-deposits-paying-4-4/",
       "published": "2026-10-22T17:49:21+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "StoneX lifts Strive price target 34% as new stock offering bolsters bitcoin strategy",
+      "summary": "StoneX has raised its price target for bitcoin treasury company Strive to $43 from $32 and reiterated its Buy rating on the stock.",
+      "link": "https://www.theblock.co/news/business/2026-10-26-stonex-lifts-strive-price-target-431818",
+      "published": "2026-10-27T03:58:07+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Keystone breach deepens: Hackers stole key used to verify wallets as genuine",
+      "summary": "Keystone initially disclosed a leak of customer information but has since disclosed that hackers also stole a key that could allow counterfeit wallets to pass authenticity checks.",
+      "link": "https://cointelegraph.com/news/keystone-breach-deepens-hackers-stole-key-used-to-verify-wallets-as-genuine?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-27T01:55:03+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Canada’s Draft Stablecoin Rules Cap Redemption Fees at 1% and Ban Yield",
+      "summary": "Ottawa opened a 60-day consultation on draft rules requiring one-to-one reserves and fast redemption from stablecoin issuers, while keeping the ban on paying holders interest.",
+      "link": "https://decrypt.co/381889/canada-draft-stablecoin-rules-redemption-fees-ban-yield",
+      "published": "2026-10-26T22:16:03+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Bitso Brings Morpho Lending to Its App With Bóvedas",
+      "summary": "The product moves USDC and peso-pegged MXNB into noncustodial lending vaults, with variable returns and no deposit insurance.",
+      "link": "https://thedefiant.io/news/defi/bitso-brings-morpho-lending-to-its-app-with-b-vedas",
+      "published": "2026-10-26T21:10:26+00:00",
+      "relevance_score": 1
     },
     {
       "source": "Decrypt",
@@ -470,19 +576,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "How a DAO Vote Becomes a Treasury Transfer",
-      "summary": "Uniswap’s executed funding proposal shows the difference between a sentiment poll, a binding vote and the contract authorized to release tokens.",
-      "link": "https://thedefiant.io/news/defi/how-a-dao-vote-becomes-a-treasury-transfer",
-      "published": "2026-10-25T17:15:46+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -492,19 +585,6 @@
       "summary": "Twenty-two companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, after Wells Fargo, Cisco, Marvell, Arm, Moderna. and Intuit joined the list.",
       "link": "https://decrypt.co/381784/wells-fargo-cisco-intuit-more-companies-object-tokenized-stocks",
       "published": "2026-10-25T16:01:03+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Why Tokenized Stocks Can Trade Away From the Share Price",
-      "summary": "A closed-market buy-and-exit example shows how spreads and trade size affect execution. Minting and redemption follow a separate clock.",
-      "link": "https://thedefiant.io/news/markets/why-tokenized-stocks-can-trade-away-from-the-share-price",
-      "published": "2026-10-25T13:15:20+00:00",
       "relevance_score": 1
     },
     {
@@ -568,47 +648,6 @@
       "summary": "Research showing two of Glamsterdam’s gas changes could alter how deployed contracts behave has pulled the upgrade’s Hoodi fork, with no new date set.",
       "link": "https://www.bankless.com/read/news/ethereum-devs-postpone-glamsterdam-on-hoodi-over-contract-security-risks",
       "published": "2026-10-23T17:24:24+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Initia halts network after security incident as attacker reportedly mints tokens",
-      "summary": "Onchain data shows a $2.7 million ether transfer as Initia investigates the scope of a security incident.",
-      "link": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755",
-      "published": "2026-10-23T17:03:56+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "SEC flags tokenization as high-risk area in 2027 market examinations",
-      "summary": "The SEC’s latest priorities highlight tokenization as an emerging market risk, while cryptocurrencies remain absent as a standalone examination category.",
-      "link": "https://cointelegraph.com/news/sec-adds-tokenized-securities-to-2027-examination-priorities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-23T16:08:40+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Phantom rolls out Kalshi prediction markets to US users, says it’s ‘confident and comfortable’ amid state lawsuits",
-      "summary": "Phantom users will fund trades with CASH stablecoins, with market restrictions applied in Michigan, Nevada and Washington.",
-      "link": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652",
-      "published": "2026-10-23T13:00:00+00:00",
       "relevance_score": 1
     },
     {
@@ -677,17 +716,93 @@
       "relevance_score": 1
     },
     {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Ripple gets a final go-ahead to launch its own U.S. national trust bank",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank",
+      "published": "2026-10-27T04:28:49+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Osmosis Ends OSMO Inflation, Shifting Staking Rewards to Revenue",
+      "summary": "The change removes an estimated two percentage points of issuance-funded staking APR and freezes about 51.9 million pre-minted developer tokens.",
+      "link": "https://thedefiant.io/news/defi/osmosis-ends-osmo-inflation-shifting-staking-rewards-to-revenue",
+      "published": "2026-10-26T21:53:17+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "OpenAI Launches GPT-6.1 Terra, Its Half-Good AI Model at Half the Price",
+      "summary": "OpenAI's mid-tier model now operates apps and screens more like a person would, with API prices 50% below GPT-5.6 Terra and an error rate that OpenAI says fell sharply.",
+      "link": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price",
+      "published": "2026-10-26T21:46:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Akash Opens Vote to Move From Cosmos to Solana",
+      "summary": "Prop 346 would authorize a one-way AKT token conversion, while staking rewards would end at a later marketplace cutover requiring another vote.",
+      "link": "https://thedefiant.io/news/blockchains/akash-opens-vote-to-move-from-cosmos-to-solana",
+      "published": "2026-10-26T21:39:27+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Injective launches onchain futures market tracking Nvidia GPU rental costs",
+      "summary": "The new index tracks rental prices for five Nvidia GPUs, offering leveraged trading and potential hedging against fluctuations in AI computing costs.",
+      "link": "https://cointelegraph.com/news/injective-launches-onchain-futures-market-tracking-nvidia-gpu-rental-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-26T21:23:32+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Unitree Stock Jumps as Investors Bet Chatbot AI Will Finally Give Robots a Brain",
+      "summary": "Unitree's shares have jumped about 60% in under two weeks as investors bet OpenAI's GPT-6 Astra will give robots the brains they lack, turning the stock into an AI proxy.",
+      "link": "https://decrypt.co/381871/unitree-stock-jumps-investors-bet-chatbot-ai-robots-brain",
+      "published": "2026-10-26T21:16:03+00:00",
+      "relevance_score": 0
+    },
+    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
         "smart-contracts",
         "defi"
       ],
-      "title": "Vitalik Pushes EIP-8288 Over New Precompiles",
-      "summary": "Vitalik says EIP-8288, and not a growing pile of precompiles, should carry Ethereum's cryptography going forward.",
-      "link": "https://www.bankless.com/read/news/vitalik-pushes-eip-8288-over-new-precompiles",
-      "published": "2026-10-19T18:25:11+00:00",
-      "relevance_score": 1
+      "title": "🏴 Rising Onchain Inference Markets",
+      "summary": "Orbio, Surplus Intelligence, and Antseed all sell cheaper AI onchain. Here's how they're setting themselves apart.",
+      "link": "https://www.bankless.com/read/rising-onchain-inference-markets",
+      "published": "2026-10-26T21:15:24+00:00",
+      "relevance_score": 0
     },
     {
       "source": "Bankless",
@@ -1479,19 +1594,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Foundation Links Passport Phishing Emails to Compromised Cloudflare API Keys",
-      "summary": "Recipients reported personal and purchase details in the messages; the company said Passport hardware and funds were safe.",
-      "link": "https://thedefiant.io/news/security/foundation-links-passport-phishing-emails-to-compromised-cloudflare-api-keys",
-      "published": "2026-10-26T04:06:03+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1529,19 +1631,6 @@
       "summary": "CEO Sumit Gupta had told X users on Wednesday that early reports of a breach sounded like \"a false alarm.\"",
       "link": "https://www.theblock.co/news/business/2026-10-25-coindcx-confirms-16-million-loss-from-retired-wallets-days-after-ceo-called-breach-reports-a-false-alarm-431617",
       "published": "2026-10-25T18:46:21+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "How to Check a Software Wallet—and What the Checks Cannot Prove",
-      "summary": "Fake Firefox extensions targeted recovery phrases; Electrum patched a genuine-client flaw that could trick users into signing a substituted payment.",
-      "link": "https://thedefiant.io/news/security/how-to-check-a-software-wallet-and-what-the-checks-cannot-prove",
-      "published": "2026-10-25T17:14:42+00:00",
       "relevance_score": 0
     },
     {
@@ -1714,56 +1803,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
-      "published": "2026-10-24T14:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
-      "summary": "Days before Israel’s election, Netanyahu said he has asked for a blockchain plan in case banks are hit with sanctions, and told Israelis to prepare for a rainy day after Trump.",
-      "link": "https://decrypt.co/381758/netanyahu-crypto-plan-banking-sanctions-israel",
-      "published": "2026-10-23T21:16:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "IRS plans lower tax disclosure penalties, including for crypto: Forbes",
-      "summary": "The US tax agency is targeting faster resolutions and more flexible payment options for taxpayers voluntarily disclosing past tax violations under a planned program overhaul.",
-      "link": "https://cointelegraph.com/news/irs-plans-lower-penalties-for-crypto-tax-disclosures-forbes-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-23T20:54:17+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Senate Democrat Probes Tether Payments to Ex-White House Crypto Adviser’s Firm",
-      "summary": "Sen. Richard Blumenthal demanded Tether’s records on payments to Nxum, a firm co-owned by former White House crypto adviser Bo Hines.",
-      "link": "https://decrypt.co/381755/senate-democrat-tether-payments-ex-white-house-crypto-adviser",
-      "published": "2026-10-23T20:16:02+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
@@ -1774,18 +1813,6 @@
       "summary": "As AI makes bugs cheap to find, crypto is splitting between agility and minimalism.",
       "link": "https://www.bankless.com/read/crypto-s-two-answers-to-ai-bug-hunters",
       "published": "2026-10-23T20:01:46+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "SpaceX Filing Gives Elon Musk the Final Word on Tesla Merger He Says He’s Staying Out Of",
-      "summary": "SpaceX’s latest 10-Q filing quietly confirms any Tesla combination requires sign-off from its “controlling shareholder.”",
-      "link": "https://decrypt.co/381753/spacex-filing-elon-musk-final-word-tesla-merger",
-      "published": "2026-10-23T19:36:02+00:00",
       "relevance_score": 0
     },
     {
@@ -1840,19 +1867,6 @@
       "summary": "Sen. Blumenthal said he wants answers from Tether following reports that it paid millions to a firm started by a former WH crypto adviser.",
       "link": "https://www.theblock.co/news/regulation/2026-10-23-sen-blumenthal-seeks-answers-tether-payments-firm-founded-ex-white-house-crypto-adviser-427785",
       "published": "2026-10-23T17:46:09+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "US senator probes Tether after reported deal with ex-Trump crypto adviser",
-      "summary": "The Democratic ranking member of the Senate Permanent Subcommittee on Investigations asked Paolo Ardoino for records related to a reported deal between Tether and Nxum.",
-      "link": "https://cointelegraph.com/news/us-senator-probe-bo-hines-trump-crypto-adviser-tether-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-23T17:42:12+00:00",
       "relevance_score": 0
     },
     {
