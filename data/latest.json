@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-27T20:32:08.317357+00:00",
+  "generated_at": "2026-10-28T05:03:14.228274+00:00",
   "lookback_days": 8,
-  "total_items": 156,
+  "total_items": 155,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -61,7 +61,7 @@
     {
       "name": "Coin Center",
       "url": "https://www.coincenter.org/feed/",
-      "kept": 1
+      "kept": 0
     },
     {
       "name": "Bankless",
@@ -170,17 +170,17 @@
       "relevance_score": 3
     },
     {
-      "source": "Coin Center",
-      "tier": 5,
+      "source": "CoinTelegraph",
+      "tier": 1,
       "topics": [
-        "regulation",
-        "policy"
+        "breaking",
+        "global"
       ],
-      "title": "Comment of Coin Center to the Department of the Treasury on GENIUS Act Regulations on Payment Stablecoin Issuance, Offer, and Sale",
-      "summary": "A PDF version of this filing is available here. TREAS-DO-2026-0496 To whom it may concern: Coin Center is an independent nonprofit research and advocacy center focused on the public policy issues facing cryptocurrency technologies such as Bitcoin and Ethereum. Our mission is to build a better understanding of these technologies and to promote a regulatory [&#8230;] The post Comment of Coin Center to the Department of the Treasury on GENIUS Act Regulations on Payment Stablecoin Issuance, Offer, and Sale appeared first on Coin Center .",
-      "link": "https://coincenter.org/comment-of-coin-center-to-the-department-of-the-treasury-on-genius-act-regulations-on-payment-stablecoin-issuance-offer-and-sale/",
-      "published": "2026-10-20T00:36:06+00:00",
-      "relevance_score": 3
+      "title": "Robinhood’s Tenev warns US tokenization uncertainty deters ‘serious assets’",
+      "summary": "Robinhood CEO Vlad Tenev says tokenized equities need more than a temporary SEC exemption to flourish in the US.",
+      "link": "https://cointelegraph.com/news/robinhoods-tenev-warns-us-tokenization-uncertainty-deters-serious-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-28T03:55:57+00:00",
+      "relevance_score": 2
     },
     {
       "source": "CoinTelegraph",
@@ -249,19 +249,6 @@
       "relevance_score": 2
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Janus Henderson Announces Tokenized Nasdaq-100 Fund on Stellar",
-      "summary": "JQQQ targets non-US professional investors with a 100,000 USDC minimum, while Centrifuge's investment portal says subscriptions are not yet open.",
-      "link": "https://thedefiant.io/converge/defi/janus-henderson-announces-tokenized-nasdaq-100-fund-on-stellar",
-      "published": "2026-10-27T13:14:44+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -301,29 +288,43 @@
       "relevance_score": 2
     },
     {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Tranche Vault on Avalanche Drained of 1.01 Million USDC",
+      "summary": "Blockaid says a flash loan let the attacker mint inflated tranche shares and redeem the vault's USDC. A balance check showed none left in the identified contract.",
+      "link": "https://thedefiant.io/news/hacks/tranche-vault-on-avalanche-drained-of-1-01-million-usdc",
+      "published": "2026-10-28T01:11:39+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Solflare Validator Stops Earning Rewards After Provider Security Incident",
+      "summary": "Validator trackers show about 1.56 million SOL staked with the node. Solflare says user funds are safe and is preparing an in-app migration.",
+      "link": "https://thedefiant.io/news/security/solflare-validator-stops-earning-rewards-after-provider-security-incident",
+      "published": "2026-10-28T00:29:33+00:00",
+      "relevance_score": 1
+    },
+    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
         "breaking",
         "global"
       ],
-      "title": "Canada opens consultation on stablecoins, citing US GENIUS Act",
-      "summary": "As part of the potential implementation of its Stablecoin Act, the Canadian government will hear from the public on a proposed framework for tokens from non-financial institutions.",
-      "link": "https://cointelegraph.com/news/canada-consultation-stablecoins-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-26T19:47:40+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "India’s CoinDCX Confirms $16 Million Loss Days After CEO Called It a ‘False Alarm’",
-      "summary": "The Mumbai-based exchange says 15.99 million USDT was drained from wallets it retired after last year’s $44 million hack, bringing its combined losses to nearly $60 million—and it’s absorbing the hit.",
-      "link": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm",
-      "published": "2026-10-26T16:36:03+00:00",
-      "relevance_score": 2
+      "title": "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks",
+      "summary": "More than 40% of the companies initially proposed to have their stocks listed in tokenized form have asked to opt-out.",
+      "link": "https://cointelegraph.com/news/intel-ibm-oracle-ionq-object-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-27T21:26:41+00:00",
+      "relevance_score": 1
     },
     {
       "source": "CoinDesk",
@@ -332,25 +333,24 @@
         "general",
         "policy"
       ],
-      "title": "OCC calls on community banks to enter the stablecoin payments market",
+      "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
-      "published": "2026-10-26T15:45:51+00:00",
-      "relevance_score": 2
+      "link": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+      "published": "2026-10-27T20:41:33+00:00",
+      "relevance_score": 1
     },
     {
-      "source": "The Block",
+      "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
-        "institutional",
-        "policy",
-        "research"
+        "breaking",
+        "global"
       ],
-      "title": "Tom Lee insists ‘crypto bull market is underway’ as Bitmine adds 10,452 ETH",
-      "summary": "The company's combined crypto, cash, marketable securities, and other investments totaled $15 billion as of Oct. 25.",
-      "link": "https://www.theblock.co/news/business/2026-10-26-tom-lee-insists-crypto-bull-market-is-underway-as-bitmine-adds-10452-eth-431743",
-      "published": "2026-10-26T14:12:59+00:00",
-      "relevance_score": 2
+      "title": "Quantum fears already limiting Bitcoin’s growth, Stacks founder says",
+      "summary": "Speaking on Cointelegraph’s Chain Reaction podcast, Muneeb Ali warned that uncertainty over Bitcoin’s quantum security could deter institutional investors.",
+      "link": "https://cointelegraph.com/news/quantum-fears-already-limiting-bitcoins-growth-stacks-founder-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-27T20:33:19+00:00",
+      "relevance_score": 1
     },
     {
       "source": "Decrypt",
@@ -676,19 +676,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Canada opens consultation on draft stablecoin rules, maintains ban on yields",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
-      "published": "2026-10-26T14:23:41+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
@@ -726,6 +713,201 @@
       "link": "https://www.bankless.com/read/news/pump-fun-ditches-relay-for-in-house-pump-bridge",
       "published": "2026-10-22T12:27:36+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
+      "published": "2026-10-28T04:15:20+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Coinbase Denies Systems Breach, Cites Amplitude Contact-Data Incident",
+      "summary": "The exchange says customer funds were unaffected and it is notifying impacted users and regulators.",
+      "link": "https://thedefiant.io/news/cefi/coinbase-denies-systems-breach-cites-amplitude-contact-data-incident",
+      "published": "2026-10-28T03:16:33+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Coinbase says user funds are safe after third-party vendor exposes customer contact info",
+      "summary": "",
+      "link": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
+      "published": "2026-10-28T03:11:14+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Datavault AI stock plummets 50% after firm says it cannot withdraw bitcoin tied to $150 million deal",
+      "summary": "The issue centers on a deal with Scilex, under which Scilex agreed to buy shares of Datavault AI for $150 million, payable in bitcoin.",
+      "link": "https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962",
+      "published": "2026-10-28T03:00:33+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Bithumb discloses data leak after internal system breach: Report",
+      "summary": "The breach impacted its in-house mobile system, used by employees for work and information sharing.",
+      "link": "https://cointelegraph.com/news/bithumb-discloses-data-leak-after-internal-system-breach-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-28T02:18:47+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Datavault Shares Plunge Nearly 50% After Biconomy Bitcoin Disclosure",
+      "summary": "The company plans to restate four financial periods and expects to remove $49 million from its June 2026 assets after reassessing a bitcoin-funded equity deal.",
+      "link": "https://thedefiant.io/converge/cefi/datavault-shares-plunge-nearly-50-after-biconomy-bitcoin-disclosure",
+      "published": "2026-10-28T00:56:05+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Discord is making public chats searchable on Google: How to opt out",
+      "summary": "Discord conversations on large public servers will soon reach audiences far beyond their communities, raising privacy concerns.",
+      "link": "https://cointelegraph.com/news/discord-is-making-public-chats-searchable-on-google-how-to-opt-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-28T00:47:04+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "IPX Names Ja Rule President of Its Celebrity Board of Advisors and Founding Member",
+      "summary": "IPX has named Ja Rule President of its Celebrity Board of Advisors and a founding shareholder. The GRAMMY-nominated artist is also a celebrity co-founder of IPX, an agentic operating system for intellectual property.",
+      "link": "https://thedefiant.io/news/tradfi-and-fintech/ipx-names-ja-rule-president-celebrity-board-of-advisors",
+      "published": "2026-10-28T00:12:35+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure",
+      "summary": "VanEck’s new Wealth Builder ETF targets a 2% Bitcoin allocation, with a permitted range of 1% to 5%, gaining exposure through a spot Bitcoin ETP.",
+      "link": "https://cointelegraph.com/news/vaneck-launches-diversified-etf-combining-stocks-bonds-and-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-10-27T21:28:22+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "China's Stock Market Has Lost $2.4 Trillion as Investors Doubt Its AI Boom Will Ever Pay Off",
+      "summary": "Stocks on China's mainland have shed about $2.4 trillion since May as investors doubt AI companies can turn a profit, while U.S. restrictions and high U.S. interest rates add pressure.",
+      "link": "https://decrypt.co/381992/china-stock-market-lost-2-4-trillion-investors-doubt-ai-boom",
+      "published": "2026-10-27T21:16:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Robinhood Chain brings in $26 million as crypto revenue rises 20% in Q3",
+      "summary": "Robinhood’s blockchain boosted crypto revenue, while prediction markets brought in $173 million in the third quarter.",
+      "link": "https://www.theblock.co/news/business/2026-10-27-robinhood-chain-brings-in-26-million-crypto-revenue-rises-20-q2-431935",
+      "published": "2026-10-27T20:55:35+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Liquid Reserve Gap Narrows to 600 BTC After Test Transfer",
+      "summary": "Samson Mow says the remaining funds will arrive in coming days; the federation's recovery plan requires full backing before direct peg-outs resume.",
+      "link": "https://thedefiant.io/news/security/liquid-reserve-gap-narrows-to-600-btc-after-test-transfer",
+      "published": "2026-10-27T20:45:58+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Robinhood Misses Q3 Earnings as Crypto Revenue Rises and Prediction Market Bets Grow",
+      "summary": "Robinhood posted record revenue of $1.42 billion but earned $0.51 per share, short of the $0.55 expected, as bets on sports and elections grew to $173 million and crypto edged up.",
+      "link": "https://decrypt.co/382004/robinhood-misses-q3-earnings-crypto-prediction-markets",
+      "published": "2026-10-27T20:42:11+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Polymarket Adds Five-Minute Crypto Contracts to US App",
+      "summary": "The BTC, ETH, SOL and XRP markets use CF Benchmarks prices, with ties settling Up and taker fees charged separately from the spread.",
+      "link": "https://thedefiant.io/news/defi/polymarket-adds-five-minute-crypto-contracts-to-us-app",
+      "published": "2026-10-27T20:38:21+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/10/27/robinhood-s-crypto-revenue-plunges-55-even-as-trading-platform-posts-record-sales",
+      "published": "2026-10-27T20:32:21+00:00",
+      "relevance_score": 0
     },
     {
       "source": "The Defiant",
@@ -1275,19 +1457,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "SoFi Reports $161.6 Million in Q3 Crypto Revenue, $1.6 Million Net",
-      "summary": "Net crypto transaction revenue rose 38% from Q2 but represented just 0.3% of the bank operator's financial-services segment revenue.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/sofi-reports-161-6-million-in-q3-crypto-revenue-1-6-million-net",
-      "published": "2026-10-27T12:57:21+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1323,19 +1492,6 @@
       "summary": "NIP Group says Bitcoin mining has “earned its place” as the esports giant swaps 247 million shares for more machines.",
       "link": "https://decrypt.co/381906/why-this-team-of-ninjas-is-tripling-down-on-mining-bitcoin",
       "published": "2026-10-27T11:46:51+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "AI Agents Approved Their Own Spending Increases on Circle Agent Wallets",
-      "summary": "Researchers gave frontier models a capped Circle agent wallet and access to the inbox that receives its one-time codes. Most of them approved their own spending increase",
-      "link": "https://thedefiant.io/news/security/ai-models-raised-own-crypto-spending-caps-cornell-i-hitl",
-      "published": "2026-10-27T11:40:52+00:00",
       "relevance_score": 0
     },
     {
@@ -1392,32 +1548,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "SlowMist Finds Data-Stealing and Address-Swapping Code in Udesk Scripts",
-      "summary": "The payload can alter both displayed and copied crypto deposit addresses, while its data collection extends beyond three site-specific targeting rules.",
-      "link": "https://thedefiant.io/news/security/slowmist-finds-data-stealing-and-address-swapping-code-in-udesk-scripts",
-      "published": "2026-10-27T10:27:35+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Marinade Waives Bond Charges for Agave Slot-Skipping Bug",
-      "summary": "The exemption covers first-window slots in PSR and SAM calculations, while a repair is included in an Agave 4.4 release candidate.",
-      "link": "https://thedefiant.io/news/infrastructure/marinade-waives-bond-charges-for-agave-slot-skipping-bug",
-      "published": "2026-10-27T10:08:39+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1444,19 +1574,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Strategy Shareholders to Vote on Daily STRC Dividends",
-      "summary": "The Oct. 28 proposal covers four preferred stocks and needs a majority of all outstanding common voting power; abstentions and broker non-votes count against it.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/strategy-shareholders-to-vote-on-daily-strc-dividends",
-      "published": "2026-10-27T09:38:37+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1467,19 +1584,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/10/27/an-ai-label-alone-no-longer-wins-lenders-jpmorgan-says",
       "published": "2026-10-27T08:24:39+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Binance Seeks Brazil Crypto License as It Delists 22 Tokens",
-      "summary": "Lending and margin restrictions take effect Oct. 27, while an on-time application allows existing providers to operate during the central bank's review.",
-      "link": "https://thedefiant.io/news/regulation/binance-seeks-brazil-crypto-license-as-it-delists-22-tokens",
-      "published": "2026-10-27T08:20:29+00:00",
       "relevance_score": 0
     },
     {
@@ -1673,19 +1777,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "AI company Anthropic announces IPO, expected as early as November",
-      "summary": "The artificial intelligence company disclosed more than $16 billion in revenue and an $80 billion net loss for the first half of 2026.",
-      "link": "https://cointelegraph.com/news/anthropic-artificial-intelligence-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-26T18:42:41+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1739,19 +1830,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal",
-      "summary": "The US professional basketball league is expanding into prediction markets with official data agreements and safeguards against insider trading.",
-      "link": "https://cointelegraph.com/news/nba-names-kalshi-polymarket-preferred-exchanges-signs-cftc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-26T17:46:09+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1763,20 +1841,6 @@
       "summary": "Bernstein cuts Coinbase’s target while raising Circle’s as new products shift their earnings outlook.",
       "link": "https://www.theblock.co/news/markets/2026-10-26-prediction-markets-derivatives-drive-bernstein-crypto-stock-outlook-coinbase-robinhood-circle-431750",
       "published": "2026-10-26T16:36:43+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "NBA becomes third league to sign CFTC prediction market pact, taps Kalshi and Polymarket",
-      "summary": "The CFTC and NBA have agreed to put in place standards to protect the integrity of the game when it comes to prediction markets.",
-      "link": "https://www.theblock.co/news/regulation/2026-10-26-nba-cftc-memorandum-of-understanding-prediction-markets-kalshi-polymarket-431764",
-      "published": "2026-10-26T16:27:37+00:00",
       "relevance_score": 0
     },
     {
@@ -1793,19 +1857,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "South Korea lawmakers mull pushing crypto tax implementation to 2029",
-      "summary": "The Seoul government is reportedly weighing another delay for a 2020 income tax policy on digital assets, citing concerns with receiving data from US officials.",
-      "link": "https://cointelegraph.com/news/south-korea-implementation-crypto-tax-2029?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-26T16:18:09+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1816,18 +1867,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
       "published": "2026-10-26T16:05:12+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Brazil’s Stock Market Crashes After Lula’s Upset Victory",
-      "summary": "The iShares Brazil ETF fell as much as 26% after Lula da Silva beat Flávio Bolsonaro, who prediction markets had at 80%, while the dollar jumped as much as 12% against the real.",
-      "link": "https://decrypt.co/381828/brazil-stock-market-crashes-lula-upset-victory",
-      "published": "2026-10-26T16:04:51+00:00",
       "relevance_score": 0
     },
     {
@@ -1844,32 +1883,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts",
-      "summary": "The agreement adds S&amp;P Dow Jones gauges to a growing list of Wall Street firms expanding their involvement in prediction markets.",
-      "link": "https://cointelegraph.com/news/sp-dow-jones-partners-with-kalshi-to-bring-financial-benchmarks-to-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-26T15:54:15+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
-      "published": "2026-10-26T14:51:07+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1880,32 +1893,6 @@
       "summary": "Arthur Hayes wrote in August 2025 that ENA “can 51x from the current levels.” Saturday, he said he dumped it 98% below his profit target. The post Arthur Hayes sold ENA 98% below his profit target appeared first on Protos .",
       "link": "https://protos.com/arthur-hayes-sold-ena-98-below-his-profit-target/",
       "published": "2026-10-26T14:50:58+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "PHP flaw shows AI ‘vulnerability apocalypse’ is on schedule: Immunefi CEO",
-      "summary": "Mitchell Amador warned internet users that websites could remain compromised for weeks, particularly smaller websites slower to adopt the emergency upgrades.",
-      "link": "https://cointelegraph.com/news/php-flaw-ai-vulnerability-apocalypse-immunefi-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-10-26T14:25:22+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "AI giant Anthropic files for blockbuster IPO",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo",
-      "published": "2026-10-26T13:22:09+00:00",
       "relevance_score": 0
     },
     {
