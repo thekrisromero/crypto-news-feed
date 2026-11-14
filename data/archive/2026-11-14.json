@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T11:18:42.984771+00:00",
+  "generated_at": "2026-11-14T17:50:55.724857+00:00",
   "lookback_days": 8,
-  "total_items": 156,
+  "total_items": 155,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -61,7 +61,7 @@
     {
       "name": "Coin Center",
       "url": "https://www.coincenter.org/feed/",
-      "kept": 1
+      "kept": 0
     },
     {
       "name": "Bankless",
@@ -107,16 +107,18 @@
       "relevance_score": 2
     },
     {
-      "source": "Decrypt",
+      "source": "The Block",
       "tier": 1,
       "topics": [
-        "general"
+        "institutional",
+        "policy",
+        "research"
       ],
-      "title": "Anchorage Digital’s Stablecoins Can Now Settle Payments on Visa’s Network",
-      "summary": "Visa and eligible companies can now use Western Union’s USDPT—issued and custodied by the federally chartered Anchorage Digital Bank—to settle VisaNet obligations.",
-      "link": "https://decrypt.co/383098/anchorage-digital-stablecoins-settle-payments-visa-network",
-      "published": "2026-11-12T16:01:03+00:00",
-      "relevance_score": 2
+      "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+      "summary": "U.S. spot crypto ETFs lost about $1.55 billion combined, and Avalanche funds' $227,000 was the only weekly inflow among the 15 categories SoSoValue tracks.",
+      "link": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+      "published": "2026-11-14T17:50:41+00:00",
+      "relevance_score": 1
     },
     {
       "source": "Decrypt",
@@ -124,24 +126,37 @@
       "topics": [
         "general"
       ],
-      "title": "Tether Gold Gets Clean KPMG Audit Confirming $2.2B in Physical Gold Backing",
-      "summary": "KPMG counted every gold bar behind XAUT, making it Tether's second stablecoin to complete a full audit by a Big Four accounting firm.",
-      "link": "https://decrypt.co/383137/tether-gold-gets-clean-kpmg-audit-confirming-2-2b-in-physical-gold-backing",
-      "published": "2026-11-12T15:55:38+00:00",
-      "relevance_score": 2
+      "title": "What Is Canton Network? The Privacy Blockchain Built for Wall Street",
+      "summary": "Canton Network is a privacy-enabled blockchain built for banks and tokenized assets. Here's how it works and what Canton Coin (CC) does.",
+      "link": "https://decrypt.co/resources/what-is-canton-network-the-privacy-blockchain-built-for-wall-street",
+      "published": "2026-11-14T16:01:02+00:00",
+      "relevance_score": 1
     },
     {
-      "source": "Coin Center",
-      "tier": 5,
+      "source": "CoinDesk",
+      "tier": 1,
       "topics": [
-        "regulation",
+        "general",
         "policy"
       ],
-      "title": "Treasury and the Federal Reserve withdraw another 2020 financial surveillance proposal",
-      "summary": "Treasury and the Federal Reserve are withdrawing another long-pending rulemaking that would have expanded financial surveillance of cryptocurrency users. In October 2020, FinCEN and the Federal Reserve jointly proposed lowering from $3,000 to $250 the threshold at which financial institutions must collect, retain, and transmit information about certain funds transfers that begin or end outside [&#8230;] The post Treasury and the Federal Reserve withdraw another 2020 financial surveillance proposal appeared first on Coin Center .",
-      "link": "https://coincenter.org/treasury-and-the-federal-reserve-withdraw-another-2020-financial-surveillance-proposal/",
-      "published": "2026-11-06T13:55:00+00:00",
-      "relevance_score": 2
+      "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale",
+      "published": "2026-11-14T15:38:27+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
+      "published": "2026-11-14T15:00:00+00:00",
+      "relevance_score": 1
     },
     {
       "source": "The Defiant",
@@ -434,18 +449,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Tron, Tether and Chainalysis Form a New Crypto-Crime Task Force—Replacing One That Just Collapsed",
-      "summary": "The Digital Crime Task Force aims to proactively trace illicit USDT on Tron and freeze funds before they move—just weeks after the trio’s near-identical T3 unit, built with rival firm TRM Labs, quietly collapsed.",
-      "link": "https://decrypt.co/383139/tron-tether-chainalysis-new-crypto-crime-task-force-replacing-trm",
-      "published": "2026-11-12T16:36:02+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
@@ -459,19 +462,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/11/12/jupiter-adds-anchorage-backed-usdgo-to-its-usd1-billion-solana-lending-platform",
-      "published": "2026-11-12T14:45:00+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -482,19 +472,6 @@
       "summary": "Gemini Space Station reportedly sold its UK and Europe operations to stablecoin firm KAST as part of cost-cutting measures. The post Winklevoss twins sell UK and Europe Gemini operations, report appeared first on Protos .",
       "link": "https://protos.com/winklevoss-twins-sell-uk-and-europe-gemini-operations-report/",
       "published": "2026-11-12T13:23:12+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-      "summary": "",
-      "link": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
-      "published": "2026-11-12T12:04:42+00:00",
       "relevance_score": 1
     },
     {
@@ -587,6 +564,95 @@
       "link": "https://www.bankless.com/read/news/ross-unveils-tacit-chain-a-private-payments-rollup-on-ethereum",
       "published": "2026-11-09T20:14:16+00:00",
       "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
+      "summary": "Four nonprofit advocacy groups want a California court to stop major AI developers from building stronger models, alleging their technology could cause catastrophic harm worldwide.",
+      "link": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
+      "published": "2026-11-14T17:01:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+      "published": "2026-11-14T16:33:29+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+      "published": "2026-11-14T16:33:23+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "OpenAI Launches ChatGPT Wallet to Let AI Agents Shop—Without Crypto",
+      "summary": "OpenAI’s new wallet lets AI agents buy products using ordinary cards, challenging crypto payment tools from Coinbase and Circle as companies compete to control everyday online shopping by autonomous software.",
+      "link": "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto",
+      "published": "2026-11-14T14:01:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
+      "published": "2026-11-14T13:00:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
+      "published": "2026-11-14T12:57:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-14T11:28:12+00:00",
+      "relevance_score": 0
     },
     {
       "source": "CoinTelegraph",
@@ -949,19 +1015,6 @@
       "summary": "New lab rules will test how much of AntSeed’s market holds up without discounted frontier access.",
       "link": "https://www.bankless.com/read/antseed-s-open-inference-network-faces-its-first-test",
       "published": "2026-11-13T22:15:31+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-13T22:08:37+00:00",
       "relevance_score": 0
     },
     {
@@ -1706,20 +1759,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Gemini trading volume drops 73% as Q3 revenue falls to $41 million",
-      "summary": "Gemini shares rose more than 6% after hours, though the stock remains down around 75% since the year began.",
-      "link": "https://www.theblock.co/news/markets/2026-11-12-gemini-trading-volume-drops-q3-revenue-falls-to-41-million-439050",
-      "published": "2026-11-12T22:18:10+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1909,19 +1948,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Crypto for Advisors: The blockchain built to run financial markets",
-      "summary": "",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/11/12/crypto-for-advisors-the-blockchain-built-to-run-financial-markets",
-      "published": "2026-11-12T15:34:29+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
@@ -1932,32 +1958,6 @@
       "summary": "The prediction market says it's reorganizing under new leadership, while Kalshi has done roughly three times its trading volume over the past 30 days.",
       "link": "https://www.bankless.com/read/news/polymarket-cuts-staff-as-kalshi-pulls-ahead",
       "published": "2026-11-12T15:01:18+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
-      "summary": "",
-      "link": "https://www.coindesk.com/opinion/2026/11/12/the-next-congress-will-write-rules-for-ai-and-emerging-tech-they-should-use-the-stuff-first",
-      "published": "2026-11-12T14:24:51+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/12/nvidia-shares-plunge-10-as-jensen-huang-resigns",
-      "published": "2026-11-12T13:57:53+00:00",
       "relevance_score": 0
     },
     {
@@ -1984,19 +1984,6 @@
       "summary": "Goosehead Insurance lost its membership in the multi-billion dollar stock club this week after restating three years of financials. The post Goosehead accounting errors crash stock 18% in one week appeared first on Protos .",
       "link": "https://protos.com/goosehead-accounting-errors-crash-stock-18-in-one-week/",
       "published": "2026-11-12T12:17:40+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin weakness erases September's bullish signal",
-      "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
-      "published": "2026-11-12T12:15:00+00:00",
       "relevance_score": 0
     },
     {
