@@ -1,0 +1,69 @@
+Welcome to your weekly Crypto Custody and Treasury briefing for the week of November sixteenth, twenty twenty-six. This one covers roughly November ninth through the sixteenth.
+
+It was a rough week for prices and a busy one for security. Bitcoin slid to a four-month low near sixty-two thousand dollars over the weekend, crypto E T Fs kept bleeding, and some of the most interesting stories were about attackers going after people and admin tools instead of private keys. Let's start with the three things that matter most, and then go section by section.
+
+Takeaway number one. Attackers went after people and the edges of the stack this week, not the keys. The F B I described a North Korean scheme it calls FaceStealer. The attackers use prerecorded footage and A I deepfakes of trusted contacts to get crypto workers to install malware during video calls, and the scheme has taken about four hundred million dollars. On the same weekend, an A I enabled attack redirected client hashrate through Luxor's Commander platform. Trezor cut eighty percent of its resellers after finding more spy implants in devices. And in India, Unocoin halted deposits and withdrawals after suspect transfers that, according to Unocoin, were signed and broadcast outside BitGo's platform. So what for us? Our security story can't stop at M P C. Buyers are going to ask how we verify a co-signer on a video call, how we lock down admin consoles, and what blocks a withdrawal that skips our policy engine. We should have a one-page answer for each of those.
+
+Takeaway number two. Banks and card networks are moving hard on the onchain dollar, and the rails are getting stricter about who sits on each end. Goldman Sachs and Citi have a two hundred seventy million dollar effort called Project Faro, and they sit alongside moves from SoFi, Anchorage, Visa and Mastercard. Three central banks, from the U K, Singapore and Thailand, finished a cross-border F X settlement trial linking traditional and tokenized systems. And Thailand wants stablecoins to move only between wallets owned by the same person. So what? Expect clients to hold several bank-issued dollar tokens next to U S D C and U S D T. Multi-issuer support, fast token onboarding, and proof of wallet ownership, for travel rule and same-owner checks, belong on the roadmap now.
+
+Takeaway number three. Treasury companies are feeling the drawdown. Bitcoin hit about sixty-two thousand. U S spot crypto E T Fs lost about one point five five billion dollars in a single week. The Ethereum treasury company B T C S sold ether at a loss to keep a sixty-four million dollar Aave loan healthy. Metaplanet swung to a hundred seventy million dollar loss. And Nakamoto pushed a sixty million dollar Kraken loan repayment out to twenty twenty-seven. So what? Treasury clients with loans need loan-to-value monitoring, margin call alerts, and fast collateral top-ups more than they need another dashboard. This is a good moment to make a treasury risk view the selling point.
+
+Now, section by section. First up, custody and wallet infrastructure.
+
+Blockstream launched a Bitcoin custody system built with Thales. It uses dedicated hardware for transaction signing, and Adam Back made the case that simpler, offline security cuts cyber risk. For us, this is a Bitcoin-native, H S M backed offering from a well-known name, and it competes for B T C heavy treasuries. We should know where our H S M and air-gap story beats it, and where it trails, before it shows up in a request for proposal.
+
+Next, Unocoin. The Indian exchange is keeping deposits and withdrawals halted over suspect transfers. Unocoin says those transfers were signed and broadcast outside BitGo's platform, and BitGo says its account freeze worked the way it should. This is the scenario where a client holds key material that can sign around the custodian. We should be ready to explain exactly who can sign outside our policy engine, and what our freeze and alerting does when that happens.
+
+The Department of Justice says North Korea stole four hundred million dollars using deepfake video calls. The F B I's description of FaceStealer is worth reading in full. The targets are the people who approve things. For us, that means out-of-band approval checks, hardware-bound approver devices, and a simple rule that nobody installs software during a call. That should be in client onboarding material and in our security documentation.
+
+Luxor, the mining pool and services company, was hit by an A I enabled attack that redirected client hashrate. Luxor says it patched the vulnerability within two hours, that no data left its systems, and that it will compensate the dozen or so affected accounts as if they had mined normally. CoreX separately reported its mining power was hijacked toward the OCEAN pool. The lesson is that a management console with no keys in it still moved value. We should audit our own admin and configuration surfaces, things like payout addresses and whitelist edits, with the same rigor we apply to the signing path.
+
+And Trezor cut its reseller network by eighty percent after finding more tampered devices. If clients use hardware devices as approvers, we need a sourcing and attestation policy for them. Device provenance is a quick win for our security questionnaire answers.
+
+On to stablecoins and payments.
+
+Decrypt ran a good overview of how Wall Street is racing to claim the onchain dollar. Goldman and Citi's Project Faro, at two hundred seventy million dollars, joins SoFi, Anchorage, Mastercard, Visa and Circle in going after a market that Tether and Circle have led. Bank-issued tokens will land on client balance sheets. We should plan for fast token listing, issuer due diligence data, and per-issuer exposure reporting in our treasury views.
+
+The central banks of the U K, Singapore and Thailand published findings from a cross-border F X settlement trial. It linked traditional and tokenized systems using Partior's synchronization prototype. Synchronized payment-versus-payment settlement between fiat and tokenized ledgers is where institutional F X is heading. It's worth tracking Partior's interfaces in case bank clients ask us to connect.
+
+Thailand proposed a daily cap of about a hundred forty-eight thousand dollars on certain stablecoin transfers, to curb money laundering. The draft rules would also require stablecoins to move only between accounts or wallets that belong to the same person. Same-owner rules need proof of wallet ownership and per-jurisdiction velocity limits. Both are policy engine features we can build once and apply everywhere, rather than as one-offs for each country.
+
+And A I agents are getting wallets. OpenAI launched a ChatGPT wallet that lets agents buy things using Visa, Mastercard and American Express cards, with no crypto involved. Separately, Coinbase added Agent Controls that cap trade size, limit twenty-four hour volume, and stop an agent automatically after a portfolio drop, all enforced on Coinbase's servers. Agent spending is going to card rails first. The useful lesson for us is Coinbase's design: the limits live on our side, not in the agent. That maps directly onto A P I key policies for automated treasury flows.
+
+Next, treasury, R W A and corporate adoption.
+
+Treasury companies are under stress. B T C S sold ether at a loss to protect its sixty-four million dollar Aave loan. Metaplanet swung to a hundred seventy million dollar loss, as bitcoin sales, valuation losses and borrowing costs hit earnings. And Nakamoto pushed a sixty million dollar repayment to Kraken out to twenty twenty-seven to extend its runway. Clients borrowing against crypto need health factor alerts, collateral top-up workflows, and their DeFi loan positions in one clear view. That's a concrete feature set we can test with our treasury customers.
+
+M S C I is removing Strategy from its stock indexes, even though Strategy reported nineteen and a half billion dollars in profit. The question is what counts as an operating business, and whether the exclusion slows Strategy's bitcoin buying. Index exclusion cuts passive demand for treasury company stocks. Expect fewer new pure-play treasury companies, and more operating companies with modest crypto allocations. That changes what our ideal customer looks like.
+
+The real world asset protocol s t U S D T is winding down, three years after it peaked at two point three billion dollars in total value locked. The team didn't give a reason but said all underlying assets remain fully backed. Tokenized products can be shut down, so our R W A support should handle redemption and wind-down events cleanly, including client notices and reconciliation of the final payout.
+
+And Kazakhstan plans to issue tokenized government bonds in the first quarter, following a twenty-two million dollar note sale. More sovereign issuance makes tokenized government debt a normal treasury instrument. We should check which chains and token standards these bonds use before clients ask us to hold them.
+
+Now, regulation and policy.
+
+President Trump nominated a bipartisan slate for the S E C and the C F T C. That's two Republicans and two Democrats, and his first Democratic picks for either agency. The White House is trying to get them confirmed in the lame-duck session before Democrats take control of the Senate. With the Clarity Act gone, these commissions set crypto policy through rules and guidance. Full, bipartisan commissions should make custody guidance more durable, though probably slower.
+
+Crypto trust charters keep moving. Coinbase's trust company received final clearance, even as lawmakers asked for records on crypto firms' compliance and possible conflicts of interest. Another exchange becoming a federally chartered custodian raises the bar in requests for proposal. We should sharpen how we position against chartered competitors.
+
+Senator Elizabeth Warren will set the agenda for the Senate Banking Committee in January, and she has put prediction markets and Trump-linked crypto on it. Expect more oversight letters, hearings and records requests next year. That makes compliance and audit trail features easier to justify on the roadmap.
+
+And the Justice Department moved to seize one point two billion dollars from the Binance hack. Authorities have frozen more than two point seven billion dollars of the proceeds so far. Freezes and seizures depend on custodians acting quickly on law enforcement requests. Our freeze tooling and response process should be documented, because clients and auditors will ask.
+
+Last section, smart contracts and infrastructure.
+
+Kava Lend lost about three point eight million dollars to a hack. Roughly forty-nine million KAVA tokens were bridged to B N B Chain through LayerZero and sold for about two point one million dollars, and the KAVA token fell nearly forty percent. Small protocols are still getting drained, and the money leaves over bridges. Protocol risk scores and allowlists for DeFi interactions protect clients better than monitoring after the fact.
+
+Phylax and Titan brought circuit breakers to Ethereum. Titan builds about half of Ethereum's blocks, and it now checks transactions against each app's own safety rules before they settle. That's a new layer of protection for DeFi positions we custody, and it's worth tracking which protocols adopt it when we score protocol risk.
+
+Aave version three point eight went live with a pool-wide reentrancy guard on fifteen networks, after passing governance with no votes against. Aave is the default lending venue for our treasury clients, so we should confirm our contract allowlists and transaction decoding still work with the new version on every network we support.
+
+And post-quantum work is picking up. Ethlabs dropped its Quick Slots proposal to focus on a post-quantum Ethereum by twenty twenty-seven. Trezor's C T O also laid out the trade-offs of Bitcoin's leading post-quantum signature scheme for wallet makers. A twenty twenty-seven target makes post-quantum key migration a real roadmap item. We should know which M P C and H S M vendors can support the new signature schemes, and how long a client key migration would take.
+
+Before we wrap, here's the watch list for the coming week.
+
+The Senate Banking Committee is moving toward a hearing on the S E C and C F T C nominees during the lame-duck session. Binance is aiming to fully reopen withdrawals next week, after reopening eighty-seven networks. Watch for Unocoin's restart and the outcome of the BitGo transfer investigation. See whether Thailand finalizes its stablecoin cap and same-owner rule. The entry point for the Luxor and CoreX attacks is still unconfirmed. In bitcoin options, the biggest bet is now a drop below sixty thousand dollars. Kazakhstan's tokenized bonds are planned for the first quarter. And the U K faces its F A T F assessment in June twenty twenty-seven, before its full crypto rules take effect.
+
+A quick note on the feed itself. We pulled one hundred fifty-five items from fifteen sources this week, but the Fireblocks, Anchorage, Circle, Coin Center, OpenZeppelin, Rekt and Blockworks feeds returned nothing. That means vendor and policy coverage is thinner than usual.
+
+That's it for this week. Thanks for listening, and I'll talk to you next Monday.
