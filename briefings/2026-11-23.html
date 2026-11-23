@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Crypto Custody & Treasury Briefing · Week of 2026-11-23</title></head>
+<body style="margin:0;padding:0;background:#fafaf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.55;-webkit-font-smoothing:antialiased;">
+<div style="max-width:780px;margin:0 auto;padding:24px 16px;">
+  <div style="background:linear-gradient(135deg,#0a2540 0%,#1a3a5c 100%);color:#fff;border-radius:14px;padding:28px 32px;margin-bottom:18px;">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.7;margin-bottom:8px;">Crypto Research · Weekly Briefing</div>
+    <h1 style="font-size:26px;font-weight:600;margin:0 0 6px;letter-spacing:-0.01em;">Crypto Custody & Treasury Weekly Briefing</h1>
+    <div style="font-size:13px;opacity:0.8;">Week of 2026-11-23 · covers Nov 16 to Nov 23</div>
+  </div>
+  <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px;color:#0c4a6e;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span style="font-size:22px;">🎧</span>
+      <div><strong>Audio version:</strong>
+        <a href="https://github.com/thekrisromero/crypto-news-feed/raw/main/podcasts/2026-11-23.m4a" style="color:#0284c7;text-decoration:underline;">Play / download M4A</a>
+        <span style="color:#0369a1;font-size:12px;margin-left:6px;">(ready ~2 min after this email)</span></div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e5e5e4;border-left:4px solid #0a2540;border-radius:10px;padding:20px 24px;margin-bottom:32px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#57534e;margin:0 0 14px;font-weight:600;">Top 3 Takeaways</div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">1</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Stolen keys, not broken contracts, drove this week&#x27;s losses.</strong> <em style="color:#57534e;">So what: Chainflip lost $12M in a suspected key compromise, Lighter was drained through a leaked API key, Fluidkey through stolen session tokens, and Ledger devices bought from resellers in Berlin and the UAE were tampered with. Our pitch rests on key management and policy controls, so expect clients to ask how we scope API keys, expire sessions and verify hardware provenance. Have the answers written down.</em></div>
+    </div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">2</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">Banks are building tokenized cash rails, and treasury flows will follow.</strong> <em style="color:#57534e;">So what: The ECB opened its Appia experiments (applications due Dec 11), Ant International, DBS and Franklin Templeton automated switching between tokenized deposits and tokenized money market funds, and MUFG is testing intraday JGB repo on Canton. Corporate treasury clients will want tokenized deposits and tMMFs held next to stablecoins, with automatic sweep rules. Canton support and sweep policies belong on the roadmap discussion.</em></div>
+    </div>
+    <div style="display:flex;gap:14px;margin-bottom:14px;">
+      <div style="flex-shrink:0;width:26px;height:26px;background:#0a2540;color:#fff;border-radius:50%;text-align:center;line-height:26px;font-size:13px;font-weight:600;">3</div>
+      <div style="font-size:14px;"><strong style="color:#0a2540;">The drawdown is stress-testing crypto treasuries and reserve claims.</strong> <em style="color:#57534e;">So what: Bitcoin hit two-year lows below $57K, spot ETFs lost $1.8B in a week, BTCS warned the SEC its $54M Aave loan could be liquidated, Strategy has spent 89% of its STRC buyback fund, and Bitquery found a 400 BTC gap in Maple&#x27;s listed wallets. Collateral health alerts, liquidation-distance monitoring and verifiable proof of reserves are easier to sell this month than last.</em></div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🔐 Custody &amp; Wallet Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Direct competitor moves, MPC/HSM tech, qualified-custodian licensing, key management.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Chainflip losses reach $12M after suspected key compromise</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Chainflip disclosed that 122.9 BTC was stolen on top of earlier ETH outflows, bringing losses to about $12M. The Block reports the apparently automated attack drained vaults through a suspected key compromise; Chainflip offered a 10% bounty with a Nov 23 deadline. FLIP fell about 34%.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Threshold vaults are only as strong as their signer ops. Use this as a reference case in sales conversations, and confirm our key ceremony and signer rotation runbooks can be shown to prospects on request.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ledger tampered devices drain $1M; CTO to step down</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ledger users who bought devices from Dubai Virgin outlets and German resellers lost about $1M in suspected spyware incidents, and more tampered units were reported in Berlin and the UAE. CTO Charles Guillemet will leave at the end of 2026.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://protos.com/ledger-users-drained-for-1m-in-suspected-spyware-incidents/" style="color:#0284c7;text-decoration:none;">Protos</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Clients who self-custody part of their treasury on hardware wallets are exposed to supply-chain risk. Onboarding guidance on device sourcing and attestation, plus a co-signing option through our platform, would close that gap.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Lighter pauses withdrawals after a leaked API key drain</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The perp exchange said a trader&#x27;s leaked API key caused the drain, not a contract bug, and paused withdrawals.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com/read/news/lighter-pauses-withdrawals-after-leaked-api-key-drain" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Review our API key model: per-key scopes, IP allowlists, withdrawal permissions off by default and destination allowlists. If any of these are optional today, consider making them defaults.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Fluidkey: unpatched tool let attacker stage $1.6M in transfers</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Fluidkey&#x27;s post-mortem says stolen session tokens let an attacker stage transfers that users&#x27; own apps then signed. Personal data and viewing keys were also exposed.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/hacks/fluidkey-says-unpatched-tool-enabled-1-6-million-hack" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Signing a transaction someone else staged is the failure mode. Clear-signing screens and out-of-band approval for any transfer not created by the approving user should be in the policy engine backlog.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">VanEck drops Gemini as ETF custodian, keeps Coinbase</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>VanEck will end Gemini&#x27;s custody agreements for three crypto ETFs in February 2027. Coinbase stays on as custodian.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Issuers are consolidating custodians, which puts more concentration on Coinbase. Some issuers may want a second qualified custodian, which is an opening if our licensing supports it.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitcoin&#x27;s quantum problem reaches bridges and custodians</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>CoinDesk examines how a quantum threat to Bitcoin signatures would reach bridges, custodians and coins with exposed public keys. Separately, SHRINCS is emerging as a front-runner post-quantum signature for Bitcoin, and Vitalik backed leanPCS (draft EIP-8288) for cheaper post-quantum signatures on Ethereum.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Institutional due-diligence questionnaires will start asking about post-quantum plans. Draft a short statement covering address reuse, exposed-pubkey inventory and how we would migrate keys, even if the timeline is years out.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">💵 Stablecoins &amp; Payments</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Issuer moves, tokenized deposits, payment rails, travel-rule compliance.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">North Korean hackers used Sky&#x27;s PSM as an exit; $2B leaves USDS</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Bankless, citing CoinDesk, reports that illicit-linked wallets used Sky&#x27;s USDC-to-DAI peg stability module as an exit, and that the reserve backing DAI and USDS sits in one wallet Circle can freeze. Sky saw more than $2B in withdrawals but says USDS held its peg, and disputes the illicit-funds claims.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com/read/news/north-korean-hackers-used-skys-psm-as-an-exit" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Clients holding USDS or DAI carry Circle freeze risk one layer down. Add stablecoin backing composition to our asset risk ratings and flag concentration to treasury clients.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Ant International, DBS and Franklin Templeton automate deposit-to-MMF switching</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ant&#x27;s Whale Orchestration Protocol switches automatically between tokenized deposits and tokenized money market funds, built with DBS and Franklin Templeton.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.ledgerinsights.com/ant-international-dbs-franklin-templeton-automate-tokenized-deposit-to-mmf-switching/" style="color:#0284c7;text-decoration:none;">Ledger Insights</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> This is the treasury sweep account rebuilt onchain. A rules-based sweep between stablecoins and tMMFs inside our policy engine would compete directly.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">DBS bets it can lose the deposit and keep the client</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>DBS earned a record $208M in Q3 transaction services fees and is helping corporates convert deposits into stablecoins they can spend without the bank.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/dbs-bets-it-can-lose-the-deposit-and-keep-the-client?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Banks are positioning as the orchestration layer for corporate stablecoin treasuries. We should decide whether to partner with banks like DBS as a custody backend or compete for the same client.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Coins.ph stops transfers to self-custody wallets</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The Philippine exchange now limits external crypto transfers to regulated exchanges and requires counterparty details for every amount.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/regulation/coins-ph-halts-transfers-with-self-custody-wallets" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Travel-rule enforcement is tightening in Asia. Check that our counterparty VASP directory and unhosted-wallet attestation flows hold up for clients with Philippine counterparties.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Aave raises Ethereum USDC borrow cap to $4B</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>If supply stayed at Nov 21 levels, filling the new cap would leave about 170M USDC unborrowed, compared with roughly 1.06B in the snapshot.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/defi/aave-raises-ethereum-usdc-borrow-cap-to-4-billion" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Clients supplying USDC to Aave for yield face higher utilization and slower withdrawals if the cap fills. Utilization alerts belong in any DeFi yield product we offer.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">🏦 Treasury, RWA &amp; Corporate Adoption</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Corporate treasuries, tokenized funds and securities, ETF flows.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">BTCS warns SEC its $54M Aave loan could be liquidated</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ether treasury company BTCS disclosed to the SEC that its $54M Aave loan faces liquidation risk.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Public treasury companies now disclose onchain loan risk in filings. Liquidation-distance dashboards and board-ready collateral reports are a concrete feature for this segment.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Strategy has spent 89% of its $3B STRC buyback fund</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>STRC preferred stock still closed at $96.11, below $100. Saylor says the company is reducing STRC outstanding in response to the credit-market contraction and sees up to $7.5B in natural demand.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://protos.com/strategy-has-burned-89-of-its-strc-rescue-fund/" style="color:#0284c7;text-decoration:none;">Protos</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Treasury companies are under funding pressure. Expect more requests for BTC-collateralized credit lines and for flexible withdrawal timing from cold storage.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitquery finds a 400 BTC gap in Maple&#x27;s listed wallets</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Bitquery&#x27;s Nov 18 check found 97.6% of the bitcoin Maple reported for syrupUSDC, while estimating that counted collateral still exceeded loans.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://thedefiant.io/news/defi/bitquery-finds-400-btc-gap-in-maple-s-listed-wallets" style="color:#0284c7;text-decoration:none;">The Defiant</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Third parties now audit reserve claims from public wallet lists. If we publish proof of reserves for lending partners, the wallet list must reconcile exactly with reported balances.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Spot bitcoin ETFs shed $1.8B in a week as outflows turn &#x27;structural&#x27;</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Analysts link the outflows to expectations of another Fed rate hike in December. IBIT posted its largest single-day outflow on record ($541M).</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Custody AUM tied to ETF mandates will shrink with prices and flows. Forecast fee revenue on lower AUM through Q1.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Tokenized Anthropic shares sell out before and after the IPO</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Binance Wallet&#x27;s 500M USDC tokenized Anthropic subscription filled early, and an ANT token on Solana did $135M in first-day volume. Bankless and The Defiant note that wallet holders have different rights from brokerage shareholders.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com/read/news/crypto-lines-up-for-tokenized-anthropic-before-its-ipo" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Clients will ask whether to hold tokenized equities. We need a position on which wrappers we support and how we show the legal rights behind each token.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Fairmint plans a tokenized stock venue on Canton and Ethereum</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Fairmint plans the venue under an SEC experiment. Separately, MUFG detailed a Canton test for intraday JGB repo funding.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Canton keeps appearing in regulated pilots. Scope what Canton custody and signing support would take.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚖️ Regulation &amp; Policy</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Licensing, supervisory guidance, legislation.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Hong Kong moves to license crypto custodians and advisers</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The SFC proposal brings custodians, brokers and advisers under licensing. The bill gets its first reading in the Legislative Council on Dec 2.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If we serve Hong Kong clients or plan to, legal should read the draft now. Licensing will likely set requirements for key storage location and segregation.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">ECB seeks partners for tokenized deposit and securities experiments</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Industry groups have until Dec 11 to apply for the first Appia exercises. Lagarde also warned that Europe&#x27;s tokenized securities market could split into platforms that cannot settle with one another.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Applying, alone or through a bank partner, would put us inside the EU wholesale settlement design work. The deadline is short.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Coin Center comments on the SEC innovation exemption</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Coin Center asked the SEC to state that publishing open-source software is protected speech and that independent developers do not become regulated venues because others use their code.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://coincenter.org/comment-of-coin-center-to-the-securities-and-exchange-commission-on-order-granting-temporary-conditional-exemptive-relief/" style="color:#0284c7;text-decoration:none;">Coin Center</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> The exemption&#x27;s final scope affects whether our clients can interact with DeFi venues under it. Track the final order.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">CFTC: no special rules for Hyperliquid or other onchain platforms</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>The CFTC said onchain trading platforms get no special treatment.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/markets/2026/11/20/cftc-tells-hyperliquid-and-crypto-rivals-no-special-rules-for-onchain-trading" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Clients trading perps onchain from custody accounts may face registration questions. Compliance should review any direct DeFi derivatives connectivity we offer.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Washington outlook under a Democratic Congress</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Paradigm&#x27;s Justin Slaughter expects a harder two years for crypto, with investigations and bills, but no return to 2023. Rep. Horsford says a bipartisan crypto tax bill could still pass the House before this Congress ends.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com/read/what-to-know-about-crypto-under-a-democratic-congress" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Plan for slower federal market-structure progress in 2027 and more oversight hearings. Tax reporting changes could land sooner and affect client reporting features.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 4px;letter-spacing:-0.005em;">⚙️ Smart Contracts &amp; Infrastructure</h2>
+    <div style="color:#78716c;font-size:13px;margin-bottom:16px;font-style:italic;">Bridges, exploits, protocol upgrades, market plumbing.</div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">A week of bridge exploits: Cyber, Fusionist ACE, Wagyu XMR1</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Cyber reported unexpected minting on Solana and outflows from its Ethereum bridge lockbox, prompting Upbit and Bithumb to freeze transfers. A $2M exploit of Fusionist&#x27;s ACE bridge turned into a $3.7M free-for-all, and Wagyu&#x27;s wrapped Monero token fell 99% after a $13.5M exploit its operator blamed on a web host.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810" style="color:#0284c7;text-decoration:none;">The Block</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Wrapped and bridged assets keep failing. Our asset onboarding should score bridge design and mint controls, and we need a fast path to freeze deposits of an affected token.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Binance hackers move ~$600M in ETH through THORChain and Chainflip</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>OnChain Lens tracked nearly $600M in ETH moved over two days, and Elliptic says $149M in BTC went through coinjoins since Nov 17, though little has likely been cashed out.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound" style="color:#0284c7;text-decoration:none;">CoinTelegraph</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Inbound deposit screening must catch funds that passed through cross-chain swaps and mixers. Ask our chain analytics vendor how fast it labels these hops.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Bitcoin sells for $17K on Kraken&#x27;s CAD market; trades stand</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Kraken&#x27;s USD/CAD market fell to C$0.30 per dollar and the distortion spread to other CAD pairs. Kraken found no breach and let the trades stand.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/markets/2026/11/23/bitcoin-sold-for-usd17-000-on-kraken-s-canadian-dollar-market-and-the-trades-stand" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> If clients route execution through venue integrations, add price bands and slippage limits per pair, especially on thin fiat books.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">AI found a bug that could stall Bitcoin nodes</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Repeating one ID 50,000 times could stall Bitcoin nodes. Researchers also found bots swept exposed wallet keys within seconds.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug" style="color:#0284c7;text-decoration:none;">CoinDesk</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Our node infrastructure needs a patch path measured in hours. Confirm who owns Bitcoin Core upgrades and how quickly we can roll them.</div>
+    </div>
+    <div style="padding:12px 0;border-top:1px solid #f5f5f4;">
+      <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1c1917;">Glamsterdam gas debate continues</h3>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">What:</span>Ethereum core devs left the fate of EIP-8037 and EIP-8038 to Thursday&#x27;s ACDE after testing surfaced compatibility findings.</div>
+      <div style="font-size:13.5px;color:#44403c;margin:4px 0;"><span style="color:#78716c;font-weight:500;margin-right:6px;">Source:</span><a href="https://www.bankless.com/read/news/glamsterdams-gas-fight-heads-to-thursday" style="color:#0284c7;text-decoration:none;">Bankless</a></div>
+      <div style="background:#f0f9ff;border-left:3px solid #0284c7;padding:8px 12px;border-radius:4px;font-size:13px;color:#0c4a6e;margin-top:8px;"><span style="color:#0369a1;font-weight:600;">So what:</span> Gas repricing can break fee estimation and contract-wallet assumptions. Keep the wallet team on the ACDE outcomes.</div>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;">👀 Watch list</h2>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#0a2540;display:inline-block;min-width:76px;">Dec 2</strong>Hong Kong custody and adviser licensing bill, first reading.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#0a2540;display:inline-block;min-width:76px;">Dec 11</strong>ECB Appia application deadline for tokenized deposit and securities experiments.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#0a2540;display:inline-block;min-width:76px;">Mid-Dec</strong>FOMC meeting; markets expect a 25bp hike, which ETF flow analysts are watching.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#0a2540;display:inline-block;min-width:76px;">Ongoing</strong>Chainflip bounty outcome and whether the root cause is confirmed as key compromise.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#0a2540;display:inline-block;min-width:76px;">Ongoing</strong>Sky USDS outflows and any Circle action on the PSM reserve wallet.</div>
+    <div style="padding:8px 0;border-top:1px solid #f5f5f4;font-size:13.5px;color:#44403c;"><strong style="color:#0a2540;display:inline-block;min-width:76px;">Feb 2027</strong>VanEck&#x27;s switch away from Gemini ETF custody takes effect.</div>
+  </div>
+  <div style="background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:20px 24px;margin-bottom:18px;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <h2 style="font-size:17px;font-weight:600;margin:0 0 12px;">📊 By the numbers</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;">
+      <div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">$12M</div><div style="font-size:12.5px;color:#57534e;">Chainflip losses</div></div>
+      <div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">~$600M</div><div style="font-size:12.5px;color:#57534e;">ETH moved by Binance hackers</div></div>
+      <div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">$1.8B</div><div style="font-size:12.5px;color:#57534e;">Spot BTC ETF outflows, past week</div></div>
+      <div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">$2B+</div><div style="font-size:12.5px;color:#57534e;">USDS withdrawals from Sky</div></div>
+      <div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">$4B</div><div style="font-size:12.5px;color:#57534e;">New Aave Ethereum USDC borrow cap</div></div>
+      <div style="flex:1 1 200px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:8px;padding:12px 14px;"><div style="font-size:20px;font-weight:600;color:#0a2540;">400 BTC</div><div style="font-size:12.5px;color:#57534e;">Gap Bitquery found in Maple&#x27;s listed wallets</div></div>
+    </div>
+  </div>
+  <div style="font-size:12px;color:#78716c;margin-top:12px;">Feed note: 149 items from the news-feed repo (generated Nov 23, 06:56 UTC). Blockworks, Fireblocks, Anchorage, Circle, OpenZeppelin and Rekt returned no items this week, so issuer and competitor announcements are thin.</div>
+  <footer style="text-align:center;margin-top:36px;font-size:12px;color:#a8a29e;">Generated by the Crypto Research weekly automation.</footer>
+</div></body></html>

@@ -1,0 +1,77 @@
+Welcome to your weekly Crypto Custody and Treasury briefing for the week of November twenty third, twenty twenty six. This episode covers news from November sixteenth through today. It was a rough week for markets. Bitcoin fell below fifty seven thousand dollars for the first time in two years before bouncing back near sixty thousand, and spot bitcoin E T Fs lost about one point eight billion dollars in a week. Underneath the price action, though, there were real signals for a custody and treasury platform. Let's start with the three that matter most.
+
+Takeaway number one. Stolen keys did more damage this week than broken smart contracts. Chainflip, the cross chain swap protocol, lost about twelve million dollars in what The Block describes as a suspected key compromise. The perp exchange Lighter paused withdrawals after a trader's leaked A P I key was used to drain funds. Fluidkey published a post mortem saying stolen session tokens let an attacker stage transfers that users' own apps then signed. And Ledger users who bought devices from resellers in Germany and from Virgin outlets in Dubai lost around a million dollars to suspected spyware on tampered hardware. The so what for us: our pitch rests on key management and policy controls, so clients are going to ask how we scope A P I keys, how we expire sessions, and how we verify hardware provenance. We should have those answers written down before the questions arrive.
+
+Takeaway number two. Banks are building tokenized cash rails, and corporate treasury flows will follow them. The European Central Bank opened applications for its first Appia experiments on tokenized deposits and securities, with a deadline of December eleventh. Ant International, D B S, and Franklin Templeton launched a protocol that automatically switches between tokenized bank deposits and tokenized money market funds. And M U F G described a test on Canton for intraday Japanese government bond repo funding. The so what: treasury clients will want tokenized deposits and tokenized money market funds held next to their stablecoins, with automatic sweep rules between them. Canton support and sweep policies should be part of the next roadmap conversation.
+
+Takeaway number three. The drawdown is stress testing crypto treasury companies and their reserve claims. B T C S, an ether treasury company, told the S E C that its fifty four million dollar loan on Aave could be liquidated. Strategy has spent eighty nine percent of its three billion dollar fund for buying back its S T R C preferred stock, and that stock still trades below one hundred dollars. And the analytics firm Bitquery found a gap of about four hundred bitcoin between what Maple reported for its syrup U S D C product and what sits in Maple's listed wallets, although Bitquery estimates collateral still exceeds loans. The so what: collateral health alerts, liquidation distance monitoring, and verifiable proof of reserves are easier to sell this month than they were last month.
+
+Now let's go through the themes, starting with custody and wallet infrastructure.
+
+The Chainflip story grew over the weekend. The protocol disclosed that one hundred twenty two point nine bitcoin was stolen on top of earlier ether outflows, bringing total losses to about twelve million dollars. Chainflip offered the attacker a ten percent bounty to return the rest by today, November twenty third. Its token fell about a third. Threshold vaults are only as strong as the operations around the signers. For us, this is a reference case for sales conversations, and a reason to confirm our key ceremony and signer rotation runbooks are ready to show prospects.
+
+Ledger had a bad week. More tampered devices were reported in Berlin and the United Arab Emirates, losses reached about a million dollars, and C T O Charles Guillemet announced he will leave at the end of the year. Plenty of our clients keep some treasury on hardware wallets. Onboarding guidance on where to buy devices and how to verify them, plus a co signing option through our platform, would cover that exposure.
+
+The Lighter incident is a reminder about A P I key design. The exchange said a leaked key, not a contract bug, caused the drain. It's worth reviewing our defaults: per key scopes, I P allowlists, withdrawal permissions switched off unless requested, and destination allowlists. If any of those are optional today, consider making them the default.
+
+Fluidkey's failure is worth studying because users signed transactions that someone else had staged. Clear signing screens and out of band approval for any transfer the approver didn't create should be in the policy engine backlog.
+
+On the competitive front, VanEck will end Gemini's custody agreements for three crypto E T Fs in February twenty twenty seven and keep Coinbase. That concentrates more E T F custody at Coinbase, and some issuers may want a second qualified custodian. If our licensing supports it, that's an opening.
+
+Last in this section, quantum. CoinDesk looked at how a quantum threat to bitcoin signatures would reach bridges, custodians, and coins with exposed public keys. A post quantum signature scheme called SHRINCS is emerging as a front runner for bitcoin, and Vitalik Buterin came out strongly for lean P C S, a draft proposal numbered E I P eight two eight eight, to make post quantum signatures cheap enough on Ethereum. Institutional due diligence questionnaires will start asking about this. We should draft a short statement covering address reuse, our inventory of exposed public keys, and how we would migrate keys, even if the timeline is years out.
+
+Next, stablecoins and payments.
+
+Bankless, citing CoinDesk, reported that wallets linked to North Korean hackers used Sky's peg stability module, the window that swaps U S D C for DAI, as an exit. The report also noted that the reserve backing DAI and U S D S sits in one wallet that Circle can freeze. Sky saw more than two billion dollars in withdrawals, says U S D S held its one dollar peg, and disputes the illicit funds claims. Clients holding U S D S or DAI carry Circle freeze risk one layer down. Stablecoin backing composition should be part of our asset risk ratings.
+
+The Ant International story deserves a closer look. Its Whale Orchestration Protocol, built with D B S and Franklin Templeton, automatically moves money between tokenized deposits and tokenized money market funds. That is the classic treasury sweep account rebuilt onchain. A rules based sweep between stablecoins and tokenized funds inside our policy engine would compete with it directly.
+
+D B S itself earned a record two hundred eight million dollars in third quarter transaction services fees and is helping corporates turn deposits into stablecoins they can spend without the bank. Banks want to be the orchestration layer for corporate stablecoin treasuries. We need to decide whether we partner with banks like D B S as a custody backend or compete for the same client.
+
+In the Philippines, Coins dot P H now restricts external crypto transfers to regulated exchanges and requires counterparty details for every amount. Travel rule enforcement is tightening in Asia. Our counterparty directory and unhosted wallet attestation flows should be checked for clients with Philippine counterparties.
+
+And Aave raised its Ethereum U S D C borrow cap to four billion dollars. If supply stays where it was on November twenty first, filling the cap would leave only about one hundred seventy million U S D C unborrowed. Clients supplying U S D C for yield would face higher utilization and slower withdrawals, so utilization alerts belong in any DeFi yield product we offer.
+
+On to treasury, real world assets, and corporate adoption.
+
+B T C S's disclosure about its Aave loan shows that public treasury companies now report onchain loan risk in their S E C filings. Liquidation distance dashboards and board ready collateral reports are concrete features for that segment.
+
+Strategy's S T R C buyback fund is eighty nine percent spent. Michael Saylor says the company is reducing the amount of S T R C outstanding in response to tighter credit markets, and he sees up to seven and a half billion dollars in natural demand. Treasury companies are under funding pressure, so expect more requests for bitcoin backed credit lines and for flexible timing on cold storage withdrawals.
+
+The Maple finding matters for anyone who publishes proof of reserves. Bitquery's November eighteenth check found ninety seven point six percent of the bitcoin Maple reported. Third parties now audit reserve claims straight from public wallet lists, so any list we publish has to reconcile exactly.
+
+E T F flows were ugly. Spot bitcoin E T Fs lost one point eight billion dollars over the week, and BlackRock's I BIT posted its largest single day outflow on record, about five hundred forty one million dollars. Analysts are calling the outflows structural and tie them to expectations of another Fed rate hike in December. Custody revenue tied to E T F mandates will shrink with both price and flows, so fee forecasts through the first quarter should use lower assets under custody.
+
+Tokenized Anthropic shares were in demand around the company's I P O. Binance Wallet's five hundred million U S D C subscription filled early, and an A N T token on Solana did about one hundred thirty five million dollars in first day volume. Bankless and The Defiant both point out that wallet holders have different rights from brokerage shareholders. Clients will ask about this, and we need a position on which wrappers we support and how we show the legal rights behind each token.
+
+Rounding out the section, Fairmint plans a tokenized stock venue on Canton and Ethereum under an S E C experiment. Canton keeps showing up in regulated pilots, including M U F G's repo test, so it's worth scoping what Canton custody and signing support would take.
+
+Now regulation and policy.
+
+Hong Kong's securities regulator wants to bring crypto custodians, brokers, and advisers under licensing. The bill gets its first reading in the Legislative Council on December second. If we serve Hong Kong clients or plan to, legal should read the draft now, because licensing will likely set rules on where keys are stored and how assets are segregated.
+
+In Europe, the E C B is taking applications for its Appia experiments until December eleventh, and E C B President Christine Lagarde warned that Europe's tokenized securities market could split into platforms that can't settle trades with each other. Applying, directly or through a bank partner, would put us inside the design work for European wholesale settlement. The deadline is short.
+
+Coin Center filed a comment on the S E C's innovation exemption, asking the agency to say that publishing open source software is protected speech and that independent developers don't become regulated venues just because others use their code. The final scope will affect whether our clients can interact with DeFi venues under the exemption.
+
+The C F T C said there will be no special rules for Hyperliquid or other onchain trading platforms. Clients trading perps onchain from custody accounts may face registration questions, so compliance should look at any direct DeFi derivatives connectivity we offer.
+
+And on Washington more broadly, Paradigm's Justin Slaughter expects a harder two years for crypto under a Democratic Congress, with more investigations, but no return to twenty twenty three. Representative Steven Horsford thinks a bipartisan crypto tax bill could still pass the House before this Congress ends. Plan for slower federal market structure progress next year, while tax reporting changes could land sooner and affect our client reporting.
+
+Last theme, smart contracts and infrastructure.
+
+It was a bad week for bridges. Cyber reported unexpected minting of its token on Solana and outflows from its Ethereum bridge lockbox, and Upbit and Bithumb froze transfers. A two million dollar exploit of Fusionist's A C E bridge turned into a three point seven million dollar free for all. And Wagyu's wrapped Monero token fell ninety nine percent after a thirteen and a half million dollar exploit its operator blamed on a web host. Our asset onboarding should score bridge design and mint controls, and we need a fast way to freeze deposits of an affected token.
+
+The hackers behind the recent Binance breach moved nearly six hundred million dollars in ether over two days through THORChain and Chainflip, and Elliptic says one hundred forty nine million dollars in bitcoin went through coinjoins since November seventeenth, though little has likely been cashed out. Our inbound deposit screening needs to catch funds that passed through cross chain swaps and mixers, so it's worth asking our chain analytics vendor how quickly it labels those hops.
+
+On Kraken's Canadian dollar market, bitcoin briefly traded at seventeen thousand dollars after the U S D to C A D pair fell to thirty cents. Kraken found no breach and let the trades stand. If clients route execution through our venue integrations, price bands and slippage limits per pair would prevent a fill like that.
+
+CoinDesk reported that an A I tool found a bug that could stall bitcoin nodes by repeating one I D fifty thousand times, and separate research showed bots sweeping exposed wallet keys within seconds. We need a patch path for our node infrastructure measured in hours, and a clear owner for bitcoin core upgrades.
+
+And on Ethereum, core developers pushed the decision on gas repricing proposals E I P eight zero three seven and eight zero three eight in the Glamsterdam upgrade to Thursday's call. Gas changes can break fee estimation and contract wallet assumptions, so the wallet team should follow the outcome.
+
+Here's your watch list for the coming weeks. December second, Hong Kong's custody and adviser licensing bill gets its first reading. December eleventh, the E C B Appia application deadline. Mid December, the Fed meeting, where markets expect a twenty five basis point hike. Keep an eye on whether Chainflip's bounty works and whether key compromise is confirmed as the root cause, and on Sky's U S D S outflows and any action by Circle on the reserve wallet. And in February twenty twenty seven, VanEck's move away from Gemini custody takes effect.
+
+One note on coverage. Several feeds returned nothing this week, including Blockworks, Fireblocks, Anchorage, Circle, OpenZeppelin, and Rekt, so issuer and direct competitor announcements are thinner than usual.
+
+That's the briefing for this week. Thanks for listening, and talk to you next Monday.
