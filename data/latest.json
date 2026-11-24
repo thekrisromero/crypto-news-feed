@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T20:00:25.966367+00:00",
+  "generated_at": "2026-11-24T04:40:37.194965+00:00",
   "lookback_days": 8,
-  "total_items": 151,
+  "total_items": 156,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -11,7 +11,7 @@
     {
       "name": "The Block",
       "url": "https://www.theblock.co/rss.xml",
-      "kept": 19
+      "kept": 20
     },
     {
       "name": "Decrypt",
@@ -66,7 +66,7 @@
     {
       "name": "Bankless",
       "url": "https://www.bankless.com/rss",
-      "kept": 21
+      "kept": 25
     },
     {
       "name": "OpenZeppelin Blog",
@@ -81,29 +81,16 @@
   ],
   "items": [
     {
-      "source": "The Defiant",
+      "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
-        "defi",
-        "smart-contracts"
+        "breaking",
+        "global"
       ],
-      "title": "Cyber Bridge Hack Followed LayerZero's Support Exit",
-      "summary": "AstraSec said 5.213 million unbacked CYBER were minted. LayerZero's CEO suspects Cyber's replacement infrastructure was compromised.",
-      "link": "https://thedefiant.io/news/hacks/cyber-bridge-hack-followed-layerzero-s-support-exit",
-      "published": "2026-11-23T19:57:17+00:00",
-      "relevance_score": 3
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "DOJ Seeks Over $1.1 Billion in USDC Tied to Binance Hack",
-      "summary": "The civil case concerns previously frozen tokens. Circle has agreed to issue equivalent USDC to the US government upon a court forfeiture order, prosecutors say.",
-      "link": "https://thedefiant.io/news/hacks/doj-seeks-over-1-1-billion-in-usdc-tied-to-binance-hack",
-      "published": "2026-11-23T19:00:04+00:00",
+      "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
+      "summary": "US prosecutors are seeking control of stolen USDC, while Elliptic says hackers have moved $247 million through Bitcoin mixers.",
+      "link": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-23T21:04:03+00:00",
       "relevance_score": 3
     },
     {
@@ -121,30 +108,16 @@
       "relevance_score": 3
     },
     {
-      "source": "The Block",
+      "source": "The Defiant",
       "tier": 1,
       "topics": [
-        "institutional",
-        "policy",
-        "research"
+        "defi",
+        "smart-contracts"
       ],
-      "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
-      "summary": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
-      "link": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
-      "published": "2026-11-21T18:51:14+00:00",
-      "relevance_score": 3
-    },
-    {
-      "source": "Ledger Insights",
-      "tier": 1,
-      "topics": [
-        "enterprise",
-        "institutional"
-      ],
-      "title": "Marex launches international payments platform, including stablecoins",
-      "summary": "Marex, the institutional broker and market maker, is expanding into international payments after the UK&#8217;s FCA authorized it to provide payment services. The platform will cover more than 150 currencies, settling in both fiat and digital currencies, a phrase that covers stablecoins and leaves the door open to tokenized deposits. It is not the first [&#8230;] The post Marex launches international payments platform, including stablecoins appeared first on Ledger Insights - blockchain for enterprise .",
-      "link": "https://www.ledgerinsights.com/marex-launches-international-payments-platform-including-stablecoins/",
-      "published": "2026-11-23T14:33:39+00:00",
+      "title": "Trump Threatens to Tax US Firms That Build Data Centers Abroad",
+      "summary": "Treasury Secretary Scott Bessent said Nov. 22 he had not discussed the threat with Trump. No implementing order appeared on the White House's actions page as of Nov. 23.",
+      "link": "https://thedefiant.io/frontier/ai/trump-threatens-to-tax-us-firms-that-build-data-centers-abroad",
+      "published": "2026-11-24T04:10:28+00:00",
       "relevance_score": 2
     },
     {
@@ -154,10 +127,50 @@
         "defi",
         "smart-contracts"
       ],
-      "title": "Vstock Selects Metagood to Power Issuer-Sponsored Tokenization for Its 1,000+ Issuers",
-      "summary": "SEC-registered transfer agent Vstock Transfer has selected Metagood’s platform to offer issuer-sponsored tokenized shares to its more than 1,000 issuers, with token and book-entry holders on one register.",
-      "link": "https://thedefiant.io/news/tradfi-and-fintech/vstock-metagood-issuer-sponsored-tokenization",
-      "published": "2026-11-23T14:00:00+00:00",
+      "title": "Samsung Wallet USDC Sends on Sui Go Live, Sui Says",
+      "summary": "The rollout adds a network option to Samsung's existing stablecoin account. New York residents are excluded, and identity checks are required.",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/samsung-wallet-usdc-sends-on-sui-go-live-sui-says",
+      "published": "2026-11-24T03:54:21+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "ECB Approves Wider Tokenized Collateral Access for 2027",
+      "summary": "Implementation is planned for June 2027. Securities issued on platforms licensed under the EU’s DLT Pilot Regime must meet standard collateral criteria and connect to existing settlement infrastructure.",
+      "link": "https://thedefiant.io/converge/regulation/ecb-approves-wider-tokenized-collateral-access-for-2027",
+      "published": "2026-11-24T03:46:22+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "Bankless",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "defi"
+      ],
+      "title": "DOJ Moves to Forfeit Over $1.1B in USDC From the Binance Hack",
+      "summary": "Circle can't move the frozen coins, so it's agreed to issue replacement USDC to the U.S. once a judge signs off.",
+      "link": "https://www.bankless.com/read/news/doj-moves-to-forfeit-over-1-1b-in-usdc-from-the-binance-hack",
+      "published": "2026-11-23T21:00:49+00:00",
+      "relevance_score": 2
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
+      "summary": "The U.S. Justice Department is seeking to recover about $1.17 billion in USDC tied to the Oct. 29 Binance hack.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
+      "published": "2026-11-23T20:00:34+00:00",
       "relevance_score": 2
     },
     {
@@ -187,60 +200,6 @@
       "relevance_score": 2
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist’s ACE bridge",
-      "summary": "One trader managed to turn about $50 into nearly $17,700 in the wake of the exploit, according to The Block's analysis.",
-      "link": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838",
-      "published": "2026-11-22T23:17:08+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
-      "summary": "Chainflip offered the attacker a 10% bounty to return the remainder of the $12 million in stolen BTC, ETH, and stablecoins by Monday.",
-      "link": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
-      "published": "2026-11-22T18:58:57+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
-      "published": "2026-11-22T14:00:00+00:00",
-      "relevance_score": 2
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
-      "summary": "Cyber reported unexpected minting of CYBER tokens on Solana, followed by tokens moving out of its Ethereum bridge lockbox, prompting an investigation.",
-      "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-22T07:24:05+00:00",
-      "relevance_score": 2
-    },
-    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
@@ -265,6 +224,96 @@
       "link": "https://www.bankless.com/read/news/crypto-lines-up-for-tokenized-anthropic-before-its-ipo",
       "published": "2026-11-18T18:43:04+00:00",
       "relevance_score": 2
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Chainflip Suspects Key Theft in $12.6 Million Vault Hack",
+      "summary": "The first report identifies validly signed transfers outside the protocol but leaves parts of the suspected key theft unconfirmed. Services remain paused.",
+      "link": "https://thedefiant.io/news/hacks/chainflip-suspects-key-theft-in-12-6-million-vault-hack",
+      "published": "2026-11-24T04:36:59+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Tesla Opens Cybercab Rides in Dallas, Its Second City",
+      "summary": "The two-seat vehicle expands beyond Austin after federal regulators opened an inquiry into Tesla’s safety certification.",
+      "link": "https://thedefiant.io/frontier/technology/tesla-opens-cybercab-rides-in-dallas-its-second-city",
+      "published": "2026-11-24T04:19:45+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Aave Horizon’s USCC Balance Fell 74%; TVL Rebounded",
+      "summary": "Most of the USCC decline occurred by early November; TVL rebounded on Nov. 23. Outstanding borrowing remained about 24% below its late-October level.",
+      "link": "https://thedefiant.io/news/defi/aave-horizon-s-uscc-balance-fell-74-tvl-rebounded",
+      "published": "2026-11-24T03:24:18+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
+      "summary": "The foundation said its next upgrade will be harder than the Merge, and the required pace of development will make it easier to ship bugs.",
+      "link": "https://cointelegraph.com/news/ethereum-foundation-doubles-protocol-security-team-amid-ai-quantum-overhaul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-24T00:36:26+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
+      "summary": "The staff guidance allows Bitcoin, Ether and payment stablecoins to count towards operating reserves.",
+      "link": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-23T23:43:34+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Kalshi secures temporary win in New York gambling law dispute",
+      "summary": "The ruling allows Kalshi to continue operating as its legal battle with New York over sports-related event contracts moves toward a January hearing.",
+      "link": "https://cointelegraph.com/news/kalshi-temporary-win-new-york-gambling-law-dispute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-23T20:38:43+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
+      "summary": "Roughly a month after the $6.4 billion hack, Elliptic says nearly all of the coinjoin mixing was coordinated by one person who “refuses to block funds such as these.\"",
+      "link": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+      "published": "2026-11-23T20:36:02+00:00",
+      "relevance_score": 1
     },
     {
       "source": "Protos",
@@ -306,16 +355,16 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
+      "source": "Ledger Insights",
       "tier": 1,
       "topics": [
-        "defi",
-        "smart-contracts"
+        "enterprise",
+        "institutional"
       ],
-      "title": "Stake DAO Warns of Forum Breach, Says Funds Unaffected",
-      "summary": "The copied database may contain emails, hashed passwords, 2FA secrets and private messages. Stake DAO urged forum users to reset access and watch for phishing.",
-      "link": "https://thedefiant.io/news/hacks/stake-dao-warns-of-forum-breach-says-funds-unaffected",
-      "published": "2026-11-23T18:35:01+00:00",
+      "title": "StraitsX partners OCBC for corporates to receive stablecoin payments into accounts",
+      "summary": "Singapore stablecoin issuer StraitsX is partnering with OCBC bank to pilot stablecoin cross border payments for corporates. Under the arrangement, a company receiving stablecoins will have the funds automatically credited to its bank account, removing the need to handle the stablecoin directly. StraitsX and OCBC are both participants in the BLOOM initiative for digital money [&#8230;] The post StraitsX partners OCBC for corporates to receive stablecoin payments into accounts appeared first on Ledger Insights - blockchain for enterprise .",
+      "link": "https://www.ledgerinsights.com/straitsx-partners-ocbc-for-corporates-to-receive-stablecoin-payments-into-accounts/",
+      "published": "2026-11-23T19:05:38+00:00",
       "relevance_score": 1
     },
     {
@@ -329,32 +378,6 @@
       "summary": "Former New York Gov. Andrew Cuomo said competitors encouraged companies to opt out of OKXICE’s rollout, while some issuers simply wanted more time.",
       "link": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-11-23T17:42:18+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Elliptic Traces About $247M in Binance Theft-Linked Bitcoin to Coinjoins",
-      "summary": "Elliptic says almost all of the theft-linked coinjoins were coordinated by Kruw, which organizes transactions without taking custody of users’ funds.",
-      "link": "https://thedefiant.io/news/hacks/elliptic-traces-about-247m-in-binance-theft-linked-bitcoin-to-coinjoins",
-      "published": "2026-11-23T16:07:46+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Strategy Moves $1 Billion Out of Its Dividend Reserve",
-      "summary": "The bitcoin treasury company expanded its preferred-stock buyback authorization to $4 billion while leaving a smaller cash cushion dedicated to interest and dividends.",
-      "link": "https://thedefiant.io/converge/cefi/strategy-moves-1-billion-out-of-its-dividend-reserve",
-      "published": "2026-11-23T15:48:04+00:00",
       "relevance_score": 1
     },
     {
@@ -423,19 +446,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Chainflip Founder Weighs Compensation After Vault Hack",
-      "summary": "Simon Harman said liquidity providers faced significant losses. Checks before the Nov. 23 bounty deadline showed neither requested return payment had arrived.",
-      "link": "https://thedefiant.io/news/hacks/chainflip-founder-weighs-compensation-after-vault-hack",
-      "published": "2026-11-23T14:01:12+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -471,19 +481,6 @@
       "summary": "The Nasdaq dropped 10% last week. Bitcoin lost 10% in a single day on Friday amidst cascading selloffs, though a relief rally is underway.",
       "link": "https://decrypt.co/383778/morning-minute-crypto-rebounds-after-nvda-drives-friday-selloff",
       "published": "2026-11-23T13:34:13+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Taiwan Stocks Rebound as Kospi Falls Despite Rescue Plans",
-      "summary": "Taiwan widened short-sale restrictions Monday, while South Korea prepared its stabilization fund and China set a lower margin requirement for buying securities on credit from Nov. 30.",
-      "link": "https://thedefiant.io/frontier/ai/taiwan-stocks-rebound-as-kospi-falls-despite-rescue-plans",
-      "published": "2026-11-23T13:17:52+00:00",
       "relevance_score": 1
     },
     {
@@ -555,32 +552,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-      "summary": "Kraken said all orders were processed correctly and found no evidence of a security breach or compromised accounts.",
-      "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-22T09:33:06+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
-      "summary": "Chainflip offered the attacker a 10% bounty to return 90% of the stolen funds by Nov. 23, promising to treat the return as a white-hat recovery and withdraw law enforcement complaints.",
-      "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-22T05:28:43+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -630,18 +601,6 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
-      "summary": "Wagyu’s XMR1 token fell more than 99% after an attacker moved 5.2 million tokens out of its deployer account and sold a fraction of them for $13.5 million.",
-      "link": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host",
-      "published": "2026-11-20T17:41:45+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Coin Center",
       "tier": 5,
       "topics": [
@@ -681,15 +640,30 @@
       "relevance_score": 1
     },
     {
-      "source": "Decrypt",
+      "source": "The Defiant",
       "tier": 1,
       "topics": [
-        "general"
+        "defi",
+        "smart-contracts"
       ],
-      "title": "Why Nvidia Needed Jensen Huang Back—And What His Return Really Changes",
-      "summary": "Huang's 11-day absence exposed the importance of his customer ties, influence in Washington and hold on Silicon Valley. The stock is soaring, but the comeback brings risks of its own.",
-      "link": "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes",
-      "published": "2026-11-23T19:57:21+00:00",
+      "title": "Epoch AI Rates Three Agent Benchmarks as 'Flawed'",
+      "summary": "Epoch found full-credit shortcuts in 22 of 50 sampled Agents' Last Exam tasks. Its latest reviews also flagged Vending-Bench 2 and ARC-AGI-3.",
+      "link": "https://thedefiant.io/frontier/ai/epoch-ai-rates-three-agent-benchmarks-as-flawed",
+      "published": "2026-11-24T04:37:45+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Kalshi halts operations in Utah while dodging immediate ban in New York",
+      "summary": "Kalshi has suspended operations in Utah after a federal judge allowed the state to enforce its gambling laws.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-23-kalshi-pauses-operations-utah-dodging-ban-new-york-445456",
+      "published": "2026-11-24T04:28:02+00:00",
       "relevance_score": 0
     },
     {
@@ -699,10 +673,413 @@
         "defi",
         "smart-contracts"
       ],
-      "title": "Protocol Guild Shrinks as Organizer Warns of Funding Gap",
-      "summary": "The Ethereum contributor collective's membership fell to 172 from 190. Trent Van Epps warned that inadequate funding could slow upgrades and force teams to close.",
-      "link": "https://thedefiant.io/news/blockchains/protocol-guild-shrinks-as-organizer-warns-of-funding-gap",
-      "published": "2026-11-23T19:14:59+00:00",
+      "title": "Baidu Opens ERNIE 5.5 Flash Preview Under Apache 2.0",
+      "summary": "The 280-billion-parameter model can be self-hosted and fine-tuned for commercial use. Its permissive license does not extend to ERNIE 5.5 Flash Base.",
+      "link": "https://thedefiant.io/frontier/ai/baidu-opens-ernie-5-5-flash-preview-under-apache-2-0",
+      "published": "2026-11-24T04:22:37+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Anthropic Opens Beta for Zero-Retention AI Safeguards",
+      "summary": "Once EFS takes effect, Anthropic says its normal workflow promptly deletes its own prompt and response copies after writing encrypted records to customer storage.",
+      "link": "https://thedefiant.io/frontier/ai/anthropic-opens-beta-for-zero-retention-ai-safeguards",
+      "published": "2026-11-24T04:21:25+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Watchdog Links Trump Dinner Wallets to Exchanges Barring US Users",
+      "summary": "Public Citizen found at least 66 of 130 listed wallets received TRUMP directly from exchanges that restrict US users. The transfers do not establish holders’ nationalities.",
+      "link": "https://thedefiant.io/news/regulation/watchdog-links-trump-dinner-wallets-to-exchanges-barring-us-users",
+      "published": "2026-11-24T04:16:40+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "CFTC Alleges Backward Hat Ran Forex Ponzi Using Crypto",
+      "summary": "The agency says the forex investment pool sent about $91 million to a Coinbase account. A court has frozen assets and appointed a receiver.",
+      "link": "https://thedefiant.io/news/regulation/cftc-alleges-backward-hat-ran-forex-ponzi-using-crypto",
+      "published": "2026-11-24T04:08:29+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Sonic Reports 4.70 Billion S, 48% Above Launch Figure",
+      "summary": "A planned 91.7 million S burn amounts to about 2% of the reported total. Sonic says the historical FTM supply mismatch remains under investigation.",
+      "link": "https://thedefiant.io/news/tokens/sonic-reports-4-70-billion-s-48-above-launch-figure",
+      "published": "2026-11-24T04:05:55+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Amazon Agrees to Buy Decart AI Tech and Hire Its Team",
+      "summary": "Calcalist values the technology-and-team deal at $7.5 billion. Amazon says the software will help improve its custom chips and AI inference.",
+      "link": "https://thedefiant.io/frontier/ai/amazon-agrees-to-buy-decart-ai-tech-and-hire-its-team",
+      "published": "2026-11-24T03:50:34+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Oregon, Virginia Sue SpaceX Over Grok Image Safeguards",
+      "summary": "The states allege misleading safety assurances over sexualized images of real people, including children, and are seeking civil penalties and injunctions.",
+      "link": "https://thedefiant.io/frontier/regulation/oregon-virginia-sue-spacex-over-grok-image-safeguards",
+      "published": "2026-11-24T03:44:39+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Anthropic Launches Claude Ship to Fix and Approve Code",
+      "summary": "The beta adds agents for GitHub pull requests on Team and Enterprise plans. Human sign-off depends on a team's policy and repository rules.",
+      "link": "https://thedefiant.io/frontier/ai/anthropic-launches-claude-ship-to-fix-and-approve-code",
+      "published": "2026-11-24T03:43:22+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Sierra Announces $1.75B Raise at a $30B Valuation",
+      "summary": "The AI customer-service company's valuation is nearly twice its reported May valuation, as Sierra reports more than $400 million in annual recurring revenue.",
+      "link": "https://thedefiant.io/frontier/ai/sierra-announces-1-75b-raise-at-a-30b-valuation",
+      "published": "2026-11-24T03:37:47+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Anthropic Publishes Claude's Claimed VP ≠ VNP Proof",
+      "summary": "The official release includes Lean 4 code and passing automated checks, but Anthropic says no human mathematician has checked the proof.",
+      "link": "https://thedefiant.io/frontier/ai/anthropic-publishes-claude-s-claimed-vp-vnp-proof",
+      "published": "2026-11-24T03:28:17+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Bitcoin Falls Below $60,000, Erasing Monday's Rebound",
+      "summary": "The evening low on Coinbase was 8% below Monday's peak and 30% below its Oct. 21 high, but remained above the weekend trough.",
+      "link": "https://thedefiant.io/news/markets/bitcoin-falls-below-60-000-erasing-monday-s-rebound",
+      "published": "2026-11-24T03:28:07+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Hong Kong Gazettes Bill to Expand Crypto Licensing",
+      "summary": "Dealers, advisers, managers and custodians would need SFC approval. The bill is scheduled for its first Legislative Council reading on Dec. 2.",
+      "link": "https://thedefiant.io/converge/regulation/hong-kong-gazettes-bill-to-expand-crypto-licensing",
+      "published": "2026-11-24T03:16:10+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "OpenAI Test Finds GPT-6.2 Astra Omits Blockers Twice as Often",
+      "summary": "GPT-6.2 Astra omitted known coding obstacles in 22.28% of trials, versus 11.09% for GPT-6 Astra. OpenAI says Codex's extra instructions reduced omissions in the test; they do not apply to direct API requests.",
+      "link": "https://thedefiant.io/frontier/ai/openai-test-finds-gpt-6-2-astra-omits-blockers-twice-as-often",
+      "published": "2026-11-24T03:15:40+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "RIKEN Confirms Theft of 430 Private Keys From Fugaku",
+      "summary": "The keys were for external systems, such as other organizations' supercomputers and cloud services. RIKEN is asking affected users to revoke and replace them.",
+      "link": "https://thedefiant.io/frontier/technology/riken-confirms-theft-of-430-private-keys-from-fugaku",
+      "published": "2026-11-24T03:15:05+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Senate Backs War and Death Bet Ban for Registered Markets",
+      "summary": "The DEATH BETS Act would target CFTC-registered venues, including Kalshi and Polymarket US. House passage and presidential action remain ahead.",
+      "link": "https://thedefiant.io/news/regulation/senate-backs-war-and-death-bet-ban-for-registered-markets",
+      "published": "2026-11-24T03:14:44+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Fairmint Plans Stock Venue on Canton, Then Ethereum",
+      "summary": "Tradecraft would power liquidity-pool trading, while a separate Fairmint subsidiary would maintain the official shareholder register.",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/fairmint-plans-stock-venue-on-canton-then-ethereum",
+      "published": "2026-11-24T03:14:17+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Binance Says MEXC Deposits Will Face Compliance Holds",
+      "summary": "It will also reject outgoing transfers to MEXC, ahead of a Dec. 10 cutoff for covered US financial institutions.",
+      "link": "https://thedefiant.io/news/cefi/binance-says-mexc-deposits-will-face-compliance-holds",
+      "published": "2026-11-24T03:13:52+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Google wants to make you the star of your own AI slop movies",
+      "summary": "Viewers could find their AI-doppelgangers inserted into the crowd during the Cricket World Cup, or take a leading role in their very own romantic comedy.",
+      "link": "https://cointelegraph.com/news/google-wants-make-you-star-your-own-ai-slop-movies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-24T03:13:22+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Pump.fun to End External Wallet Login on Nov. 30",
+      "summary": "Pump.fun's recommended web import flow asks for a private key. Users can instead start with a new wallet and transfer funds.",
+      "link": "https://thedefiant.io/news/security/pump-fun-to-end-external-wallet-login-on-nov-30",
+      "published": "2026-11-24T03:13:22+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "California court terminates lawsuit against Coinbase over TerraUSD purchases",
+      "summary": "Plaintiff Larry Pearl purchased TerraUSD on Coinbase shortly before the token collapsed and accused Coinbase of misrepresentation.",
+      "link": "https://www.theblock.co/news/markets/2026-11-23-california-court-terminates-lawsuit-coinbase-terrausd-445448",
+      "published": "2026-11-24T03:05:45+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "CFTC staff say bitcoin, ether can count toward derivatives firms’ operating expenses",
+      "summary": "Staff at the CFTC issued an advisory saying certain regulated firms may count crypto such as bitcoin and ether toward operating costs.",
+      "link": "https://www.theblock.co/news/regulation/2026-11-23-cftc-staff-bitcoin-ether-count-toward-derivatives-firms-operating-expenses-445435",
+      "published": "2026-11-24T00:33:22+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/11/23/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
+      "published": "2026-11-24T00:25:04+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "China's Z.ai Says Its New AI Model Can Think Like One Four Times Its Size",
+      "summary": "GLM-5.4 uses a looping architecture to squeeze more reasoning power from fewer parameters, challenging the expensive approach favored by American AI giants.",
+      "link": "https://decrypt.co/383851/chinas-zai-new-ai-model-glm-think-like-four-times-size",
+      "published": "2026-11-23T23:06:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Grayscale says bitcoin and major altcoins look ‘oversold’ as AI risks cloud near-term outlook",
+      "summary": "Grayscale said bitcoin's drop to about $55,000 on Saturday made the current bear market its longest on record, at least 411 days.",
+      "link": "https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418",
+      "published": "2026-11-23T22:18:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "Grayscale’s new 2x leveraged Zcash ETF takes 13% opening day tumble",
+      "summary": "Grayscale’s ZECX debuted less than three months after its spot Zcash ETF began trading on NYSE Arca.",
+      "link": "https://www.theblock.co/news/business/2026-11-23-grayscale-launches-2x-zcash-etf-three-months-spot-fund-debut-445407",
+      "published": "2026-11-23T22:15:12+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "OpenAI Will Pay You Up to $8K to Preach the AI Gospel to Small Businesses",
+      "summary": "OpenAI wants local AI evangelists to bring ChatGPT to Main Street. Its new OpenWorks program pays up to $8,000 monthly, provided you can actually help businesses get things done locally.",
+      "link": "https://decrypt.co/383848/openai-will-pay-8k-preach-ai-gospel-small-businesses",
+      "published": "2026-11-23T21:46:03+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-23T21:40:44+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Why One Math Proof Has AI Experts Warning Humans Might Soon Lose Control",
+      "summary": "Alexandr Wang says Claude’s role in a verified Riemann Hypothesis proof signals a turning point, warning that powerful self-improving AI systems could advance faster than people can supervise them.",
+      "link": "https://decrypt.co/383846/why-one-math-proof-ai-experts-warning-humans-lose-control",
+      "published": "2026-11-23T21:16:03+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Bankless",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "defi"
+      ],
+      "title": "Derive Lists Options on Anthropic, Oil, and the S&P 500",
+      "summary": "The onchain options leader added Anthropic, WTI crude, and two major stock indexes, though early open interest is small.",
+      "link": "https://www.bankless.com/read/news/derive-lists-options-on-anthropic-oil-and-the-sp-500",
+      "published": "2026-11-23T21:06:28+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Bankless",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "defi"
+      ],
+      "title": "Sky Co-Founder Apologizes for Big Loan Behind stUSDS Freeze",
+      "summary": "He repaid $3M and called the loan a mistake, while three Korean exchanges flagged SKY and USDS.",
+      "link": "https://www.bankless.com/read/news/sky-co-founder-apologizes-for-77m-loan-behind-stusds-freeze",
+      "published": "2026-11-23T21:04:06+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Bankless",
+      "tier": 6,
+      "topics": [
+        "smart-contracts",
+        "defi"
+      ],
+      "title": "What Held Up While Bitcoin Fell",
+      "summary": "Five of crypto's most watched tokens beat BTC during the selloff. Four of them make money, and three are AI plays.",
+      "link": "https://www.bankless.com/read/what-held-up-while-bitcoin-fell",
+      "published": "2026-11-23T20:15:31+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Why Nvidia Needed Jensen Huang Back—And What His Return Really Changes",
+      "summary": "Huang's 11-day absence exposed the importance of his customer ties, influence in Washington and hold on Silicon Valley. The stock is soaring, but the comeback brings risks of its own.",
+      "link": "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes",
+      "published": "2026-11-23T19:57:21+00:00",
       "relevance_score": 0
     },
     {
@@ -731,19 +1108,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Solana Testnet to Require SBPFv3 for App Upgrades",
-      "summary": "Anza set the testnet switch for epoch 1097 on Nov. 23. Existing apps keep running; standard app deployments and upgrades must use SBPFv3.",
-      "link": "https://thedefiant.io/news/blockchains/solana-testnet-to-require-sbpfv3-for-app-upgrades",
-      "published": "2026-11-23T18:33:41+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -768,19 +1132,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/policy/2026/11/23/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now",
       "published": "2026-11-23T18:22:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "EU Proposes Fresh Crypto Curbs in Russia Sanctions Plan",
-      "summary": "The proposed 22nd package would also extend transaction bans to about 60 Russian banks. The EU announced a crypto sanctions task force earlier this month.",
-      "link": "https://thedefiant.io/news/regulation/eu-proposes-fresh-crypto-curbs-in-russia-sanctions-plan",
-      "published": "2026-11-23T18:18:27+00:00",
       "relevance_score": 0
     },
     {
@@ -821,19 +1172,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Du Jun Eyes Purchase of Rune's Entire SKY Holding",
-      "summary": "Christensen says he still owes about 77 million USDS and is exploring direct SKY sales to repay it. stUSDS withdrawals remain unavailable.",
-      "link": "https://thedefiant.io/news/defi/du-jun-eyes-purchase-of-rune-s-entire-sky-holding",
-      "published": "2026-11-23T18:10:10+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -844,32 +1182,6 @@
       "summary": "Pop Mart, the company behind viral collectible Lababu, has seen demand for the toy plummet along with its Hong Kong-listed stock. The post Labubus maker Pop Mart is down over 50% from ATHs appeared first on Protos .",
       "link": "https://protos.com/labubus-maker-pop-mart-is-down-over-50-from-aths/",
       "published": "2026-11-23T18:08:31+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "US Court Extends Binance Account Freeze to Dec. 17",
-      "summary": "Binance says it cannot release affected funds on its own. The plaintiffs' notice still lists Nov. 24 as the requested date to contact counsel.",
-      "link": "https://thedefiant.io/news/regulation/us-court-extends-binance-account-freeze-to-dec-17",
-      "published": "2026-11-23T18:00:29+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Bubblemaps Flags Bets Ahead of Huang’s Nvidia Return",
-      "summary": "The analytics firm says 16 newly funded Polymarket accounts made about $350,000. Public records corroborate individual bets, but do not establish access to inside information.",
-      "link": "https://thedefiant.io/news/markets/bubblemaps-flags-bets-ahead-of-huang-s-nvidia-return",
-      "published": "2026-11-23T17:50:35+00:00",
       "relevance_score": 0
     },
     {
@@ -909,19 +1221,6 @@
       "summary": "Nvidia shares jumped more than 33% after the board reinstated Huang 11 days post-resignation, adding over $36 billion to his fortune while dealing short sellers their worst single-day loss since at least 2019.",
       "link": "https://decrypt.co/383815/jensen-huang-fortune-37-billion-nvidia-soars-short-sellers-rekt",
       "published": "2026-11-23T17:28:08+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "CFTC Prediction-Market Rule Reaches White House Review",
-      "summary": "OIRA received the public-interest rule on Nov. 20. It is separate from the October swap-definition measures challenged by 44 attorneys general.",
-      "link": "https://thedefiant.io/news/regulation/cftc-prediction-market-rule-reaches-white-house-review",
-      "published": "2026-11-23T16:59:26+00:00",
       "relevance_score": 0
     },
     {
@@ -975,19 +1274,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Polygon Says Agglayer v1.0 Cuts Ethereum Transfer Waits",
-      "summary": "Katana is first on the fast settlement path. Polygon says transfers back to Ethereum take under 15 minutes, down from about 90.",
-      "link": "https://thedefiant.io/news/infrastructure/polygon-says-agglayer-v1-0-cuts-ethereum-transfer-waits",
-      "published": "2026-11-23T16:28:57+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinTelegraph",
       "tier": 1,
       "topics": [
@@ -1011,84 +1297,6 @@
       "summary": "Over 14 hours, Bitcoin traded on Kraken’s Canadian dollar market at an average 37.3% discount to a benchmark based on the exchange’s US dollar trades.",
       "link": "https://cointelegraph.com/news/how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "2026-11-23T15:57:55+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "S&P 500 Rebounds 5.4% After Seven-Session Selloff",
-      "summary": "Nvidia shares rose 34.5% by 10:40 a.m. ET, while the broader index recovered part of last week's steep losses.",
-      "link": "https://thedefiant.io/frontier/markets/s-p-500-rebounds-5-4-after-seven-session-selloff",
-      "published": "2026-11-23T15:49:46+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Nasdaq Futures Hit Price Cap After Nearly 7% Jump",
-      "summary": "December E-mini contracts traded at CME’s overnight ceiling before the US stock-market open and retained a 6.7% gain at 10:11 a.m. ET.",
-      "link": "https://thedefiant.io/converge/markets/nasdaq-futures-hit-price-cap-after-nearly-7-jump",
-      "published": "2026-11-23T15:29:54+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Grayscale Launches ZECX, a Leveraged Zcash-Focused ETF",
-      "summary": "ZECX targets twice ZCSH’s daily return. Its 0.95% net expense ratio excludes embedded swap financing; annual embedded swap costs, including financing and other charges, are estimated at about 7.5% of average daily net assets.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/grayscale-launches-zecx-a-leveraged-zcash-focused-etf",
-      "published": "2026-11-23T15:23:09+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Ether's 15% Rebound Loses Steam After US Markets Open",
-      "summary": "ETH was still 11.2% above Friday's US close by 10 a.m. ET, but the bounce had recovered only about 22% of its preceding 28-day dollar-price decline.",
-      "link": "https://thedefiant.io/news/markets/ether-s-15-rebound-loses-steam-after-us-markets-open",
-      "published": "2026-11-23T15:19:52+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "New York Warns Financial Firms About ARTEX AI Attacks",
-      "summary": "The regulator recommends tighter defenses and faster incident response after the FBI described intrusions using the agentic AI framework.",
-      "link": "https://thedefiant.io/frontier/ai/new-york-warns-financial-firms-about-artex-ai-attacks",
-      "published": "2026-11-23T15:16:42+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Bitcoin Tops $64,500 as Nvidia Reinstates Jensen Huang",
-      "summary": "Bitcoin climbed 5.7% in about half an hour on Coinbase before surrendering part of the advance. Nvidia confirmed Huang’s immediate return as CEO.",
-      "link": "https://thedefiant.io/news/markets/bitcoin-tops-64-500-as-nvidia-reinstates-jensen-huang",
-      "published": "2026-11-23T15:14:30+00:00",
       "relevance_score": 0
     },
     {
@@ -1169,45 +1377,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/markets/2026/11/23/jensen-huang-returns-as-nvidia-ceo-as-shares-jump-27",
       "published": "2026-11-23T14:13:44+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Rune Says He Repaid 3M USDS as stUSDS Squeeze Persists",
-      "summary": "The Sky co-founder said he still owes about 77 million USDS and is exploring direct SKY sales to institutions. The pool continued to display no withdrawal liquidity.",
-      "link": "https://thedefiant.io/news/defi/rune-says-he-repaid-3m-usds-as-stusds-squeeze-persists",
-      "published": "2026-11-23T14:11:56+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Nvidia Reinstates Jensen Huang as CEO and Director",
-      "summary": "Colette Kress stays CFO and Harvey Jones remains board chair, while an independent-director investigation continues.",
-      "link": "https://thedefiant.io/frontier/people/nvidia-reinstates-jensen-huang-as-ceo-and-director",
-      "published": "2026-11-23T14:11:49+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-23T14:06:36+00:00",
       "relevance_score": 0
     },
     {
@@ -1339,19 +1508,6 @@
       "summary": "",
       "link": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025",
       "published": "2026-11-23T13:01:20+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Arm CEO Haas Commits Through 2033, Adds SoftBank Role",
-      "summary": "Haas will become SoftBank Group vice chairman on Dec. 1, following a reported approach in Nvidia's search for a successor to Jensen Huang.",
-      "link": "https://thedefiant.io/frontier/people/arm-ceo-haas-commits-through-2033-adds-softbank-role",
-      "published": "2026-11-23T12:49:22+00:00",
       "relevance_score": 0
     },
     {
@@ -1576,20 +1732,6 @@
       "relevance_score": 0
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Spot bitcoin ETFs shed $1.8 billion in past week as outflows become ‘structural’: analysts",
-      "summary": "Risk-averse investors are moving further away from crypto products as they expect the another interest rate hike in December, analysts said.",
-      "link": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
-      "published": "2026-11-23T05:47:21+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1642,19 +1784,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
-      "summary": "Bitcoin rebounds sharply from its new cycle low, but is $55,111 really the bottom? Ledger investigates new reports of tampered devices in Berlin and the UAE.",
-      "link": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-22T22:47:09+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -1668,19 +1797,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "The future of onchain FX could start with users, not institutional liquidity",
-      "summary": "Onchain FX does not need to recreate the trillion-dollar institutional market to become useful. Real demand can make smaller markets work first.",
-      "link": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-22T14:30:00+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1690,20 +1806,6 @@
       "summary": "Google’s Willow quantum processor beat the classical ceiling in a four-qubit coordination game, revealing a promising hardware test rather than commercial quantum computing.",
       "link": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
       "published": "2026-11-22T14:01:02+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
-      "summary": "Kalshi, which is headquartered in New York, has said the order would shut it down nationwide, though NY's AG said that's not her goal.",
-      "link": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
-      "published": "2026-11-21T21:17:36+00:00",
       "relevance_score": 0
     },
     {
@@ -1768,30 +1870,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
-      "summary": "The firm bought 934,968 Anthropic shares across six ETFs on the Claude maker’s Nasdaq debut while trimming a combined $4.1 million from its Ethereum and Solana staking ETFs.",
-      "link": "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure",
-      "published": "2026-11-20T18:46:03+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Google Gives Gemini Control of Mac Apps, But Its New AI Agent Comes With Risks",
-      "summary": "Gemini's new Mac computer-use feature navigates apps, files, and websites in a separate window, but Google's own documentation warns about prompt injection.",
-      "link": "https://decrypt.co/383733/google-gives-gemini-control-mac-apps-ai-agent",
-      "published": "2026-11-20T18:16:02+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Bankless",
       "tier": 6,
       "topics": [
@@ -1815,18 +1893,6 @@
       "summary": "The DEATH BETS Act would bar federally registered exchanges from listing contracts on war, terrorism, assassination, military operations, or a person's death. It still needs the House.",
       "link": "https://www.bankless.com/read/news/senate-passes-bill-banning-war-and-death-bets",
       "published": "2026-11-20T17:29:56+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
-      "summary": "Bitcoin broke below $60,000 Friday as crypto sentiment collapsed and AI-linked stocks sank after Anthropic’s IPO.",
-      "link": "https://decrypt.co/383702/bitcoin-breaks-below-60k-crypto-fear-greed-index-lowest",
-      "published": "2026-11-20T16:35:59+00:00",
       "relevance_score": 0
     },
     {
