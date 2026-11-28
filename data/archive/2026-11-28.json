@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-28T07:14:52.029477+00:00",
+  "generated_at": "2026-11-28T16:45:04.671921+00:00",
   "lookback_days": 8,
-  "total_items": 151,
+  "total_items": 131,
   "feed_status": [
     {
       "name": "CoinDesk",
@@ -66,7 +66,7 @@
     {
       "name": "Bankless",
       "url": "https://www.bankless.com/rss",
-      "kept": 20
+      "kept": 0
     },
     {
       "name": "OpenZeppelin Blog",
@@ -225,17 +225,30 @@
       "relevance_score": 2
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "CoinDesk",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "general",
+        "policy"
       ],
-      "title": "DOJ Moves to Forfeit Over $1.1B in USDC From the Binance Hack",
-      "summary": "Circle can't move the frozen coins, so it's agreed to issue replacement USDC to the U.S. once a judge signs off.",
-      "link": "https://www.bankless.com/read/news/doj-moves-to-forfeit-over-1-1b-in-usdc-from-the-binance-hack",
-      "published": "2026-11-23T21:00:49+00:00",
-      "relevance_score": 2
+      "title": "Bybit’s $1.4 billion hack postmortem is ready. You won’t get to see it.",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/28/bybit-s-usd1-4-billion-hack-postmortem-is-ready-you-won-t-get-to-see-it",
+      "published": "2026-11-28T14:00:00+00:00",
+      "relevance_score": 1
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "BNB Chain Names Woori Bank in Planned Stablecoin Pilot",
+      "summary": "The exploratory project would start with the Brazil–South Korea and Hong Kong–South Korea payment corridors.",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/bnb-chain-names-woori-bank-in-planned-stablecoin-pilot",
+      "published": "2026-11-28T12:10:34+00:00",
+      "relevance_score": 1
     },
     {
       "source": "The Defiant",
@@ -324,19 +337,6 @@
       "summary": "Industry executives told iProUP the central bank made informal recommendations to some wallets and crypto platforms. They said trading continued as usual.",
       "link": "https://thedefiant.io/news/regulation/argentina-s-central-bank-flags-mep-usdt-trades-report",
       "published": "2026-11-27T16:36:48+00:00",
-      "relevance_score": 1
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "UAE Issues Its First Dirham-Denominated Digital Treasury Bonds via Euroclear",
-      "summary": "Six primary dealers split the AED 180 million issue, which matched the 4.98% yield on the UAE’s conventional Treasury bonds sold at its November auction.",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/uae-issues-its-first-dirham-denominated-digital-treasury-bonds-via-euroclear",
-      "published": "2026-11-27T16:08:54+00:00",
       "relevance_score": 1
     },
     {
@@ -574,19 +574,6 @@
       "relevance_score": 1
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "BIS chief Pablo Hernández de Cos set to become next ECB president: FT",
-      "summary": "The Spanish economist has questioned the viability of stablecoins for widespread payments while backing the development of a digital euro.",
-      "link": "https://cointelegraph.com/news/bis-chief-pablo-hernndez-de-cos-next-ecb-president?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-26T16:40:44+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "CoinDesk",
       "tier": 1,
       "topics": [
@@ -626,20 +613,6 @@
       "relevance_score": 1
     },
     {
-      "source": "The Block",
-      "tier": 1,
-      "topics": [
-        "institutional",
-        "policy",
-        "research"
-      ],
-      "title": "Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections",
-      "summary": "Braiins warns that an attacker is redirecting miners' compute power to steal bitcoin mining rewards.",
-      "link": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
-      "published": "2026-11-25T19:37:10+00:00",
-      "relevance_score": 1
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -666,17 +639,160 @@
       "relevance_score": 1
     },
     {
-      "source": "Bankless",
-      "tier": 6,
+      "source": "CoinDesk",
+      "tier": 1,
       "topics": [
-        "smart-contracts",
-        "defi"
+        "general",
+        "policy"
       ],
-      "title": "Study Finds AI Sellers Reading Customer Prompts",
-      "summary": "Cybersecurity firm Dragos planted unique secrets in about 2 million AI prompts and found breached providers, cheap marketplace sellers reading logs, and privacy flags that were not honored.",
-      "link": "https://www.bankless.com/read/news/study-finds-ai-sellers-reading-customer-prompts",
-      "published": "2026-11-20T17:46:27+00:00",
-      "relevance_score": 1
+      "title": "Tether adds $10 million in Bitdeer stock after holding through an 87% drop",
+      "summary": "",
+      "link": "https://www.coindesk.com/business/2026/11/28/tether-adds-usd10-million-in-bitdeer-stock-after-holding-through-an-87-drop",
+      "published": "2026-11-28T16:01:54+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Block",
+      "tier": 1,
+      "topics": [
+        "institutional",
+        "policy",
+        "research"
+      ],
+      "title": "CZ says Netflix’s ‘The Altruists’ is ‘basically defamation,’ says he is talking to lawyers",
+      "summary": "Zhao said the show may be trying to shift public perception ahead of a possible pardon push for convicted FTX founder Sam Bankman-Fried.",
+      "link": "https://www.theblock.co/news/business/2026-11-28-cz-says-netflixs-the-altruists-is-basically-defamation-says-he-is-talking-to-lawyers-447599",
+      "published": "2026-11-28T15:16:48+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "Decrypt",
+      "tier": 1,
+      "topics": [
+        "general"
+      ],
+      "title": "Russia Is Turning Pigeons Into Cyborg Drones—and You Can Now Hire Them",
+      "summary": "A Russian neurotechnology company is taking commercial orders for brain-implanted pigeons that it says can follow remote commands and fly for more than 10 hours.",
+      "link": "https://decrypt.co/384126/russia-pigeons-icyborg-drones-you-can-now-hire-them",
+      "published": "2026-11-28T14:01:02+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-28T13:55:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Justin Sun calls for Trump family-linked WLFI token to be delisted",
+      "summary": "Sun also urged exchanges to issue warnings, restrict deposits and require disclosure of where funds had gone.",
+      "link": "https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-28T13:28:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/28/bitcoin-not-delivering-the-bear-market-has-digital-asset-veteran-questioning-btc-s-value",
+      "published": "2026-11-28T13:02:18+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "World Liberty Says Binance Closed WLFI Futures Bets",
+      "summary": "World Liberty says some traders reported that positions showing a profit before closure settled at a loss. Binance has not publicly confirmed how it priced the exits.",
+      "link": "https://thedefiant.io/news/markets/world-liberty-says-binance-closed-wlfi-futures-bets",
+      "published": "2026-11-28T12:50:21+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "ASEAN+3 agrees on initiative to explore crypto payments cooperation",
+      "summary": "A working group will examine enhancing connectivity between domestic digital payment networks and bringing their regulations into more alignment.",
+      "link": "https://cointelegraph.com/news/asean3-agrees-on-initiative-to-explore-crypto-payments-cooperation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-28T10:31:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinDesk",
+      "tier": 1,
+      "topics": [
+        "general",
+        "policy"
+      ],
+      "title": "Trump-linked crypto token WLFI plunges 50% to record lows",
+      "summary": "",
+      "link": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+      "published": "2026-11-28T09:32:51+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Dolomite’s USD1 Liquidity Thins After 24.6M Withdrawn",
+      "summary": "Dolomite’s Ethereum lending contract held about 45,500 USD1 shortly after 4 a.m. ET Saturday, with the market’s borrow rate near 35% APY.",
+      "link": "https://thedefiant.io/news/defi/dolomite-s-usd1-liquidity-thins-after-24-6m-withdrawn",
+      "published": "2026-11-28T09:22:54+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "CoinTelegraph",
+      "tier": 1,
+      "topics": [
+        "breaking",
+        "global"
+      ],
+      "title": "Binance plans Asia hub in Bhutan, receives preliminary approval",
+      "summary": "The agreement is a milestone in Binance’s effort to expand its presence in Bhutan since launching a national crypto-powered tourism payment system in 2025.",
+      "link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "2026-11-28T07:43:00+00:00",
+      "relevance_score": 0
+    },
+    {
+      "source": "The Defiant",
+      "tier": 1,
+      "topics": [
+        "defi",
+        "smart-contracts"
+      ],
+      "title": "Buterin Backs Glamsterdam Gas Change but Warns Against Rush",
+      "summary": "Ethereum developers kept the disputed gas rules and set Dec. 15 for the Hoodi testnet. Buterin says core developers should help apps that break because they relied on rules they reasonably thought would stay fixed.",
+      "link": "https://thedefiant.io/news/blockchains/buterin-backs-glamsterdam-gas-change-but-warns-against-rush",
+      "published": "2026-11-28T07:33:58+00:00",
+      "relevance_score": 0
     },
     {
       "source": "The Defiant",
@@ -767,19 +883,6 @@
       "summary": "The token was still 19% below its Nov. 4 level. Sky’s one-off buyback ran about 11½ hours past its original deadline.",
       "link": "https://thedefiant.io/news/tokens/sky-rebounds-16-as-bitcoin-and-crypto-market-slip",
       "published": "2026-11-27T22:29:08+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-27T22:12:51+00:00",
       "relevance_score": 0
     },
     {
@@ -1010,45 +1113,6 @@
       "summary": "Modders have added multiplayer to an unofficial PC port and unlocked higher frame rates on jailbroken consoles.",
       "link": "https://decrypt.co/384138/ai-powered-gta-6-pc-ports-now-have-multiplayer-as-modders-unlock-30-and-60-fps",
       "published": "2026-11-27T16:21:40+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Australia Passes Bill to Let People Sue AI Chatbot Providers",
-      "summary": "The new right to sue would start 12 months after Royal Assent. Claimants would have to show that a provider’s safety breach caused them loss or damage.",
-      "link": "https://thedefiant.io/frontier/regulation/australia-passes-bill-to-let-people-sue-ai-chatbot-providers",
-      "published": "2026-11-27T16:05:13+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "LayerZero Names 40-Plus Validators for Zero Launch",
-      "summary": "Kakao Pay, Broadridge and ZAN are on the roster. LayerZero’s official staking site initially splits each ZRO deposit equally across the launch validators.",
-      "link": "https://thedefiant.io/news/blockchains/layerzero-names-40-plus-validators-for-zero-launch",
-      "published": "2026-11-27T15:37:28+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "The Defiant",
-      "tier": 1,
-      "topics": [
-        "defi",
-        "smart-contracts"
-      ],
-      "title": "Tesla Files to Buy Assets From German Toolmaker EMAG",
-      "summary": "EMAG makes equipment for electric motor shafts and humanoid robot joints. Germany’s competition authority hasn’t said which assets Tesla wants to buy.",
-      "link": "https://thedefiant.io/frontier/technology/tesla-files-to-buy-assets-from-german-toolmaker-emag",
-      "published": "2026-11-27T15:26:17+00:00",
       "relevance_score": 0
     },
     {
@@ -1350,19 +1414,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Spain moves to grant financial watchdog power to freeze crypto accounts",
-      "summary": "A new decree would allow Spain’s financial intelligence unit to suspend crypto accounts, with firms facing fines for noncompliance.",
-      "link": "https://cointelegraph.com/news/spain-moves-grant-financial-watchdog-power-freeze-crypto-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-26T18:26:31+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Decrypt",
       "tier": 1,
       "topics": [
@@ -1372,19 +1423,6 @@
       "summary": "Bitcoin and major altcoins rose slightly on Thanksgiving, but a bearish death cross suggests crypto remains weaker than stocks.",
       "link": "https://decrypt.co/384079/bitcoin-holds-above-60k-as-death-cross-clouds-thanksgiving-recovery",
       "published": "2026-11-26T18:15:29+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinTelegraph",
-      "tier": 1,
-      "topics": [
-        "breaking",
-        "global"
-      ],
-      "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
-      "summary": "Economist Robin Brooks warned of dire consequences for stocks if the Federal Reserve fails to deliver dovish cues before the FOMC blackout period.",
-      "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "2026-11-26T17:39:53+00:00",
       "relevance_score": 0
     },
     {
@@ -1529,19 +1567,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "🏴 Thankful for Onchain Privacy Experiments",
-      "summary": "How Tacit's new onchain app taps Tornado Cash's crowd in style.",
-      "link": "https://www.bankless.com/read/thankful-for-onchain-privacy-experiments-newsletter",
-      "published": "2026-11-26T13:00:00+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1618,32 +1643,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Nvidia shipment freeze and U.S. chip curbs put AI stocks under pressure",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure",
-      "published": "2026-11-26T10:56:08+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "New York Attorney General wins $1.4 billion ruling against founders of crypto trading firm NovaTech",
-      "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
-      "published": "2026-11-26T10:40:33+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1672,32 +1671,6 @@
       "relevance_score": 0
     },
     {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "$7 billion of bitcoin options expire Friday, and the biggest bets look starkly different from October",
-      "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/26/usd7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october",
-      "published": "2026-11-26T08:01:33+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "CoinDesk",
-      "tier": 1,
-      "topics": [
-        "general",
-        "policy"
-      ],
-      "title": "Zcash developers want to phase out older privacy system as a precaution against future attacks",
-      "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/26/zcash-developers-want-users-to-move-usd300-million-out-of-an-older-privacy-system",
-      "published": "2026-11-26T07:09:25+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "The Block",
       "tier": 1,
       "topics": [
@@ -1723,19 +1696,6 @@
       "summary": "In today's newsletter, Fidelity files for spot Chainlink ETF; Musk's X wins ruling in alleged bitcoin content-farm case; and more.",
       "link": "https://www.theblock.co/newsletters/the-daily/2026-11-26-fidelity-chainlink-etf-musk-x-ruling-alleged-bitcoin-content-farm-case-more-crypto-news-446755",
       "published": "2026-11-26T05:45:00+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Inside tacit.wei, the App Behind Tacit's Breakout",
-      "summary": "How Tacit's new onchain app taps into Tornado Cash, and why that's a clever privacy unlock.",
-      "link": "https://www.bankless.com/read/inside-tacit-wei-the-app-behind-tacits-breakout",
-      "published": "2026-11-26T05:23:11+00:00",
       "relevance_score": 0
     },
     {
@@ -1793,83 +1753,6 @@
       "relevance_score": 0
     },
     {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "🏴 Model Proofs Aren't Ready Yet",
-      "summary": "Cryptography can prove which model answered a short question, but not the work people actually send.",
-      "link": "https://www.bankless.com/read/model-proofs-arent-ready-yet-newsletter",
-      "published": "2026-11-25T21:56:54+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Decrypt",
-      "tier": 1,
-      "topics": [
-        "general"
-      ],
-      "title": "What Happened to Alice Huang, the Woman at the Center of Nvidia’s Scandal?",
-      "summary": "U.S. intelligence found no evidence that Beijing directed Alice Huang to spy on Nvidia’s CEO, but the former Megaspeed executive still faces entry bans and scrutiny of business ties.",
-      "link": "https://decrypt.co/384001/what-happened-alice-huang-nvidia-spy-scandal",
-      "published": "2026-11-25T21:46:02+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Model Proofs Aren't Ready Yet",
-      "summary": "Cryptography can prove which model answered a short question, but not the work people actually send.",
-      "link": "https://www.bankless.com/read/model-proofs-aren-t-ready-yet",
-      "published": "2026-11-25T21:40:38+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Fidelity Files for a Spot Chainlink ETF",
-      "summary": "The proposed FLNK fund would hold LINK directly, skip staking, and list on Nasdaq.",
-      "link": "https://www.bankless.com/read/news/fidelity-files-for-a-spot-chainlink-etf",
-      "published": "2026-11-25T20:09:12+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Coinbase Is Buying Back COIN Again as Shares Slide",
-      "summary": "CEO Brian Armstrong didn't disclose the size, and his own 10b5-1 sale plan is now in its window.",
-      "link": "https://www.bankless.com/read/news/coinbase-is-buying-back-coin-again-as-shares-slide",
-      "published": "2026-11-25T20:07:38+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Lighter Opens Its EVM Devnet to All Developers",
-      "summary": "Any developer can now deploy contracts that read and trade against Lighter's order book, though the devnet still runs on mocked ZK proofs.",
-      "link": "https://www.bankless.com/read/news/lighter-opens-its-evm-devnet-to-all-developers",
-      "published": "2026-11-25T19:58:06+00:00",
-      "relevance_score": 0
-    },
-    {
       "source": "Protos",
       "tier": 1,
       "topics": [
@@ -1893,149 +1776,6 @@
       "summary": "Depending on who you ask, shares of privately-held XRP company Ripple were worth either $90.10 or $300 on September 30. The post Ripple was worth both $90.10 and $300 per share on September 30 appeared first on Protos .",
       "link": "https://protos.com/ripple-was-worth-both-90-10-and-300-per-share-on-september-30/",
       "published": "2026-11-25T14:07:11+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "🏴 Venice and the Fear Trade",
-      "summary": "VVV is developing a habit of rallying when people lose faith in the companies handling their AI.",
-      "link": "https://www.bankless.com/read/venice-and-the-fear-trade-newsletter",
-      "published": "2026-11-24T21:05:22+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "The Fear Trade",
-      "summary": "VVV is developing a habit of rallying when people lose faith in the companies handling their AI.",
-      "link": "https://www.bankless.com/read/the-fear-trade",
-      "published": "2026-11-24T20:47:48+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Ansem Blames Bullpen Breach for $2.57M Wallet Drain",
-      "summary": "Bullpen confirmed a breach of early-beta accounts, Ansem's included, as the drained funds were swapped into Bitcoin.",
-      "link": "https://www.bankless.com/read/news/ansem-blames-bullpen-breach-for-2-57m-wallet-drain",
-      "published": "2026-11-24T20:46:09+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Aave Horizon Adds Neuberger's High-Yield HINC Fund as Collateral",
-      "summary": "Billed as Horizon's first sub-investment-grade collateral, HINC lists at a 55% LTV with a roughly $10M cap.",
-      "link": "https://www.bankless.com/read/news/aave-horizon-adds-neubergers-high-yield-hinc-fund-as-collateral",
-      "published": "2026-11-24T20:43:19+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Gemini Now Lets Users Deposit ZEC to Shielded Addresses",
-      "summary": "Paired with its Ironwood withdrawals, ZEC can now move in and out of Gemini shielded, though deposits are still KYC'd.",
-      "link": "https://www.bankless.com/read/news/gemini-now-lets-users-deposit-zec-to-shielded-addresses",
-      "published": "2026-11-24T20:40:58+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Derive Lists Options on Anthropic, Oil, and the S&P 500",
-      "summary": "The onchain options leader added Anthropic, WTI crude, and two major stock indexes, though early open interest is small.",
-      "link": "https://www.bankless.com/read/news/derive-lists-options-on-anthropic-oil-and-the-sp-500",
-      "published": "2026-11-23T21:06:28+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Sky Co-Founder Apologizes for Big Loan Behind stUSDS Freeze",
-      "summary": "He repaid $3M and called the loan a mistake, while three Korean exchanges flagged SKY and USDS.",
-      "link": "https://www.bankless.com/read/news/sky-co-founder-apologizes-for-77m-loan-behind-stusds-freeze",
-      "published": "2026-11-23T21:04:06+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "What Held Up While Bitcoin Fell",
-      "summary": "Five of crypto's most watched tokens beat BTC during the selloff. Four of them make money, and three are AI plays.",
-      "link": "https://www.bankless.com/read/what-held-up-while-bitcoin-fell",
-      "published": "2026-11-23T20:15:31+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "What You Own When You Buy ANT Onchain",
-      "summary": "Anthropic’s IPO is done, and crypto has a handful of ways to hold ANT. Here’s how they compare.",
-      "link": "https://www.bankless.com/read/what-you-own-when-you-buy-ant-onchain",
-      "published": "2026-11-20T20:56:57+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Bitcoin Falls Below $60K as ETFs Bleed",
-      "summary": "U.S. spot bitcoin ETFs lost $582.3 million on Thursday, and about $543 million of leveraged bets were wiped out in 24 hours as AI stocks sold off.",
-      "link": "https://www.bankless.com/read/news/bitcoin-falls-below-60k-as-etf-outflows-mount",
-      "published": "2026-11-20T17:51:02+00:00",
-      "relevance_score": 0
-    },
-    {
-      "source": "Bankless",
-      "tier": 6,
-      "topics": [
-        "smart-contracts",
-        "defi"
-      ],
-      "title": "Senate Passes Bill Banning War and Death Bets",
-      "summary": "The DEATH BETS Act would bar federally registered exchanges from listing contracts on war, terrorism, assassination, military operations, or a person's death. It still needs the House.",
-      "link": "https://www.bankless.com/read/news/senate-passes-bill-banning-war-and-death-bets",
-      "published": "2026-11-20T17:29:56+00:00",
       "relevance_score": 0
     }
   ]
